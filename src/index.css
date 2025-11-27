@@ -1,0 +1,276 @@
+/* Import professional fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Professional medical-academic color tokens */
+  :root {
+    /* Primary colors */
+    --color-primary: #2d5f4e;        /* Forest green */
+    --color-secondary: #0891b2;      /* Winter blue */
+    --color-accent: #b91c41;         /* Cranberry */
+    --color-highlight: #d4af37;      /* Gold */
+
+    /* Text colors */
+    --color-text-primary: #0f172a;   /* Slate 900 */
+    --color-text-secondary: #475569; /* Slate 600 */
+    --color-text-muted: #94a3b8;     /* Slate 400 */
+
+    /* Background colors */
+    --color-bg-base: #fdfbf7;        /* Parchment 50 */
+    --color-bg-elevated: #ffffff;     /* White */
+    --color-bg-subtle: #f8fafc;       /* Slate 50 */
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Professional winter gradient with subtle texture */
+    background: linear-gradient(135deg, #f0f9ff 0%, #fdfbf7 100%);
+    background-image:
+      linear-gradient(135deg, #f0f9ff 0%, #fdfbf7 100%),
+      linear-gradient(135deg, rgba(45, 95, 78, 0.02) 0%, rgba(8, 145, 178, 0.02) 100%),
+      url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' /%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.03' /%3E%3C/svg%3E");
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+}
+
+@layer components {
+  /* Typography system */
+  .text-primary {
+    color: #0f172a;
+  }
+
+  .text-secondary {
+    color: #475569;
+  }
+
+  .text-muted {
+    color: #94a3b8;
+  }
+
+  /* Professional focus states */
+  .focus-pda {
+    outline: none;
+  }
+
+  .focus-pda:focus {
+    ring: 2px solid #0891b2;
+    ring-offset: 2px;
+  }
+
+  /* Card variants - Professional medical academic */
+  .card-pda {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+  }
+
+  .card-pda-interactive {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+
+  .card-pda-interactive:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: #7dd3fc;
+  }
+
+  .card-pda-elevated {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+  }
+
+  /* Section banner - Professional header images */
+  .section-banner {
+    position: relative;
+    width: 100%;
+    height: 12rem;
+    background: linear-gradient(135deg, #2d5f4e 0%, #0891b2 100%);
+    overflow: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .section-banner {
+      height: 16rem;
+    }
+  }
+
+  /* Professional medical badge */
+  .badge-pda {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: #f1f5f9;
+    color: #334155;
+  }
+
+  .badge-med-chem {
+    background: #fdf2f4;
+    color: #7e122d;
+  }
+
+  .badge-patho {
+    background: #f0f9ff;
+    color: #155e75;
+  }
+
+  .badge-pharm {
+    background: #f0f7f4;
+    color: #1d392f;
+  }
+
+  /* Progress indicators */
+  .progress-bar-pda {
+    width: 100%;
+    background: #e2e8f0;
+    border-radius: 9999px;
+    height: 0.5rem;
+    overflow: hidden;
+  }
+
+  .progress-fill-pda {
+    height: 100%;
+    background: linear-gradient(to right, #2d5f4e 0%, #0891b2 100%);
+    border-radius: 9999px;
+    transition: all 0.5s;
+  }
+
+  /* Professional dividers */
+  .divider-pda {
+    border-top: 1px solid #e2e8f0;
+    margin: 2rem 0;
+  }
+
+  .divider-pda-thick {
+    border-top: 2px solid #fde047;
+    margin: 2rem 0;
+  }
+
+  /* Achievement/Score indicators */
+  .score-excellent {
+    color: #254c3e;
+    font-weight: 700;
+  }
+
+  .score-good {
+    color: #0e7490;
+    font-weight: 700;
+  }
+
+  .score-needs-improvement {
+    color: #9d1737;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  /* Professional spacing system */
+  .space-pda-xs {
+    @apply space-y-1;
+  }
+
+  .space-pda-sm {
+    @apply space-y-2;
+  }
+
+  .space-pda-md {
+    @apply space-y-4;
+  }
+
+  .space-pda-lg {
+    @apply space-y-6;
+  }
+
+  .space-pda-xl {
+    @apply space-y-8;
+  }
+
+  /* Professional container widths */
+  .container-pda-narrow {
+    @apply max-w-2xl mx-auto;
+  }
+
+  .container-pda-medium {
+    @apply max-w-4xl mx-auto;
+  }
+
+  .container-pda-wide {
+    @apply max-w-6xl mx-auto;
+  }
+
+  /* Smooth scroll behavior */
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Ensure backward compatibility with old workshop classes */
+@layer components {
+  .card-workshop {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+  }
+
+  .card-workshop-interactive {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+
+  .card-workshop-interactive:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-color: #7dd3fc;
+  }
+
+  .focus-workshop {
+    outline: none;
+  }
+
+  .focus-workshop:focus {
+    ring: 2px solid #0891b2;
+    ring-offset: 2px;
+  }
+}
