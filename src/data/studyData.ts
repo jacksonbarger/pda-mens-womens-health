@@ -1686,6 +1686,206 @@ export const studyData: { sections: PartialSection[] } = {
           ]
         }
       }
+    },
+    {
+      "section": "Medicinal Chemistry: BPH, ED & Urinary Incontinence",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What is the mechanism of action of α1-adrenergic antagonists in BPH?",
+              "answer": "They cause smooth muscle relaxation in the prostate and bladder neck by blocking α1A receptors, reducing urethral constriction and improving urine flow without shrinking the prostate."
+            },
+            {
+              "id": 2,
+              "question": "What is the chemical class and suffix for α1-antagonists used in BPH?",
+              "answer": "Quinazolines with the suffix '-azosin' (e.g., prazosin, terazosin, doxazosin, tamsulosin, alfuzosin, silodosin)."
+            },
+            {
+              "id": 3,
+              "question": "How do 5α-reductase inhibitors work in BPH treatment?",
+              "answer": "They inhibit the conversion of testosterone to dihydrotestosterone (DHT), leading to prostate shrinkage over several months. DHT is the main androgen mediating prostatic growth."
+            },
+            {
+              "id": 4,
+              "question": "What is the mechanism of PDE-5 inhibitors in treating erectile dysfunction?",
+              "answer": "They inhibit phosphodiesterase type 5, preventing breakdown of cGMP. This enhances nitric oxide-mediated smooth muscle relaxation in penile arteries, promoting blood flow and erection."
+            },
+            {
+              "id": 5,
+              "question": "Name the three main PDE-5 inhibitors and their common suffix.",
+              "answer": "Sildenafil (Viagra), tadalafil (Cialis), and vardenafil (Levitra). They share the '-afil' suffix."
+            },
+            {
+              "id": 6,
+              "question": "What is the mechanism of prostaglandin E1 (alprostadil) in ED?",
+              "answer": "PGE1 activates adenylyl cyclase, increasing cAMP levels, which causes smooth muscle relaxation and vasodilation in the corpus cavernosum, facilitating erection."
+            },
+            {
+              "id": 7,
+              "question": "How do anticholinergic drugs help with urinary incontinence?",
+              "answer": "They block muscarinic receptors in the detrusor muscle of the bladder, reducing involuntary bladder contractions and urgency."
+            },
+            {
+              "id": 8,
+              "question": "What is the mechanism of β3-adrenergic agonists (mirabegron) in urinary incontinence?",
+              "answer": "They activate β3 receptors in the bladder, promoting detrusor muscle relaxation and increasing bladder capacity, reducing urgency and frequency."
+            },
+            {
+              "id": 9,
+              "question": "How does desmopressin (ADH analog) help with nocturnal enuresis?",
+              "answer": "Desmopressin is an antidiuretic hormone analog that promotes water reabsorption in the kidneys, reducing nocturnal urine production."
+            },
+            {
+              "id": 10,
+              "question": "Why is tamsulosin preferred over non-selective α1-blockers for BPH?",
+              "answer": "Tamsulosin is α1A-selective, primarily targeting prostatic smooth muscle while minimizing vascular α1B effects, thus reducing orthostatic hypotension risk."
+            },
+            {
+              "id": 11,
+              "question": "What is a critical drug interaction with PDE-5 inhibitors?",
+              "answer": "PDE-5 inhibitors are contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe, potentially fatal hypotension."
+            },
+            {
+              "id": 12,
+              "question": "What are common adverse effects of anticholinergics for urinary incontinence?",
+              "answer": "Dry mouth, constipation, blurred vision, urinary retention, and cognitive impairment (especially in elderly patients)."
+            },
+            {
+              "id": 13,
+              "question": "Why do 5α-reductase inhibitors take months to show clinical effect?",
+              "answer": "Because they work by gradually shrinking the prostate over time by blocking new DHT formation, rather than immediately relaxing smooth muscle like α1-blockers."
+            },
+            {
+              "id": 14,
+              "question": "What two isoforms of 5α-reductase exist and which drugs target them?",
+              "answer": "Type 1 (skin, liver) and Type 2 (prostate, genital skin). Finasteride inhibits Type 2; dutasteride inhibits both Type 1 and Type 2."
+            },
+            {
+              "id": 15,
+              "question": "How does nitric oxide (NO) contribute to erection?",
+              "answer": "Sexual stimulation triggers NO release from penile nerves and endothelium. NO activates guanylyl cyclase, increasing cGMP, which relaxes smooth muscle and allows blood to engorge the corpus cavernosum."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Tamsulosin", "right": "α1A-selective blocker for BPH"},
+            {"left": "Sildenafil", "right": "PDE-5 inhibitor (Viagra)"},
+            {"left": "Finasteride", "right": "5α-reductase Type 2 inhibitor"},
+            {"left": "Mirabegron", "right": "β3-adrenergic agonist for UI"},
+            {"left": "Oxybutynin", "right": "Anticholinergic for overactive bladder"},
+            {"left": "Alprostadil", "right": "Prostaglandin E1 for ED"},
+            {"left": "Desmopressin", "right": "ADH analog for nocturnal enuresis"},
+            {"left": "Dutasteride", "right": "Dual 5α-reductase inhibitor"},
+            {"left": "Tadalafil", "right": "Long-acting PDE-5 inhibitor (Cialis)"},
+            {"left": "Prazosin", "right": "Non-selective α1-blocker"}
+          ]
+        },
+        "timed_quiz": {
+          "game_mode": "timed_quiz",
+          "time_limit_seconds": 120,
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which drug class provides the fastest symptom relief in BPH?",
+              "options": ["α1-blockers", "5α-reductase inhibitors", "PDE-5 inhibitors", "Anticholinergics"],
+              "correct_answer": "α1-blockers"
+            },
+            {
+              "id": 2,
+              "question": "PDE-5 inhibitors enhance erection by:",
+              "options": ["Increasing cGMP", "Increasing testosterone", "Blocking α1 receptors", "Increasing DHT"],
+              "correct_answer": "Increasing cGMP"
+            },
+            {
+              "id": 3,
+              "question": "Which drug is contraindicated with nitrates?",
+              "options": ["Sildenafil", "Tamsulosin", "Finasteride", "Oxybutynin"],
+              "correct_answer": "Sildenafil"
+            },
+            {
+              "id": 4,
+              "question": "Anticholinergics treat urinary incontinence by:",
+              "options": ["Blocking detrusor contractions", "Relaxing prostate", "Increasing ADH", "Inhibiting PDE-5"],
+              "correct_answer": "Blocking detrusor contractions"
+            },
+            {
+              "id": 5,
+              "question": "Which α1-blocker is most selective for the prostate?",
+              "options": ["Tamsulosin", "Prazosin", "Doxazosin", "Terazosin"],
+              "correct_answer": "Tamsulosin"
+            },
+            {
+              "id": 6,
+              "question": "Finasteride works by blocking conversion of:",
+              "options": ["Testosterone to DHT", "cGMP to GMP", "NO to cGMP", "Estrogen to testosterone"],
+              "correct_answer": "Testosterone to DHT"
+            },
+            {
+              "id": 7,
+              "question": "Mirabegron is a:",
+              "options": ["β3-agonist", "α1-antagonist", "Anticholinergic", "PDE-5 inhibitor"],
+              "correct_answer": "β3-agonist"
+            },
+            {
+              "id": 8,
+              "question": "Which has the longest duration of action among PDE-5 inhibitors?",
+              "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Alprostadil"],
+              "correct_answer": "Tadalafil"
+            }
+          ]
+        },
+        "clinical_cases": {
+          "game_mode": "clinical_cases",
+          "cases": [
+            {
+              "id": 1,
+              "scenario": "A 65-year-old man with BPH complains of hesitancy and weak stream. He wants quick relief. Which drug is best?",
+              "options": ["Tamsulosin", "Finasteride", "Dutasteride", "Desmopressin"],
+              "correct_answer": "Tamsulosin"
+            },
+            {
+              "id": 2,
+              "scenario": "A 55-year-old man on nitroglycerin for angina develops ED. Which ED treatment is contraindicated?",
+              "options": ["Sildenafil", "Alprostadil", "Psychotherapy", "Vacuum device"],
+              "correct_answer": "Sildenafil"
+            },
+            {
+              "id": 3,
+              "scenario": "An elderly woman with urgency incontinence starts an anticholinergic. What side effect should you warn about?",
+              "options": ["Dry mouth and confusion", "Hypertension", "Hypoglycemia", "Increased libido"],
+              "correct_answer": "Dry mouth and confusion"
+            },
+            {
+              "id": 4,
+              "scenario": "A patient with BPH has been on tamsulosin for 3 months with partial improvement. Adding which drug could provide long-term prostate shrinkage?",
+              "options": ["Finasteride", "Sildenafil", "Oxybutynin", "Mirabegron"],
+              "correct_answer": "Finasteride"
+            },
+            {
+              "id": 5,
+              "scenario": "A 6-year-old child has nocturnal enuresis despite behavioral interventions. Which pharmacologic option reduces nighttime urine production?",
+              "options": ["Desmopressin", "Tamsulosin", "Finasteride", "Tadalafil"],
+              "correct_answer": "Desmopressin"
+            }
+          ]
+        },
+        "ordering": {
+          "game_mode": "ordering",
+          "prompt": "Order the steps in NO-mediated erection:",
+          "steps_correct_order": [
+            "Sexual stimulation triggers NO release",
+            "NO activates guanylyl cyclase",
+            "cGMP levels increase",
+            "Smooth muscle in corpus cavernosum relaxes",
+            "Blood engorges penis causing erection"
+          ]
+        }
+      }
     }
   ]
 };

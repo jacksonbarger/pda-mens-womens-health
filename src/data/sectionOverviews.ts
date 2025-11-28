@@ -381,6 +381,31 @@ export const sectionOverviewsMap: SectionOverviewMap = {
         "Matching the drug mechanism to the dominant pathophysiology is key for exam questions."
       ]
     }
+  },
+  "Medicinal Chemistry: BPH, ED & Urinary Incontinence": {
+    id: "med_chem_bph_ed_ui",
+    category: "Medicinal Chemistry",
+    overview: {
+      summary:
+        "This section covers the medicinal chemistry and pharmacology of drugs used to treat benign prostatic hyperplasia (BPH), erectile dysfunction (ED), and urinary incontinence (UI). Understanding receptor selectivity, chemical classes, and mechanisms is essential for rational drug therapy.",
+      objectives: [
+        "Describe the mechanism of action of α1-adrenergic antagonists and 5α-reductase inhibitors in BPH treatment.",
+        "Explain how PDE-5 inhibitors and prostaglandin E1 facilitate erections in ED.",
+        "Identify anticholinergics, β3-agonists, and ADH analogs used in urinary incontinence management."
+      ],
+      key_points: [
+        "BPH: α1A-antagonists ('azosin' drugs) relax prostatic smooth muscle; 5α-reductase inhibitors shrink the prostate by blocking DHT formation.",
+        "ED: PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) enhance NO-cGMP signaling; prostaglandin E1 increases cAMP.",
+        "Urinary Incontinence: Anticholinergics block bladder contractions; β3-agonists (mirabegron) promote relaxation; desmopressin reduces nocturnal urine production.",
+        "Chemical classes matter: Quinazolines for α1-blockers, azole suffix for PDE-5 inhibitors, and tropane/oxybutynin-like structures for anticholinergics."
+      ],
+      high_yield_clinical_pearls: [
+        "Tamsulosin is α1A-selective, minimizing orthostatic hypotension compared to non-selective α1-blockers.",
+        "PDE-5 inhibitors are contraindicated with nitrates due to severe hypotension risk.",
+        "Anticholinergics for UI can cause dry mouth, constipation, and cognitive effects in elderly patients.",
+        "5α-reductase inhibitors take months to show effect; α1-blockers provide faster symptom relief."
+      ]
+    }
   }
 };
 
