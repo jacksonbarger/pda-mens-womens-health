@@ -3,13 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDKNcGtLtTcxZew9tCKtcsFUzXeiGEZj_g",
-  authDomain: "mw-study-app.firebaseapp.com",
-  projectId: "mw-study-app",
-  storageBucket: "mw-study-app.firebasestorage.app",
-  messagingSenderId: "547379449450",
-  appId: "1:547379449450:web:367068f1ecaf89fc4a8413",
-  measurementId: "G-DJ7EC8LW14"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
