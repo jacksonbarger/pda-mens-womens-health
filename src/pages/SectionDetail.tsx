@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Section, GameModeType } from '../types';
 import { GiftCard } from '../components/shared/GiftCard';
-import { WorkshopButton } from '../components/shared/WorkshopButton';
 import { Breadcrumb } from '../components/shared/Breadcrumb';
 import { useProgress } from '../context/ProgressContext';
 

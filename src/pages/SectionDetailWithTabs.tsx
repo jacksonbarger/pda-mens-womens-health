@@ -223,11 +223,11 @@ export const SectionDetailWithTabs: React.FC<SectionDetailWithTabsProps> = ({
                 key={mode}
                 onClick={() => setActiveTab(mode)}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all focus-workshop ${
-                  activeTab === mode
+                  (activeTab as string) === mode
                     ? 'bg-pda-forest-500 text-white shadow-md'
                     : 'bg-white text-pda-slate-700 border-2 border-pda-slate-300 hover:border-pda-gold-400'
                 }`}
-                aria-pressed={activeTab === mode}
+                aria-pressed={(activeTab as string) === mode}
               >
                 {gameModeInfo[mode].icon} {gameModeInfo[mode].label}
               </button>

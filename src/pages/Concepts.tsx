@@ -1,7 +1,6 @@
 import React from 'react';
 import { Breadcrumb } from '../components/shared/Breadcrumb';
 import { GiftCard } from '../components/shared/GiftCard';
-import { ProfessionalIcon } from '../components/shared/ProfessionalIcon';
 import { getSectionsByCategory, getCategories } from '../data/studyDataEnhanced';
 import type { Section } from '../types';
 import { useProgress } from '../context/ProgressContext';
