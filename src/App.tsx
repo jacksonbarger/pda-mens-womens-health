@@ -58,7 +58,6 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { ProgressProvider, useProgress } from './context/ProgressContext';
 import { AuthForm } from './components/auth/AuthForm';
 import { EmailVerificationBanner } from './components/auth/EmailVerificationBanner';
-import { studyData } from './data/studyDataEnhanced';
 import type { Section, GameModeType } from './types';
 
 // Navigation screen types

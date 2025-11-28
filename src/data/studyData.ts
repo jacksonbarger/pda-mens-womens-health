@@ -1,20 +1,20 @@
-import type { StudyData } from '../types';
+import type { GameModes } from '../types';
 
 /**
  * STUDY DATA FOR SANTA'S PDA WORKSHOP
  *
- * To replace or update this data:
- * 1. Ensure your JSON matches the StudyData type structure
- * 2. Replace the exported studyData object below
- * 3. The app will automatically pick up changes on hot reload
- *
- * To add new sections:
- * - Add a new object to the sections array
- * - Include any combination of the 5 game modes (all optional)
- * - Each section needs at minimum a "section" name and "game_modes" object
+ * This is partial data that gets enhanced with id, category, and overview
+ * in studyDataEnhanced.ts. Each section here only needs:
+ * - section: The section name
+ * - game_modes: The game modes for this section
  */
 
-export const studyData: StudyData = {
+type PartialSection = {
+  section: string;
+  game_modes: GameModes;
+};
+
+export const studyData: { sections: PartialSection[] } = {
   "sections": [
     {
       "section": "Benign Breast Disease",
