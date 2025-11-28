@@ -59,7 +59,9 @@ export const getCategories = (): string[] => {
     "Menstrual & Uterine Disorders",
     "PCOS & Endometriosis",
     "Pregnancy & Postpartum",
-    "Lifecycle & Fertility Control"
+    "Lifecycle & Fertility Control",
+    "Men's Health",
+    "Medicinal Chemistry"
   ];
 
   const categories = new Set<string>();

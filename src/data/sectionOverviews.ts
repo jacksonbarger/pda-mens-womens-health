@@ -544,6 +544,195 @@ export const sectionOverviewsMap: SectionOverviewMap = {
         "5α-reductase inhibitors take months to show effect; α1-blockers provide faster symptom relief."
       ]
     }
+  },
+  "Benign Prostatic Hyperplasia (BPH)": {
+    id: "bph",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Benign prostatic hyperplasia is non-cancerous prostate enlargement affecting the majority of aging men. Understanding the pathophysiology, clinical presentation, diagnostic approach, and treatment options is essential for managing this common condition.",
+      objectives: [
+        "Describe the role of DHT in BPH pathogenesis and how it drives prostatic growth.",
+        "Differentiate between obstructive and irritative lower urinary tract symptoms (LUTS).",
+        "Compare first-line medical therapies: α1-adrenergic antagonists versus 5α-reductase inhibitors.",
+        "Identify indications for surgical intervention in BPH management."
+      ],
+      key_points: [
+        "BPH occurs in the transition zone of the prostate, unlike prostate cancer which arises in the peripheral zone.",
+        "Dihydrotestosterone (DHT) is the primary androgen driving prostatic growth; 5α-reductase converts testosterone to DHT.",
+        "LUTS include obstructive symptoms (hesitancy, weak stream, incomplete emptying) and irritative symptoms (frequency, urgency, nocturia).",
+        "α1-adrenergic antagonists provide immediate symptom relief by relaxing prostatic smooth muscle; 5α-reductase inhibitors take months to shrink the prostate.",
+        "TURP (transurethral resection of prostate) is gold standard surgery for severe BPH refractory to medical therapy."
+      ],
+      high_yield_clinical_pearls: [
+        "PSA may be mildly elevated in BPH but markedly elevated PSA or hard nodule on DRE warrants prostate cancer workup.",
+        "Acute urinary retention can be triggered by α-agonists (decongestants) or anticholinergics in BPH patients.",
+        "Post-void residual >200 mL indicates significant obstruction and may require surgical intervention.",
+        "Combination therapy (α-blocker + 5α-reductase inhibitor) is superior to monotherapy for moderate-to-severe BPH."
+      ]
+    }
+  },
+  "Erectile Dysfunction (ED)": {
+    id: "ed",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Erectile dysfunction is the persistent inability to achieve or maintain an erection. Understanding the vascular, neurologic, hormonal, and psychogenic causes is essential for proper evaluation and treatment. ED often serves as an early marker of cardiovascular disease.",
+      objectives: [
+        "Distinguish between organic and psychogenic causes of ED based on clinical presentation.",
+        "Explain the role of nitric oxide and cGMP in the erectile mechanism.",
+        "Identify first-line pharmacologic treatment and absolute contraindications for PDE-5 inhibitors.",
+        "Recognize ED as an early warning sign of cardiovascular disease."
+      ],
+      key_points: [
+        "Vascular disease (atherosclerosis, diabetes, hypertension) is the most common organic cause of ED.",
+        "ED often precedes coronary artery disease by 3-5 years due to smaller penile arteries being affected first.",
+        "Psychogenic ED: sudden onset, situational, preserved nocturnal erections. Organic ED: gradual onset, consistent, absent nocturnal erections.",
+        "PDE-5 inhibitors (sildenafil, tadalafil, vardenafil, avanafil) are first-line therapy, enhancing NO-mediated vasodilation.",
+        "Absolute contraindication: concurrent nitrate use due to severe hypotension risk."
+      ],
+      high_yield_clinical_pearls: [
+        "Always review medication list – antihypertensives, antidepressants, antiandrogens commonly cause ED.",
+        "Diabetes causes ED via both neuropathy (impaired NO release) and vasculopathy (endothelial dysfunction).",
+        "Nocturnal penile tumescence (NPT) testing: normal NPT suggests psychogenic ED; absent NPT indicates organic ED.",
+        "For men contraindicated for PDE-5 inhibitors, alternatives include intracavernosal alprostadil or vacuum erection devices."
+      ]
+    }
+  },
+  "Male Infertility": {
+    id: "male_infertility",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Male factor contributes to 40-50% of infertility cases. Semen analysis is the cornerstone of evaluation. Understanding causes of azoospermia, oligospermia, and treatment options including assisted reproductive techniques is essential.",
+      objectives: [
+        "Interpret semen analysis parameters and distinguish between azoospermia and oligospermia.",
+        "Differentiate obstructive from non-obstructive azoospermia using FSH levels.",
+        "Identify varicocele as the most common correctable cause of male infertility.",
+        "Explain the role of ICSI (intracytoplasmic sperm injection) in treating severe male factor infertility."
+      ],
+      key_points: [
+        "Normal semen parameters (WHO criteria): volume ≥1.5 mL, concentration ≥15 million/mL, motility ≥40%, morphology ≥4% normal forms.",
+        "Varicocele (dilated pampiniform plexus) is the most common correctable cause, present in ~40% of infertile men.",
+        "Elevated FSH with azoospermia suggests primary testicular failure; normal FSH suggests obstructive azoospermia.",
+        "Genetic causes: Klinefelter syndrome (47,XXY), Y-chromosome microdeletions, CFTR mutations (congenital bilateral absence of vas deferens).",
+        "ICSI bypasses natural fertilization barriers by directly injecting sperm into egg, used for severe oligospermia or azoospermia with sperm retrieval."
+      ],
+      high_yield_clinical_pearls: [
+        "Anabolic steroid abuse suppresses the HPG axis, causing reversible azoospermia/oligospermia.",
+        "Cryptorchidism correction before age 2 optimizes fertility, but cancer risk remains elevated.",
+        "For men desiring fertility with hypogonadism, use hCG ± FSH or clomiphene instead of testosterone replacement.",
+        "Semen analysis requires 2-3 samples due to variability; abstinence 2-7 days before collection."
+      ]
+    }
+  },
+  "Testicular Disorders": {
+    id: "testicular_disorders",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Testicular disorders encompass emergencies like testicular torsion, infections like epididymitis, masses like varicocele and hydrocele, and malignancies. Rapid differentiation of acute scrotal pain etiologies is critical for preventing testicular loss.",
+      objectives: [
+        "Recognize testicular torsion as a urologic emergency requiring surgery within 6 hours.",
+        "Differentiate testicular torsion from epididymitis using clinical presentation and Doppler ultrasound.",
+        "Identify risk factors and consequences of cryptorchidism.",
+        "Recognize tumor markers (AFP, β-hCG) used in testicular cancer diagnosis."
+      ],
+      key_points: [
+        "Testicular torsion: sudden severe pain, absent cremasteric reflex, high-riding testis, negative Prehn sign. Requires emergency surgical detorsion.",
+        "Epididymitis: gradual onset pain, positive Prehn sign (pain relieved by elevation), dysuria, fever. Age <35: STIs (chlam ydia/gonorrhea); age >35: E. coli.",
+        "Hydrocele: painless scrotal swelling that transilluminates. Varicocele: 'bag of worms' feeling, 90% left-sided, common cause of infertility.",
+        "Cryptorchidism (undescended testis) increases risk of infertility and testicular cancer (40x); orchiopexy before age 2 optimizes outcomes.",
+        "Testicular cancer: painless testicular mass in young men (20-40). AFP elevated in non-seminomatous tumors; β-hCG in choriocarcinoma."
+      ],
+      high_yield_clinical_pearls: [
+        "Never delay surgery for imaging if testicular torsion suspected – salvage rate >90% if surgery within 6 hours.",
+        "New right-sided varicocele warrants imaging to rule out retroperitoneal mass (renal cell carcinoma) compressing IVC.",
+        "Mumps orchitis occurs in 20-30% of post-pubertal males with mumps, can cause testicular atrophy and infertility.",
+        "Testicular cancer has excellent cure rates even when metastatic; never biopsy through scrotum (alters lymphatic drainage)."
+      ]
+    }
+  },
+  "Prostate Cancer": {
+    id: "prostate_cancer",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Prostate cancer is the most common non-skin cancer in men and second leading cause of cancer death. Understanding PSA screening, Gleason grading, staging, and treatment options including active surveillance and androgen deprivation therapy is essential.",
+      objectives: [
+        "Describe the role of PSA and DRE in prostate cancer screening and diagnosis.",
+        "Explain the Gleason score and its prognostic significance.",
+        "Differentiate treatment approaches for low-risk versus high-risk localized prostate cancer.",
+        "Identify indications for androgen deprivation therapy (ADT) and its major side effects."
+      ],
+      key_points: [
+        "Prostate cancer arises in the peripheral zone (70% of cancers), making it palpable on DRE, unlike BPH (transition zone).",
+        "PSA >4 ng/mL warrants further evaluation; PSA >10 ng/mL is highly suspicious for cancer.",
+        "Gleason score (sum of two most common patterns) grades aggressiveness: Gleason ≥8 is high-grade with poor prognosis.",
+        "Prostate cancer metastasizes to bone (osteoblastic/sclerotic lesions), causing bone pain as common presenting symptom of metastatic disease.",
+        "Active surveillance appropriate for low-risk cancer (Gleason ≤6, PSA <10, T1-T2a) to avoid treatment morbidity."
+      ],
+      high_yield_clinical_pearls: [
+        "Radical prostatectomy side effects: erectile dysfunction (40-90%), urinary incontinence (5-20%); nerve-sparing reduces ED risk.",
+        "ADT (GnRH agonists/antagonists) suppresses testosterone for metastatic disease but causes hot flashes, osteoporosis, metabolic syndrome.",
+        "Castration-resistant prostate cancer (CRPC): progressing despite castrate testosterone levels; treat with abiraterone, enzalutamide, docetaxel.",
+        "African American men have 2x higher incidence; family history and BRCA1/2 mutations increase risk."
+      ]
+    }
+  },
+  "Testosterone Deficiency (Hypogonadism)": {
+    id: "hypogonadism",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Hypogonadism is testosterone deficiency with or without impaired spermatogenesis. Distinguishing primary (testicular failure) from secondary (hypothalamic/pituitary dysfunction) hypogonadism guides treatment. Testosterone replacement therapy requires careful patient selection and monitoring.",
+      objectives: [
+        "Differentiate primary from secondary hypogonadism based on LH/FSH levels.",
+        "Identify clinical symptoms of testosterone deficiency.",
+        "Recognize contraindications to testosterone replacement therapy (TRT).",
+        "Explain how TRT affects fertility and alternatives for men desiring children."
+      ],
+      key_points: [
+        "Primary hypogonadism: low testosterone with elevated LH/FSH (testicular failure, lack of negative feedback). Causes: Klinefelter, chemotherapy, mumps orchitis.",
+        "Secondary hypogonadism: low testosterone with low/normal LH/FSH (hypothalamic/pituitary dysfunction). Causes: pituitary tumor, hyperprolactinemia, chronic opioid use.",
+        "Diagnosis: morning testosterone <300 ng/dL on two separate occasions (testosterone peaks in AM).",
+        "TRT contraindications: prostate cancer, breast cancer, untreated sleep apnea, severe BPH, polycythemia (hematocrit >54%).",
+        "TRT suppresses LH/FSH, impairing fertility. For men desiring children: use hCG ± FSH or clomiphene instead."
+      ],
+      high_yield_clinical_pearls: [
+        "Kallmann syndrome: congenital hypogonadotropic hypogonadism with anosmia (absent sense of smell).",
+        "Monitor hematocrit on TRT; polycythemia (>54%) increases thrombosis risk and requires holding TRT or therapeutic phlebotomy.",
+        "Chronic opioid use is a common iatrogenic cause of secondary hypogonadism in pain patients.",
+        "Anabolic steroid abuse causes reversible hypogonadism, testicular atrophy, and infertility; recovery may take years after cessation."
+      ]
+    }
+  },
+  "Gynecomastia": {
+    id: "gynecomastia",
+    category: "Men's Health",
+    overview: {
+      summary:
+        "Gynecomastia is benign proliferation of glandular breast tissue in males resulting from increased estrogen-to-androgen ratio. Distinguishing physiologic from pathologic causes and gynecomastia from male breast cancer is essential for appropriate management.",
+      objectives: [
+        "Explain the pathophysiology of gynecomastia involving estrogen-androgen imbalance.",
+        "Identify three physiologic peaks of gynecomastia (neonatal, pubertal, elderly).",
+        "Recognize medications and endocrine disorders causing pathologic gynecomastia.",
+        "Differentiate gynecomastia from male breast cancer based on clinical features."
+      ],
+      key_points: [
+        "Gynecomastia results from increased estrogen-to-androgen ratio via: ↑ estrogen production, ↓ testosterone, ↑ aromatase activity, or androgen receptor blockade.",
+        "Physiologic gynecomastia: neonatal (maternal estrogen), pubertal (50-60% of boys, resolves in 1-2 years), elderly (decreased testosterone, increased aromatization).",
+        "Spironolactone is the most common drug causing gynecomastia (blocks androgen receptors, stimulates estrogen receptors).",
+        "Klinefelter syndrome (47,XXY): most common genetic cause, features include gynecomastia (50-75%), small firm testes, tall stature, infertility.",
+        "Male breast cancer: unilateral, eccentric hard mass, fixed, painless, nipple retraction. Gynecomastia: bilateral, subareolar, mobile, tender."
+      ],
+      high_yield_clinical_pearls: [
+        "Pubertal gynecomastia resolves spontaneously in 1-2 years in most cases; reassurance appropriate unless persists >2 years.",
+        "Tamoxifen (SERM) is effective medical treatment for recent-onset gynecomastia (<12 months); less effective for longstanding fibrotic tissue.",
+        "Cirrhosis causes gynecomastia via impaired estrogen metabolism, increased SHBG, and decreased testosterone synthesis.",
+        "Always examine testes in gynecomastia workup – testicular tumors (Leydig, Sertoli, germ cell) can secrete hCG or estrogen."
+      ]
+    }
   }
 };
 
