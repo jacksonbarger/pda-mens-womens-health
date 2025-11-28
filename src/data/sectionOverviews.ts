@@ -42,7 +42,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Breast & Lactation",
     overview: {
       summary:
-        "Galactorrhea is inappropriate milk production unrelated to pregnancy or nursing, usually due to hyperprolactinemia from pituitary, medication, or hypothalamic causes.",
+        "Galactorrhea is inappropriate milk production unrelated to pregnancy or nursing, usually due to hyperprolactinemia from pituitary, medication, or hypothalamic causes. **Etymology:** The term is formed from **galacto-** (milk) and **-rrhea** (flow or discharge), literally meaning 'milk flow.'",
       objectives: [
         "Define galactorrhea and identify common causes.",
         "Explain how dopamine and prolactin interact in regulation of lactation.",
@@ -65,7 +65,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Breast & Lactation",
     overview: {
       summary:
-        "Mastitis is an inflammatory and often infectious process of the breast, most commonly seen in lactating women due to milk stasis and bacterial entry via nipple trauma.",
+        "Mastitis is an inflammatory and often infectious process of the breast, most commonly seen in lactating women due to milk stasis and bacterial entry via nipple trauma. **Etymology:** The term comes from **mast-** (breast) and **-itis** (inflammation), meaning 'inflammation of the breast.'",
       objectives: [
         "Describe the typical presentation of lactational mastitis.",
         "Explain the role of milk stasis and nipple trauma in mastitis pathophysiology.",
@@ -88,7 +88,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Menstrual & Uterine Disorders",
     overview: {
       summary:
-        "Dysmenorrhea refers to painful menstruation. Primary dysmenorrhea is prostaglandin-mediated pain with otherwise normal anatomy, while secondary dysmenorrhea is due to underlying pelvic pathology.",
+        "Dysmenorrhea refers to painful menstruation. Primary dysmenorrhea is prostaglandin-mediated pain with otherwise normal anatomy, while secondary dysmenorrhea is due to underlying pelvic pathology. **Etymology:** The term is formed from **dys-** (painful or difficult), **meno-** (menstruation), and **-rrhea** (flow), meaning 'painful menstrual flow.'",
       objectives: [
         "Differentiate primary from secondary dysmenorrhea.",
         "Explain the prostaglandin mechanism underlying primary dysmenorrhea.",
@@ -111,7 +111,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Menstrual & Uterine Disorders",
     overview: {
       summary:
-        "Amenorrhea is the absence of menstruation and can be primary (no menses by age 15) or secondary (cessation after prior normal cycles). It reflects disruption at any level of the hypothalamic–pituitary–ovarian–uterine axis.",
+        "Amenorrhea is the absence of menstruation and can be primary (no menses by age 15) or secondary (cessation after prior normal cycles). It reflects disruption at any level of the hypothalamic–pituitary–ovarian–uterine axis. **Etymology:** The term is formed from **a-** (absence or without), **meno-** (menstruation), and **-rrhea** (flow), meaning 'absence of menstrual flow.'",
       objectives: [
         "Define primary and secondary amenorrhea.",
         "Describe major causes including pregnancy, hypothalamic suppression, pituitary, ovarian, and outflow tract disorders.",
@@ -157,7 +157,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Menstrual & Uterine Disorders",
     overview: {
       summary:
-        "PMS consists of recurrent physical, emotional, and behavioral symptoms that occur in the luteal phase and resolve shortly after onset of menses. It may involve serotonergic and hormonal mechanisms.",
+        "PMS consists of recurrent physical, emotional, and behavioral symptoms that occur in the luteal phase and resolve shortly after onset of menses. It may involve serotonergic and hormonal mechanisms. **Etymology:** The term is formed from **pre-** (before) and **menstrual** (related to menstruation), combined with **syndrome** (a collection of symptoms), meaning 'a collection of symptoms occurring before menstruation.'",
       objectives: [
         "Describe the timing and symptom pattern of PMS.",
         "Differentiate PMS from PMDD and non–cycle-related mood disorders.",
@@ -180,7 +180,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "PCOS & Endometriosis",
     overview: {
       summary:
-        "PCOS is a common endocrine disorder characterized by hyperandrogenism, ovulatory dysfunction, and polycystic ovaries, closely linked to insulin resistance and metabolic syndrome.",
+        "PCOS is a common endocrine disorder characterized by hyperandrogenism, ovulatory dysfunction, and polycystic ovaries, closely linked to insulin resistance and metabolic syndrome. **Etymology:** The term is formed from **poly-** (many), **cystic** (containing cysts), **ovary**, and **syndrome**, meaning 'a syndrome characterized by many cysts in the ovaries.'",
       objectives: [
         "Recall the diagnostic features of PCOS.",
         "Explain how hyperandrogenism and insulin resistance cause signs and symptoms.",
@@ -203,7 +203,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "PCOS & Endometriosis",
     overview: {
       summary:
-        "Endometriosis is the presence of functioning endometrial tissue outside the uterine cavity, causing cyclical bleeding, inflammation, adhesions, pain, and often infertility.",
+        "Endometriosis is the presence of functioning endometrial tissue outside the uterine cavity, causing cyclical bleeding, inflammation, adhesions, pain, and often infertility. **Etymology:** The word is formed from the root word 'endometrium,' which refers to the tissue lining the uterus. The full word is a combination of **endo-** (inside), **-metr-** (uterus), and the suffix **-osis** (a condition or disease), meaning 'a condition where uterine-lining tissue exists outside its normal location.'",
       objectives: [
         "Define endometriosis and list common sites of ectopic implants.",
         "Describe the classic symptom triad and its relationship to the menstrual cycle.",
@@ -226,7 +226,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "PCOS & Endometriosis",
     overview: {
       summary:
-        "Infertility is the inability to conceive after a defined period of unprotected intercourse. Female factors include ovulatory, tubal/peritoneal, uterine/cervical, and endocrine causes.",
+        "Infertility is the inability to conceive after a defined period of unprotected intercourse. Female factors include ovulatory, tubal/peritoneal, uterine/cervical, and endocrine causes. **Etymology:** The term is formed from **in-** (not) and **fertile** (capable of producing offspring), combined with the suffix **-ity** (state or condition), meaning 'the state of not being fertile or unable to conceive.'",
       objectives: [
         "Define infertility and when evaluation should begin.",
         "List major categories of female infertility and representative causes.",
@@ -272,7 +272,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Pregnancy & Postpartum",
     overview: {
       summary:
-        "The postpartum period involves uterine involution, hormonal shifts, and initiation of lactation. Women are vulnerable to hemorrhage, infection, mood disorders, and breastfeeding complications.",
+        "The postpartum period involves uterine involution, hormonal shifts, and initiation of lactation. Women are vulnerable to hemorrhage, infection, mood disorders, and breastfeeding complications. **Etymology:** The term is formed from **post-** (after) and **partum** (childbirth), meaning 'the period after childbirth.'",
       objectives: [
         "Describe normal postpartum uterine and hormonal changes.",
         "Recognize common postpartum symptoms versus pathologic complications.",
@@ -295,7 +295,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Lifecycle & Fertility Control",
     overview: {
       summary:
-        "Menopause is the permanent cessation of menses due to ovarian failure, leading to low estrogen and elevated gonadotropins. It affects vasomotor stability, bone health, cardiovascular risk, and genitourinary tissues.",
+        "Menopause is the permanent cessation of menses due to ovarian failure, leading to low estrogen and elevated gonadotropins. It affects vasomotor stability, bone health, cardiovascular risk, and genitourinary tissues. **Etymology:** The term is formed from **meno-** (menstruation) and **pause** (cessation or stopping), meaning 'the cessation of menstruation.'",
       objectives: [
         "Define menopause and describe typical hormonal changes.",
         "Recognize common menopausal symptoms and long-term risks.",
@@ -318,7 +318,7 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     category: "Lifecycle & Fertility Control",
     overview: {
       summary:
-        "Contraception includes hormonal and non-hormonal methods that prevent pregnancy by inhibiting ovulation, fertilization, or implantation. Method choice depends on efficacy, safety, and patient-specific factors.",
+        "Contraception includes hormonal and non-hormonal methods that prevent pregnancy by inhibiting ovulation, fertilization, or implantation. Method choice depends on efficacy, safety, and patient-specific factors. **Etymology:** The term is formed from **contra-** (against) and **conception** (the process of becoming pregnant), meaning 'against conception' or 'preventing pregnancy.'",
       objectives: [
         "Describe mechanisms of action of combined and progestin-only methods.",
         "Differentiate hormonal IUDs, copper IUDs, implants, and emergency contraception.",

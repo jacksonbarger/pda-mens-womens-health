@@ -165,6 +165,11 @@ export const DrugsWorkshop: React.FC<DrugsWorkshopProps> = ({ onBack }) => {
               >
                 <div>
                   <h3 className="text-lg font-bold text-primary mb-1">{drug.generic_name}</h3>
+                  {drug.brand_names && drug.brand_names.length > 0 && (
+                    <p className="text-sm text-secondary mb-2">
+                      <strong>Brand names:</strong> {drug.brand_names.join(', ')}
+                    </p>
+                  )}
                   <p className="text-sm text-pda-gold-600 font-semibold mb-3">{drug.class}</p>
                   <p className="text-base text-secondary line-clamp-3">{drug.mechanism}</p>
                 </div>
