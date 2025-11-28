@@ -48,6 +48,7 @@
 
 import { useState } from 'react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/shared/Header';
 import { NewHome } from './pages/NewHome';
 import { Concepts } from './pages/Concepts';
@@ -208,6 +209,7 @@ function App() {
       <ProgressProvider>
         <AppContent />
         <SpeedInsights />
+        <Analytics />
       </ProgressProvider>
     </AuthProvider>
   );
