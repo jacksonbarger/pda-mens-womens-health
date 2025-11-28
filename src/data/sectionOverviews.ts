@@ -520,28 +520,87 @@ export const sectionOverviewsMap: SectionOverviewMap = {
       ]
     }
   },
-  "Medicinal Chemistry: BPH, ED & Urinary Incontinence": {
-    id: "med_chem_bph_ed_ui",
-    category: "Medicinal Chemistry",
+  "BPH Pharmacology": {
+    id: "bph_pharmacology",
+    category: "Pharmacology",
     overview: {
       summary:
-        "This section covers the medicinal chemistry and pharmacology of drugs used to treat benign prostatic hyperplasia (BPH), erectile dysfunction (ED), and urinary incontinence (UI). Understanding receptor selectivity, chemical classes, and mechanisms is essential for rational drug therapy.",
+        "Comprehensive pharmacology of medications for benign prostatic hyperplasia, focusing on α1-adrenergic antagonists and 5α-reductase inhibitors. Understanding receptor selectivity, chemical structure, and mechanism differences is essential for optimal BPH management.",
       objectives: [
-        "Describe the mechanism of action of α1-adrenergic antagonists and 5α-reductase inhibitors in BPH treatment.",
-        "Explain how PDE-5 inhibitors and prostaglandin E1 facilitate erections in ED.",
-        "Identify anticholinergics, β3-agonists, and ADH analogs used in urinary incontinence management."
+        "Differentiate α1A-selective from non-selective α1-blockers and their clinical implications.",
+        "Explain the mechanism of 5α-reductase inhibitors and their delayed onset of action.",
+        "Identify the quinazoline chemical class and '-azosin' suffix pattern.",
+        "Describe combination therapy rationale and PSA adjustment requirements."
       ],
       key_points: [
-        "BPH: α1A-antagonists ('azosin' drugs) relax prostatic smooth muscle; 5α-reductase inhibitors shrink the prostate by blocking DHT formation.",
-        "ED: PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) enhance NO-cGMP signaling; prostaglandin E1 increases cAMP.",
-        "Urinary Incontinence: Anticholinergics block bladder contractions; β3-agonists (mirabegron) promote relaxation; desmopressin reduces nocturnal urine production.",
-        "Chemical classes matter: Quinazolines for α1-blockers, azole suffix for PDE-5 inhibitors, and tropane/oxybutynin-like structures for anticholinergics."
+        "α1-Antagonists (prazosin, terazosin, doxazosin, tamsulosin, alfuzosin, silodosin) relax prostatic smooth muscle by blocking α1A receptors, providing immediate symptom relief.",
+        "α1A selectivity (tamsulosin, silodosin) minimizes orthostatic hypotension; non-selective agents (prazosin, terazosin, doxazosin) also lower blood pressure.",
+        "5α-Reductase inhibitors (finasteride, dutasteride) block conversion of testosterone to DHT, shrinking prostate over 3-6 months. Dutasteride inhibits both Type 1 and Type 2 isoforms.",
+        "Combination therapy (α1-blocker + 5α-reductase inhibitor) superior to monotherapy for moderate-severe BPH.",
+        "5α-Reductase inhibitors reduce PSA by ~50%; must double measured PSA values for accurate interpretation."
       ],
       high_yield_clinical_pearls: [
-        "Tamsulosin is α1A-selective, minimizing orthostatic hypotension compared to non-selective α1-blockers.",
-        "PDE-5 inhibitors are contraindicated with nitrates due to severe hypotension risk.",
-        "Anticholinergics for UI can cause dry mouth, constipation, and cognitive effects in elderly patients.",
-        "5α-reductase inhibitors take months to show effect; α1-blockers provide faster symptom relief."
+        "Silodosin has highest α1A selectivity but highest retrograde ejaculation risk (~28%); alfuzosin has intermediate selectivity with lower ejaculatory dysfunction.",
+        "Tamsulosin doesn't require dose titration unlike terazosin/doxazosin; taken 30 minutes after same meal daily.",
+        "5α-Reductase inhibitors reduce prostate cancer risk (25% reduction) but may increase high-grade cancer detection.",
+        "PSA doubling rule: if patient on finasteride/dutasteride has PSA of 2 ng/mL, true PSA is ~4 ng/mL.",
+        "First-dose orthostatic hypotension most common with non-selective α1-blockers; advise taking at bedtime initially."
+      ]
+    }
+  },
+  "Erectile Dysfunction Pharmacology": {
+    id: "ed_pharmacology",
+    category: "Pharmacology",
+    overview: {
+      summary:
+        "Pharmacology of erectile dysfunction medications, focusing on PDE-5 inhibitors and alprostadil. Understanding the NO-cGMP pathway, drug selectivity, critical contraindications, and alternative mechanisms is essential for safe and effective ED treatment.",
+      objectives: [
+        "Explain the NO-cGMP pathway and how PDE-5 inhibitors enhance erectile function.",
+        "Differentiate the four PDE-5 inhibitors by onset, duration, and selectivity.",
+        "Identify the absolute contraindication with nitrates and mechanism of severe hypotension.",
+        "Describe alprostadil's alternative cAMP-based mechanism for ED refractory to PDE-5 inhibitors."
+      ],
+      key_points: [
+        "PDE-5 inhibitors (sildenafil, tadalafil, vardenafil, avanafil) prevent cGMP breakdown, enhancing NO-mediated smooth muscle relaxation and penile blood flow.",
+        "Onset: avanafil fastest (15-30 min), sildenafil (30-60 min), vardenafil (60 min), tadalafil (30-120 min). Duration: tadalafil longest (up to 36 hours).",
+        "Absolute contraindication with nitrates: both work via NO-cGMP pathway, causing severe hypotension and potential MI. Must counsel all ED patients.",
+        "Alprostadil (PGE1) activates adenylyl cyclase → increases cAMP → smooth muscle relaxation. Works in patients failing PDE-5 inhibitors. Available as injection (Caverject), urethral suppository (MUSE), or topical cream.",
+        "Pyrazolopyrimidinone chemical class structurally mimics guanine, allowing competitive PDE-5 binding."
+      ],
+      high_yield_clinical_pearls: [
+        "Sildenafil causes blue-tinted vision (10-fold PDE-5/PDE-6 selectivity); avanafil has greater selectivity with fewer visual side effects.",
+        "Tadalafil approved for daily use (2.5-5 mg) for spontaneity; also treats BPH and pulmonary hypertension.",
+        "High-fat meals delay sildenafil/vardenafil absorption; tadalafil and avanafil less affected by food.",
+        "Priapism risk with alprostadil (~5%); erection >4 hours requires emergency treatment to prevent permanent damage.",
+        "PDE-5 inhibitors effective in ~70% of organic ED; effectiveness lower in severe diabetes or post-prostatectomy (nerve damage)."
+      ]
+    }
+  },
+  "Urinary Incontinence Pharmacology": {
+    id: "ui_pharmacology",
+    category: "Pharmacology",
+    overview: {
+      summary:
+        "Pharmacology of urinary incontinence and overactive bladder medications, including anticholinergics, β3-adrenergic agonists, and desmopressin. Understanding muscarinic receptor subtypes, blood-brain barrier penetration, and cognitive safety is crucial for elderly patient management.",
+      objectives: [
+        "Differentiate anticholinergics by muscarinic receptor selectivity and CNS penetration.",
+        "Explain β3-agonist mechanism and advantages over anticholinergics.",
+        "Identify M3-selective anticholinergics (darifenacin) and quaternary amines (trospium) for cognitive safety.",
+        "Describe desmopressin's mechanism for nocturnal enuresis and hyponatremia risk."
+      ],
+      key_points: [
+        "Anticholinergics (oxybutynin, tolterodine, solifenacin, darifenacin, fesoterodine, trospium) block muscarinic receptors (M2/M3) in detrusor muscle, reducing bladder contractions.",
+        "M3-selective darifenacin spares M1 receptors in CNS, reducing cognitive side effects. Trospium (quaternary amine) doesn't cross blood-brain barrier, safest for dementia patients.",
+        "Fesoterodine is tolterodine prodrug with more consistent bioavailability; converted to same active metabolite.",
+        "β3-Agonists (mirabegron, vibegron) activate β3 receptors → bladder relaxation, increasing capacity. Alternative to anticholinergics with fewer cognitive/dry mouth effects. Vibegron has improved selectivity and less cardiovascular effects.",
+        "Desmopressin (ADH analog) promotes renal water reabsorption, reducing nocturnal urine production for enuresis. Monitor for hyponatremia."
+      ],
+      high_yield_clinical_pearls: [
+        "Anticholinergic side effects: dry mouth (most common), constipation, blurred vision, urinary retention, cognitive impairment. Elderly most vulnerable.",
+        "Contraindications: narrow-angle glaucoma (anticholinergics increase intraocular pressure), urinary retention, gastric retention.",
+        "Oxybutynin has highest anticholinergic burden (M1-M5); avoid in elderly with dementia. Darifenacin or mirabegron preferred.",
+        "Mirabegron can increase blood pressure (~1-3 mmHg); monitor in hypertensive patients. Vibegron less effect on BP.",
+        "Desmopressin nasal spray withdrawn due to hyponatremia risk; oral/sublingual formulations preferred with fluid restriction."
       ]
     }
   },
@@ -731,6 +790,73 @@ export const sectionOverviewsMap: SectionOverviewMap = {
         "Tamoxifen (SERM) is effective medical treatment for recent-onset gynecomastia (<12 months); less effective for longstanding fibrotic tissue.",
         "Cirrhosis causes gynecomastia via impaired estrogen metabolism, increased SHBG, and decreased testosterone synthesis.",
         "Always examine testes in gynecomastia workup – testicular tumors (Leydig, Sertoli, germ cell) can secrete hCG or estrogen."
+      ]
+    }
+  },
+  "Osteoporosis Pharmacology": {
+    id: "osteoporosis_pharmacology",
+    category: "Pharmacology",
+    overview: {
+      summary:
+        "Comprehensive pharmacology of osteoporosis medications including bisphosphonates, SERMs, PTH analogues, monoclonal antibodies, and calcium/vitamin D supplementation. Understanding mechanisms, drug selection, and adverse effects is critical for preventing fractures in at-risk populations.",
+      objectives: [
+        "Compare antiresorptive versus anabolic mechanisms in osteoporosis therapy.",
+        "Differentiate nitrogen-containing bisphosphonates' MOA (mevalonate pathway inhibition) from other drug classes.",
+        "Explain the RANKL pathway and how denosumab inhibits osteoclast formation.",
+        "Identify which osteoporosis drugs require monitoring for hypocalcemia, osteonecrosis of the jaw, and atypical fractures."
+      ],
+      key_points: [
+        "Bisphosphonates (alendronate, risendronate, ibandronate, zoledronate): nitrogen-containing analogs mimic IPP, inhibit farnesyl pyrophosphate synthase in mevalonate pathway → osteoclast apoptosis.",
+        "PTH analogues (teriparatide, abaloparatide): anabolic agents that stimulate osteoblasts when given intermittently. Theory: you build more bone than you lose during treatment.",
+        "Denosumab (RANKL inhibitor): monoclonal antibody prevents RANK-RANKL interaction, blocking osteoclast differentiation and activation. Given SC q6months.",
+        "Romosozumab (sclerostin inhibitor): dual MOA – increases bone formation and decreases bone resorption. Used for severe osteoporosis with high fracture risk.",
+        "Raloxifene (SERM): estrogen agonist in bone (preserves BMD) and antagonist in breast (reduces breast cancer risk). Minimal uterine stimulation unlike tamoxifen."
+      ],
+      high_yield_clinical_pearls: [
+        "Bisphosphonates: take on empty stomach with full glass of water, remain upright 30-60 min to prevent esophagitis. Poor oral absorption (<1%).",
+        "Drug holidays: after 3-5 years bisphosphonate therapy, consider 1-2 year break to reduce atypical femur fracture risk (bone half-life 10+ years).",
+        "Osteonecrosis of jaw (ONJ): rare with oral bisphosphonates (<0.1%), higher with IV zoledronate. Avoid invasive dental procedures; ensure dental health before starting.",
+        "Denosumab rebound: stopping causes rapid bone loss and vertebral fractures. Must transition to bisphosphonate when discontinuing.",
+        "Teriparatide/abaloparatide: black box warning for osteosarcoma (rat studies). Contraindicated in Paget's disease, prior radiation, unexplained alkaline phosphatase elevation.",
+        "Vitamin D is essential: all antiresorptive drugs can cause hypocalcemia if vitamin D deficient. Supplement 800-1000 IU daily + calcium 1200 mg.",
+        "Romosozumab increases CV risk (MI, stroke) – avoid in patients with MI/stroke within past year. Limited to 12 monthly doses (then transition to antiresorptive)."
+      ]
+    }
+  },
+  "Gonadal Hormones & Contraception Pharmacology": {
+    id: "gonadal_hormones_contraception_pharmacology",
+    category: "Pharmacology",
+    overview: {
+      summary:
+        "Comprehensive medicinal chemistry and pharmacology of sex hormones including estrogens, progestins, androgens, GnRH antagonists, SERMs, and aromatase inhibitors. Understanding structure-activity relationships, metabolism, and clinical applications is essential for contraception, hormone replacement, fertility, and cancer therapy.",
+      objectives: [
+        "Explain why ethinyl estradiol is 15-20x more potent than estradiol and why it's used in oral contraceptives.",
+        "Compare SERMs (tamoxifen, raloxifene) based on tissue-specific agonist/antagonist activity.",
+        "Differentiate steroidal (exemestane) from non-steroidal (anastrozole, letrozole) aromatase inhibitors.",
+        "Describe how synthetic progestins differ from natural progesterone in oral bioavailability and duration of action."
+      ],
+      key_points: [
+        "Aromatase (CYP19): converts androgens → estrogens by aromatizing A-ring (androstenedione → estrone, testosterone → estradiol). Target for breast cancer therapy.",
+        "Ethinyl estradiol: 17α-ethinyl group blocks hepatic oxidative metabolism, increasing oral BA and half-life. Makes it ideal for once-daily contraceptives.",
+        "Mestranol: 3-O-methyl ether prodrug of ethinyl estradiol. Demethylated in liver to become active.",
+        "SERMs: tamoxifen (antagonist in breast, partial agonist in endometrium/bone), raloxifene (antagonist in breast/endometrium, agonist in bone), ospemifene (agonist in vagina).",
+        "Tamoxifen metabolism: CYP2D6 → 4-hydroxytamoxifen (30-100x higher ER affinity). Poor metabolizers have reduced efficacy.",
+        "Aromatase inhibitors: anastrozole/letrozole (non-steroidal, reversible azole inhibitors), exemestane (steroidal, irreversible mechanism-based inhibitor).",
+        "Clomiphene: anti-estrogen that blocks hypothalamic ER → prevents negative feedback → ↑ GnRH, FSH, LH → ovulation induction. E/Z isomers.",
+        "GnRH antagonists (cetrorelix, degarelix, ganirelix, elagolix): competitively block pituitary GnRH receptors → immediate FSH/LH suppression without flare.",
+        "Progestins: 19-nortestosterone derivatives (norethindrone, levonorgestrel) have better oral BA than natural progesterone. Used in contraceptives.",
+        "Mifepristone (RU-486): progesterone receptor antagonist + glucocorticoid receptor antagonist. Medical abortion when combined with misoprostol."
+      ],
+      high_yield_clinical_pearls: [
+        "Combined oral contraceptives (COCs): 3 mechanisms – (1) suppress ovulation via HPG axis feedback, (2) thicken cervical mucus, (3) thin endometrium.",
+        "Estrogen contraindications: VTE history, stroke, MI, migraine with aura, smoking >35 years old, Factor V Leiden, breast cancer.",
+        "CYP2D6 poor metabolizers: reduced tamoxifen efficacy. Consider aromatase inhibitors (anastrozole/letrozole) in postmenopausal women instead.",
+        "Raloxifene vs tamoxifen: raloxifene has minimal endometrial stimulation (safer for osteoporosis), tamoxifen more effective for breast cancer but ↑ endometrial cancer risk.",
+        "Aromatase inhibitors only work in postmenopausal women (ovaries produce estrogen in premenopausal). Cause bone loss, arthralgia, hot flashes.",
+        "Clomiphene twins: 5-10% multiple gestation rate due to multiple follicle development. Monitor with ultrasound.",
+        "Elagolix vs danazol for endometriosis: elagolix (GnRH antagonist) fewer androgenic side effects than danazol (synthetic androgen). Add-back therapy reduces bone loss.",
+        "Testosterone replacement: contraindicated in men desiring fertility (suppresses LH/FSH). Use hCG ± FSH or clomiphene instead.",
+        "SERM resistance in breast cancer: develops after ~5 years tamoxifen. Switch to aromatase inhibitor or fulvestrant (pure antagonist with ER degradation)."
       ]
     }
   }

@@ -1688,7 +1688,7 @@ export const studyData: { sections: PartialSection[] } = {
       }
     },
     {
-      "section": "Medicinal Chemistry: BPH, ED & Urinary Incontinence",
+      "section": "BPH Pharmacology",
       "game_modes": {
         "flashcards": {
           "game_mode": "flashcards",
@@ -1710,153 +1710,78 @@ export const studyData: { sections: PartialSection[] } = {
             },
             {
               "id": 4,
-              "question": "What is the mechanism of PDE-5 inhibitors in treating erectile dysfunction?",
-              "answer": "They inhibit phosphodiesterase type 5, preventing breakdown of cGMP. This enhances nitric oxide-mediated smooth muscle relaxation in penile arteries, promoting blood flow and erection."
-            },
-            {
-              "id": 5,
-              "question": "Name the three main PDE-5 inhibitors and their common suffix.",
-              "answer": "Sildenafil (Viagra), tadalafil (Cialis), and vardenafil (Levitra). They share the '-afil' suffix."
-            },
-            {
-              "id": 6,
-              "question": "What is the mechanism of prostaglandin E1 (alprostadil) in ED?",
-              "answer": "PGE1 activates adenylyl cyclase, increasing cAMP levels, which causes smooth muscle relaxation and vasodilation in the corpus cavernosum, facilitating erection."
-            },
-            {
-              "id": 7,
-              "question": "How do anticholinergic drugs help with urinary incontinence?",
-              "answer": "They block muscarinic receptors in the detrusor muscle of the bladder, reducing involuntary bladder contractions and urgency."
-            },
-            {
-              "id": 8,
-              "question": "What is the mechanism of β3-adrenergic agonists (mirabegron) in urinary incontinence?",
-              "answer": "They activate β3 receptors in the bladder, promoting detrusor muscle relaxation and increasing bladder capacity, reducing urgency and frequency."
-            },
-            {
-              "id": 9,
-              "question": "How does desmopressin (ADH analog) help with nocturnal enuresis?",
-              "answer": "Desmopressin is an antidiuretic hormone analog that promotes water reabsorption in the kidneys, reducing nocturnal urine production."
-            },
-            {
-              "id": 10,
               "question": "Why is tamsulosin preferred over non-selective α1-blockers for BPH?",
               "answer": "Tamsulosin is α1A-selective, primarily targeting prostatic smooth muscle while minimizing vascular α1B effects, thus reducing orthostatic hypotension risk."
             },
             {
-              "id": 11,
-              "question": "What is a critical drug interaction with PDE-5 inhibitors?",
-              "answer": "PDE-5 inhibitors are contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe, potentially fatal hypotension."
-            },
-            {
-              "id": 12,
-              "question": "What are common adverse effects of anticholinergics for urinary incontinence?",
-              "answer": "Dry mouth, constipation, blurred vision, urinary retention, and cognitive impairment (especially in elderly patients)."
-            },
-            {
-              "id": 13,
+              "id": 5,
               "question": "Why do 5α-reductase inhibitors take months to show clinical effect?",
               "answer": "Because they work by gradually shrinking the prostate over time by blocking new DHT formation, rather than immediately relaxing smooth muscle like α1-blockers."
             },
             {
-              "id": 14,
+              "id": 6,
               "question": "What two isoforms of 5α-reductase exist and which drugs target them?",
               "answer": "Type 1 (skin, liver) and Type 2 (prostate, genital skin). Finasteride inhibits Type 2; dutasteride inhibits both Type 1 and Type 2."
             },
             {
-              "id": 15,
-              "question": "How does nitric oxide (NO) contribute to erection?",
-              "answer": "Sexual stimulation triggers NO release from penile nerves and endothelium. NO activates guanylyl cyclase, increasing cGMP, which relaxes smooth muscle and allows blood to engorge the corpus cavernosum."
-            },
-            {
-              "id": 16,
+              "id": 7,
               "question": "What distinguishes terazosin and doxazosin from tamsulosin in BPH treatment?",
               "answer": "Terazosin and doxazosin are non-selective α1-blockers that block both α1A (prostate) and α1B (vasculature) receptors, causing more orthostatic hypotension. They were originally used as antihypertensives."
             },
             {
-              "id": 17,
+              "id": 8,
               "question": "What makes silodosin unique among α1-blockers?",
               "answer": "Silodosin (Rapaflo) has the highest α1A selectivity among α1-blockers, providing maximal prostatic benefit with minimal cardiovascular effects, but has higher risk of retrograde ejaculation."
             },
             {
-              "id": 18,
+              "id": 9,
               "question": "What is alfuzosin and how does it differ from other α1-blockers?",
               "answer": "Alfuzosin is a uroselective α1-blocker with moderate selectivity for prostatic tissue. It has once-daily dosing and intermediate selectivity between non-selective (prazosin) and highly selective (tamsulosin) agents."
             },
             {
-              "id": 19,
-              "question": "What is the chemical class of PDE-5 inhibitors and their structural basis?",
-              "answer": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (mimicking GMP). This allows them to compete with cGMP for PDE-5 binding, preventing cGMP breakdown."
-            },
-            {
-              "id": 20,
-              "question": "What is the difference between selectivity and potency in drug action?",
-              "answer": "Selectivity refers to a drug's preference for one target over others (measured by comparing IC50 values). Potency is the concentration needed to achieve an effect (lower IC50 = higher potency). A drug can be potent but non-selective."
-            },
-            {
-              "id": 21,
-              "question": "Why does sildenafil cause blue-tinted vision as a side effect?",
-              "answer": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision."
-            },
-            {
-              "id": 22,
-              "question": "What are the three formulations of alprostadil for ED?",
-              "answer": "Alprostadil (PGE1) is available as: 1) Caverject (intracavernosal injection), 2) MUSE (intraurethral suppository), and 3) Vitaros (topical cream, available in Europe)."
-            },
-            {
-              "id": 23,
-              "question": "What is avanafil and how does it differ from other PDE-5 inhibitors?",
-              "answer": "Avanafil is a newer, fast-acting PDE-5 inhibitor with rapid onset (15-30 minutes) and high selectivity for PDE-5. It has fewer side effects due to greater selectivity compared to sildenafil."
-            },
-            {
-              "id": 24,
-              "question": "What makes darifenacin unique among anticholinergics for UI?",
-              "answer": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain, reducing cognitive side effects in elderly patients."
-            },
-            {
-              "id": 25,
-              "question": "How does solifenacin compare to other anticholinergics for UI?",
-              "answer": "Solifenacin (Vesicare) is a non-selective antimuscarinic with long duration of action (once-daily dosing) and better tolerability profile than older agents like oxybutynin."
-            },
-            {
-              "id": 26,
-              "question": "What is tolterodine and what receptors does it target?",
-              "answer": "Tolterodine (Detrol) is an antimuscarinic agent with preferential selectivity for M2 and M3 receptors in the bladder, providing efficacy with reduced dry mouth compared to oxybutynin."
-            },
-            {
-              "id": 27,
+              "id": 10,
               "question": "Why are 5α-reductase inhibitors considered steroidal drugs?",
               "answer": "Finasteride and dutasteride are steroidal in structure because they are designed to inhibit an enzyme that metabolizes steroid hormones (converting testosterone to DHT). Their structure mimics steroid substrates."
             },
             {
-              "id": 28,
-              "question": "What structural feature do anticholinergics for UI share?",
-              "answer": "Anticholinergics structurally resemble acetylcholine, allowing them to competitively bind muscarinic receptors and block acetylcholine from activating detrusor muscle contractions."
-            },
-            {
-              "id": 29,
-              "question": "What structural feature does mirabegron share with adrenergic drugs?",
-              "answer": "Mirabegron structurally resembles epinephrine (adrenaline), allowing it to selectively activate β3-adrenergic receptors in bladder smooth muscle to promote relaxation."
-            },
-            {
-              "id": 30,
+              "id": 11,
               "question": "How do the receptor subtypes α1A and α1B differ in location and clinical significance?",
               "answer": "α1A receptors are concentrated in prostatic smooth muscle (mediating urethral constriction), while α1B receptors are in blood vessels (mediating vasoconstriction). Selective α1A blockade treats BPH with less hypotension."
             },
             {
-              "id": 31,
-              "question": "How does vasopressin differ from desmopressin?",
-              "answer": "Vasopressin is a naturally-occurring peptide hormone with a very short half-life, requiring injection. Desmopressin is a synthetic analog with longer duration that can be given orally, making it more practical for treating nocturnal enuresis."
-            },
-            {
-              "id": 32,
-              "question": "What is the role of calcium in smooth muscle contraction and how do ED drugs affect it?",
-              "answer": "Calcium triggers smooth muscle contraction. cGMP (increased by PDE-5 inhibitors) and cAMP (increased by PGE1) reduce intracellular calcium levels, promoting smooth muscle relaxation and vasodilation, allowing blood engorgement for erection."
-            },
-            {
-              "id": 33,
+              "id": 12,
               "question": "Why does the prostate become more sensitive to DHT with aging?",
               "answer": "With aging, estrogen levels increase relative to testosterone. Estrogen sensitizes the prostate to the effects of DHT, making even normal DHT levels more likely to stimulate prostatic growth and contribute to BPH development."
+            },
+            {
+              "id": 13,
+              "question": "What is the role of prazosin in BPH management?",
+              "answer": "Prazosin is a non-selective α1-blocker (first generation) that blocks both α1A and α1B receptors. While effective for BPH, it causes significant orthostatic hypotension and requires multiple daily doses, making it less preferred than selective agents."
+            },
+            {
+              "id": 14,
+              "question": "What is the clinical advantage of dutasteride over finasteride?",
+              "answer": "Dutasteride inhibits both Type 1 and Type 2 5α-reductase, achieving greater DHT suppression (>90% vs ~70% with finasteride). This may provide slightly better prostate shrinkage, though clinical differences are modest."
+            },
+            {
+              "id": 15,
+              "question": "What are the main side effects of 5α-reductase inhibitors?",
+              "answer": "Sexual dysfunction (decreased libido, erectile dysfunction, ejaculatory disorders), gynecomastia, and reduced PSA levels (must double PSA values when screening for prostate cancer). Effects may persist after discontinuation in some patients."
+            },
+            {
+              "id": 16,
+              "question": "Why must PSA levels be adjusted in patients taking 5α-reductase inhibitors?",
+              "answer": "5α-reductase inhibitors reduce PSA levels by approximately 50% after 6 months of therapy. When screening for prostate cancer, the measured PSA should be doubled to accurately interpret cancer risk."
+            },
+            {
+              "id": 17,
+              "question": "What is the mechanism behind retrograde ejaculation with α1A-selective blockers?",
+              "answer": "α1A receptors in the bladder neck and prostatic urethra mediate closure during ejaculation. Blocking these receptors prevents proper closure, allowing semen to flow backward into the bladder (retrograde ejaculation). Risk is highest with silodosin."
+            },
+            {
+              "id": 18,
+              "question": "What is combination therapy for BPH and when is it indicated?",
+              "answer": "Combination therapy uses an α1-blocker (immediate symptom relief) plus a 5α-reductase inhibitor (long-term prostate shrinkage). Indicated for moderate-to-severe BPH with prostate >40g to reduce symptom progression and need for surgery."
             }
           ]
         },
@@ -1864,26 +1789,15 @@ export const studyData: { sections: PartialSection[] } = {
           "game_mode": "matching",
           "pairs": [
             {"left": "Tamsulosin", "right": "α1A-selective blocker for BPH"},
-            {"left": "Sildenafil", "right": "PDE-5 inhibitor (Viagra)"},
             {"left": "Finasteride", "right": "5α-reductase Type 2 inhibitor"},
-            {"left": "Mirabegron", "right": "β3-adrenergic agonist for UI"},
-            {"left": "Oxybutynin", "right": "Anticholinergic for overactive bladder"},
-            {"left": "Alprostadil", "right": "Prostaglandin E1 for ED"},
-            {"left": "Desmopressin", "right": "ADH analog for nocturnal enuresis"},
             {"left": "Dutasteride", "right": "Dual 5α-reductase inhibitor"},
-            {"left": "Tadalafil", "right": "Long-acting PDE-5 inhibitor (Cialis)"},
-            {"left": "Prazosin", "right": "Non-selective α1-blocker"},
+            {"left": "Prazosin", "right": "Non-selective α1-blocker (first generation)"},
             {"left": "Terazosin", "right": "Non-selective α1-blocker with antihypertensive effects"},
             {"left": "Doxazosin", "right": "Non-selective α1-blocker used for BPH and HTN"},
             {"left": "Alfuzosin", "right": "Uroselective α1-blocker"},
-            {"left": "Silodosin", "right": "Highly α1A-selective blocker (highest selectivity)"},
-            {"left": "Vardenafil", "right": "PDE-5 inhibitor (Levitra)"},
-            {"left": "Avanafil", "right": "Fast-acting PDE-5 inhibitor"},
-            {"left": "Darifenacin", "right": "M3-selective anticholinergic (Enablex)"},
-            {"left": "Solifenacin", "right": "Long-acting antimuscarinic (Vesicare)"},
-            {"left": "Tolterodine", "right": "M2/M3-selective antimuscarinic (Detrol)"},
+            {"left": "Silodosin", "right": "Highest α1A-selective blocker"},
             {"left": "Quinazolines", "right": "Chemical class of α1-antagonists"},
-            {"left": "Pyrazolopyrimidinone", "right": "Chemical class of PDE-5 inhibitors"}
+            {"left": "DHT", "right": "Main androgen mediating prostatic growth"}
           ]
         },
         "timed_quiz": {
@@ -1893,107 +1807,58 @@ export const studyData: { sections: PartialSection[] } = {
             {
               "id": 1,
               "question": "Which drug class provides the fastest symptom relief in BPH?",
-              "options": ["α1-blockers", "5α-reductase inhibitors", "PDE-5 inhibitors", "Anticholinergics"],
+              "options": ["α1-blockers", "5α-reductase inhibitors", "Anticholinergics", "β3-agonists"],
               "correct_answer": "α1-blockers",
               "explanation": "α1-blockers (like tamsulosin) provide immediate symptom relief by relaxing smooth muscle in the prostate and bladder neck. 5α-reductase inhibitors take 3-6 months to work because they must gradually shrink the prostate."
             },
             {
               "id": 2,
-              "question": "PDE-5 inhibitors enhance erection by:",
-              "options": ["Increasing cGMP", "Increasing testosterone", "Blocking α1 receptors", "Increasing DHT"],
-              "correct_answer": "Increasing cGMP",
-              "explanation": "PDE-5 inhibitors prevent the breakdown of cGMP by blocking phosphodiesterase type 5. Elevated cGMP promotes smooth muscle relaxation and vasodilation in penile arteries, facilitating erection."
-            },
-            {
-              "id": 3,
-              "question": "Which drug is contraindicated with nitrates?",
-              "options": ["Sildenafil", "Tamsulosin", "Finasteride", "Oxybutynin"],
-              "correct_answer": "Sildenafil",
-              "explanation": "Sildenafil (and all PDE-5 inhibitors) are absolutely contraindicated with nitrates because both work through the NO-cGMP pathway. Combined use causes severe, potentially fatal hypotension."
-            },
-            {
-              "id": 4,
-              "question": "Anticholinergics treat urinary incontinence by:",
-              "options": ["Blocking detrusor contractions", "Relaxing prostate", "Increasing ADH", "Inhibiting PDE-5"],
-              "correct_answer": "Blocking detrusor contractions",
-              "explanation": "Anticholinergics block muscarinic receptors on the detrusor muscle of the bladder, preventing involuntary contractions that cause urgency and frequency in overactive bladder."
-            },
-            {
-              "id": 5,
               "question": "Which α1-blocker is most selective for the prostate?",
               "options": ["Tamsulosin", "Prazosin", "Doxazosin", "Terazosin"],
               "correct_answer": "Tamsulosin",
               "explanation": "Tamsulosin is α1A-selective, preferentially targeting prostatic smooth muscle over vascular α1B receptors. This selectivity reduces orthostatic hypotension compared to non-selective agents like prazosin or doxazosin."
             },
             {
-              "id": 6,
+              "id": 3,
               "question": "Finasteride works by blocking conversion of:",
               "options": ["Testosterone to DHT", "cGMP to GMP", "NO to cGMP", "Estrogen to testosterone"],
               "correct_answer": "Testosterone to DHT",
               "explanation": "Finasteride inhibits 5α-reductase Type 2, blocking the conversion of testosterone to dihydrotestosterone (DHT). Since DHT is the primary androgen driving prostatic growth, reducing DHT shrinks the prostate over time."
             },
             {
-              "id": 7,
-              "question": "Mirabegron is a:",
-              "options": ["β3-agonist", "α1-antagonist", "Anticholinergic", "PDE-5 inhibitor"],
-              "correct_answer": "β3-agonist",
-              "explanation": "Mirabegron is a β3-adrenergic agonist that activates β3 receptors in the bladder detrusor muscle, promoting relaxation and increasing bladder capacity. It's an alternative to anticholinergics with fewer side effects."
-            },
-            {
-              "id": 8,
-              "question": "Which has the longest duration of action among PDE-5 inhibitors?",
-              "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Alprostadil"],
-              "correct_answer": "Tadalafil",
-              "explanation": "Tadalafil (Cialis) has a half-life of ~17.5 hours, lasting up to 36 hours. Sildenafil and vardenafil last only 4-6 hours. This longer duration allows for more spontaneity."
-            },
-            {
-              "id": 9,
+              "id": 4,
               "question": "Which α1-blocker has the HIGHEST α1A selectivity?",
               "options": ["Silodosin", "Tamsulosin", "Alfuzosin", "Prazosin"],
               "correct_answer": "Silodosin",
               "explanation": "Silodosin (Rapaflo) has the highest α1A selectivity of all α1-blockers, providing maximal prostatic benefit with minimal cardiovascular effects. However, this high selectivity increases risk of retrograde ejaculation."
             },
             {
-              "id": 10,
+              "id": 5,
               "question": "What is the chemical class of α1-antagonists?",
               "options": ["Quinazolines", "Pyrazolopyrimidinones", "Benzodiazepines", "Phenothiazines"],
               "correct_answer": "Quinazolines",
               "explanation": "α1-antagonists (prazosin, terazosin, doxazosin, tamsulosin, etc.) belong to the quinazoline chemical class and share the '-azosin' suffix. This structural framework allows competitive antagonism at α1-receptors."
             },
             {
-              "id": 11,
-              "question": "Which anticholinergic is M3-selective to reduce cognitive side effects?",
-              "options": ["Darifenacin", "Oxybutynin", "Tolterodine", "Solifenacin"],
-              "correct_answer": "Darifenacin",
-              "explanation": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain. This reduces cognitive side effects like confusion and memory impairment, especially important in elderly patients."
-            },
-            {
-              "id": 12,
-              "question": "Why does sildenafil cause blue-tinted vision?",
-              "options": ["Inhibits PDE-6 in retina", "Blocks α1 receptors", "Increases DHT", "Activates M3 receptors"],
-              "correct_answer": "Inhibits PDE-6 in retina",
-              "explanation": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision. Newer agents like avanafil have greater selectivity."
-            },
-            {
-              "id": 13,
-              "question": "Which PDE-5 inhibitor has the fastest onset of action?",
-              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
-              "correct_answer": "Avanafil",
-              "explanation": "Avanafil has the fastest onset (15-30 minutes) and high PDE-5 selectivity, resulting in fewer side effects. Sildenafil takes 30-60 minutes, while tadalafil and vardenafil take 30-120 minutes."
-            },
-            {
-              "id": 14,
+              "id": 6,
               "question": "Terazosin and doxazosin were originally developed as:",
               "options": ["Antihypertensives", "Antibiotics", "Antidepressants", "Antihistamines"],
               "correct_answer": "Antihypertensives",
               "explanation": "Terazosin and doxazosin are non-selective α1-blockers that block both prostatic (α1A) and vascular (α1B) receptors. They were originally used as antihypertensives before BPH became a common indication."
             },
             {
-              "id": 15,
-              "question": "What structural feature allows PDE-5 inhibitors to work?",
-              "options": ["Mimic guanine structure", "Resemble acetylcholine", "Look like testosterone", "Similar to dopamine"],
-              "correct_answer": "Mimic guanine structure",
-              "explanation": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (the 'G' in cGMP). This allows them to competitively bind to PDE-5 and prevent cGMP breakdown, mimicking the natural substrate."
+              "id": 7,
+              "question": "How long does finasteride take to show clinical benefit in BPH?",
+              "options": ["3-6 months", "1-2 weeks", "24 hours", "1 year"],
+              "correct_answer": "3-6 months",
+              "explanation": "5α-reductase inhibitors like finasteride require 3-6 months to produce noticeable symptom improvement because they work by gradually reducing DHT levels and shrinking the prostate, not by immediate muscle relaxation."
+            },
+            {
+              "id": 8,
+              "question": "Which 5α-reductase inhibitor provides greater DHT suppression?",
+              "options": ["Dutasteride", "Finasteride", "Both equal", "Neither affects DHT"],
+              "correct_answer": "Dutasteride",
+              "explanation": "Dutasteride inhibits both Type 1 and Type 2 5α-reductase, achieving >90% DHT suppression compared to ~70% with finasteride (Type 2 only). This results in slightly greater prostate volume reduction."
             }
           ]
         },
@@ -2003,72 +1868,293 @@ export const studyData: { sections: PartialSection[] } = {
             {
               "id": 1,
               "scenario": "A 65-year-old man with BPH complains of hesitancy and weak stream. He wants quick relief. Which drug is best?",
-              "options": ["Tamsulosin", "Finasteride", "Dutasteride", "Desmopressin"],
+              "options": ["Tamsulosin", "Finasteride", "Dutasteride", "Prazosin"],
               "correct_answer": "Tamsulosin",
               "explanation": "Tamsulosin (α1A-selective blocker) provides immediate symptom relief by relaxing prostatic smooth muscle. Finasteride/dutasteride take 3-6 months to shrink the prostate and wouldn't meet this patient's need for quick relief."
             },
             {
               "id": 2,
-              "scenario": "A 55-year-old man on nitroglycerin for angina develops ED. Which ED treatment is contraindicated?",
-              "options": ["Sildenafil", "Alprostadil", "Psychotherapy", "Vacuum device"],
-              "correct_answer": "Sildenafil",
-              "explanation": "PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) are absolutely contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe hypotension and potential MI. Alprostadil (PGE1) works via a different pathway and is safe."
-            },
-            {
-              "id": 3,
-              "scenario": "An elderly woman with urgency incontinence starts an anticholinergic. What side effect should you warn about?",
-              "options": ["Dry mouth and confusion", "Hypertension", "Hypoglycemia", "Increased libido"],
-              "correct_answer": "Dry mouth and confusion",
-              "explanation": "Anticholinergics block muscarinic receptors throughout the body, causing dry mouth (salivary glands), constipation, blurred vision, and cognitive impairment. Elderly patients are especially vulnerable to confusion and memory problems."
-            },
-            {
-              "id": 4,
               "scenario": "A patient with BPH has been on tamsulosin for 3 months with partial improvement. Adding which drug could provide long-term prostate shrinkage?",
               "options": ["Finasteride", "Sildenafil", "Oxybutynin", "Mirabegron"],
               "correct_answer": "Finasteride",
               "explanation": "Combination therapy (α1-blocker + 5α-reductase inhibitor) is effective for BPH. Tamsulosin provides immediate symptom relief, while finasteride shrinks the prostate over time by reducing DHT. This combination is superior to monotherapy for moderate-to-severe BPH."
             },
             {
-              "id": 5,
-              "scenario": "A 6-year-old child has nocturnal enuresis despite behavioral interventions. Which pharmacologic option reduces nighttime urine production?",
-              "options": ["Desmopressin", "Tamsulosin", "Finasteride", "Tadalafil"],
-              "correct_answer": "Desmopressin",
-              "explanation": "Desmopressin (ADH analog) promotes water reabsorption in the kidneys, reducing nocturnal urine volume. It's first-line pharmacotherapy for primary nocturnal enuresis in children after behavioral modifications fail. Oral formulation is convenient for pediatric use."
-            },
-            {
-              "id": 6,
+              "id": 3,
               "scenario": "A 70-year-old man with BPH and orthostatic hypotension needs an α1-blocker. Which drug minimizes risk of worsening hypotension?",
               "options": ["Tamsulosin (α1A-selective)", "Prazosin (non-selective)", "Terazosin (non-selective)", "Doxazosin (non-selective)"],
               "correct_answer": "Tamsulosin (α1A-selective)",
               "explanation": "Tamsulosin's α1A selectivity targets prostatic smooth muscle while sparing vascular α1B receptors. Non-selective blockers (prazosin, terazosin, doxazosin) block both α1A and α1B, causing significant vasodilation and worsening orthostatic hypotension."
             },
             {
-              "id": 7,
-              "scenario": "An 80-year-old woman with urge incontinence and mild dementia needs anticholinergic therapy. Which drug has the best cognitive safety profile?",
-              "options": ["Darifenacin (M3-selective)", "Oxybutynin (M1-M3)", "Tolterodine (M2-M3)", "None are safe"],
-              "correct_answer": "Darifenacin (M3-selective)",
-              "explanation": "Darifenacin's M3 selectivity spares M1 receptors in the CNS, reducing cognitive side effects. Oxybutynin (M1-M3) crosses the blood-brain barrier and is highest risk for confusion in elderly. In dementia patients, consider mirabegron (β3-agonist) as an alternative."
-            },
-            {
-              "id": 8,
-              "scenario": "A 50-year-old man needs ED treatment and wants the fastest-acting medication for spontaneity. Which PDE-5 inhibitor works in 15-30 minutes?",
-              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
-              "correct_answer": "Avanafil",
-              "explanation": "Avanafil's rapid onset (15-30 minutes) offers maximum spontaneity. Sildenafil takes 30-60 minutes, tadalafil 30-120 minutes, and vardenafil 60 minutes. Avanafil also has high PDE-5 selectivity with fewer side effects."
-            },
-            {
-              "id": 9,
+              "id": 4,
               "scenario": "A patient on tamsulosin reports retrograde ejaculation. You switch to which α1-blocker with lower ejaculatory dysfunction risk?",
               "options": ["Alfuzosin (uroselective)", "Silodosin (highest α1A)", "Prazosin (non-selective)", "Doxazosin (non-selective)"],
               "correct_answer": "Alfuzosin (uroselective)",
               "explanation": "Alfuzosin has intermediate α1A selectivity, balancing efficacy with lower ejaculatory dysfunction risk. Silodosin (highest α1A selectivity) has the HIGHEST risk (28% retrograde ejaculation). Tamsulosin is intermediate. Alfuzosin or non-selective agents are better choices."
             },
             {
+              "id": 5,
+              "scenario": "A 68-year-old man has been on finasteride for 8 months. His PSA level is 2.0 ng/mL. What is his adjusted PSA for cancer screening?",
+              "options": ["4.0 ng/mL", "2.0 ng/mL", "1.0 ng/mL", "8.0 ng/mL"],
+              "correct_answer": "4.0 ng/mL",
+              "explanation": "5α-reductase inhibitors reduce PSA by ~50% after 6 months. To accurately assess prostate cancer risk, the measured PSA should be doubled. His true PSA for screening purposes is 4.0 ng/mL, which warrants further evaluation."
+            },
+            {
+              "id": 6,
+              "scenario": "A 72-year-old man with BPH (prostate volume 55g) and moderate-severe LUTS wants to reduce his risk of disease progression. What is the best therapy?",
+              "options": ["Combination therapy (α1-blocker + 5α-reductase inhibitor)", "α1-blocker alone", "5α-reductase inhibitor alone", "Watchful waiting"],
+              "correct_answer": "Combination therapy (α1-blocker + 5α-reductase inhibitor)",
+              "explanation": "For moderate-severe BPH with prostate >40g, combination therapy reduces symptom progression and surgical intervention risk better than monotherapy. The α1-blocker provides immediate relief while the 5α-reductase inhibitor prevents long-term progression."
+            },
+            {
+              "id": 7,
+              "scenario": "A 58-year-old man starts doxazosin for BPH. On day 3, he experiences dizziness upon standing. What happened?",
+              "options": ["Orthostatic hypotension from α1B blockade", "Prostate shrinkage", "Retrograde ejaculation", "DHT suppression"],
+              "correct_answer": "Orthostatic hypotension from α1B blockade",
+              "explanation": "Doxazosin is a non-selective α1-blocker that blocks vascular α1B receptors, causing vasodilation and orthostatic hypotension. This is especially common with rapid titration. Switching to tamsulosin (α1A-selective) or slow titration of doxazosin can prevent this."
+            }
+          ]
+        },
+        "ordering": {
+          "game_mode": "ordering",
+          "prompt": "Order the α1-blockers from LEAST selective (most cardiovascular effects) to MOST selective (fewest cardiovascular effects):",
+          "steps_correct_order": [
+            "Prazosin (non-selective α1-blocker)",
+            "Terazosin/Doxazosin (non-selective α1-blockers)",
+            "Alfuzosin (uroselective)",
+            "Tamsulosin (α1A-selective)",
+            "Silodosin (highest α1A-selectivity)"
+          ]
+        }
+      }
+    },
+    {
+      "section": "Erectile Dysfunction Pharmacology",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What is the mechanism of PDE-5 inhibitors in treating erectile dysfunction?",
+              "answer": "They inhibit phosphodiesterase type 5, preventing breakdown of cGMP. This enhances nitric oxide-mediated smooth muscle relaxation in penile arteries, promoting blood flow and erection."
+            },
+            {
+              "id": 2,
+              "question": "Name the four main PDE-5 inhibitors and their common suffix.",
+              "answer": "Sildenafil (Viagra), tadalafil (Cialis), vardenafil (Levitra), and avanafil (Stendra). They share the '-afil' suffix."
+            },
+            {
+              "id": 3,
+              "question": "What is the mechanism of prostaglandin E1 (alprostadil) in ED?",
+              "answer": "PGE1 activates adenylyl cyclase, increasing cAMP levels, which causes smooth muscle relaxation and vasodilation in the corpus cavernosum, facilitating erection."
+            },
+            {
+              "id": 4,
+              "question": "What is a critical drug interaction with PDE-5 inhibitors?",
+              "answer": "PDE-5 inhibitors are contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe, potentially fatal hypotension."
+            },
+            {
+              "id": 5,
+              "question": "How does nitric oxide (NO) contribute to erection?",
+              "answer": "Sexual stimulation triggers NO release from penile nerves and endothelium. NO activates guanylyl cyclase, increasing cGMP, which relaxes smooth muscle and allows blood to engorge the corpus cavernosum."
+            },
+            {
+              "id": 6,
+              "question": "What is the chemical class of PDE-5 inhibitors and their structural basis?",
+              "answer": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (mimicking GMP). This allows them to compete with cGMP for PDE-5 binding, preventing cGMP breakdown."
+            },
+            {
+              "id": 7,
+              "question": "Why does sildenafil cause blue-tinted vision as a side effect?",
+              "answer": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision."
+            },
+            {
+              "id": 8,
+              "question": "What are the three formulations of alprostadil for ED?",
+              "answer": "Alprostadil (PGE1) is available as: 1) Caverject (intracavernosal injection), 2) MUSE (intraurethral suppository), and 3) Vitaros (topical cream, available in Europe)."
+            },
+            {
+              "id": 9,
+              "question": "What is avanafil and how does it differ from other PDE-5 inhibitors?",
+              "answer": "Avanafil (Stendra) is a newer, fast-acting PDE-5 inhibitor with rapid onset (15-30 minutes) and high selectivity for PDE-5. It has fewer side effects due to greater selectivity compared to sildenafil."
+            },
+            {
               "id": 10,
+              "question": "What is the role of calcium in smooth muscle contraction and how do ED drugs affect it?",
+              "answer": "Calcium triggers smooth muscle contraction. cGMP (increased by PDE-5 inhibitors) and cAMP (increased by PGE1) reduce intracellular calcium levels, promoting smooth muscle relaxation and vasodilation, allowing blood engorgement for erection."
+            },
+            {
+              "id": 11,
+              "question": "What is the duration of action for tadalafil compared to other PDE-5 inhibitors?",
+              "answer": "Tadalafil (Cialis) has a half-life of ~17.5 hours, lasting up to 36 hours ('weekend pill'). In contrast, sildenafil and vardenafil last only 4-6 hours, and avanafil lasts 6-12 hours."
+            },
+            {
+              "id": 12,
+              "question": "What is the onset of action comparison among PDE-5 inhibitors?",
+              "answer": "Avanafil has the fastest onset (15-30 min), sildenafil takes 30-60 min, vardenafil takes 30-60 min, and tadalafil takes 30-120 min. Food delays absorption of sildenafil and vardenafil but not tadalafil or avanafil."
+            },
+            {
+              "id": 13,
+              "question": "What is the selectivity difference between sildenafil and newer PDE-5 inhibitors?",
+              "answer": "Sildenafil has 10-fold selectivity for PDE-5 over PDE-6, causing visual side effects. Avanafil has >100-fold selectivity for PDE-5 over PDE-6, resulting in fewer visual disturbances and headaches."
+            },
+            {
+              "id": 14,
+              "question": "What are the main side effects of PDE-5 inhibitors?",
+              "answer": "Headache (vasodilation), flushing, dyspepsia, nasal congestion, visual disturbances (especially sildenafil), and back pain/myalgia (especially tadalafil). All can cause hypotension, especially with nitrates."
+            },
+            {
+              "id": 15,
+              "question": "How does vardenafil compare to sildenafil in terms of potency and selectivity?",
+              "answer": "Vardenafil (Levitra) is ~10x more potent than sildenafil with better PDE-5 selectivity. It has similar onset and duration to sildenafil but may have slightly fewer visual side effects due to better PDE-6 sparing."
+            },
+            {
+              "id": 16,
+              "question": "What is the role of PDE-5 in the penis and why inhibiting it helps ED?",
+              "answer": "PDE-5 normally breaks down cGMP, terminating the erectile response. By inhibiting PDE-5, cGMP levels remain elevated longer, maintaining smooth muscle relaxation and sustaining erection in response to sexual stimulation."
+            },
+            {
+              "id": 17,
+              "question": "Why is alprostadil safe to use in patients taking nitrates?",
+              "answer": "Alprostadil works via the cAMP pathway (activating adenylyl cyclase), not the NO-cGMP pathway. Therefore, it doesn't interact with nitrates and is safe for patients with coronary artery disease on nitrate therapy."
+            },
+            {
+              "id": 18,
+              "question": "What is priapism and which ED medication has the highest risk?",
+              "answer": "Priapism is a prolonged, painful erection lasting >4 hours requiring emergency treatment. Alprostadil (especially intracavernosal injection) has higher priapism risk than oral PDE-5 inhibitors. Patients should seek emergency care if erection lasts >4 hours."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Sildenafil", "right": "PDE-5 inhibitor (Viagra)"},
+            {"left": "Tadalafil", "right": "Long-acting PDE-5 inhibitor (Cialis)"},
+            {"left": "Vardenafil", "right": "PDE-5 inhibitor (Levitra)"},
+            {"left": "Avanafil", "right": "Fast-acting PDE-5 inhibitor (Stendra)"},
+            {"left": "Alprostadil", "right": "Prostaglandin E1 for ED"},
+            {"left": "Pyrazolopyrimidinone", "right": "Chemical class of PDE-5 inhibitors"},
+            {"left": "cGMP", "right": "Second messenger increased by PDE-5 inhibitors"},
+            {"left": "Nitric oxide", "right": "Activates guanylyl cyclase to produce cGMP"},
+            {"left": "PDE-6", "right": "Retinal enzyme inhibited by sildenafil causing blue vision"},
+            {"left": "Caverject", "right": "Intracavernosal alprostadil injection"}
+          ]
+        },
+        "timed_quiz": {
+          "game_mode": "timed_quiz",
+          "time_limit_seconds": 120,
+          "questions": [
+            {
+              "id": 1,
+              "question": "PDE-5 inhibitors enhance erection by:",
+              "options": ["Increasing cGMP", "Increasing testosterone", "Blocking α1 receptors", "Increasing DHT"],
+              "correct_answer": "Increasing cGMP",
+              "explanation": "PDE-5 inhibitors prevent the breakdown of cGMP by blocking phosphodiesterase type 5. Elevated cGMP promotes smooth muscle relaxation and vasodilation in penile arteries, facilitating erection."
+            },
+            {
+              "id": 2,
+              "question": "Which drug is contraindicated with nitrates?",
+              "options": ["Sildenafil", "Tamsulosin", "Finasteride", "Oxybutynin"],
+              "correct_answer": "Sildenafil",
+              "explanation": "Sildenafil (and all PDE-5 inhibitors) are absolutely contraindicated with nitrates because both work through the NO-cGMP pathway. Combined use causes severe, potentially fatal hypotension."
+            },
+            {
+              "id": 3,
+              "question": "Which has the longest duration of action among PDE-5 inhibitors?",
+              "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Avanafil"],
+              "correct_answer": "Tadalafil",
+              "explanation": "Tadalafil (Cialis) has a half-life of ~17.5 hours, lasting up to 36 hours. Sildenafil and vardenafil last only 4-6 hours. This longer duration allows for more spontaneity."
+            },
+            {
+              "id": 4,
+              "question": "Why does sildenafil cause blue-tinted vision?",
+              "options": ["Inhibits PDE-6 in retina", "Blocks α1 receptors", "Increases DHT", "Activates M3 receptors"],
+              "correct_answer": "Inhibits PDE-6 in retina",
+              "explanation": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision. Newer agents like avanafil have greater selectivity."
+            },
+            {
+              "id": 5,
+              "question": "Which PDE-5 inhibitor has the fastest onset of action?",
+              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Avanafil",
+              "explanation": "Avanafil has the fastest onset (15-30 minutes) and high PDE-5 selectivity, resulting in fewer side effects. Sildenafil takes 30-60 minutes, while tadalafil and vardenafil take 30-120 minutes."
+            },
+            {
+              "id": 6,
+              "question": "What structural feature allows PDE-5 inhibitors to work?",
+              "options": ["Mimic guanine structure", "Resemble acetylcholine", "Look like testosterone", "Similar to dopamine"],
+              "correct_answer": "Mimic guanine structure",
+              "explanation": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (the 'G' in cGMP). This allows them to competitively bind to PDE-5 and prevent cGMP breakdown, mimicking the natural substrate."
+            },
+            {
+              "id": 7,
+              "question": "Which ED medication works through the cAMP pathway instead of cGMP?",
+              "options": ["Alprostadil", "Sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Alprostadil",
+              "explanation": "Alprostadil (PGE1) activates adenylyl cyclase to increase cAMP, causing smooth muscle relaxation. PDE-5 inhibitors work through the cGMP pathway. This makes alprostadil safe with nitrates."
+            },
+            {
+              "id": 8,
+              "question": "What is the primary advantage of avanafil over sildenafil?",
+              "options": ["Faster onset and higher selectivity", "Longer duration", "Lower cost", "Better with food"],
+              "correct_answer": "Faster onset and higher selectivity",
+              "explanation": "Avanafil has rapid onset (15-30 min vs 30-60 min for sildenafil) and >100-fold selectivity for PDE-5 over PDE-6, resulting in fewer visual and cardiovascular side effects."
+            }
+          ]
+        },
+        "clinical_cases": {
+          "game_mode": "clinical_cases",
+          "cases": [
+            {
+              "id": 1,
+              "scenario": "A 55-year-old man on nitroglycerin for angina develops ED. Which ED treatment is contraindicated?",
+              "options": ["Sildenafil", "Alprostadil", "Psychotherapy", "Vacuum device"],
+              "correct_answer": "Sildenafil",
+              "explanation": "PDE-5 inhibitors (sildenafil, tadalafil, vardenafil, avanafil) are absolutely contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe hypotension and potential MI. Alprostadil (PGE1) works via a different pathway and is safe."
+            },
+            {
+              "id": 2,
+              "scenario": "A 50-year-old man needs ED treatment and wants the fastest-acting medication for spontaneity. Which PDE-5 inhibitor works in 15-30 minutes?",
+              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Avanafil",
+              "explanation": "Avanafil's rapid onset (15-30 minutes) offers maximum spontaneity. Sildenafil takes 30-60 minutes, tadalafil 30-120 minutes, and vardenafil 60 minutes. Avanafil also has high PDE-5 selectivity with fewer side effects."
+            },
+            {
+              "id": 3,
               "scenario": "A 60-year-old man complains of blue-tinted vision after taking sildenafil. What is the mechanism?",
               "options": ["PDE-6 inhibition in retina", "α1 blockade", "Anticholinergic effect", "DHT reduction"],
               "correct_answer": "PDE-6 inhibition in retina",
               "explanation": "Sildenafil's 10-fold selectivity for PDE-5 over PDE-6 means higher doses can inhibit PDE-6 in retinal cones, affecting color discrimination. Blue vision typically resolves in hours. Switching to avanafil (greater selectivity) may prevent recurrence."
+            },
+            {
+              "id": 4,
+              "scenario": "A 62-year-old man wants a PDE-5 inhibitor he can take once and be effective for the entire weekend. Which drug is best?",
+              "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Avanafil"],
+              "correct_answer": "Tadalafil",
+              "explanation": "Tadalafil (Cialis) has a 17.5-hour half-life lasting up to 36 hours, earning it the nickname 'weekend pill'. This allows for spontaneity over multiple days without daily dosing, unlike shorter-acting agents."
+            },
+            {
+              "id": 5,
+              "scenario": "A 58-year-old man with ED has failed oral PDE-5 inhibitors. He's on nitrates for angina. What alternative ED treatment is safe?",
+              "options": ["Alprostadil intracavernosal injection", "Higher dose sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Alprostadil intracavernosal injection",
+              "explanation": "Alprostadil works via cAMP (not cGMP), so it doesn't interact with nitrates and is safe for patients on nitrate therapy. All PDE-5 inhibitors are absolutely contraindicated with nitrates regardless of dose."
+            },
+            {
+              "id": 6,
+              "scenario": "A patient using intracavernosal alprostadil develops an erection lasting 5 hours. What is this called and what should be done?",
+              "options": ["Priapism requiring emergency treatment", "Normal response continue monitoring", "Increase dose next time", "Switch to oral medication"],
+              "correct_answer": "Priapism requiring emergency treatment",
+              "explanation": "Priapism (erection >4 hours) is a medical emergency requiring immediate treatment to prevent permanent erectile tissue damage. It's more common with alprostadil injections than oral PDE-5 inhibitors. Treatment includes aspiration, irrigation, and α-agonists."
+            },
+            {
+              "id": 7,
+              "scenario": "A 65-year-old man takes sildenafil with a high-fat meal. What effect will this have?",
+              "options": ["Delayed onset of action", "Enhanced effect", "No effect", "Increased side effects"],
+              "correct_answer": "Delayed onset of action",
+              "explanation": "High-fat meals delay absorption of sildenafil and vardenafil, slowing onset by 30-60 minutes. Tadalafil and avanafil are not affected by food. Patients should take sildenafil on an empty stomach for fastest results."
             }
           ]
         },
@@ -2076,11 +2162,260 @@ export const studyData: { sections: PartialSection[] } = {
           "game_mode": "ordering",
           "prompt": "Order the steps in NO-mediated erection:",
           "steps_correct_order": [
-            "Sexual stimulation triggers NO release",
+            "Sexual stimulation triggers NO release from penile nerves",
             "NO activates guanylyl cyclase",
             "cGMP levels increase",
             "Smooth muscle in corpus cavernosum relaxes",
             "Blood engorges penis causing erection"
+          ]
+        }
+      }
+    },
+    {
+      "section": "Urinary Incontinence Pharmacology",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "How do anticholinergic drugs help with urinary incontinence?",
+              "answer": "They block muscarinic receptors in the detrusor muscle of the bladder, reducing involuntary bladder contractions and urgency."
+            },
+            {
+              "id": 2,
+              "question": "What is the mechanism of β3-adrenergic agonists (mirabegron, vibegron) in urinary incontinence?",
+              "answer": "They activate β3 receptors in the bladder, promoting detrusor muscle relaxation and increasing bladder capacity, reducing urgency and frequency."
+            },
+            {
+              "id": 3,
+              "question": "How does desmopressin (ADH analog) help with nocturnal enuresis?",
+              "answer": "Desmopressin is an antidiuretic hormone analog that promotes water reabsorption in the kidneys, reducing nocturnal urine production."
+            },
+            {
+              "id": 4,
+              "question": "What are common adverse effects of anticholinergics for urinary incontinence?",
+              "answer": "Dry mouth, constipation, blurred vision, urinary retention, and cognitive impairment (especially in elderly patients)."
+            },
+            {
+              "id": 5,
+              "question": "What makes darifenacin unique among anticholinergics for UI?",
+              "answer": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain, reducing cognitive side effects in elderly patients."
+            },
+            {
+              "id": 6,
+              "question": "How does solifenacin compare to other anticholinergics for UI?",
+              "answer": "Solifenacin (Vesicare) is a non-selective antimuscarinic with long duration of action (once-daily dosing) and better tolerability profile than older agents like oxybutynin."
+            },
+            {
+              "id": 7,
+              "question": "What is tolterodine and what receptors does it target?",
+              "answer": "Tolterodine (Detrol) is an antimuscarinic agent with preferential selectivity for M2 and M3 receptors in the bladder, providing efficacy with reduced dry mouth compared to oxybutynin."
+            },
+            {
+              "id": 8,
+              "question": "What structural feature do anticholinergics for UI share?",
+              "answer": "Anticholinergics structurally resemble acetylcholine, allowing them to competitively bind muscarinic receptors and block acetylcholine from activating detrusor muscle contractions."
+            },
+            {
+              "id": 9,
+              "question": "What structural feature does mirabegron share with adrenergic drugs?",
+              "answer": "Mirabegron structurally resembles epinephrine (adrenaline), allowing it to selectively activate β3-adrenergic receptors in bladder smooth muscle to promote relaxation."
+            },
+            {
+              "id": 10,
+              "question": "How does vasopressin differ from desmopressin?",
+              "answer": "Vasopressin is a naturally-occurring peptide hormone with a very short half-life, requiring injection. Desmopressin is a synthetic analog with longer duration that can be given orally, making it more practical for treating nocturnal enuresis."
+            },
+            {
+              "id": 11,
+              "question": "What is oxybutynin and why is it concerning in elderly patients?",
+              "answer": "Oxybutynin (Ditropan) is a non-selective antimuscarinic (M1-M5) that crosses the blood-brain barrier. It's highly effective but has the highest risk of cognitive impairment in elderly, making it less ideal for older patients."
+            },
+            {
+              "id": 12,
+              "question": "What is fesoterodine and how does it relate to tolterodine?",
+              "answer": "Fesoterodine (Toviaz) is a prodrug that's rapidly converted to the active metabolite of tolterodine (5-hydroxymethyl tolterodine). It provides more consistent drug levels and once-daily dosing with similar efficacy to tolterodine."
+            },
+            {
+              "id": 13,
+              "question": "What makes trospium unique among anticholinergics for UI?",
+              "answer": "Trospium (Sanctura) is a quaternary amine that doesn't cross the blood-brain barrier, resulting in minimal cognitive side effects. It's ideal for elderly patients at risk for confusion or dementia."
+            },
+            {
+              "id": 14,
+              "question": "What is vibegron and how does it differ from mirabegron?",
+              "answer": "Vibegron (Gemtesa) is a newer β3-agonist similar to mirabegron but with more selective β3 activity and minimal cardiovascular effects. It doesn't require dose adjustment in renal or hepatic impairment like mirabegron."
+            },
+            {
+              "id": 15,
+              "question": "What are the main advantages of β3-agonists over anticholinergics for UI?",
+              "answer": "β3-agonists (mirabegron, vibegron) avoid anticholinergic side effects like dry mouth, constipation, and cognitive impairment. They're particularly useful in elderly patients or those who can't tolerate anticholinergics."
+            },
+            {
+              "id": 16,
+              "question": "What is the difference between M1, M2, and M3 muscarinic receptor locations and why does it matter?",
+              "answer": "M1 receptors are in the brain (cognition/memory), M2 in the heart, and M3 in bladder smooth muscle and salivary glands. M3-selective agents (darifenacin) target bladder while sparing brain (less confusion) but still cause dry mouth."
+            },
+            {
+              "id": 17,
+              "question": "What cardiovascular considerations exist with mirabegron?",
+              "answer": "Mirabegron can increase blood pressure and heart rate due to β3 receptor activation in cardiovascular tissue. It requires monitoring in hypertensive patients and is contraindicated in severe uncontrolled hypertension."
+            },
+            {
+              "id": 18,
+              "question": "What is the role of desmopressin in adult nocturia versus pediatric nocturnal enuresis?",
+              "answer": "In children, desmopressin is first-line for primary nocturnal enuresis. In adults with nocturia, it's used cautiously due to hyponatremia risk, particularly in elderly. Serum sodium must be monitored, especially in patients >65 years."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Oxybutynin", "right": "Non-selective anticholinergic (Ditropan)"},
+            {"left": "Tolterodine", "right": "M2/M3-selective antimuscarinic (Detrol)"},
+            {"left": "Solifenacin", "right": "Long-acting antimuscarinic (Vesicare)"},
+            {"left": "Darifenacin", "right": "M3-selective anticholinergic (Enablex)"},
+            {"left": "Fesoterodine", "right": "Tolterodine prodrug (Toviaz)"},
+            {"left": "Trospium", "right": "Quaternary amine that doesn't cross BBB (Sanctura)"},
+            {"left": "Mirabegron", "right": "β3-adrenergic agonist (Myrbetriq)"},
+            {"left": "Vibegron", "right": "Selective β3-agonist (Gemtesa)"},
+            {"left": "Desmopressin", "right": "ADH analog for nocturnal enuresis"},
+            {"left": "M3 receptors", "right": "Bladder detrusor and salivary glands"}
+          ]
+        },
+        "timed_quiz": {
+          "game_mode": "timed_quiz",
+          "time_limit_seconds": 120,
+          "questions": [
+            {
+              "id": 1,
+              "question": "Anticholinergics treat urinary incontinence by:",
+              "options": ["Blocking detrusor contractions", "Relaxing prostate", "Increasing ADH", "Inhibiting PDE-5"],
+              "correct_answer": "Blocking detrusor contractions",
+              "explanation": "Anticholinergics block muscarinic receptors on the detrusor muscle of the bladder, preventing involuntary contractions that cause urgency and frequency in overactive bladder."
+            },
+            {
+              "id": 2,
+              "question": "Mirabegron is a:",
+              "options": ["β3-agonist", "α1-antagonist", "Anticholinergic", "PDE-5 inhibitor"],
+              "correct_answer": "β3-agonist",
+              "explanation": "Mirabegron is a β3-adrenergic agonist that activates β3 receptors in the bladder detrusor muscle, promoting relaxation and increasing bladder capacity. It's an alternative to anticholinergics with fewer side effects."
+            },
+            {
+              "id": 3,
+              "question": "Which anticholinergic is M3-selective to reduce cognitive side effects?",
+              "options": ["Darifenacin", "Oxybutynin", "Tolterodine", "Solifenacin"],
+              "correct_answer": "Darifenacin",
+              "explanation": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain. This reduces cognitive side effects like confusion and memory impairment, especially important in elderly patients."
+            },
+            {
+              "id": 4,
+              "question": "Which anticholinergic doesn't cross the blood-brain barrier?",
+              "options": ["Trospium", "Oxybutynin", "Darifenacin", "Tolterodine"],
+              "correct_answer": "Trospium",
+              "explanation": "Trospium is a quaternary amine that doesn't cross the blood-brain barrier, resulting in minimal cognitive side effects. It's ideal for elderly patients at risk for confusion or dementia."
+            },
+            {
+              "id": 5,
+              "question": "What is the main advantage of vibegron over mirabegron?",
+              "options": ["More selective β3 activity", "Cheaper", "Once weekly dosing", "Can be used with nitrates"],
+              "correct_answer": "More selective β3 activity",
+              "explanation": "Vibegron has more selective β3 activity with minimal cardiovascular effects compared to mirabegron. It also doesn't require dose adjustment in renal or hepatic impairment."
+            },
+            {
+              "id": 6,
+              "question": "What is fesoterodine's relationship to tolterodine?",
+              "options": ["Prodrug converted to tolterodine's active metabolite", "Enantiomer of tolterodine", "Competitive antagonist of tolterodine", "Unrelated drug"],
+              "correct_answer": "Prodrug converted to tolterodine's active metabolite",
+              "explanation": "Fesoterodine is a prodrug rapidly converted to 5-hydroxymethyl tolterodine (tolterodine's active metabolite), providing more consistent drug levels and once-daily dosing."
+            },
+            {
+              "id": 7,
+              "question": "What is the most common side effect of all anticholinergics for UI?",
+              "options": ["Dry mouth", "Diarrhea", "Hypertension", "Insomnia"],
+              "correct_answer": "Dry mouth",
+              "explanation": "Dry mouth (xerostomia) is the most common side effect of anticholinergics due to M3 receptor blockade in salivary glands. This occurs with all anticholinergics, even M3-selective agents like darifenacin."
+            },
+            {
+              "id": 8,
+              "question": "Which drug class for UI avoids anticholinergic side effects entirely?",
+              "options": ["β3-agonists", "M3-selective agents", "Quaternary amines", "All cause some anticholinergic effects"],
+              "correct_answer": "β3-agonists",
+              "explanation": "β3-agonists (mirabegron, vibegron) work through a completely different mechanism (bladder relaxation via β3 receptors) and avoid all anticholinergic side effects like dry mouth, constipation, and cognitive impairment."
+            }
+          ]
+        },
+        "clinical_cases": {
+          "game_mode": "clinical_cases",
+          "cases": [
+            {
+              "id": 1,
+              "scenario": "An elderly woman with urgency incontinence starts an anticholinergic. What side effect should you warn about?",
+              "options": ["Dry mouth and confusion", "Hypertension", "Hypoglycemia", "Increased libido"],
+              "correct_answer": "Dry mouth and confusion",
+              "explanation": "Anticholinergics block muscarinic receptors throughout the body, causing dry mouth (salivary glands), constipation, blurred vision, and cognitive impairment. Elderly patients are especially vulnerable to confusion and memory problems."
+            },
+            {
+              "id": 2,
+              "scenario": "A 6-year-old child has nocturnal enuresis despite behavioral interventions. Which pharmacologic option reduces nighttime urine production?",
+              "options": ["Desmopressin", "Tamsulosin", "Finasteride", "Tadalafil"],
+              "correct_answer": "Desmopressin",
+              "explanation": "Desmopressin (ADH analog) promotes water reabsorption in the kidneys, reducing nocturnal urine volume. It's first-line pharmacotherapy for primary nocturnal enuresis in children after behavioral modifications fail. Oral formulation is convenient for pediatric use."
+            },
+            {
+              "id": 3,
+              "scenario": "An 80-year-old woman with urge incontinence and mild dementia needs anticholinergic therapy. Which drug has the best cognitive safety profile?",
+              "options": ["Darifenacin (M3-selective)", "Oxybutynin (M1-M3)", "Tolterodine (M2-M3)", "None are safe"],
+              "correct_answer": "Darifenacin (M3-selective)",
+              "explanation": "Darifenacin's M3 selectivity spares M1 receptors in the CNS, reducing cognitive side effects. Oxybutynin (M1-M3) crosses the blood-brain barrier and is highest risk for confusion in elderly. In dementia patients, consider mirabegron (β3-agonist) as an alternative."
+            },
+            {
+              "id": 4,
+              "scenario": "A 72-year-old woman with overactive bladder tried oxybutynin but developed severe dry mouth and confusion. What is the best alternative?",
+              "options": ["Mirabegron (β3-agonist)", "Higher dose oxybutynin", "Darifenacin", "Trospium"],
+              "correct_answer": "Mirabegron (β3-agonist)",
+              "explanation": "Mirabegron avoids all anticholinergic side effects by working through β3 receptor activation. While darifenacin or trospium would reduce cognitive effects, they still cause dry mouth. Mirabegron is ideal when anticholinergic side effects are intolerable."
+            },
+            {
+              "id": 5,
+              "scenario": "A 68-year-old man with overactive bladder and uncontrolled hypertension (BP 165/95) needs treatment. Which medication requires caution?",
+              "options": ["Mirabegron", "Oxybutynin", "Trospium", "Solifenacin"],
+              "correct_answer": "Mirabegron",
+              "explanation": "Mirabegron can increase blood pressure and heart rate due to β3 receptor effects. It's contraindicated in severe uncontrolled hypertension. His BP should be controlled before starting mirabegron, or an anticholinergic should be used instead."
+            },
+            {
+              "id": 6,
+              "scenario": "A 45-year-old woman on tolterodine complains of severe dry mouth affecting her quality of life. Which alternative has similar efficacy with less dry mouth?",
+              "options": ["Trospium (doesn't cross BBB)", "Mirabegron (β3-agonist)", "Darifenacin (M3-selective)", "Fesoterodine (tolterodine prodrug)"],
+              "correct_answer": "Mirabegron (β3-agonist)",
+              "explanation": "Mirabegron completely avoids dry mouth by working through β3 receptors instead of muscarinic blockade. Trospium avoids cognitive effects but still causes dry mouth (M3 blockade in salivary glands). Darifenacin and fesoterodine would have similar dry mouth."
+            },
+            {
+              "id": 7,
+              "scenario": "An 82-year-old man with nocturia starts desmopressin. What laboratory value requires monitoring?",
+              "options": ["Serum sodium", "Blood glucose", "Creatinine", "PSA"],
+              "correct_answer": "Serum sodium",
+              "explanation": "Desmopressin promotes water retention and can cause hyponatremia, especially in elderly patients. Serum sodium should be monitored, particularly in patients >65 years. Severe hyponatremia can cause seizures and altered mental status."
+            },
+            {
+              "id": 8,
+              "scenario": "A 55-year-old woman needs an anticholinergic for overactive bladder. She has narrow-angle glaucoma. What should you do?",
+              "options": ["Anticholinergics are contraindicated; use mirabegron", "Use darifenacin (M3-selective)", "Use lower dose oxybutynin", "Safe to use any anticholinergic"],
+              "correct_answer": "Anticholinergics are contraindicated; use mirabegron",
+              "explanation": "Anticholinergics are contraindicated in narrow-angle glaucoma because they can precipitate acute angle closure by causing pupillary dilation. Mirabegron (β3-agonist) is safe as it doesn't affect the eyes."
+            }
+          ]
+        },
+        "ordering": {
+          "game_mode": "ordering",
+          "prompt": "Order the anticholinergics for UI from LEAST selective (most side effects) to MOST selective (fewest CNS side effects):",
+          "steps_correct_order": [
+            "Oxybutynin (non-selective, crosses BBB)",
+            "Tolterodine (M2/M3-selective, crosses BBB)",
+            "Solifenacin (non-selective, crosses BBB)",
+            "Darifenacin (M3-selective, spares M1)",
+            "Trospium (quaternary amine, doesn't cross BBB)"
           ]
         }
       }
@@ -3534,5 +3869,396 @@ export const studyData: { sections: PartialSection[] } = {
         }
       }
     },
+    {
+      "section": "Osteoporosis Pharmacology",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What are the four main types of bone cells and their functions?",
+              "answer": "Osteogenic cells (stem cells), osteoblasts (build bone), osteocytes (mature bone cells that maintain bone matrix), and osteoclasts (break down/resorb bone)."
+            },
+            {
+              "id": 2,
+              "question": "What is the mechanism of action of bisphosphonates?",
+              "answer": "Bisphosphonates are anti-resorptive agents that mimic inorganic pyrophosphate (IPP). Nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase in the mevalonate pathway, preventing osteoclast function and causing osteoclast apoptosis."
+            },
+            {
+              "id": 3,
+              "question": "How do PTH analogues (teriparatide, abaloparatide) differ from antiresorptive drugs?",
+              "answer": "PTH analogues are anabolic agents that stimulate osteoblasts to build new bone. The theory is that you build more bone than you lose. They are NOT antiresorptive; they actually increase bone formation."
+            },
+            {
+              "id": 4,
+              "question": "What are the nitrogen-containing bisphosphonates used for osteoporosis?",
+              "answer": "Alendronate, risendronate, ibandronate, zoledronate (and pamidronate). These are more potent than non-nitrogen bisphosphonates because they inhibit the mevalonate pathway."
+            },
+            {
+              "id": 5,
+              "question": "What is the mechanism of action of raloxifene in osteoporosis?",
+              "answer": "Raloxifene is a selective estrogen receptor modulator (SERM) that acts as an estrogen agonist in bone, promoting bone density by stimulating osteoblasts and inhibiting osteoclasts, while acting as an antagonist in breast tissue."
+            },
+            {
+              "id": 6,
+              "question": "How do estrogens affect bone cells?",
+              "answer": "Estrogens inhibit osteoclast activity (reducing bone resorption) and stimulate osteoblast activity (promoting bone formation), helping maintain bone density."
+            },
+            {
+              "id": 7,
+              "question": "What is the mechanism of action of denosumab?",
+              "answer": "Denosumab is a monoclonal antibody that binds to RANKL (receptor activator of nuclear factor kappa-B ligand), preventing RANKL from activating osteoclasts. This is an antiresorptive mechanism."
+            },
+            {
+              "id": 8,
+              "question": "What makes romosozumab unique among osteoporosis drugs?",
+              "answer": "Romosozumab has a dual mechanism of action: it is a monoclonal antibody that inhibits sclerostin, which both increases bone formation (anabolic effect) AND decreases bone resorption (antiresorptive effect)."
+            },
+            {
+              "id": 9,
+              "question": "What hormones regulate calcium homeostasis and bone metabolism?",
+              "answer": "Parathyroid hormone (PTH) increases serum calcium and stimulates bone resorption, calcitonin decreases serum calcium and inhibits osteoclasts, and testosterone/estrogen stimulate osteoblasts to build bone."
+            },
+            {
+              "id": 10,
+              "question": "How is calcitonin used in osteoporosis treatment?",
+              "answer": "Calcitonin is available as a nasal spray and acts as hormone replacement therapy. It inhibits osteoclast activity, reducing bone resorption and lowering serum calcium."
+            },
+            {
+              "id": 11,
+              "question": "Why is vitamin D important for calcium supplementation in osteoporosis?",
+              "answer": "Calcium needs vitamin D for proper absorption in the intestine. Without adequate vitamin D, calcium supplements are ineffective at increasing serum calcium and supporting bone health."
+            },
+            {
+              "id": 12,
+              "question": "How do bisphosphonates mimic inorganic pyrophosphate (IPP)?",
+              "answer": "Bisphosphonates have a similar structure to IPP with two phosphate groups attached to a central carbon (instead of oxygen in IPP). This allows them to bind strongly to bone mineral surfaces and resist enzymatic breakdown."
+            },
+            {
+              "id": 13,
+              "question": "What is the difference between pamidronate and the other bisphosphonates?",
+              "answer": "Pamidronate was one of the earlier nitrogen-containing bisphosphonates. Like other N-containing bisphosphonates (alendronate, risendronate, ibandronate, zoledronate), it inhibits farnesyl pyrophosphate synthase, but newer agents have improved potency and dosing convenience."
+            },
+            {
+              "id": 14,
+              "question": "What is the RANKL pathway and why is it important in osteoporosis?",
+              "answer": "RANKL (receptor activator of nuclear factor kappa-B ligand) binds to RANK receptors on osteoclast precursors, activating them to resorb bone. Blocking RANKL with denosumab prevents osteoclast activation, reducing bone loss."
+            },
+            {
+              "id": 15,
+              "question": "Compare the anabolic vs antiresorptive mechanisms in osteoporosis treatment.",
+              "answer": "Antiresorptive drugs (bisphosphonates, denosumab, raloxifene, estrogens, calcitonin) reduce bone breakdown by inhibiting osteoclasts. Anabolic drugs (teriparatide, abaloparatide) stimulate bone formation by activating osteoblasts. Romosozumab has both mechanisms."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Alendronate", "right": "Nitrogen-containing bisphosphonate"},
+            {"left": "Denosumab", "right": "Monoclonal antibody targeting RANKL"},
+            {"left": "Teriparatide", "right": "PTH analogue (anabolic)"},
+            {"left": "Raloxifene", "right": "SERM for osteoporosis"},
+            {"left": "Romosozumab", "right": "Sclerostin inhibitor with dual MOA"},
+            {"left": "Calcitonin", "right": "Hormone that inhibits osteoclasts"}
+          ]
+        },
+        "timed_quiz": {
+          "game_mode": "timed_quiz",
+          "time_limit_seconds": 120,
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which drug class mimics inorganic pyrophosphate (IPP) and inhibits bone resorption?",
+              "options": ["Bisphosphonates", "PTH analogues", "SERMs", "Calcitonin"],
+              "correct_answer": "Bisphosphonates",
+              "explanation": "Bisphosphonates structurally mimic IPP with two phosphonate groups. Nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase in osteoclasts, causing their apoptosis and reducing bone resorption."
+            },
+            {
+              "id": 2,
+              "question": "Which osteoporosis medication works by binding to RANKL?",
+              "options": ["Denosumab", "Alendronate", "Teriparatide", "Raloxifene"],
+              "correct_answer": "Denosumab",
+              "explanation": "Denosumab is a monoclonal antibody that binds to RANKL, preventing it from activating RANK receptors on osteoclast precursors. This antiresorptive mechanism reduces osteoclast formation and activity."
+            },
+            {
+              "id": 3,
+              "question": "What is the primary mechanism of PTH analogues like teriparatide?",
+              "options": ["Stimulate osteoblasts (anabolic)", "Inhibit osteoclasts (antiresorptive)", "Block RANKL", "Increase calcitonin"],
+              "correct_answer": "Stimulate osteoblasts (anabolic)",
+              "explanation": "PTH analogues (teriparatide, abaloparatide) are anabolic agents that stimulate osteoblast activity to build new bone. Unlike antiresorptive drugs, the theory is you build more bone than you lose through normal resorption."
+            },
+            {
+              "id": 4,
+              "question": "Which drug has a dual mechanism: increases bone formation AND decreases bone resorption?",
+              "options": ["Romosozumab", "Denosumab", "Alendronate", "Raloxifene"],
+              "correct_answer": "Romosozumab",
+              "explanation": "Romosozumab is a monoclonal antibody that inhibits sclerostin, a protein that inhibits bone formation. By blocking sclerostin, romosozumab has dual effects: it increases osteoblast activity (anabolic) and decreases osteoclast activity (antiresorptive)."
+            },
+            {
+              "id": 5,
+              "question": "Raloxifene is classified as a:",
+              "options": ["SERM (Selective Estrogen Receptor Modulator)", "Bisphosphonate", "PTH analogue", "Monoclonal antibody"],
+              "correct_answer": "SERM (Selective Estrogen Receptor Modulator)",
+              "explanation": "Raloxifene is a SERM that acts as an estrogen agonist in bone (promoting bone density) while acting as an antagonist in breast tissue (reducing breast cancer risk), making it useful for postmenopausal osteoporosis."
+            },
+            {
+              "id": 6,
+              "question": "Why do calcium supplements require vitamin D for effectiveness?",
+              "options": ["Vitamin D is needed for calcium absorption", "Vitamin D inhibits osteoclasts", "Vitamin D is a bisphosphonate", "Vitamin D blocks RANKL"],
+              "correct_answer": "Vitamin D is needed for calcium absorption",
+              "explanation": "Calcium requires vitamin D for adequate intestinal absorption. Without sufficient vitamin D, oral calcium supplements cannot effectively increase serum calcium levels or support bone health, regardless of the dose."
+            }
+          ]
+        },
+        "clinical_cases": {
+          "game_mode": "clinical_cases",
+          "cases": [
+            {
+              "id": 1,
+              "scenario": "A 62-year-old postmenopausal woman has a T-score of -2.8 on DEXA scan. She has no history of fractures. You want to start antiresorptive therapy with good oral bioavailability and weekly dosing. Which drug is most appropriate?",
+              "options": ["Alendronate", "Teriparatide", "Romosozumab", "Calcium alone"],
+              "correct_answer": "Alendronate",
+              "explanation": "Alendronate is a first-line nitrogen-containing bisphosphonate for postmenopausal osteoporosis. It is antiresorptive (inhibits osteoclasts), has good efficacy, can be dosed weekly, and is cost-effective. Teriparatide is reserved for severe cases, and romosozumab is newer and more expensive."
+            },
+            {
+              "id": 2,
+              "scenario": "A 58-year-old woman with postmenopausal osteoporosis is concerned about breast cancer risk. She wants a medication that will help her bones but not increase breast cancer risk. Which drug would you recommend?",
+              "options": ["Raloxifene (SERM)", "Estrogen therapy", "Teriparatide", "Denosumab"],
+              "correct_answer": "Raloxifene (SERM)",
+              "explanation": "Raloxifene is ideal for this patient because it acts as an estrogen agonist in bone (improving bone density) while acting as an antagonist in breast tissue (actually reducing breast cancer risk). This makes it particularly suitable for women concerned about breast cancer."
+            },
+            {
+              "id": 3,
+              "scenario": "A 70-year-old woman with severe osteoporosis (T-score -3.5) and a history of vertebral fractures is not responding adequately to bisphosphonate therapy. You want to switch to an anabolic agent. Which drug should you choose?",
+              "options": ["Teriparatide (PTH analogue)", "Denosumab", "Higher dose alendronate", "Calcitonin nasal spray"],
+              "correct_answer": "Teriparatide (PTH analogue)",
+              "explanation": "Teriparatide is a PTH analogue that provides anabolic therapy by stimulating osteoblasts to build new bone. It is reserved for severe osteoporosis or when antiresorptive therapy fails. It is more effective than increasing bisphosphonate doses in patients with severe disease and fractures."
+            },
+            {
+              "id": 4,
+              "scenario": "A 65-year-old woman on long-term bisphosphonate therapy has difficulty swallowing pills and wants an alternative with less frequent dosing. Which drug would be appropriate?",
+              "options": ["Denosumab (subcutaneous injection every 6 months)", "Oral alendronate", "Calcitonin nasal spray daily", "Oral calcium supplements"],
+              "correct_answer": "Denosumab (subcutaneous injection every 6 months)",
+              "explanation": "Denosumab is administered as a subcutaneous injection every 6 months, making it ideal for patients who cannot tolerate oral bisphosphonates or want less frequent dosing. It is highly effective as it blocks RANKL, preventing osteoclast activation."
+            },
+            {
+              "id": 5,
+              "scenario": "A 68-year-old woman with osteoporosis has been on alendronate for 6 months but continues to lose bone density. Her vitamin D level is 15 ng/mL (low). What is the most likely reason for treatment failure?",
+              "options": ["Inadequate vitamin D causing poor calcium absorption", "Bisphosphonate resistance", "Need for anabolic therapy", "Undiagnosed hyperparathyroidism"],
+              "correct_answer": "Inadequate vitamin D causing poor calcium absorption",
+              "explanation": "Vitamin D deficiency impairs calcium absorption, making bisphosphonate therapy less effective. Before switching medications or assuming treatment failure, vitamin D levels should be optimized (>30 ng/mL) along with adequate calcium intake. This is a common and easily correctable cause of poor response."
+            }
+          ]
+        },
+        "ordering": {
+          "game_mode": "ordering",
+          "prompt": "Order the typical treatment algorithm for postmenopausal osteoporosis from initial to advanced therapy:",
+          "steps_correct_order": [
+            "Assess fracture risk with DEXA scan (T-score)",
+            "Ensure adequate calcium (1200-1500 mg/day) and vitamin D (800-1000 IU/day)",
+            "Start first-line therapy: oral bisphosphonate (e.g., alendronate weekly)",
+            "If inadequate response or intolerance: switch to denosumab (every 6 months)",
+            "If severe osteoporosis or fractures persist: consider anabolic therapy (teriparatide or romosozumab)",
+            "After anabolic therapy: transition back to antiresorptive therapy to maintain gains"
+          ]
+        }
+      }
+    },
+    {
+      "section": "Gonadal Hormones & Contraception Pharmacology",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What is the mechanism by which ethinyl estradiol is 15-20x more potent than estradiol?",
+              "answer": "The 17α-ethinyl group blocks hepatic metabolism by preventing oxidation at the C-17 position. This increases oral bioavailability and half-life, making ethinyl estradiol highly effective in oral contraceptives."
+            },
+            {
+              "id": 2,
+              "question": "How is mestranol different from ethinyl estradiol, and why is it used?",
+              "answer": "Mestranol is the 3-O-methyl ether prodrug of ethinyl estradiol. It must be demethylated in the liver to become active ethinyl estradiol. It's used in some combined oral contraceptives but is less potent than ethinyl estradiol itself."
+            },
+            {
+              "id": 3,
+              "question": "What enzyme is responsible for estrogen biosynthesis, and what does it do?",
+              "answer": "Aromatase (CYP19) converts androgens to estrogens by aromatizing the A-ring of the steroid structure. It converts androstenedione to estrone and testosterone to estradiol in ovaries, adipose tissue, and other sites."
+            },
+            {
+              "id": 4,
+              "question": "What are the three main endogenous estrogens, and which is most potent?",
+              "answer": "Estradiol (E2) is the most potent, followed by estrone (E1) and estriol (E3). Estradiol is the primary ovarian estrogen during reproductive years, estrone predominates after menopause, and estriol is high during pregnancy."
+            },
+            {
+              "id": 5,
+              "question": "How does tamoxifen act as a partial agonist in breast cancer therapy?",
+              "answer": "Tamoxifen is a SERM (Selective Estrogen Receptor Modulator) that acts as an antagonist in breast tissue (blocking estrogen-driven tumor growth) but as a partial agonist in bone and endometrium. CYP2D6 converts tamoxifen to 4-hydroxytamoxifen, the active metabolite."
+            },
+            {
+              "id": 6,
+              "question": "What is the mechanism of action of clomiphene in ovulation induction?",
+              "answer": "Clomiphene is an anti-estrogen that blocks estrogen receptors in the hypothalamus, preventing negative feedback. This causes increased GnRH, FSH, and LH secretion, stimulating ovarian follicle development and ovulation. It exists as E/Z isomers."
+            },
+            {
+              "id": 7,
+              "question": "What distinguishes aromatase inhibitors anastrozole and letrozole from exemestane?",
+              "answer": "Anastrozole and letrozole are non-steroidal aromatase inhibitors (azoles) that reversibly bind the heme group of CYP19. Exemestane is a steroidal inhibitor (androstenedione analog) that irreversibly inactivates aromatase through mechanism-based inhibition."
+            },
+            {
+              "id": 8,
+              "question": "How do progestins like norethindrone and levonorgestrel differ from natural progesterone?",
+              "answer": "Synthetic progestins (19-nortestosterone derivatives) have modifications that increase oral bioavailability and progestational potency. They resist first-pass metabolism better than progesterone and have longer half-lives, making them suitable for contraceptives."
+            },
+            {
+              "id": 9,
+              "question": "What is the role of GnRH antagonists like elagolix and degarelix?",
+              "answer": "GnRH antagonists competitively block GnRH receptors in the pituitary, immediately suppressing FSH and LH secretion without initial surge. Used for endometriosis (elagolix), prostate cancer (degarelix), and assisted reproduction (cetrorelix, ganirelix)."
+            },
+            {
+              "id": 10,
+              "question": "How does mifepristone work as an abortifacient?",
+              "answer": "Mifepristone (RU-486) is a progesterone receptor antagonist that blocks progesterone's effects on the endometrium, causing decidual breakdown and cervical softening. Combined with misoprostol (prostaglandin), it induces medical abortion."
+            },
+            {
+              "id": 11,
+              "question": "Why is DHT (dihydrotestosterone) more potent than testosterone?",
+              "answer": "DHT binds the androgen receptor with 2-5x greater affinity than testosterone and dissociates more slowly. It's formed by 5α-reductase and is the primary androgen in prostate, external genitalia, and hair follicles."
+            },
+            {
+              "id": 12,
+              "question": "What is the difference between Type 1 and Type 2 5α-reductase inhibitors?",
+              "answer": "Type 1 is in skin and liver; Type 2 is in prostate and genital skin. Finasteride inhibits only Type 2, while dutasteride inhibits both isoforms, achieving greater DHT suppression (>90% vs ~70%)."
+            },
+            {
+              "id": 13,
+              "question": "How does danazol work in endometriosis treatment?",
+              "answer": "Danazol is a synthetic androgen derivative that suppresses the HPG axis, reducing FSH and LH. It has weak androgenic, progestogenic, and glucocorticoid activity. It creates a hypoestrogenic state but causes androgenic side effects (acne, hirsutism, weight gain)."
+            },
+            {
+              "id": 14,
+              "question": "What makes fulvestrant different from other anti-estrogens?",
+              "answer": "Fulvestrant is a pure estrogen receptor antagonist (no partial agonist activity) that also causes ER degradation. It's used for ER-positive breast cancer, especially in tamoxifen-resistant cases. Given as IM injection due to poor oral bioavailability."
+            },
+            {
+              "id": 15,
+              "question": "How do combined oral contraceptives prevent pregnancy?",
+              "answer": "They work through three mechanisms: (1) suppressing LH surge and ovulation via negative feedback on the HPG axis, (2) thickening cervical mucus to block sperm penetration, and (3) thinning the endometrium to prevent implantation."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Tamoxifen", "right": "SERM for breast cancer"},
+            {"left": "Anastrozole", "right": "Non-steroidal aromatase inhibitor"},
+            {"left": "Clomiphene", "right": "Anti-estrogen for ovulation induction"},
+            {"left": "Mifepristone", "right": "Progesterone receptor antagonist"},
+            {"left": "Elagolix", "right": "GnRH antagonist for endometriosis"},
+            {"left": "Fulvestrant", "right": "Pure estrogen receptor antagonist"}
+          ]
+        },
+        "timed_quiz": {
+          "game_mode": "timed_quiz",
+          "time_limit_seconds": 120,
+          "questions": [
+            {
+              "id": 1,
+              "question": "Which enzyme converts testosterone to estradiol?",
+              "options": ["Aromatase (CYP19)", "5α-reductase", "17β-HSD", "COMT"],
+              "correct_answer": "Aromatase (CYP19)",
+              "explanation": "Aromatase (CYP19) is the enzyme that converts androgens to estrogens by aromatizing the A-ring. It converts testosterone to estradiol and androstenedione to estrone. Aromatase inhibitors block this conversion and are used in breast cancer treatment."
+            },
+            {
+              "id": 2,
+              "question": "Why is ethinyl estradiol preferred in oral contraceptives over estradiol?",
+              "options": ["17α-ethinyl group prevents hepatic metabolism", "It's a prodrug", "Better receptor binding", "No side effects"],
+              "correct_answer": "17α-ethinyl group prevents hepatic metabolism",
+              "explanation": "The 17α-ethinyl group blocks oxidative metabolism at C-17, dramatically increasing oral bioavailability and half-life. This makes ethinyl estradiol 15-20x more potent than estradiol and ideal for once-daily contraceptive dosing."
+            },
+            {
+              "id": 3,
+              "question": "Which drug is a steroidal aromatase inhibitor?",
+              "options": ["Exemestane", "Anastrozole", "Letrozole", "Tamoxifen"],
+              "correct_answer": "Exemestane",
+              "explanation": "Exemestane is a steroidal aromatase inhibitor (androstenedione analog) that irreversibly inactivates CYP19. Anastrozole and letrozole are non-steroidal azole inhibitors that reversibly bind aromatase. Tamoxifen is a SERM, not an aromatase inhibitor."
+            },
+            {
+              "id": 4,
+              "question": "What is the active metabolite of tamoxifen formed by CYP2D6?",
+              "options": ["4-hydroxytamoxifen", "Endoxifen", "N-desmethyltamoxifen", "Tamoxifen N-oxide"],
+              "correct_answer": "4-hydroxytamoxifen",
+              "explanation": "CYP2D6 converts tamoxifen to 4-hydroxytamoxifen, the primary active metabolite with 30-100x greater affinity for the estrogen receptor. CYP2D6 poor metabolizers have reduced tamoxifen efficacy. Endoxifen is also active but forms via different pathway."
+            },
+            {
+              "id": 5,
+              "question": "Which SERM is used for osteoporosis prevention in postmenopausal women?",
+              "options": ["Raloxifene", "Tamoxifen", "Toremifene", "Clomiphene"],
+              "correct_answer": "Raloxifene",
+              "explanation": "Raloxifene acts as an agonist in bone (preventing osteoporosis) and an antagonist in breast tissue (reducing breast cancer risk). Unlike tamoxifen, raloxifene has minimal uterine stimulation, making it safer for long-term osteoporosis prevention."
+            },
+            {
+              "id": 6,
+              "question": "Which contraceptive method has the lowest user-dependent failure rate?",
+              "options": ["IUDs and implants", "Combined oral pills", "Condoms", "Withdrawal"],
+              "correct_answer": "IUDs and implants",
+              "explanation": "Long-acting reversible contraceptives (LARCs) like IUDs and implants have <1% failure rates because they don't require daily adherence. Combined pills have ~9% typical-use failure (vs 0.3% perfect-use) due to missed doses. Condoms have ~13% typical-use failure."
+            }
+          ]
+        },
+        "clinical_cases": {
+          "game_mode": "clinical_cases",
+          "cases": [
+            {
+              "id": 1,
+              "scenario": "A 32-year-old woman with ER-positive breast cancer is started on tamoxifen. After 2 years, she develops abnormal uterine bleeding. What is the likely cause?",
+              "options": ["Tamoxifen's partial agonist effect on endometrium", "Breast cancer metastasis", "Unrelated infection", "Ovarian failure"],
+              "correct_answer": "Tamoxifen's partial agonist effect on endometrium",
+              "explanation": "Tamoxifen is a SERM that acts as an antagonist in breast tissue but a partial agonist in the endometrium, increasing risk of endometrial hyperplasia and cancer. Patients require regular endometrial monitoring. This is why raloxifene is preferred for osteoporosis (less uterine stimulation)."
+            },
+            {
+              "id": 2,
+              "scenario": "A 28-year-old woman with anovulatory infertility is prescribed clomiphene. What is the mechanism?",
+              "options": ["Blocks hypothalamic estrogen receptors, increasing FSH/LH", "Direct ovarian stimulation", "Progesterone supplementation", "GnRH agonist effect"],
+              "correct_answer": "Blocks hypothalamic estrogen receptors, increasing FSH/LH",
+              "explanation": "Clomiphene blocks estrogen receptors in the hypothalamus, preventing negative feedback. This increases GnRH, FSH, and LH secretion, stimulating follicle development and ovulation. It's first-line for anovulatory infertility (e.g., PCOS). Multiple gestation risk is 5-10%."
+            },
+            {
+              "id": 3,
+              "scenario": "A postmenopausal woman with ER-positive breast cancer is started on anastrozole. Her estradiol levels are suppressed but tumor markers aren't improving. CYP2D6 genotyping shows poor metabolizer status. What should you do?",
+              "options": ["Continue anastrozole (CYP2D6 doesn't affect aromatase inhibitors)", "Switch to tamoxifen", "Increase anastrozole dose", "Add fulvestrant"],
+              "correct_answer": "Continue anastrozole (CYP2D6 doesn't affect aromatase inhibitors)",
+              "explanation": "Aromatase inhibitors like anastrozole don't require CYP2D6 metabolism - they directly inhibit CYP19 (aromatase). CYP2D6 poor metabolizer status affects tamoxifen efficacy (can't form 4-hydroxytamoxifen), but not aromatase inhibitors. If tumor isn't responding, consider adding fulvestrant or checking for ER-negative progression."
+            },
+            {
+              "id": 4,
+              "scenario": "A 25-year-old woman wants highly effective contraception but has Factor V Leiden mutation. Which option is safest?",
+              "options": ["Progestin-only methods (IUD, implant, mini-pill)", "Combined oral contraceptive", "Vaginal ring", "Contraceptive patch"],
+              "correct_answer": "Progestin-only methods (IUD, implant, mini-pill)",
+              "explanation": "Combined hormonal contraceptives (pills, patches, rings) containing estrogen increase VTE risk, contraindicated with thrombophilia like Factor V Leiden. Progestin-only methods (levonorgestrel IUD, etonogestrel implant, norethindrone mini-pill) don't increase clotting risk and are highly effective."
+            },
+            {
+              "id": 5,
+              "scenario": "A 35-year-old woman with severe endometriosis is prescribed elagolix. What is the mechanism and why is it preferred over danazol?",
+              "options": ["GnRH antagonist with fewer androgenic side effects", "Aromatase inhibitor", "Progestin-only therapy", "Estrogen replacement"],
+              "correct_answer": "GnRH antagonist with fewer androgenic side effects",
+              "explanation": "Elagolix is an oral GnRH antagonist that suppresses estrogen production by blocking FSH/LH secretion, reducing endometriosis lesions. Unlike danazol (synthetic androgen with androgenic side effects like acne, hirsutism, voice deepening), elagolix creates hypoestrogenism without significant androgenic effects. Add-back therapy with estrogen/progestin can reduce bone loss."
+            }
+          ]
+        },
+        "ordering": {
+          "game_mode": "ordering",
+          "prompt": "Order the phases of the menstrual cycle and their dominant hormones:",
+          "steps_correct_order": [
+            "Menstrual phase (Days 1-5): Low estrogen and progesterone",
+            "Follicular phase (Days 1-14): Rising estradiol from developing follicles",
+            "Ovulation (Day 14): LH surge triggered by high estradiol",
+            "Luteal phase (Days 15-28): High progesterone from corpus luteum",
+            "Late luteal phase: Declining progesterone triggers menstruation"
+          ]
+        }
+      }
+    }
   ]
 };
