@@ -47,6 +47,7 @@
  */
 
 import { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Header } from './components/shared/Header';
 import { NewHome } from './pages/NewHome';
 import { Concepts } from './pages/Concepts';
@@ -206,6 +207,7 @@ function App() {
     <AuthProvider>
       <ProgressProvider>
         <AppContent />
+        <SpeedInsights />
       </ProgressProvider>
     </AuthProvider>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import type { ClinicalCase } from '../../types';
 import { WorkshopButton } from '../shared/WorkshopButton';
 import { GiftCard } from '../shared/GiftCard';
@@ -23,8 +23,35 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
   const [isAnswered, setIsAnswered] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
 
-  const currentCase = cases[currentIndex];
+  // Initialize shuffled indices on mount
+  useEffect(() => {
+    setShuffledIndices(cases.map((_, index) => index));
+  }, [cases]);
+
+  const currentCase = cases[shuffledIndices[currentIndex]];
+
+  // Fisher-Yates shuffle algorithm
+  const shuffleArray = (array: number[]): number[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle only remaining cases
+  const handleShuffle = () => {
+    if (currentIndex >= cases.length - 1) return; // No cases left to shuffle
+
+    const completed = shuffledIndices.slice(0, currentIndex);
+    const remaining = shuffledIndices.slice(currentIndex);
+    const shuffledRemaining = shuffleArray(remaining);
+
+    setShuffledIndices([...completed, ...shuffledRemaining]);
+  };
 
   const handleAnswer = (answer: string) => {
     if (isAnswered) return;
@@ -87,6 +114,7 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
                   setIsAnswered(false);
                   setCorrectCount(0);
                   setIsComplete(false);
+                  setShuffledIndices(cases.map((_, index) => index));
                 }}
                 variant="primary"
               >
@@ -122,9 +150,18 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
 
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
-          <WorkshopButton onClick={onExit} variant="secondary">
-            ← Exit
-          </WorkshopButton>
+          <div className="flex gap-2">
+            <WorkshopButton onClick={onExit} variant="secondary">
+              ← Exit
+            </WorkshopButton>
+            <WorkshopButton
+              onClick={handleShuffle}
+              variant="secondary"
+              disabled={currentIndex >= cases.length - 1}
+            >
+              🔀 Shuffle
+            </WorkshopButton>
+          </div>
           <h2 className="text-2xl font-bold text-pda-cranberry-600">
             🔬 {sectionName} - Clinical Cases
           </h2>

@@ -1767,6 +1767,96 @@ export const studyData: { sections: PartialSection[] } = {
               "id": 15,
               "question": "How does nitric oxide (NO) contribute to erection?",
               "answer": "Sexual stimulation triggers NO release from penile nerves and endothelium. NO activates guanylyl cyclase, increasing cGMP, which relaxes smooth muscle and allows blood to engorge the corpus cavernosum."
+            },
+            {
+              "id": 16,
+              "question": "What distinguishes terazosin and doxazosin from tamsulosin in BPH treatment?",
+              "answer": "Terazosin and doxazosin are non-selective α1-blockers that block both α1A (prostate) and α1B (vasculature) receptors, causing more orthostatic hypotension. They were originally used as antihypertensives."
+            },
+            {
+              "id": 17,
+              "question": "What makes silodosin unique among α1-blockers?",
+              "answer": "Silodosin (Rapaflo) has the highest α1A selectivity among α1-blockers, providing maximal prostatic benefit with minimal cardiovascular effects, but has higher risk of retrograde ejaculation."
+            },
+            {
+              "id": 18,
+              "question": "What is alfuzosin and how does it differ from other α1-blockers?",
+              "answer": "Alfuzosin is a uroselective α1-blocker with moderate selectivity for prostatic tissue. It has once-daily dosing and intermediate selectivity between non-selective (prazosin) and highly selective (tamsulosin) agents."
+            },
+            {
+              "id": 19,
+              "question": "What is the chemical class of PDE-5 inhibitors and their structural basis?",
+              "answer": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (mimicking GMP). This allows them to compete with cGMP for PDE-5 binding, preventing cGMP breakdown."
+            },
+            {
+              "id": 20,
+              "question": "What is the difference between selectivity and potency in drug action?",
+              "answer": "Selectivity refers to a drug's preference for one target over others (measured by comparing IC50 values). Potency is the concentration needed to achieve an effect (lower IC50 = higher potency). A drug can be potent but non-selective."
+            },
+            {
+              "id": 21,
+              "question": "Why does sildenafil cause blue-tinted vision as a side effect?",
+              "answer": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision."
+            },
+            {
+              "id": 22,
+              "question": "What are the three formulations of alprostadil for ED?",
+              "answer": "Alprostadil (PGE1) is available as: 1) Caverject (intracavernosal injection), 2) MUSE (intraurethral suppository), and 3) Vitaros (topical cream, available in Europe)."
+            },
+            {
+              "id": 23,
+              "question": "What is avanafil and how does it differ from other PDE-5 inhibitors?",
+              "answer": "Avanafil is a newer, fast-acting PDE-5 inhibitor with rapid onset (15-30 minutes) and high selectivity for PDE-5. It has fewer side effects due to greater selectivity compared to sildenafil."
+            },
+            {
+              "id": 24,
+              "question": "What makes darifenacin unique among anticholinergics for UI?",
+              "answer": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain, reducing cognitive side effects in elderly patients."
+            },
+            {
+              "id": 25,
+              "question": "How does solifenacin compare to other anticholinergics for UI?",
+              "answer": "Solifenacin (Vesicare) is a non-selective antimuscarinic with long duration of action (once-daily dosing) and better tolerability profile than older agents like oxybutynin."
+            },
+            {
+              "id": 26,
+              "question": "What is tolterodine and what receptors does it target?",
+              "answer": "Tolterodine (Detrol) is an antimuscarinic agent with preferential selectivity for M2 and M3 receptors in the bladder, providing efficacy with reduced dry mouth compared to oxybutynin."
+            },
+            {
+              "id": 27,
+              "question": "Why are 5α-reductase inhibitors considered steroidal drugs?",
+              "answer": "Finasteride and dutasteride are steroidal in structure because they are designed to inhibit an enzyme that metabolizes steroid hormones (converting testosterone to DHT). Their structure mimics steroid substrates."
+            },
+            {
+              "id": 28,
+              "question": "What structural feature do anticholinergics for UI share?",
+              "answer": "Anticholinergics structurally resemble acetylcholine, allowing them to competitively bind muscarinic receptors and block acetylcholine from activating detrusor muscle contractions."
+            },
+            {
+              "id": 29,
+              "question": "What structural feature does mirabegron share with adrenergic drugs?",
+              "answer": "Mirabegron structurally resembles epinephrine (adrenaline), allowing it to selectively activate β3-adrenergic receptors in bladder smooth muscle to promote relaxation."
+            },
+            {
+              "id": 30,
+              "question": "How do the receptor subtypes α1A and α1B differ in location and clinical significance?",
+              "answer": "α1A receptors are concentrated in prostatic smooth muscle (mediating urethral constriction), while α1B receptors are in blood vessels (mediating vasoconstriction). Selective α1A blockade treats BPH with less hypotension."
+            },
+            {
+              "id": 31,
+              "question": "How does vasopressin differ from desmopressin?",
+              "answer": "Vasopressin is a naturally-occurring peptide hormone with a very short half-life, requiring injection. Desmopressin is a synthetic analog with longer duration that can be given orally, making it more practical for treating nocturnal enuresis."
+            },
+            {
+              "id": 32,
+              "question": "What is the role of calcium in smooth muscle contraction and how do ED drugs affect it?",
+              "answer": "Calcium triggers smooth muscle contraction. cGMP (increased by PDE-5 inhibitors) and cAMP (increased by PGE1) reduce intracellular calcium levels, promoting smooth muscle relaxation and vasodilation, allowing blood engorgement for erection."
+            },
+            {
+              "id": 33,
+              "question": "Why does the prostate become more sensitive to DHT with aging?",
+              "answer": "With aging, estrogen levels increase relative to testosterone. Estrogen sensitizes the prostate to the effects of DHT, making even normal DHT levels more likely to stimulate prostatic growth and contribute to BPH development."
             }
           ]
         },
@@ -1782,7 +1872,18 @@ export const studyData: { sections: PartialSection[] } = {
             {"left": "Desmopressin", "right": "ADH analog for nocturnal enuresis"},
             {"left": "Dutasteride", "right": "Dual 5α-reductase inhibitor"},
             {"left": "Tadalafil", "right": "Long-acting PDE-5 inhibitor (Cialis)"},
-            {"left": "Prazosin", "right": "Non-selective α1-blocker"}
+            {"left": "Prazosin", "right": "Non-selective α1-blocker"},
+            {"left": "Terazosin", "right": "Non-selective α1-blocker with antihypertensive effects"},
+            {"left": "Doxazosin", "right": "Non-selective α1-blocker used for BPH and HTN"},
+            {"left": "Alfuzosin", "right": "Uroselective α1-blocker"},
+            {"left": "Silodosin", "right": "Highly α1A-selective blocker (highest selectivity)"},
+            {"left": "Vardenafil", "right": "PDE-5 inhibitor (Levitra)"},
+            {"left": "Avanafil", "right": "Fast-acting PDE-5 inhibitor"},
+            {"left": "Darifenacin", "right": "M3-selective anticholinergic (Enablex)"},
+            {"left": "Solifenacin", "right": "Long-acting antimuscarinic (Vesicare)"},
+            {"left": "Tolterodine", "right": "M2/M3-selective antimuscarinic (Detrol)"},
+            {"left": "Quinazolines", "right": "Chemical class of α1-antagonists"},
+            {"left": "Pyrazolopyrimidinone", "right": "Chemical class of PDE-5 inhibitors"}
           ]
         },
         "timed_quiz": {
@@ -1836,6 +1937,48 @@ export const studyData: { sections: PartialSection[] } = {
               "question": "Which has the longest duration of action among PDE-5 inhibitors?",
               "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Alprostadil"],
               "correct_answer": "Tadalafil"
+            },
+            {
+              "id": 9,
+              "question": "Which α1-blocker has the HIGHEST α1A selectivity?",
+              "options": ["Silodosin", "Tamsulosin", "Alfuzosin", "Prazosin"],
+              "correct_answer": "Silodosin"
+            },
+            {
+              "id": 10,
+              "question": "What is the chemical class of α1-antagonists?",
+              "options": ["Quinazolines", "Pyrazolopyrimidinones", "Benzodiazepines", "Phenothiazines"],
+              "correct_answer": "Quinazolines"
+            },
+            {
+              "id": 11,
+              "question": "Which anticholinergic is M3-selective to reduce cognitive side effects?",
+              "options": ["Darifenacin", "Oxybutynin", "Tolterodine", "Solifenacin"],
+              "correct_answer": "Darifenacin"
+            },
+            {
+              "id": 12,
+              "question": "Why does sildenafil cause blue-tinted vision?",
+              "options": ["Inhibits PDE-6 in retina", "Blocks α1 receptors", "Increases DHT", "Activates M3 receptors"],
+              "correct_answer": "Inhibits PDE-6 in retina"
+            },
+            {
+              "id": 13,
+              "question": "Which PDE-5 inhibitor has the fastest onset of action?",
+              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Avanafil"
+            },
+            {
+              "id": 14,
+              "question": "Terazosin and doxazosin were originally developed as:",
+              "options": ["Antihypertensives", "Antibiotics", "Antidepressants", "Antihistamines"],
+              "correct_answer": "Antihypertensives"
+            },
+            {
+              "id": 15,
+              "question": "What structural feature allows PDE-5 inhibitors to work?",
+              "options": ["Mimic guanine structure", "Resemble acetylcholine", "Look like testosterone", "Similar to dopamine"],
+              "correct_answer": "Mimic guanine structure"
             }
           ]
         },
@@ -1871,6 +2014,36 @@ export const studyData: { sections: PartialSection[] } = {
               "scenario": "A 6-year-old child has nocturnal enuresis despite behavioral interventions. Which pharmacologic option reduces nighttime urine production?",
               "options": ["Desmopressin", "Tamsulosin", "Finasteride", "Tadalafil"],
               "correct_answer": "Desmopressin"
+            },
+            {
+              "id": 6,
+              "scenario": "A 70-year-old man with BPH and orthostatic hypotension needs an α1-blocker. Which drug minimizes risk of worsening hypotension?",
+              "options": ["Tamsulosin (α1A-selective)", "Prazosin (non-selective)", "Terazosin (non-selective)", "Doxazosin (non-selective)"],
+              "correct_answer": "Tamsulosin (α1A-selective)"
+            },
+            {
+              "id": 7,
+              "scenario": "An 80-year-old woman with urge incontinence and mild dementia needs anticholinergic therapy. Which drug has the best cognitive safety profile?",
+              "options": ["Darifenacin (M3-selective)", "Oxybutynin (M1-M3)", "Tolterodine (M2-M3)", "None are safe"],
+              "correct_answer": "Darifenacin (M3-selective)"
+            },
+            {
+              "id": 8,
+              "scenario": "A 50-year-old man needs ED treatment and wants the fastest-acting medication for spontaneity. Which PDE-5 inhibitor works in 15-30 minutes?",
+              "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
+              "correct_answer": "Avanafil"
+            },
+            {
+              "id": 9,
+              "scenario": "A patient on tamsulosin reports retrograde ejaculation. You switch to which α1-blocker with lower ejaculatory dysfunction risk?",
+              "options": ["Alfuzosin (uroselective)", "Silodosin (highest α1A)", "Prazosin (non-selective)", "Doxazosin (non-selective)"],
+              "correct_answer": "Alfuzosin (uroselective)"
+            },
+            {
+              "id": 10,
+              "scenario": "A 60-year-old man complains of blue-tinted vision after taking sildenafil. What is the mechanism?",
+              "options": ["PDE-6 inhibition in retina", "α1 blockade", "Anticholinergic effect", "DHT reduction"],
+              "correct_answer": "PDE-6 inhibition in retina"
             }
           ]
         },

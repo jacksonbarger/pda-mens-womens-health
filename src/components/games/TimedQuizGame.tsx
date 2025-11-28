@@ -27,8 +27,35 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
   const [correctCount, setCorrectCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
   const [questionTimes, setQuestionTimes] = useState<number[]>([]);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
 
-  const currentQuestion = questions[currentIndex];
+  // Initialize shuffled indices on mount
+  useEffect(() => {
+    setShuffledIndices(questions.map((_, index) => index));
+  }, [questions]);
+
+  const currentQuestion = questions[shuffledIndices[currentIndex]];
+
+  // Fisher-Yates shuffle algorithm
+  const shuffleArray = (array: number[]): number[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle only remaining questions
+  const handleShuffle = () => {
+    if (currentIndex >= questions.length - 1) return; // No questions left to shuffle
+
+    const completed = shuffledIndices.slice(0, currentIndex);
+    const remaining = shuffledIndices.slice(currentIndex);
+    const shuffledRemaining = shuffleArray(remaining);
+
+    setShuffledIndices([...completed, ...shuffledRemaining]);
+  };
 
   useEffect(() => {
     if (isAnswered || timeLeft === 0) return;
@@ -122,6 +149,7 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
                   setCorrectCount(0);
                   setIsComplete(false);
                   setQuestionTimes([]);
+                  setShuffledIndices(questions.map((_, index) => index));
                 }}
                 variant="primary"
               >
@@ -157,9 +185,18 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
 
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
-          <WorkshopButton onClick={onExit} variant="secondary">
-            ← Exit
-          </WorkshopButton>
+          <div className="flex gap-2">
+            <WorkshopButton onClick={onExit} variant="secondary">
+              ← Exit
+            </WorkshopButton>
+            <WorkshopButton
+              onClick={handleShuffle}
+              variant="secondary"
+              disabled={currentIndex >= questions.length - 1}
+            >
+              🔀 Shuffle
+            </WorkshopButton>
+          </div>
           <h2 className="text-2xl font-bold text-pda-cranberry-600">
             ⏰ {sectionName} - Timed Quiz
           </h2>

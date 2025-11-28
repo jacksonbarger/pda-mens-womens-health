@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import type { Flashcard } from '../../types';
 import { WorkshopButton } from '../shared/WorkshopButton';
 import { GiftCard } from '../shared/GiftCard';
@@ -22,8 +22,35 @@ export const FlashcardsGame: React.FC<FlashcardsGameProps> = ({
   const [knewCount, setKnewCount] = useState(0);
   const [reviewCount, setReviewCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
 
-  const currentCard = cards[currentIndex];
+  // Initialize shuffled indices on mount
+  useEffect(() => {
+    setShuffledIndices(cards.map((_, index) => index));
+  }, [cards]);
+
+  const currentCard = cards[shuffledIndices[currentIndex]];
+
+  // Fisher-Yates shuffle algorithm
+  const shuffleArray = (array: number[]): number[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle only remaining cards
+  const handleShuffle = () => {
+    if (currentIndex >= cards.length - 1) return; // No cards left to shuffle
+
+    const completed = shuffledIndices.slice(0, currentIndex);
+    const remaining = shuffledIndices.slice(currentIndex);
+    const shuffledRemaining = shuffleArray(remaining);
+
+    setShuffledIndices([...completed, ...shuffledRemaining]);
+  };
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -84,6 +111,7 @@ export const FlashcardsGame: React.FC<FlashcardsGameProps> = ({
                   setKnewCount(0);
                   setReviewCount(0);
                   setIsComplete(false);
+                  setShuffledIndices(cards.map((_, index) => index));
                 }}
                 variant="primary"
               >
@@ -106,7 +134,13 @@ export const FlashcardsGame: React.FC<FlashcardsGameProps> = ({
           <h2 className="text-lg font-bold text-primary">
             {sectionName} - Flashcards
           </h2>
-          <div className="w-24" />
+          <WorkshopButton
+            onClick={handleShuffle}
+            variant="secondary"
+            disabled={currentIndex >= cards.length - 1}
+          >
+            🔀 Shuffle
+          </WorkshopButton>
         </div>
         <ProgressBar
           current={currentIndex + 1}
