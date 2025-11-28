@@ -2084,6 +2084,282 @@ export const studyData: { sections: PartialSection[] } = {
           ]
         }
       }
+    },
+    {
+      "section": "Dysfunctional Uterine Bleeding (DUB)",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What is the primary hormonal cause of dysfunctional uterine bleeding?",
+              "answer": "Increased estrogen levels due to hormonal insufficiency, leading to anovulation and lack of progesterone opposition to estrogen's proliferative effects on the endometrium."
+            },
+            {
+              "id": 2,
+              "question": "Which patient populations are most commonly affected by DUB?",
+              "answer": "Women at the extremes of reproductive age: adolescents who just started menstruating (immature HPO axis) and perimenopausal/menopausal women (declining ovarian function)."
+            },
+            {
+              "id": 3,
+              "question": "What is the potential malignant complication of untreated DUB?",
+              "answer": "Prolonged unopposed estrogen can cause endometrial hyperplasia, which may progress to endometrial adenocarcinoma if left untreated."
+            },
+            {
+              "id": 4,
+              "question": "Define menorrhagia and how it differs from metrorrhagia.",
+              "answer": "Menorrhagia is heavy menstrual bleeding occurring at regular intervals. Metrorrhagia is irregular, noncyclic bleeding between periods. Menometrorrhagia combines both (excessive bleeding at irregular intervals)."
+            },
+            {
+              "id": 5,
+              "question": "What common complication should be assessed in patients with chronic DUB?",
+              "answer": "Iron deficiency anemia from chronic blood loss. Patients may present with fatigue, pallor, and low hemoglobin/ferritin levels."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Menorrhagia", "right": "Heavy bleeding at regular intervals"},
+            {"left": "Metrorrhagia", "right": "Irregular noncyclic bleeding"},
+            {"left": "Polymenorrhea", "right": "Cycles ≤21 days apart"},
+            {"left": "Unopposed estrogen", "right": "Primary cause of DUB"},
+            {"left": "Endometrial hyperplasia", "right": "Pre-malignant complication"},
+            {"left": "Iron deficiency anemia", "right": "Common consequence of chronic DUB"}
+          ]
+        }
+      }
+    },
+    {
+      "section": "Premenstrual Syndrome (PMS)",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What neurotransmitter deficiency is primarily implicated in PMS?",
+              "answer": "Serotonin deficiency. This explains why SSRIs are highly effective for PMS symptoms, particularly emotional and behavioral symptoms."
+            },
+            {
+              "id": 2,
+              "question": "What are the diagnostic timing criteria for PMS?",
+              "answer": "Symptoms must be present for 5 days before menstruation, persist for at least 3 consecutive cycles, clearly interfere with normal activities, and end within 4 days after cycle begins."
+            },
+            {
+              "id": 3,
+              "question": "How do magnesium and calcium deficiencies contribute to PMS?",
+              "answer": "They cause headaches, sugar cravings, low blood glucose, bloating from water retention, and dizziness. Supplementation can ease these specific symptoms."
+            },
+            {
+              "id": 4,
+              "question": "Why are lower endorphin levels relevant in PMS?",
+              "answer": "Endorphins are natural pain relievers and mood elevators. Lower levels during the luteal phase may increase physical discomfort and contribute to mood symptoms."
+            },
+            {
+              "id": 5,
+              "question": "What distinguishes PMS from normal premenstrual changes?",
+              "answer": "PMS symptoms must clearly interfere with normal daily activities (work, school, relationships). Mild discomfort without functional impairment is considered normal."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Serotonin deficiency", "right": "Primary neurotransmitter issue in PMS"},
+            {"left": "SSRIs", "right": "Effective treatment by increasing serotonin"},
+            {"left": "Magnesium/calcium", "right": "Minerals that ease headaches and bloating"},
+            {"left": "Low endorphins", "right": "May increase discomfort"},
+            {"left": "Low GABA", "right": "Can cause mood disorders"},
+            {"left": "5 days before menses", "right": "Timing requirement for PMS diagnosis"}
+          ]
+        }
+      }
+    },
+    {
+      "section": "Polycystic Ovary Syndrome (PCOS)",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What is the classic triad of PCOS?",
+              "answer": "Menstrual dysfunction (oligomenorrhea/amenorrhea), anovulation (infertility), and hyperandrogenism (hirsutism, acne, male-pattern baldness)."
+            },
+            {
+              "id": 2,
+              "question": "What metabolic complications are associated with PCOS?",
+              "answer": "Obesity, metabolic syndrome, type 2 diabetes, hypertension, dyslipidemia, and obstructive sleep apnea. PCOS significantly increases cardiovascular disease risk."
+            },
+            {
+              "id": 3,
+              "question": "What is acanthosis nigricans and why does it occur in PCOS?",
+              "answer": "Dark, velvety skin patches typically in neck/axillae. It's a marker of insulin resistance, which is common in PCOS and drives hyperandrogenism through increased ovarian androgen production."
+            },
+            {
+              "id": 4,
+              "question": "Why is PCOS a diagnosis of exclusion?",
+              "answer": "Many conditions can cause menstrual irregularity and hyperandrogenism (thyroid disorders, hyperprolactinemia, Cushing's, adrenal tumors). These must be ruled out before diagnosing PCOS."
+            },
+            {
+              "id": 5,
+              "question": "How does PCOS cause infertility?",
+              "answer": "Chronic anovulation due to disrupted HPO axis function prevents regular ovulation. Without ovulation, pregnancy cannot occur naturally."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "HPO axis dysfunction", "right": "Underlying pathophysiology of PCOS"},
+            {"left": "Hirsutism", "right": "Excess facial/body hair from androgens"},
+            {"left": "Acanthosis nigricans", "right": "Dark skin patches indicating insulin resistance"},
+            {"left": "Anovulation", "right": "Lack of ovulation causing infertility"},
+            {"left": "Metabolic syndrome", "right": "Cluster of CV risk factors with PCOS"},
+            {"left": "Diagnosis of exclusion", "right": "Rule out other causes first"}
+          ]
+        }
+      }
+    },
+    {
+      "section": "Pregnancy Physiology and Complications",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What cardiovascular changes occur during pregnancy?",
+              "answer": "Increased heart rate, stroke volume, cardiac output, and plasma volume. These adaptations support increased metabolic demands and placental perfusion."
+            },
+            {
+              "id": 2,
+              "question": "Why is Group B Streptococcus (GBS) screening important in pregnancy?",
+              "answer": "GBS can be transmitted to newborns during delivery, causing neonatal sepsis, pneumonia, meningitis, and death. Routine screening and intrapartum antibiotics prevent these complications."
+            },
+            {
+              "id": 3,
+              "question": "How does bacterial vaginosis (BV) affect pregnancy outcomes?",
+              "answer": "BV increases risk of preterm labor, miscarriages, low birth weight babies, and premature rupture of membranes. It presents with gray/whitish discharge and fishy odor (pH >4.5)."
+            },
+            {
+              "id": 4,
+              "question": "How does pregnancy affect drug distribution?",
+              "answer": "Increased total body water and plasma volume, decreased albumin (affecting protein-bound drugs), increased tissue perfusion, and addition of feto-placental compartment all alter drug pharmacokinetics."
+            },
+            {
+              "id": 5,
+              "question": "What are key signs of preeclampsia?",
+              "answer": "Hypertension (BP ≥140/90) after 20 weeks gestation with proteinuria. Severe features include severe hypertension, headache, visual changes, RUQ pain, thrombocytopenia, and elevated liver enzymes."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Increased cardiac output", "right": "CV adaptation in pregnancy"},
+            {"left": "GBS screening", "right": "Prevents neonatal sepsis"},
+            {"left": "Bacterial vaginosis", "right": "Gray discharge with fishy odor"},
+            {"left": "Decreased albumin", "right": "Affects protein-bound drugs"},
+            {"left": "Preeclampsia", "right": "Hypertension + proteinuria after 20 weeks"},
+            {"left": "Gestational diabetes", "right": "Glucose intolerance in pregnancy"}
+          ]
+        }
+      }
+    },
+    {
+      "section": "Postpartum Physiology and Complications",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "How do oral contraceptives affect lactation?",
+              "answer": "Combined OCPs (estrogen + progestin) can suppress milk production and should be avoided in breastfeeding. Progestin-only pills (POPs) are preferred as they have minimal effect on lactation."
+            },
+            {
+              "id": 2,
+              "question": "What are warning signs of postpartum hemorrhage or infection?",
+              "answer": "Excessive bleeding (soaking >1 pad/hour), fever, foul-smelling vaginal discharge, severe abdominal pain, or signs of shock (tachycardia, hypotension) require immediate evaluation."
+            },
+            {
+              "id": 3,
+              "question": "What is lochia and how long does it typically last?",
+              "answer": "Lochia is normal vaginal discharge after childbirth containing blood, mucus, and uterine tissue. It progresses from red (lochia rubra, days 1-3) to pink/brown (lochia serosa, days 4-10) to white/yellow (lochia alba, up to 6 weeks)."
+            },
+            {
+              "id": 4,
+              "question": "What is dyspareunia and how long can it persist postpartum?",
+              "answer": "Dyspareunia is painful intercourse. It's common postpartum due to vaginal dryness (low estrogen while breastfeeding), perineal trauma, or episiotomy healing. It may persist for weeks to months."
+            },
+            {
+              "id": 5,
+              "question": "When should postpartum depression be screened?",
+              "answer": "Screen at postpartum visits (typically 2 and 6 weeks). PPD affects 10-20% of mothers and differs from 'baby blues' by lasting >2 weeks with significant functional impairment."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "Progestin-only pills", "right": "Preferred OCP for breastfeeding"},
+            {"left": "Lochia", "right": "Normal postpartum vaginal discharge"},
+            {"left": "Postpartum hemorrhage", "right": "Excessive bleeding requiring urgent care"},
+            {"left": "Dyspareunia", "right": "Painful intercourse postpartum"},
+            {"left": "Postpartum depression", "right": "Mood disorder affecting 10-20% of mothers"},
+            {"left": "Mastitis", "right": "Breast infection during lactation"}
+          ]
+        }
+      }
+    },
+    {
+      "section": "Integrated Reproductive Overview",
+      "game_modes": {
+        "flashcards": {
+          "game_mode": "flashcards",
+          "cards": [
+            {
+              "id": 1,
+              "question": "What are the five key hormones regulating the female reproductive system?",
+              "answer": "Estrogen, progesterone, GnRH (gonadotropin-releasing hormone), FSH (follicle-stimulating hormone), and LH (luteinizing hormone)."
+            },
+            {
+              "id": 2,
+              "question": "How do combined oral contraceptives prevent pregnancy?",
+              "answer": "Three mechanisms: (1) Suppress FSH and LH to stop ovulation, (2) Thin the uterine lining to prevent implantation, (3) Thicken cervical mucus to inhibit sperm penetration."
+            },
+            {
+              "id": 3,
+              "question": "What happens if implantation does not occur within 14 days?",
+              "answer": "The corpus luteum degenerates, progesterone levels drop sharply, the endometrial lining becomes unstable and sheds, and menstruation begins."
+            },
+            {
+              "id": 4,
+              "question": "What systemic effects can result from hormonal alterations?",
+              "answer": "Bone loss (osteoporosis from estrogen deficiency), cardiovascular dysfunction, tissue atrophy (vaginal/urethral), and increased cancer risk with certain imbalances."
+            },
+            {
+              "id": 5,
+              "question": "What are barriers to reproductive healthcare?",
+              "answer": "Societal attitudes/stigma, healthcare providers avoiding discussion of sexual problems, and patient delay in seeking treatment due to embarrassment or fear."
+            }
+          ]
+        },
+        "matching": {
+          "game_mode": "matching",
+          "pairs": [
+            {"left": "GnRH", "right": "Triggers LH and FSH release"},
+            {"left": "FSH", "right": "Prepares follicle for ovulation"},
+            {"left": "LH", "right": "Causes ovulation"},
+            {"left": "Corpus luteum", "right": "Secretes progesterone for implantation"},
+            {"left": "Estrogen deficiency", "right": "Causes bone loss and tissue atrophy"},
+            {"left": "HPG axis", "right": "Hypothalamic-Pituitary-Gonadal axis"}
+          ]
+        }
+      }
     }
   ]
 };
