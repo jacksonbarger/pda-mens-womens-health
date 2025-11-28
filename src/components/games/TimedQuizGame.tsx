@@ -250,6 +250,25 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
             ))}
           </div>
 
+          {/* Explanation - shown after answering */}
+          {isAnswered && currentQuestion.explanation && (
+            <div className={`mt-6 p-4 rounded-lg border-l-4 ${
+              selectedAnswer === currentQuestion.correct_answer
+                ? 'bg-green-50 border-green-500'
+                : 'bg-blue-50 border-blue-500'
+            }`}>
+              <div className="flex items-start gap-2">
+                <div className="text-lg mt-0.5">💡</div>
+                <div>
+                  <div className="font-semibold text-gray-800 mb-1">Explanation:</div>
+                  <p className="text-gray-700 text-base leading-relaxed">
+                    {currentQuestion.explanation}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
           {isAnswered && timeLeft === 0 && !selectedAnswer && (
             <div className="mt-4 p-3 bg-red-100 text-red-800 rounded-lg text-center">
               ⏰ Time's up! The correct answer was: {currentQuestion.correct_answer}

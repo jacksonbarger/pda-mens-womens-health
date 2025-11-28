@@ -244,6 +244,19 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
                   <p className="text-sm text-gray-600 mb-4">
                     Excellent clinical reasoning!
                   </p>
+                  {currentCase.explanation && (
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4 text-left">
+                      <div className="flex items-start gap-2">
+                        <div className="text-lg mt-0.5">💡</div>
+                        <div>
+                          <div className="font-semibold text-gray-800 text-sm mb-1">Why this is correct:</div>
+                          <p className="text-gray-700 text-sm leading-relaxed">
+                            {currentCase.explanation}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                   <WorkshopButton onClick={handleNext} variant="success" className="w-full">
                     Next Case →
                   </WorkshopButton>
@@ -260,6 +273,19 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
                   <p className="font-semibold text-green-600 mb-4">
                     {currentCase.correct_answer}
                   </p>
+                  {currentCase.explanation && (
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4 text-left">
+                      <div className="flex items-start gap-2">
+                        <div className="text-lg mt-0.5">💡</div>
+                        <div>
+                          <div className="font-semibold text-gray-800 text-sm mb-1">Explanation:</div>
+                          <p className="text-gray-700 text-sm leading-relaxed">
+                            {currentCase.explanation}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                   <WorkshopButton onClick={handleNext} variant="primary" className="w-full">
                     Next Case →
                   </WorkshopButton>

@@ -1894,91 +1894,106 @@ export const studyData: { sections: PartialSection[] } = {
               "id": 1,
               "question": "Which drug class provides the fastest symptom relief in BPH?",
               "options": ["α1-blockers", "5α-reductase inhibitors", "PDE-5 inhibitors", "Anticholinergics"],
-              "correct_answer": "α1-blockers"
+              "correct_answer": "α1-blockers",
+              "explanation": "α1-blockers (like tamsulosin) provide immediate symptom relief by relaxing smooth muscle in the prostate and bladder neck. 5α-reductase inhibitors take 3-6 months to work because they must gradually shrink the prostate."
             },
             {
               "id": 2,
               "question": "PDE-5 inhibitors enhance erection by:",
               "options": ["Increasing cGMP", "Increasing testosterone", "Blocking α1 receptors", "Increasing DHT"],
-              "correct_answer": "Increasing cGMP"
+              "correct_answer": "Increasing cGMP",
+              "explanation": "PDE-5 inhibitors prevent the breakdown of cGMP by blocking phosphodiesterase type 5. Elevated cGMP promotes smooth muscle relaxation and vasodilation in penile arteries, facilitating erection."
             },
             {
               "id": 3,
               "question": "Which drug is contraindicated with nitrates?",
               "options": ["Sildenafil", "Tamsulosin", "Finasteride", "Oxybutynin"],
-              "correct_answer": "Sildenafil"
+              "correct_answer": "Sildenafil",
+              "explanation": "Sildenafil (and all PDE-5 inhibitors) are absolutely contraindicated with nitrates because both work through the NO-cGMP pathway. Combined use causes severe, potentially fatal hypotension."
             },
             {
               "id": 4,
               "question": "Anticholinergics treat urinary incontinence by:",
               "options": ["Blocking detrusor contractions", "Relaxing prostate", "Increasing ADH", "Inhibiting PDE-5"],
-              "correct_answer": "Blocking detrusor contractions"
+              "correct_answer": "Blocking detrusor contractions",
+              "explanation": "Anticholinergics block muscarinic receptors on the detrusor muscle of the bladder, preventing involuntary contractions that cause urgency and frequency in overactive bladder."
             },
             {
               "id": 5,
               "question": "Which α1-blocker is most selective for the prostate?",
               "options": ["Tamsulosin", "Prazosin", "Doxazosin", "Terazosin"],
-              "correct_answer": "Tamsulosin"
+              "correct_answer": "Tamsulosin",
+              "explanation": "Tamsulosin is α1A-selective, preferentially targeting prostatic smooth muscle over vascular α1B receptors. This selectivity reduces orthostatic hypotension compared to non-selective agents like prazosin or doxazosin."
             },
             {
               "id": 6,
               "question": "Finasteride works by blocking conversion of:",
               "options": ["Testosterone to DHT", "cGMP to GMP", "NO to cGMP", "Estrogen to testosterone"],
-              "correct_answer": "Testosterone to DHT"
+              "correct_answer": "Testosterone to DHT",
+              "explanation": "Finasteride inhibits 5α-reductase Type 2, blocking the conversion of testosterone to dihydrotestosterone (DHT). Since DHT is the primary androgen driving prostatic growth, reducing DHT shrinks the prostate over time."
             },
             {
               "id": 7,
               "question": "Mirabegron is a:",
               "options": ["β3-agonist", "α1-antagonist", "Anticholinergic", "PDE-5 inhibitor"],
-              "correct_answer": "β3-agonist"
+              "correct_answer": "β3-agonist",
+              "explanation": "Mirabegron is a β3-adrenergic agonist that activates β3 receptors in the bladder detrusor muscle, promoting relaxation and increasing bladder capacity. It's an alternative to anticholinergics with fewer side effects."
             },
             {
               "id": 8,
               "question": "Which has the longest duration of action among PDE-5 inhibitors?",
               "options": ["Tadalafil", "Sildenafil", "Vardenafil", "Alprostadil"],
-              "correct_answer": "Tadalafil"
+              "correct_answer": "Tadalafil",
+              "explanation": "Tadalafil (Cialis) has a half-life of ~17.5 hours, lasting up to 36 hours. Sildenafil and vardenafil last only 4-6 hours. This longer duration allows for more spontaneity."
             },
             {
               "id": 9,
               "question": "Which α1-blocker has the HIGHEST α1A selectivity?",
               "options": ["Silodosin", "Tamsulosin", "Alfuzosin", "Prazosin"],
-              "correct_answer": "Silodosin"
+              "correct_answer": "Silodosin",
+              "explanation": "Silodosin (Rapaflo) has the highest α1A selectivity of all α1-blockers, providing maximal prostatic benefit with minimal cardiovascular effects. However, this high selectivity increases risk of retrograde ejaculation."
             },
             {
               "id": 10,
               "question": "What is the chemical class of α1-antagonists?",
               "options": ["Quinazolines", "Pyrazolopyrimidinones", "Benzodiazepines", "Phenothiazines"],
-              "correct_answer": "Quinazolines"
+              "correct_answer": "Quinazolines",
+              "explanation": "α1-antagonists (prazosin, terazosin, doxazosin, tamsulosin, etc.) belong to the quinazoline chemical class and share the '-azosin' suffix. This structural framework allows competitive antagonism at α1-receptors."
             },
             {
               "id": 11,
               "question": "Which anticholinergic is M3-selective to reduce cognitive side effects?",
               "options": ["Darifenacin", "Oxybutynin", "Tolterodine", "Solifenacin"],
-              "correct_answer": "Darifenacin"
+              "correct_answer": "Darifenacin",
+              "explanation": "Darifenacin (Enablex) is M3-selective, preferentially blocking muscarinic receptors in the bladder while sparing M1 receptors in the brain. This reduces cognitive side effects like confusion and memory impairment, especially important in elderly patients."
             },
             {
               "id": 12,
               "question": "Why does sildenafil cause blue-tinted vision?",
               "options": ["Inhibits PDE-6 in retina", "Blocks α1 receptors", "Increases DHT", "Activates M3 receptors"],
-              "correct_answer": "Inhibits PDE-6 in retina"
+              "correct_answer": "Inhibits PDE-6 in retina",
+              "explanation": "Sildenafil has only 10-fold selectivity for PDE-5 over PDE-6. At higher doses, it inhibits PDE-6 in retinal photoreceptors, affecting color perception and causing blue-tinted vision. Newer agents like avanafil have greater selectivity."
             },
             {
               "id": 13,
               "question": "Which PDE-5 inhibitor has the fastest onset of action?",
               "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
-              "correct_answer": "Avanafil"
+              "correct_answer": "Avanafil",
+              "explanation": "Avanafil has the fastest onset (15-30 minutes) and high PDE-5 selectivity, resulting in fewer side effects. Sildenafil takes 30-60 minutes, while tadalafil and vardenafil take 30-120 minutes."
             },
             {
               "id": 14,
               "question": "Terazosin and doxazosin were originally developed as:",
               "options": ["Antihypertensives", "Antibiotics", "Antidepressants", "Antihistamines"],
-              "correct_answer": "Antihypertensives"
+              "correct_answer": "Antihypertensives",
+              "explanation": "Terazosin and doxazosin are non-selective α1-blockers that block both prostatic (α1A) and vascular (α1B) receptors. They were originally used as antihypertensives before BPH became a common indication."
             },
             {
               "id": 15,
               "question": "What structural feature allows PDE-5 inhibitors to work?",
               "options": ["Mimic guanine structure", "Resemble acetylcholine", "Look like testosterone", "Similar to dopamine"],
-              "correct_answer": "Mimic guanine structure"
+              "correct_answer": "Mimic guanine structure",
+              "explanation": "PDE-5 inhibitors are pyrazolopyrimidinones structurally based on guanine (the 'G' in cGMP). This allows them to competitively bind to PDE-5 and prevent cGMP breakdown, mimicking the natural substrate."
             }
           ]
         },
@@ -1989,61 +2004,71 @@ export const studyData: { sections: PartialSection[] } = {
               "id": 1,
               "scenario": "A 65-year-old man with BPH complains of hesitancy and weak stream. He wants quick relief. Which drug is best?",
               "options": ["Tamsulosin", "Finasteride", "Dutasteride", "Desmopressin"],
-              "correct_answer": "Tamsulosin"
+              "correct_answer": "Tamsulosin",
+              "explanation": "Tamsulosin (α1A-selective blocker) provides immediate symptom relief by relaxing prostatic smooth muscle. Finasteride/dutasteride take 3-6 months to shrink the prostate and wouldn't meet this patient's need for quick relief."
             },
             {
               "id": 2,
               "scenario": "A 55-year-old man on nitroglycerin for angina develops ED. Which ED treatment is contraindicated?",
               "options": ["Sildenafil", "Alprostadil", "Psychotherapy", "Vacuum device"],
-              "correct_answer": "Sildenafil"
+              "correct_answer": "Sildenafil",
+              "explanation": "PDE-5 inhibitors (sildenafil, tadalafil, vardenafil) are absolutely contraindicated with nitrates because both cause vasodilation via NO-cGMP pathway, leading to severe hypotension and potential MI. Alprostadil (PGE1) works via a different pathway and is safe."
             },
             {
               "id": 3,
               "scenario": "An elderly woman with urgency incontinence starts an anticholinergic. What side effect should you warn about?",
               "options": ["Dry mouth and confusion", "Hypertension", "Hypoglycemia", "Increased libido"],
-              "correct_answer": "Dry mouth and confusion"
+              "correct_answer": "Dry mouth and confusion",
+              "explanation": "Anticholinergics block muscarinic receptors throughout the body, causing dry mouth (salivary glands), constipation, blurred vision, and cognitive impairment. Elderly patients are especially vulnerable to confusion and memory problems."
             },
             {
               "id": 4,
               "scenario": "A patient with BPH has been on tamsulosin for 3 months with partial improvement. Adding which drug could provide long-term prostate shrinkage?",
               "options": ["Finasteride", "Sildenafil", "Oxybutynin", "Mirabegron"],
-              "correct_answer": "Finasteride"
+              "correct_answer": "Finasteride",
+              "explanation": "Combination therapy (α1-blocker + 5α-reductase inhibitor) is effective for BPH. Tamsulosin provides immediate symptom relief, while finasteride shrinks the prostate over time by reducing DHT. This combination is superior to monotherapy for moderate-to-severe BPH."
             },
             {
               "id": 5,
               "scenario": "A 6-year-old child has nocturnal enuresis despite behavioral interventions. Which pharmacologic option reduces nighttime urine production?",
               "options": ["Desmopressin", "Tamsulosin", "Finasteride", "Tadalafil"],
-              "correct_answer": "Desmopressin"
+              "correct_answer": "Desmopressin",
+              "explanation": "Desmopressin (ADH analog) promotes water reabsorption in the kidneys, reducing nocturnal urine volume. It's first-line pharmacotherapy for primary nocturnal enuresis in children after behavioral modifications fail. Oral formulation is convenient for pediatric use."
             },
             {
               "id": 6,
               "scenario": "A 70-year-old man with BPH and orthostatic hypotension needs an α1-blocker. Which drug minimizes risk of worsening hypotension?",
               "options": ["Tamsulosin (α1A-selective)", "Prazosin (non-selective)", "Terazosin (non-selective)", "Doxazosin (non-selective)"],
-              "correct_answer": "Tamsulosin (α1A-selective)"
+              "correct_answer": "Tamsulosin (α1A-selective)",
+              "explanation": "Tamsulosin's α1A selectivity targets prostatic smooth muscle while sparing vascular α1B receptors. Non-selective blockers (prazosin, terazosin, doxazosin) block both α1A and α1B, causing significant vasodilation and worsening orthostatic hypotension."
             },
             {
               "id": 7,
               "scenario": "An 80-year-old woman with urge incontinence and mild dementia needs anticholinergic therapy. Which drug has the best cognitive safety profile?",
               "options": ["Darifenacin (M3-selective)", "Oxybutynin (M1-M3)", "Tolterodine (M2-M3)", "None are safe"],
-              "correct_answer": "Darifenacin (M3-selective)"
+              "correct_answer": "Darifenacin (M3-selective)",
+              "explanation": "Darifenacin's M3 selectivity spares M1 receptors in the CNS, reducing cognitive side effects. Oxybutynin (M1-M3) crosses the blood-brain barrier and is highest risk for confusion in elderly. In dementia patients, consider mirabegron (β3-agonist) as an alternative."
             },
             {
               "id": 8,
               "scenario": "A 50-year-old man needs ED treatment and wants the fastest-acting medication for spontaneity. Which PDE-5 inhibitor works in 15-30 minutes?",
               "options": ["Avanafil", "Sildenafil", "Tadalafil", "Vardenafil"],
-              "correct_answer": "Avanafil"
+              "correct_answer": "Avanafil",
+              "explanation": "Avanafil's rapid onset (15-30 minutes) offers maximum spontaneity. Sildenafil takes 30-60 minutes, tadalafil 30-120 minutes, and vardenafil 60 minutes. Avanafil also has high PDE-5 selectivity with fewer side effects."
             },
             {
               "id": 9,
               "scenario": "A patient on tamsulosin reports retrograde ejaculation. You switch to which α1-blocker with lower ejaculatory dysfunction risk?",
               "options": ["Alfuzosin (uroselective)", "Silodosin (highest α1A)", "Prazosin (non-selective)", "Doxazosin (non-selective)"],
-              "correct_answer": "Alfuzosin (uroselective)"
+              "correct_answer": "Alfuzosin (uroselective)",
+              "explanation": "Alfuzosin has intermediate α1A selectivity, balancing efficacy with lower ejaculatory dysfunction risk. Silodosin (highest α1A selectivity) has the HIGHEST risk (28% retrograde ejaculation). Tamsulosin is intermediate. Alfuzosin or non-selective agents are better choices."
             },
             {
               "id": 10,
               "scenario": "A 60-year-old man complains of blue-tinted vision after taking sildenafil. What is the mechanism?",
               "options": ["PDE-6 inhibition in retina", "α1 blockade", "Anticholinergic effect", "DHT reduction"],
-              "correct_answer": "PDE-6 inhibition in retina"
+              "correct_answer": "PDE-6 inhibition in retina",
+              "explanation": "Sildenafil's 10-fold selectivity for PDE-5 over PDE-6 means higher doses can inhibit PDE-6 in retinal cones, affecting color discrimination. Blue vision typically resolves in hours. Switching to avanafil (greater selectivity) may prevent recurrence."
             }
           ]
         },

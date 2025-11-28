@@ -16,6 +16,7 @@ export type TimedQuizQuestion = {
   question: string;
   options: string[];
   correct_answer: string;
+  explanation?: string;
 };
 
 export type ClinicalCase = {
@@ -23,6 +24,7 @@ export type ClinicalCase = {
   scenario: string;
   options: string[];
   correct_answer: string;
+  explanation?: string;
 };
 
 export type OrderingGame = {
