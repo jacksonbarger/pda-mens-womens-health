@@ -65,17 +65,17 @@ export const NewHome: React.FC<NewHomeProps> = ({
             onClick={onNavigateToConcepts}
             ariaLabel="Study Concepts - Learn pathophysiology and clinical presentations"
           >
-            <div className="text-center">
+            <div className="text-center flex flex-col h-full">
               <div className="mb-4 flex justify-center">
                 <ProfessionalIcon type="concepts" size="xl" className="text-pda-forest-500" />
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">
                 Study Concepts
               </h3>
-              <p className="text-base text-secondary mb-4 leading-relaxed">
+              <p className="text-base text-secondary mb-6 leading-relaxed flex-grow">
                 Master disease mechanisms, clinical presentations, and pathophysiology.
               </p>
-              <WorkshopButton onClick={onNavigateToConcepts} variant="primary" className="w-full">
+              <WorkshopButton onClick={onNavigateToConcepts} variant="primary" className="w-full mt-auto">
                 Explore Concepts →
               </WorkshopButton>
             </div>
@@ -86,17 +86,17 @@ export const NewHome: React.FC<NewHomeProps> = ({
             onClick={onNavigateToDrugs}
             ariaLabel="Drugs Workshop - Learn pharmacology and therapeutics"
           >
-            <div className="text-center">
+            <div className="text-center flex flex-col h-full">
               <div className="mb-4 flex justify-center">
                 <ProfessionalIcon type="drugs" size="xl" className="text-pda-winter-500" />
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">
                 Drugs Workshop
               </h3>
-              <p className="text-base text-secondary mb-4 leading-relaxed">
+              <p className="text-base text-secondary mb-6 leading-relaxed flex-grow">
                 Browse drugs by category. Focus on MOA, indications, and adverse effects.
               </p>
-              <WorkshopButton onClick={onNavigateToDrugs} variant="secondary" className="w-full">
+              <WorkshopButton onClick={onNavigateToDrugs} variant="secondary" className="w-full mt-auto">
                 Browse Drugs →
               </WorkshopButton>
             </div>
@@ -107,17 +107,17 @@ export const NewHome: React.FC<NewHomeProps> = ({
             onClick={onNavigateToChallenge}
             ariaLabel="Exam Challenge - Mixed questions from all topics"
           >
-            <div className="text-center">
+            <div className="text-center flex flex-col h-full">
               <div className="mb-4 flex justify-center">
                 <ProfessionalIcon type="challenge" size="xl" className="text-pda-gold-500" />
               </div>
               <h3 className="text-xl font-bold text-primary mb-3">
                 Exam Challenge
               </h3>
-              <p className="text-base text-secondary mb-4 leading-relaxed">
+              <p className="text-base text-secondary mb-6 leading-relaxed flex-grow">
                 Mixed questions across all topics. Your final exam preparation tool.
               </p>
-              <WorkshopButton onClick={onNavigateToChallenge} variant="success" className="w-full">
+              <WorkshopButton onClick={onNavigateToChallenge} variant="success" className="w-full mt-auto">
                 Start Challenge →
               </WorkshopButton>
             </div>
