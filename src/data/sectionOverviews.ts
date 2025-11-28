@@ -152,6 +152,29 @@ export const sectionOverviewsMap: SectionOverviewMap = {
       ]
     }
   },
+  "Dysfunctional Uterine Bleeding (DUB)": {
+    id: "dub",
+    category: "Menstrual & Uterine Disorders",
+    overview: {
+      summary:
+        "Dysfunctional uterine bleeding is abnormal uterine bleeding not explained by pregnancy, structural lesions, or systemic disease, most often due to anovulatory cycles and unopposed estrogen.",
+      objectives: [
+        "Define DUB and differentiate it from bleeding due to structural causes.",
+        "Explain how anovulation leads to unopposed estrogen and irregular bleeding.",
+        "Recognize life stages where DUB is most common."
+      ],
+      key_points: [
+        "Common near menarche and perimenopause when cycles are frequently anovulatory.",
+        "Lack of ovulation → no corpus luteum → little progesterone → unopposed estrogen.",
+        "Endometrium proliferates irregularly and sheds unpredictably → irregular, heavy, or prolonged bleeding.",
+        "Chronic unopposed estrogen increases risk of endometrial hyperplasia and carcinoma."
+      ],
+      high_yield_clinical_pearls: [
+        "Think DUB in teens and perimenopausal women with irregular heavy bleeding and no structural abnormalities.",
+        "Always rule out pregnancy and structural pathology (fibroids, polyps) before labeling bleeding as DUB."
+      ]
+    }
+  },
   "Premenstrual Syndrome": {
     id: "pms",
     category: "Menstrual & Uterine Disorders",
@@ -175,7 +198,53 @@ export const sectionOverviewsMap: SectionOverviewMap = {
       ]
     }
   },
+  "Premenstrual Syndrome (PMS)": {
+    id: "pms",
+    category: "Menstrual & Uterine Disorders",
+    overview: {
+      summary:
+        "PMS consists of recurrent physical, emotional, and behavioral symptoms that occur in the luteal phase and resolve shortly after onset of menses. It may involve serotonergic and hormonal mechanisms. **Etymology:** The term is formed from **pre-** (before) and **menstrual** (related to menstruation), combined with **syndrome** (a collection of symptoms), meaning 'a collection of symptoms occurring before menstruation.'",
+      objectives: [
+        "Describe the timing and symptom pattern of PMS.",
+        "Differentiate PMS from PMDD and non–cycle-related mood disorders.",
+        "Outline basic treatment options including lifestyle measures, SSRIs, and hormonal therapy."
+      ],
+      key_points: [
+        "Symptoms occur in the luteal phase and resolve within a few days of menses.",
+        "Common symptoms: mood changes, irritability, bloating, breast tenderness, headaches.",
+        "Diagnosis requires symptom tracking and functional impairment.",
+        "SSRIs and lifestyle changes are key treatments; hormonal suppression may help."
+      ],
+      high_yield_clinical_pearls: [
+        "If symptoms are present all month, think primary mood/anxiety disorder rather than PMS.",
+        "PMDD is a severe form with prominent mood symptoms and greater impairment."
+      ]
+    }
+  },
   "Polycystic Ovary Syndrome": {
+    id: "pcos",
+    category: "PCOS & Endometriosis",
+    overview: {
+      summary:
+        "PCOS is a common endocrine disorder characterized by hyperandrogenism, ovulatory dysfunction, and polycystic ovaries, closely linked to insulin resistance and metabolic syndrome. **Etymology:** The term is formed from **poly-** (many), **cystic** (containing cysts), **ovary**, and **syndrome**, meaning 'a syndrome characterized by many cysts in the ovaries.'",
+      objectives: [
+        "Recall the diagnostic features of PCOS.",
+        "Explain how hyperandrogenism and insulin resistance cause signs and symptoms.",
+        "Recognize short- and long-term complications, including infertility and endometrial cancer risk."
+      ],
+      key_points: [
+        "Common presentation: irregular menses, hirsutism, acne, and obesity.",
+        "Insulin resistance contributes to increased ovarian androgen production.",
+        "Chronic anovulation → unopposed estrogen → endometrial hyperplasia risk.",
+        "PCOS is a diagnosis of exclusion; rule out other endocrine causes of hyperandrogenism."
+      ],
+      high_yield_clinical_pearls: [
+        "Acanthosis nigricans is a clue to insulin resistance in PCOS.",
+        "First-line treatments often combine lifestyle changes, hormonal contraception, and insulin-sensitizing agents."
+      ]
+    }
+  },
+  "Polycystic Ovary Syndrome (PCOS)": {
     id: "pcos",
     category: "PCOS & Endometriosis",
     overview: {
@@ -267,7 +336,53 @@ export const sectionOverviewsMap: SectionOverviewMap = {
       ]
     }
   },
+  "Pregnancy Physiology and Complications": {
+    id: "pregnancy",
+    category: "Pregnancy & Postpartum",
+    overview: {
+      summary:
+        "Pregnancy induces major cardiovascular, respiratory, renal, and endocrine changes to support the fetus. Complications include hypertensive disorders, infections, and preterm labor.",
+      objectives: [
+        "Describe normal physiological adaptations of pregnancy.",
+        "Recognize common pregnancy discomforts versus serious complications.",
+        "Identify key fetal and maternal complications including preeclampsia and GBS infection."
+      ],
+      key_points: [
+        "Cardiac output, blood volume, and heart rate all increase in pregnancy.",
+        "Progesterone relaxes smooth muscle → reflux, constipation, venous stasis.",
+        "Hypertensive disorders of pregnancy can progress to preeclampsia/eclampsia.",
+        "GBS colonization increases risk of neonatal sepsis, pneumonia, and meningitis."
+      ],
+      high_yield_clinical_pearls: [
+        "Headache, visual changes, and high BP in late pregnancy are red flags for preeclampsia.",
+        "BV in pregnancy is associated with preterm rupture of membranes and low birth weight."
+      ]
+    }
+  },
   "Postpartum Physiology": {
+    id: "postpartum",
+    category: "Pregnancy & Postpartum",
+    overview: {
+      summary:
+        "The postpartum period involves uterine involution, hormonal shifts, and initiation of lactation. Women are vulnerable to hemorrhage, infection, mood disorders, and breastfeeding complications. **Etymology:** The term is formed from **post-** (after) and **partum** (childbirth), meaning 'the period after childbirth.'",
+      objectives: [
+        "Describe normal postpartum uterine and hormonal changes.",
+        "Recognize common postpartum symptoms versus pathologic complications.",
+        "Explain the pathophysiology of postpartum mastitis and perineal complications."
+      ],
+      key_points: [
+        "Uterine involution produces lochia, a normal postpartum discharge.",
+        "Decreased estrogen can cause vaginal dryness and dyspareunia.",
+        "Pelvic floor weakness can lead to incontinence.",
+        "Mastitis and perineal infections are important postpartum complications."
+      ],
+      high_yield_clinical_pearls: [
+        "Heavy persistent bleeding postpartum may signal hemorrhage and requires urgent evaluation.",
+        "Combined OCPs started too early can reduce milk production by suppressing prolactin activity."
+      ]
+    }
+  },
+  "Postpartum Physiology and Complications": {
     id: "postpartum",
     category: "Pregnancy & Postpartum",
     overview: {
@@ -360,6 +475,29 @@ export const sectionOverviewsMap: SectionOverviewMap = {
     }
   },
   "Integrated Overview": {
+    id: "integrated_overview",
+    category: "Lifecycle & Fertility Control",
+    overview: {
+      summary:
+        "Integrated understanding of the reproductive axis allows you to connect menstrual physiology, endocrine disorders, pregnancy changes, and pharmacology into a coherent framework.",
+      objectives: [
+        "Connect HPO axis physiology to menstrual disorders and infertility.",
+        "Relate endocrine patterns in PCOS, endometriosis, and menopause.",
+        "Integrate drug mechanisms with underlying pathophysiology."
+      ],
+      key_points: [
+        "The hypothalamic–pituitary–ovarian axis underlies normal cycles and many disorders.",
+        "Anovulation is central to PCOS, DUB, and many infertility cases.",
+        "Endometriosis and PCOS highlight structural vs endocrine impacts on fertility.",
+        "Drug mechanisms often directly target hormonal feedback loops or end-organ responses."
+      ],
+      high_yield_clinical_pearls: [
+        "When stuck on a question, ask: what is happening at the HPO axis level?",
+        "Matching the drug mechanism to the dominant pathophysiology is key for exam questions."
+      ]
+    }
+  },
+  "Integrated Reproductive Overview": {
     id: "integrated_overview",
     category: "Lifecycle & Fertility Control",
     overview: {
