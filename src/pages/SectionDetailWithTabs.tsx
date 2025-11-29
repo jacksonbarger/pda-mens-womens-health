@@ -41,6 +41,19 @@ export const SectionDetailWithTabs: React.FC<SectionDetailWithTabsProps> = ({
 
   const availableGameModes = Object.keys(section.game_modes) as GameModeType[];
 
+  // Helper to check if a game mode has content
+  const gameModeHasContent = (mode: GameModeType): boolean => {
+    const gameData = section.game_modes[mode];
+    if (!gameData) return false;
+
+    if ('cards' in gameData && gameData.cards) return gameData.cards.length > 0;
+    if ('pairs' in gameData && gameData.pairs) return gameData.pairs.length > 0;
+    if ('questions' in gameData && gameData.questions) return gameData.questions.length > 0;
+    if ('cases' in gameData && gameData.cases) return gameData.cases.length > 0;
+    if ('steps_correct_order' in gameData && gameData.steps_correct_order) return gameData.steps_correct_order.length > 0;
+    return false;
+  };
+
   // Handler to go back to overview tab (not back to Concepts page)
   const handleBackToOverview = () => {
     setActiveTab('overview');
@@ -218,20 +231,27 @@ export const SectionDetailWithTabs: React.FC<SectionDetailWithTabsProps> = ({
               📖 Overview
             </button>
 
-            {availableGameModes.map(mode => (
-              <button
-                key={mode}
-                onClick={() => setActiveTab(mode)}
-                className={`px-6 py-3 rounded-lg font-semibold transition-all focus-workshop ${
-                  (activeTab as string) === mode
-                    ? 'bg-pda-forest-500 text-white shadow-md'
-                    : 'bg-white text-pda-slate-700 border-2 border-pda-slate-300 hover:border-pda-gold-400'
-                }`}
-                aria-pressed={(activeTab as string) === mode}
-              >
-                {gameModeInfo[mode].icon} {gameModeInfo[mode].label}
-              </button>
-            ))}
+            {availableGameModes.map(mode => {
+              const hasContent = gameModeHasContent(mode);
+              return (
+                <button
+                  key={mode}
+                  onClick={() => hasContent && setActiveTab(mode)}
+                  disabled={!hasContent}
+                  className={`px-6 py-3 rounded-lg font-semibold transition-all focus-workshop ${
+                    (activeTab as string) === mode
+                      ? 'bg-pda-forest-500 text-white shadow-md'
+                      : 'bg-white text-pda-slate-700 border-2 border-pda-slate-300 hover:border-pda-gold-400'
+                  } ${!hasContent ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  aria-pressed={(activeTab as string) === mode}
+                  aria-disabled={!hasContent}
+                  title={!hasContent ? 'Coming soon' : undefined}
+                >
+                  {gameModeInfo[mode].icon} {gameModeInfo[mode].label}
+                  {!hasContent && <span className="ml-1 text-xs">(Soon)</span>}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}

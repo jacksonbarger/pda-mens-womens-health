@@ -6,6 +6,7 @@ interface GiftCardProps {
   className?: string;
   hover?: boolean;
   ariaLabel?: string;
+  disabled?: boolean;
 }
 
 /**
@@ -24,12 +25,19 @@ export const GiftCard: React.FC<GiftCardProps> = ({
   className = '',
   hover = true,
   ariaLabel,
+  disabled = false,
 }) => {
-  const isInteractive = onClick !== undefined;
+  const isInteractive = onClick !== undefined && !disabled;
   const baseClass = isInteractive && hover ? 'card-workshop-interactive' : 'card-workshop';
 
+  const handleClick = () => {
+    if (!disabled && onClick) {
+      onClick();
+    }
+  };
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (onClick && (e.key === 'Enter' || e.key === ' ')) {
+    if (!disabled && onClick && (e.key === 'Enter' || e.key === ' ')) {
       e.preventDefault();
       onClick();
     }
@@ -37,12 +45,15 @@ export const GiftCard: React.FC<GiftCardProps> = ({
 
   return (
     <div
-      onClick={onClick}
+      onClick={handleClick}
       onKeyDown={handleKeyDown}
       role={isInteractive ? 'button' : undefined}
       tabIndex={isInteractive ? 0 : undefined}
       aria-label={ariaLabel}
-      className={`${baseClass} p-6 ${isInteractive ? 'focus-workshop' : ''} ${className}`}
+      aria-disabled={disabled}
+      className={`${baseClass} p-6 ${isInteractive ? 'focus-workshop' : ''} ${
+        disabled ? 'opacity-50 cursor-not-allowed' : ''
+      } ${className}`}
     >
       {children}
     </div>

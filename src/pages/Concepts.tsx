@@ -26,6 +26,22 @@ export const Concepts: React.FC<ConceptsProps> = ({ onSelectSection, onBack }) =
     { label: 'Concepts' }
   ];
 
+  // Helper to check if a section has valid content
+  const sectionHasContent = (section: Section): boolean => {
+    const gameModes = Object.values(section.game_modes);
+    if (gameModes.length === 0) return false;
+
+    // Check if at least one game mode has content
+    return gameModes.some(mode => {
+      if ('cards' in mode && mode.cards) return mode.cards.length > 0;
+      if ('pairs' in mode && mode.pairs) return mode.pairs.length > 0;
+      if ('questions' in mode && mode.questions) return mode.questions.length > 0;
+      if ('cases' in mode && mode.cases) return mode.cases.length > 0;
+      if ('steps_correct_order' in mode && mode.steps_correct_order) return mode.steps_correct_order.length > 0;
+      return false;
+    });
+  };
+
   // Helper to get total points for a section across all game modes
   const getSectionPoints = (section: Section): { earned: number; total: number } => {
     const gameModes = Object.keys(section.game_modes);
@@ -62,16 +78,19 @@ export const Concepts: React.FC<ConceptsProps> = ({ onSelectSection, onBack }) =
             {sectionsByCategory[category].map(section => {
               const { earned, total } = getSectionPoints(section);
               const percentage = total > 0 ? Math.round((earned / total) * 100) : 0;
+              const hasContent = sectionHasContent(section);
 
               return (
                 <GiftCard
                   key={section.id}
                   onClick={() => onSelectSection(section)}
-                  ariaLabel={`${section.section} - ${section.overview.summary.substring(0, 100)}... - ${percentage}% complete`}
+                  disabled={!hasContent}
+                  ariaLabel={`${section.section} - ${section.overview.summary.substring(0, 100)}... - ${percentage}% complete${!hasContent ? ' (No content available)' : ''}`}
                 >
                   <div>
                     <h3 className="text-lg font-bold text-primary mb-2">
                       {section.section}
+                      {!hasContent && <span className="ml-2 text-sm text-pda-cranberry-500">(Coming Soon)</span>}
                     </h3>
                     <p className="text-base text-secondary mb-4 line-clamp-3">
                       {section.overview.summary}
