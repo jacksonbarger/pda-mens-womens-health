@@ -22,14 +22,16 @@ export const FlashcardsGame: React.FC<FlashcardsGameProps> = ({
   const [knewCount, setKnewCount] = useState(0);
   const [reviewCount, setReviewCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
-  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>(() =>
+    cards.map((_, index) => index)
+  );
 
-  // Initialize shuffled indices on mount
+  // Re-initialize shuffled indices if cards change
   useEffect(() => {
     setShuffledIndices(cards.map((_, index) => index));
   }, [cards]);
 
-  const currentCard = cards[shuffledIndices[currentIndex]];
+  const currentCard = shuffledIndices.length > 0 ? cards[shuffledIndices[currentIndex]] : null;
 
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array: number[]): number[] => {
@@ -76,6 +78,17 @@ export const FlashcardsGame: React.FC<FlashcardsGameProps> = ({
       onComplete(knew ? knewCount + 1 : knewCount, cards.length);
     }
   };
+
+  // Loading state
+  if (!currentCard) {
+    return (
+      <div className="container mx-auto px-4 py-8 max-w-2xl">
+        <div className="text-center py-12">
+          <p className="text-base text-secondary">Loading flashcards...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (isComplete) {
     const percentage = Math.round((knewCount / cards.length) * 100);

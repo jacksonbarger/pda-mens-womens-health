@@ -23,14 +23,16 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
   const [isAnswered, setIsAnswered] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
-  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>(() =>
+    cases.map((_, index) => index)
+  );
 
-  // Initialize shuffled indices on mount
+  // Re-initialize shuffled indices if cases change
   useEffect(() => {
     setShuffledIndices(cases.map((_, index) => index));
   }, [cases]);
 
-  const currentCase = cases[shuffledIndices[currentIndex]];
+  const currentCase = shuffledIndices.length > 0 ? cases[shuffledIndices[currentIndex]] : null;
 
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array: number[]): number[] => {
@@ -52,6 +54,17 @@ export const ClinicalCasesGame: React.FC<ClinicalCasesGameProps> = ({
 
     setShuffledIndices([...completed, ...shuffledRemaining]);
   };
+
+  // Loading state
+  if (!currentCase) {
+    return (
+      <div className="container mx-auto px-4 py-8 max-w-3xl">
+        <div className="text-center py-12">
+          <p className="text-base text-secondary">Loading clinical cases...</p>
+        </div>
+      </div>
+    );
+  }
 
   const handleAnswer = (answer: string) => {
     if (isAnswered) return;

@@ -27,14 +27,16 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
   const [correctCount, setCorrectCount] = useState(0);
   const [isComplete, setIsComplete] = useState(false);
   const [questionTimes, setQuestionTimes] = useState<number[]>([]);
-  const [shuffledIndices, setShuffledIndices] = useState<number[]>([]);
+  const [shuffledIndices, setShuffledIndices] = useState<number[]>(() =>
+    questions.map((_, index) => index)
+  );
 
-  // Initialize shuffled indices on mount
+  // Re-initialize shuffled indices if questions change
   useEffect(() => {
     setShuffledIndices(questions.map((_, index) => index));
   }, [questions]);
 
-  const currentQuestion = questions[shuffledIndices[currentIndex]];
+  const currentQuestion = shuffledIndices.length > 0 ? questions[shuffledIndices[currentIndex]] : null;
 
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array: number[]): number[] => {
@@ -56,6 +58,17 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
 
     setShuffledIndices([...completed, ...shuffledRemaining]);
   };
+
+  // Loading state
+  if (!currentQuestion) {
+    return (
+      <div className="container mx-auto px-4 py-8 max-w-3xl">
+        <div className="text-center py-12">
+          <p className="text-base text-secondary">Loading quiz...</p>
+        </div>
+      </div>
+    );
+  }
 
   useEffect(() => {
     if (isAnswered || timeLeft === 0) return;
