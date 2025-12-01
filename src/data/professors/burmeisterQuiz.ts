@@ -347,7 +347,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Klebsiella pneumoniae from nosocomial sources',
       'Proteus mirabilis in catheterized patients'
     ],
-    correct_answer: 'Escherichia coli (E. coli)',
+    correct_answer: 'Escherichia coli (E. coli) from GI tract',
     explanation: 'E. COLI is the most common causative organism for both cystitis and pyelonephritis. Cystitis develops from ASCENSION of bacteria through the urethra to the bladder. Pyelonephritis usually develops when the pathogen ascends from the bladder through the ureter to the kidney. Obstruction in urine flow and presence of residual urine contribute to UTI development.',
     learningObjective: 'Identify UTI pathogens and pathogenesis',
     difficulty: 'easy',
@@ -362,7 +362,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Mixed incontinence with both stress and urge',
       'Overflow incontinence from incomplete bladder emptying'
     ],
-    correct_answer: 'Stress incontinence',
+    correct_answer: 'Stress incontinence from pelvic floor weakness',
     explanation: 'This is STRESS INCONTINENCE - involuntary loss of urine with PHYSICAL ACTIVITY, sneezing, or coughing. It is the MOST COMMON form of incontinence. Other types: URGE (loss with feeling of urgency), MIXED (loss with activity AND urgency), OVERFLOW (continuous dribbling). Implicated factors include increased pressure, pelvic floor weakness, detrusor muscle dysfunction, urethral sphincter incompetence.',
     learningObjective: 'Differentiate incontinence types',
     difficulty: 'easy',

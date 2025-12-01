@@ -4,6 +4,8 @@ import { Breadcrumb } from '../components/shared/Breadcrumb';
 import { FlashcardsGame } from '../components/games/FlashcardsGame';
 import { TimedQuizGame } from '../components/games/TimedQuizGame';
 import { FlowchartViewer } from '../components/professor/FlowchartViewer';
+import { PreparednessCard } from '../components/PreparednessCard';
+import { calculatePreparedness } from '../utils/progressTracking';
 
 interface ProfessorDetailProps {
   professorId: string;
@@ -38,8 +40,22 @@ export const ProfessorDetail: React.FC<ProfessorDetailProps> = ({
   const renderTabContent = () => {
     switch (activeTab) {
       case 'overview':
+        // Calculate preparedness score for this professor
+        const preparedness = calculatePreparedness(
+          professorId,
+          professor.quiz.length,
+          professor.flashcards.length,
+          professor.drugCards?.length || 0
+        );
+
         return (
           <div className="space-y-6">
+            {/* Preparedness Ranking */}
+            <PreparednessCard
+              preparedness={preparedness}
+              professorName={professor.fullName}
+            />
+
             {/* Summary */}
             <div className="card-workshop p-6">
               <h3 className="text-xl font-bold text-primary mb-3">Summary</h3>
@@ -175,6 +191,7 @@ export const ProfessorDetail: React.FC<ProfessorDetailProps> = ({
             }))}
             timeLimit={professor.quiz.length * 90} // 90 seconds per question
             sectionName={professor.fullName}
+            professorId={professorId}
             onComplete={(correct: number, total: number) => {
               // Track progress if needed
               console.log(`Quiz completed: ${correct}/${total}`);

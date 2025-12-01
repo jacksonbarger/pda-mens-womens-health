@@ -168,6 +168,7 @@ export const SectionDetailWithTabs: React.FC<SectionDetailWithTabsProps> = ({
               questions={gameData.questions}
               timeLimit={gameData.time_limit_seconds}
               sectionName={section.section}
+              professorId={`section-${section.id || 'general'}`}
               onComplete={(correct, total) => onCompleteGame('timed_quiz', correct, total)}
               onExit={handleBackToOverview}
             />

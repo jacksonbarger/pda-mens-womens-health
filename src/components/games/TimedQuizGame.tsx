@@ -4,11 +4,13 @@ import { WorkshopButton } from '../shared/WorkshopButton';
 import { GiftCard } from '../shared/GiftCard';
 import { ProgressBar } from '../shared/ProgressBar';
 import { ModeInstructionBanner } from '../shared/ModeInstructionBanner';
+import { recordQuizSession, getProfessorProgress, getRecentSessions } from '../../utils/progressTracking';
 
 interface TimedQuizGameProps {
   questions: TimedQuizQuestion[];
   timeLimit: number;
   sectionName: string;
+  professorId: string; // Add professorId for tracking
   onComplete: (correct: number, total: number) => void;
   onExit: () => void;
 }
@@ -17,6 +19,7 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
   questions,
   timeLimit,
   sectionName,
+  professorId,
   onComplete,
   onExit,
 }) => {
@@ -148,6 +151,11 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
       setIsAnswered(false);
     } else {
       setIsComplete(true);
+
+      // Record quiz session with all question IDs (convert to strings)
+      const questionIds = shuffledIndices.map(idx => String(questions[idx].id));
+      recordQuizSession(professorId, questionIds, correctCount, questions.length);
+
       onComplete(correctCount, questions.length);
     }
   };
@@ -157,6 +165,13 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
     const avgTime = questionTimes.reduce((a, b) => a + b, 0) / questionTimes.length;
     const verdict =
       percentage >= 90 ? 'Nice! 🎅' : percentage >= 70 ? 'Good Job! ⭐' : 'Keep Studying! 🎄';
+
+    // Get progress stats
+    const progress = getProfessorProgress(professorId);
+    const recentSessions = getRecentSessions(professorId, 5);
+    const allTimeAccuracy = progress.quiz.totalQuestions > 0
+      ? Math.round((progress.quiz.correctAnswers / progress.quiz.totalQuestions) * 100)
+      : 0;
 
     return (
       <div className="container mx-auto px-4 py-8 max-w-2xl">
@@ -168,19 +183,67 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
             <h2 className="text-3xl font-bold text-pda-cranberry-600 mb-4">
               Quiz Complete!
             </h2>
-            <div className="space-y-4 mb-6">
-              <div className="text-lg">
-                <span className="font-semibold">Score:</span> {correctCount} / {questions.length}
+
+            {/* Session Score */}
+            <div className="bg-blue-50 rounded-lg p-4 mb-6">
+              <h3 className="text-lg font-semibold text-blue-900 mb-3">This Session</h3>
+              <div className="space-y-2">
+                <div className="text-lg">
+                  <span className="font-semibold">Score:</span> {correctCount} / {questions.length}
+                </div>
+                <div className="text-lg">
+                  <span className="font-semibold">Percentage:</span> {percentage}%
+                </div>
+                <div className="text-lg">
+                  <span className="font-semibold">Avg Time per Question:</span>{' '}
+                  {formatTime(Math.round(avgTime))}
+                </div>
+                <div className="text-2xl font-bold text-pda-gold-600 mt-2">{verdict}</div>
               </div>
-              <div className="text-lg">
-                <span className="font-semibold">Percentage:</span> {percentage}%
-              </div>
-              <div className="text-lg">
-                <span className="font-semibold">Avg Time per Question:</span>{' '}
-                {formatTime(Math.round(avgTime))}
-              </div>
-              <div className="text-2xl font-bold text-pda-gold-600">{verdict}</div>
             </div>
+
+            {/* All-Time Stats */}
+            <div className="bg-green-50 rounded-lg p-4 mb-6">
+              <h3 className="text-lg font-semibold text-green-900 mb-3">All-Time Stats</h3>
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <div className="text-gray-600">Total Attempts</div>
+                  <div className="text-2xl font-bold text-green-900">{progress.quiz.totalAttempts}</div>
+                </div>
+                <div>
+                  <div className="text-gray-600">Overall Accuracy</div>
+                  <div className="text-2xl font-bold text-green-900">{allTimeAccuracy}%</div>
+                </div>
+                <div>
+                  <div className="text-gray-600">Questions Seen</div>
+                  <div className="text-2xl font-bold text-green-900">{progress.quiz.questionsAttempted.length}</div>
+                </div>
+                <div>
+                  <div className="text-gray-600">Total Correct</div>
+                  <div className="text-2xl font-bold text-green-900">{progress.quiz.correctAnswers}</div>
+                </div>
+              </div>
+
+              {/* Recent Sessions */}
+              {recentSessions.length > 1 && (
+                <div className="mt-4 border-t border-green-200 pt-3">
+                  <div className="text-xs font-semibold text-green-800 mb-2">Recent Sessions</div>
+                  <div className="space-y-1">
+                    {recentSessions.slice(0, 3).map((session, idx) => (
+                      <div key={idx} className="flex justify-between items-center text-xs">
+                        <span className="text-gray-600">
+                          {new Date(session.date).toLocaleDateString()}
+                        </span>
+                        <span className="font-semibold text-green-900">
+                          {session.correct}/{session.total} ({session.percentage}%)
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             <div className="flex justify-center space-x-4">
               <WorkshopButton onClick={onExit} variant="secondary">
                 Back to Section

@@ -301,7 +301,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Vitamin D increases phenytoin levels causing toxicity and neurological symptoms',
       'They should never be taken together due to severe interactions'
     ],
-    correct_answer: 'Phenytoin increases vitamin D metabolism, requiring higher vitamin D doses',
+    correct_answer: 'Phenytoin increases vitamin D metabolism, requiring higher vitamin D doses for adequacy',
     explanation: 'Phenytoin, barbiturates, carbamazepine, rifampin, and valproic acid are enzyme inducers that INCREASE vitamin D metabolism → lower vitamin D levels → may need HIGHER vitamin D doses. Other interactions: Cholestyramine, colestipol, orlistat, mineral oil DECREASE vitamin D absorption. Avoid taking vitamin D with ALUMINUM-containing products (antacids) to prevent aluminum toxicity. Monitor 25-OH vitamin D levels to ensure adequacy.',
     learningObjective: 'Identify vitamin D drug interactions',
     difficulty: 'medium',
