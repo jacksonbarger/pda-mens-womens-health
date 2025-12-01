@@ -1,250 +1,692 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Weldon-MedicinalChemistry" id="weldon-main">
-    <mxGraphModel dx="2200" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="DrWeldon_Detailed_MedChem" id="0">
+    <mxGraphModel dx="1177" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3600" pageHeight="3400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- TITLE -->
-        <mxCell id="title" value="MEDICINAL CHEMISTRY - Dr. Weldon&#xa;BPH/ED/UI Drug Structures | Osteoporosis Drug Chemistry | Gonadal Hormones SAR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="20" width="1520" height="80" as="geometry" />
+        <mxCell id="title" value="DR. WELDON — MEDICINAL CHEMISTRY MASTER MAP&lt;br&gt;GU Pharmacology • Osteoporosis Drugs • Mechanistic Hubs • SAR Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;fontSize=22;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="20" width="1400" height="100" as="geometry" />
         </mxCell>
-
-        <!-- ========== SECTION 1: BPH & ED MED CHEM ========== -->
-        <mxCell id="male-section" value="BPH & ED MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="500" height="50" as="geometry" />
+        <mxCell id="legend" value="&lt;b&gt;LEGEND&lt;/b&gt;&lt;br&gt;🔵 Blue = Target receptors/enzymes&lt;br&gt;🟩 Green = Normal physiology&lt;br&gt;🟦 Light Blue = Drug molecules&lt;br&gt;🔴 Red = Pathology/disease&lt;br&gt;🟪 Purple = Clinical outcomes&lt;br&gt;🟧 Orange = SAR features&lt;br&gt;&lt;br&gt;→ Green solid = Stimulation/activation&lt;br&gt;⤏ Red dashed = Inhibition/antagonism&lt;br&gt;&lt;br&gt;&lt;b&gt;How to Use:&lt;/b&gt;&lt;br&gt;1. Trace drug → receptor/enzyme target&lt;br&gt;2. Follow mechanism to clinical effect&lt;br&gt;3. Review SAR for structure modifications&lt;br&gt;4. Compare drug selectivity profiles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=13;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="480" height="340" as="geometry" />
         </mxCell>
-
-        <!-- Alpha-1 Antagonists -->
-        <mxCell id="alpha-box" value="ALPHA-1 ANTAGONISTS (BPH)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="60" y="210" width="220" height="40" as="geometry" />
+        <mxCell id="bph_title" value="SECTION 1 — BPH MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="400" width="1600" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="alpha-structure" value="Core Structure: QUINAZOLINE&#xa;Suffix: -AZOSIN&#xa;&#xa;Key Groups:&#xa;• Sulfonamide (essential)&#xa;• Piperazine/piperidine ring&#xa;• Methoxy substituents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="265" width="220" height="130" as="geometry" />
+        <mxCell id="bph_aging" value="Aging +&lt;br&gt;Androgens" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="60" y="500" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="tamsulosin-sar" value="Tamsulosin (Flomax)&#xa;• Selective for alpha-1A&#xa;  (prostate > vasculature)&#xa;• LESS orthostatic hypotension&#xa;• Sulfonamide + benzene ring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="60" y="410" width="220" height="100" as="geometry" />
+        <mxCell id="bph_5ar" value="5α-Reductase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="doxazosin-sar" value="Doxazosin (Cardura)&#xa;• NON-selective alpha-1&#xa;• Quinazoline core&#xa;• Used for BPH + HTN&#xa;• MORE hypotension risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="60" y="525" width="220" height="95" as="geometry" />
+        <mxCell id="bph_dht" value="DHT&lt;br&gt;(Dihydrotestosterone)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="500" width="140" height="60" as="geometry" />
         </mxCell>
-
-        <!-- 5-ARIs -->
-        <mxCell id="5ari-box" value="5-ALPHA-REDUCTASE INHIBITORS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="310" y="210" width="210" height="40" as="geometry" />
+        <mxCell id="bph_hyperplasia" value="Prostatic&lt;br&gt;Hyperplasia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="540" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="5ari-structure" value="Both are STEROIDAL&#xa;4-Azasteroid structure&#xa;(mimic testosterone)&#xa;&#xa;Isoforms:&#xa;• Type 1: Skin/liver&#xa;• Type 2: Reproductive tissue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="265" width="210" height="130" as="geometry" />
+        <mxCell id="bph_smooth" value="α1-Adrenergic&lt;br&gt;Tone in Prostate&lt;br&gt;&amp; Bladder Neck" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="60" y="620" width="140" height="80" as="geometry" />
         </mxCell>
-
-        <mxCell id="finasteride-sar" value="Finasteride (Proscar)&#xa;• Type 2 SELECTIVE&#xa;• 30x more selective for type 2&#xa;• t1/2: 6 hours&#xa;• Used: BPH, male pattern baldness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="410" width="210" height="100" as="geometry" />
+        <mxCell id="bph_obstruct" value="Urethral&lt;br&gt;Obstruction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="240" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="dutasteride-sar" value="Dutasteride (Avodart)&#xa;• Inhibits BOTH Type 1 + 2&#xa;• 10x more potent for type 2&#xa;• t1/2: 5 WEEKS (very long)&#xa;• More complete DHT suppression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="310" y="525" width="210" height="95" as="geometry" />
+        <mxCell id="bph_luts" value="LUTS:&lt;br&gt;Hesitancy, Weak Stream,&lt;br&gt;Nocturia, Retention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="400" y="620" width="180" height="80" as="geometry" />
         </mxCell>
-
-        <!-- PDE5 Inhibitors -->
-        <mxCell id="pde5-box" value="PDE5 INHIBITORS (ED)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="60" y="660" width="220" height="40" as="geometry" />
+        <mxCell id="alpha_title" value="α1-ADRENERGIC ANTAGONISTS (Competitive Blockade)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="720" y="480" width="400" height="50" as="geometry" />
         </mxCell>
-
-        <mxCell id="pde5-structure" value="Core: PYRAZOLOPYRIMIDINONE&#xa;&#xa;Key Features:&#xa;• Based on GUANINE (mimic GMP)&#xa;• Sulfonamide for water solubility&#xa;• Competitive inhibitors&#xa;&#xa;SELECTIVITY vs POTENCY:&#xa;• Selectivity = 1 drug, multiple targets&#xa;• Potency = multiple drugs, 1 target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="715" width="220" height="170" as="geometry" />
+        <mxCell id="alpha_tamsulosin" value="Tamsulosin&lt;br&gt;(Flomax)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="740" y="560" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="sildenafil-sar" value="Sildenafil (Viagra)&#xa;• Only >10-fold PDE5 vs PDE6&#xa;• PDE6 in retina → BLUE VISION&#xa;• Poor selectivity = side effects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="60" y="900" width="220" height="80" as="geometry" />
+        <mxCell id="alpha_alfuzosin" value="Alfuzosin&lt;br&gt;(Uroxatral)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="870" y="560" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pde5-better" value="Tadalafil, Vardenafil, Avanafil:&#xa;• Better PDE5/PDE6 selectivity&#xa;• Fewer visual side effects&#xa;• Same core structure with&#xa;  modifications for selectivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="60" y="995" width="220" height="95" as="geometry" />
+        <mxCell id="alpha_doxazosin" value="Doxazosin&lt;br&gt;(Cardura)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="560" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <!-- ========== SECTION 2: UI & OSTEOPOROSIS MED CHEM ========== -->
-        <mxCell id="ui-bone-section" value="URINARY INCONTINENCE & OSTEOPOROSIS CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="580" y="130" width="500" height="50" as="geometry" />
+        <mxCell id="alpha_sar" value="SAR Features:&lt;br&gt;• Sulfonamide group (essential)&lt;br&gt;• Piperazine/piperidine ring&lt;br&gt;• Tamsulosin: α1A selective (prostate)&lt;br&gt;• Doxazosin: Quinazoline core (non-selective, ↓BP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="740" y="640" width="370" height="100" as="geometry" />
         </mxCell>
-
-        <!-- UI Drugs -->
-        <mxCell id="ui-box" value="URINARY INCONTINENCE DRUGS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="600" y="210" width="220" height="40" as="geometry" />
+        <mxCell id="alpha_mech" value="Mechanism:&lt;br&gt;Block α1 receptors →&lt;br&gt;↓ Smooth muscle tone →&lt;br&gt;Prostatic/urethral relaxation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="560" width="200" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="antimuscarinics-sar" value="Antimuscarinics (M3 blockers)&#xa;• Structurally resemble&#xa;  ACETYLCHOLINE&#xa;• Competitive antagonists&#xa;&#xa;Examples:&#xa;• Oxybutynin, Tolterodine&#xa;• Tertiary amines&#xa;• Cross BBB → CNS effects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="265" width="220" height="145" as="geometry" />
+        <mxCell id="alpha_outcome" value="Clinical Effect:&lt;br&gt;↑ Urinary flow rate&lt;br&gt;↓ Obstructive symptoms&lt;br&gt;Fast onset (days)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="560" width="200" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="beta3-sar" value="Beta-3 Agonists&#xa;• Structurally resemble&#xa;  EPINEPHRINE&#xa;• Selective for beta-3 receptors&#xa;&#xa;Mirabegron (Myrbetriq):&#xa;• Phenylethylamine core&#xa;• NO anticholinergic SE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="425" width="220" height="130" as="geometry" />
+        <mxCell id="5ari_title" value="5α-REDUCTASE INHIBITORS (Enzymatic Inhibition)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="720" y="780" width="400" height="50" as="geometry" />
         </mxCell>
-
-        <mxCell id="ddavp-sar" value="Desmopressin (DDAVP)&#xa;• Vasopressin analogue&#xa;• Modified for oral bioavailability&#xa;• Longer duration than vasopressin&#xa;• Used for nocturia/nocturnal&#xa;  polyuria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="570" width="220" height="115" as="geometry" />
+        <mxCell id="5ari_finasteride" value="Finasteride&lt;br&gt;(Proscar, Propecia)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="740" y="860" width="130" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Bisphosphonates -->
-        <mxCell id="bpp-box" value="BISPHOSPHONATES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="850" y="210" width="210" height="40" as="geometry" />
+        <mxCell id="5ari_dutasteride" value="Dutasteride&lt;br&gt;(Avodart)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="900" y="860" width="130" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="bpp-structure" value="Mimic INORGANIC PYROPHOSPHATE&#xa;&#xa;Key Innovation: P-C-P bond&#xa;(vs P-O-P in IPP)&#xa;→ Resistant to hydrolysis&#xa;→ Long half-life&#xa;&#xa;R1: Variable (OH, H, Cl)&#xa;R2: Side chain determines potency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="265" width="210" height="160" as="geometry" />
+        <mxCell id="5ari_sar" value="SAR Features:&lt;br&gt;• 4-Azasteroid structure (mimics testosterone)&lt;br&gt;• Finasteride: Type II 5αR selective&lt;br&gt;• Dutasteride: Dual Type I &amp; II inhibitor&lt;br&gt;• t½: Finasteride 6h, Dutasteride 5 weeks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="740" y="940" width="290" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="bpp-r2" value="R2 Side Chain Effects:&#xa;&#xa;Simple alkyl (etidronate):&#xa;• Less potent&#xa;&#xa;Nitrogen-containing:&#xa;• MUCH more potent&#xa;• ↑ BRONJ risk&#xa;• Alendronate, Risedronate,&#xa;  Zoledronate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="850" y="440" width="210" height="155" as="geometry" />
+        <mxCell id="5ari_mech" value="Mechanism:&lt;br&gt;Inhibit 5α-reductase →&lt;br&gt;↓ Testosterone→DHT conversion →&lt;br&gt;↓ Prostatic growth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="860" width="200" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="zoledronate-sar" value="Zoledronate (Reclast)&#xa;• Most potent bisphosphonate&#xa;• Two nitrogen atoms&#xa;• IV administration only&#xa;• Annual dosing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="850" y="610" width="210" height="95" as="geometry" />
+        <mxCell id="5ari_outcome" value="Clinical Effect:&lt;br&gt;Prostate shrinkage (20-30%)&lt;br&gt;↓ Disease progression&lt;br&gt;Slow onset (6-12 months)&lt;br&gt;SE: Sexual dysfunction, ↓PSA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="860" width="200" height="120" as="geometry" />
         </mxCell>
-
-        <!-- PTH Analogues -->
-        <mxCell id="pth-box" value="PTH ANALOGUES (Anabolic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="600" y="730" width="220" height="40" as="geometry" />
+        <mxCell id="ed_title" value="SECTION 2 — ERECTILE DYSFUNCTION MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1120" width="1600" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pth-sar" value="Teriparatide (Forteo)&#xa;• Recombinant PTH (1-34)&#xa;• NOT antiresorptive&#xa;• ANABOLIC: ↑ osteoblast activity&#xa;&#xa;Theory: Build more bone than&#xa;you lose (net formation)&#xa;&#xa;Abaloparatide: Similar mechanism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="600" y="785" width="220" height="155" as="geometry" />
+        <mxCell id="ed_stim" value="Sexual&lt;br&gt;Stimulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1220" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Monoclonal Antibodies -->
-        <mxCell id="mab-box" value="MONOCLONAL ANTIBODIES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="850" y="730" width="210" height="40" as="geometry" />
+        <mxCell id="ed_no" value="Nitric Oxide&lt;br&gt;Release" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1220" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="denosumab-sar" value="Denosumab (Prolia)&#xa;• Binds RANKL&#xa;• Prevents osteoclast&#xa;  differentiation&#xa;• Antiresorptive mechanism&#xa;• SC q6 months" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="850" y="785" width="210" height="105" as="geometry" />
+        <mxCell id="ed_gc" value="Guanylate&lt;br&gt;Cyclase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1220" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="romosozumab-sar" value="Romosozumab (Evenity)&#xa;• Anti-sclerostin antibody&#xa;• DUAL MOA (UNIQUE):&#xa;  1. ↑ Bone formation&#xa;  2. ↓ Bone resorption&#xa;• CV contraindications limit use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="850" y="905" width="210" height="120" as="geometry" />
+        <mxCell id="ed_cgmp" value="↑ cGMP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1220" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <!-- ========== SECTION 3: GONADAL HORMONES SAR ========== -->
-        <mxCell id="hormone-section" value="GONADAL HORMONES MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="130" width="440" height="50" as="geometry" />
+        <mxCell id="ed_relax" value="Smooth Muscle&lt;br&gt;Relaxation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Estrogens -->
-        <mxCell id="estrogen-box" value="ESTROGEN CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="210" width="190" height="40" as="geometry" />
+        <mxCell id="ed_erection" value="ERECTION:&lt;br&gt;Blood flow to&lt;br&gt;corpus cavernosum" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="1220" width="140" height="80" as="geometry" />
         </mxCell>
-
-        <mxCell id="estrogen-class" value="Classification: C18 Steroid&#xa;• AROMATIC A-ring (essential)&#xa;• 3-Phenolic OH (essential)&#xa;• 17β-OH for maximal potency&#xa;&#xa;Classic estrogens:&#xa;• Estrone (E1)&#xa;• 17β-Estradiol (E2 - most potent)&#xa;• Estriol (E3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="265" width="190" height="170" as="geometry" />
+        <mxCell id="ed_pde5" value="PDE5&lt;br&gt;(Phosphodiesterase-5)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1340" width="140" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="ee-sar" value="Ethinyl Estradiol (EE)&#xa;• 17α-ETHINYL blocks metabolism&#xa;• Prevents estrone conversion&#xa;• 15-20x more potent orally&#xa;• Used in ALL oral contraceptives&#xa;&#xa;Mestranol:&#xa;• 3-O-methyl PRODRUG of EE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="450" width="190" height="145" as="geometry" />
+        <mxCell id="ed_gmp" value="↓ cGMP → GMP&lt;br&gt;(Degradation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Aromatase -->
-        <mxCell id="aromatase-box" value="AROMATASE (CYP19)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="620" width="190" height="40" as="geometry" />
+        <mxCell id="pde5_title" value="PDE5 INHIBITORS (Selective Competitive Inhibition)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1200" width="600" height="50" as="geometry" />
         </mxCell>
-
-        <mxCell id="aromatase-sar" value="Critical Enzyme:&#xa;• Converts androgens → estrogens&#xa;• Requires 3 O2 + NADPH&#xa;&#xa;Aromatase Inhibitors:&#xa;• Anastrozole, Letrozole&#xa;• Nonsteroidal triazoles&#xa;• N-4 azole binds HEME IRON&#xa;• Prevents O2 binding&#xa;• Block estrogen synthesis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="675" width="190" height="175" as="geometry" />
+        <mxCell id="pde5_sildenafil" value="Sildenafil&lt;br&gt;(Viagra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1280" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Progestins -->
-        <mxCell id="progestin-box" value="PROGESTIN CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="210" width="180" height="40" as="geometry" />
+        <mxCell id="pde5_tadalafil" value="Tadalafil&lt;br&gt;(Cialis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="1280" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="progestin-class" value="Classification: C21 Steroid&#xa;• 3-Keto-4,5-ene structure&#xa;&#xa;Progesterone:&#xa;• Rapid metabolism (t1/2 5-10 min)&#xa;• Poor oral bioavailability&#xa;→ Synthetic progestins needed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="265" width="180" height="135" as="geometry" />
+        <mxCell id="pde5_vardenafil" value="Vardenafil&lt;br&gt;(Levitra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="1280" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pregnane-sar" value="PREGNANES:&#xa;• C6 methyl → oral availability&#xa;• Medroxyprogesterone&#xa;• No androgenic activity&#xa;&#xa;19-NORANDROSTANES:&#xa;• From testosterone&#xa;• Loss of C19 methyl → ↓ androgenic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="415" width="180" height="145" as="geometry" />
+        <mxCell id="pde5_avanafil" value="Avanafil&lt;br&gt;(Stendra)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1280" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="ethinyl-progestin" value="KEY SAR PRINCIPLE:&#xa;&#xa;ETHINYL on ANDROGEN&#xa;→ Converts to PROGESTIN&#xa;&#xa;Examples:&#xa;• Norethindrone (NET)&#xa;• Levonorgestrel (LNG - high&#xa;  androgenic)&#xa;• Norgestimate, Desogestrel&#xa;  (3rd gen - low androgenic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="575" width="180" height="180" as="geometry" />
+        <mxCell id="pde5_sar" value="SAR Features:&lt;br&gt;• Core scaffold variations (piperazine, imidazole)&lt;br&gt;• Sildenafil: Pyrazolopyrimidinone (1st gen, t½ 4h)&lt;br&gt;• Tadalafil: β-carboline (longest t½ 17.5h)&lt;br&gt;• Selectivity: PDE5 &gt;&gt; PDE6 (visual), PDE11&lt;br&gt;• Lipophilicity affects onset/duration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1360" width="530" height="120" as="geometry" />
         </mxCell>
-
-        <mxCell id="sprm-box" value="SPRM: Ulipristal (Ella)&#xa;• Selective Progesterone Receptor&#xa;  Modulator&#xa;• Emergency contraception&#xa;• Within 120 hours (5 days)&#xa;&#xa;Mifepristone (RU-486):&#xa;• Progesterone antagonist&#xa;• Medical abortion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="770" width="180" height="145" as="geometry" />
+        <mxCell id="pde5_mech" value="Mechanism:&lt;br&gt;Inhibit PDE5 →&lt;br&gt;Prevent cGMP breakdown →&lt;br&gt;Sustained smooth muscle relaxation →&lt;br&gt;Enhanced erectile response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1500" width="260" height="120" as="geometry" />
         </mxCell>
-
-        <!-- ========== HIGH-YIELD MED CHEM PEARLS ========== -->
-        <mxCell id="pearls-box" value="HIGH-YIELD MED CHEM PEARLS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1130" width="1520" height="40" as="geometry" />
+        <mxCell id="pde5_outcome" value="Clinical Effect:&lt;br&gt;Improved erection firmness/duration&lt;br&gt;Success rate 60-80%&lt;br&gt;SE: Headache, flushing, dyspepsia&lt;br&gt;CI: Nitrates (severe hypotension)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="1500" width="280" height="120" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl1" value="Quinazoline +&#xa;-azosin suffix =&#xa;Alpha-1 antagonist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1190" width="140" height="70" as="geometry" />
+        <mxCell id="ui_title" value="SECTION 3 — URINARY INCONTINENCE MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="400" width="1800" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl2" value="Both 5-ARIs are&#xa;STEROIDAL&#xa;(4-azasteroid)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1190" width="140" height="70" as="geometry" />
+        <mxCell id="oab_detrusor" value="Detrusor&lt;br&gt;Muscle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="500" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl3" value="PDE5 inhibitors:&#xa;Guanine-based,&#xa;mimic GMP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1190" width="140" height="70" as="geometry" />
+        <mxCell id="oab_m3" value="M3 Muscarinic&lt;br&gt;Receptors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1900" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl4" value="Antimuscarinics&#xa;resemble&#xa;acetylcholine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1190" width="140" height="70" as="geometry" />
+        <mxCell id="oab_ach" value="ACh&lt;br&gt;Stimulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="500" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl5" value="BPPs: P-C-P bond&#xa;vs P-O-P in IPP&#xa;= resistant to hydrolysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1190" width="150" height="70" as="geometry" />
+        <mxCell id="oab_contract" value="Detrusor&lt;br&gt;Contraction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl6" value="Nitrogen-containing&#xa;R2 in BPPs:&#xa;↑ potency + ↑ BRONJ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1190" width="150" height="70" as="geometry" />
+        <mxCell id="oab_urgency" value="OAB Symptoms:&lt;br&gt;Urgency, Frequency,&lt;br&gt;Urge incontinence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="490" width="160" height="80" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl7" value="17α-Ethinyl:&#xa;Blocks metabolism&#xa;→ oral activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1190" width="140" height="70" as="geometry" />
+        <mxCell id="antim_title" value="ANTIMUSCARINICS (M3 Receptor Antagonists)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="620" width="760" height="50" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl8" value="Aromatase inhibitors:&#xa;Azole binds heme&#xa;iron of CYP19" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1190" width="150" height="70" as="geometry" />
+        <mxCell id="antim_oxybutynin" value="Oxybutynin&lt;br&gt;(Ditropan)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="700" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="pearl9" value="19-Nor: Loss of&#xa;C19 methyl → ↓&#xa;androgenic activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="1190" width="170" height="70" as="geometry" />
+        <mxCell id="antim_tolterodine" value="Tolterodine&lt;br&gt;(Detrol)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="700" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Legend -->
-        <mxCell id="legend-box" value="LEGEND" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1300" width="1520" height="30" as="geometry" />
+        <mxCell id="antim_solifenacin" value="Solifenacin&lt;br&gt;(VESIcare)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2060" y="700" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend1" value="Blue = Male/BPH/ED drugs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1345" width="180" height="30" as="geometry" />
+        <mxCell id="antim_darifenacin" value="Darifenacin&lt;br&gt;(Enablex)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="700" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend2" value="Pink = Female/hormone drugs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1345" width="180" height="30" as="geometry" />
+        <mxCell id="antim_trospium" value="Trospium&lt;br&gt;(Sanctura)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2340" y="700" width="110" height="60" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend3" value="Purple = Bone/osteoporosis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1345" width="180" height="30" as="geometry" />
+        <mxCell id="antim_sar" value="SAR Features:&lt;br&gt;• Tertiary amines (lipophilic, cross BBB) vs Quaternary (Trospium: ↓CNS SE)&lt;br&gt;• M3 selectivity: Darifenacin &gt; Solifenacin &gt; Tolterodine &gt; Oxybutynin&lt;br&gt;• Oxybutynin: Direct smooth muscle relaxant effect&lt;br&gt;• Extended-release formulations ↓ anticholinergic burden" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="780" width="670" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend4" value="Green = Urinary/general" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1345" width="180" height="30" as="geometry" />
+        <mxCell id="antim_mech" value="Mechanism:&lt;br&gt;Block M3 receptors →&lt;br&gt;↓ Detrusor contractility →&lt;br&gt;↑ Bladder capacity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="900" width="200" height="100" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend5" value="Orange = SAR/structural features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1345" width="200" height="30" as="geometry" />
+        <mxCell id="antim_outcome" value="Clinical Effect:&lt;br&gt;↓ Urgency episodes&lt;br&gt;↓ Incontinence frequency&lt;br&gt;SE: Dry mouth, constipation,&lt;br&gt;blurred vision, urinary retention,&lt;br&gt;cognitive impairment (elderly)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="900" width="220" height="140" as="geometry" />
         </mxCell>
-
-        <mxCell id="legend6" value="Light blue = Individual drugs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="1345" width="180" height="30" as="geometry" />
+        <mxCell id="beta3_title" value="β3-ADRENERGIC AGONIST (Novel Mechanism)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2600" y="620" width="400" height="50" as="geometry" />
         </mxCell>
-
+        <mxCell id="beta3_mirabegron" value="Mirabegron&lt;br&gt;(Myrbetriq)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beta3_vibegron" value="Vibegron&lt;br&gt;(Gemtesa)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2770" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beta3_sar" value="SAR Features:&lt;br&gt;• Selective β3 agonists&lt;br&gt;• Avoid β1/β2 stimulation (↓ CV SE)&lt;br&gt;• Mirabegron: Thiazole core&lt;br&gt;• Alternative to antimuscarinics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="780" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="beta3_mech" value="Mechanism:&lt;br&gt;β3 agonist →&lt;br&gt;↑ cAMP →&lt;br&gt;Detrusor relaxation →&lt;br&gt;↑ Bladder capacity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="900" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beta3_outcome" value="Clinical Effect:&lt;br&gt;↓ Micturition frequency&lt;br&gt;No anticholinergic SE&lt;br&gt;SE: Hypertension, UTI,&lt;br&gt;headache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2840" y="900" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_title" value="SECTION 4 — OSTEOPOROSIS MEDICINAL CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="1120" width="1800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_osteoblast" value="Osteoblasts&lt;br&gt;(Bone formation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="1220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_osteoclast" value="Osteoclasts&lt;br&gt;(Bone resorption)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="1220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_rankl" value="RANKL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="1320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_rank" value="RANK&lt;br&gt;Receptor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="1320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_activate" value="Osteoclast&lt;br&gt;Activation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="1320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bone_resorb" value="Bone Loss&lt;br&gt;(Osteoporosis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_title" value="BISPHOSPHONATES (Antiresorptive Agents)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="1420" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_alendronate" value="Alendronate&lt;br&gt;(Fosamax)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_risedronate" value="Risedronate&lt;br&gt;(Actonel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_ibandronate" value="Ibandronate&lt;br&gt;(Boniva)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_zoledronic" value="Zoledronic acid&lt;br&gt;(Reclast)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_sar" value="SAR Features:&lt;br&gt;• P-C-P backbone (resists enzymatic breakdown)&lt;br&gt;• R1: Hydroxyl (bone affinity) or H (non-N containing)&lt;br&gt;• R2: Nitrogen-containing side chain (N-BPs: potency ↑)&lt;br&gt;• Alendronate/Risedronate: Inhibit farnesyl pyrophosphate synthase&lt;br&gt;• Zoledronic: IV, most potent, annual dosing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="1580" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_mech" value="Mechanism:&lt;br&gt;Bone binding →&lt;br&gt;Osteoclast uptake →&lt;br&gt;Inhibit mevalonate pathway →&lt;br&gt;Osteoclast apoptosis →&lt;br&gt;↓ Bone resorption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="1720" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bp_outcome" value="Clinical Effect:&lt;br&gt;↑ BMD 5-10%&lt;br&gt;↓ Fracture risk 40-50%&lt;br&gt;SE: GI upset, osteonecrosis of jaw (rare),&lt;br&gt;atypical femoral fractures (long-term)&lt;br&gt;Admin: Empty stomach, upright 30min" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="1720" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_title" value="PTH ANALOGS (Anabolic Agents)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2500" y="1220" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_teriparatide" value="Teriparatide&lt;br&gt;(Forteo)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="1300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_abaloparatide" value="Abaloparatide&lt;br&gt;(Tymlos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="1300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_sar" value="SAR Features:&lt;br&gt;• Teriparatide: Recombinant PTH(1-34)&lt;br&gt;• Abaloparatide: PTHrP analog&lt;br&gt;• Daily SC injection&lt;br&gt;• Max 2 years (osteosarcoma risk in rats)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="1380" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_mech" value="Mechanism:&lt;br&gt;Intermittent PTH →&lt;br&gt;Preferentially stimulates&lt;br&gt;osteoblasts →&lt;br&gt;↑ Bone formation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="1500" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_outcome" value="Clinical Effect:&lt;br&gt;↑ BMD (spine 9%, hip 3%)&lt;br&gt;↓ Vertebral fractures 65%&lt;br&gt;SE: Hypercalcemia, dizziness,&lt;br&gt;leg cramps&lt;br&gt;Use: Severe osteoporosis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2740" y="1500" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_title" value="RANKL INHIBITOR (Monoclonal Antibody)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2500" y="1680" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_denosumab" value="Denosumab&lt;br&gt;(Prolia)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="1760" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_sar" value="SAR Features:&lt;br&gt;• Fully human IgG2 mAb&lt;br&gt;• High affinity for RANKL&lt;br&gt;• SC injection q6 months&lt;br&gt;• No renal dose adjustment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2700" y="1760" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_mech" value="Mechanism:&lt;br&gt;Binds RANKL →&lt;br&gt;Prevents RANK activation →&lt;br&gt;Inhibits osteoclast&lt;br&gt;formation/function →&lt;br&gt;↓ Bone resorption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="1840" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_outcome" value="Clinical Effect:&lt;br&gt;↑ BMD (greater than BPs)&lt;br&gt;↓ All fracture types&lt;br&gt;SE: Hypocalcemia, infections,&lt;br&gt;ONJ, rebound vertebral fractures&lt;br&gt;if discontinued abruptly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="2760" y="1880" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="capth_title" value="SECTION 5 — CALCIUM / PTH / VITAMIN D AXIS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1720" width="1600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_low" value="↓ Serum Ca²⁺" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1820" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_parathyroid" value="Parathyroid&lt;br&gt;Glands" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1820" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_pth" value="↑ PTH&lt;br&gt;Secretion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1820" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_bone_action" value="Bone:&lt;br&gt;↑ Osteoclast activity →&lt;br&gt;Ca²⁺ release" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1760" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pth_kidney_action" value="Kidney:&lt;br&gt;↑ Ca²⁺ reabsorption&lt;br&gt;↑ PO₄³⁻ excretion&lt;br&gt;↑ 1α-hydroxylase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="500" y="1860" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_1alpha" value="1α-Hydroxylase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_25oh" value="25(OH)D&lt;br&gt;(Calcidiol)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1880" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_125oh" value="1,25(OH)₂D&lt;br&gt;(Calcitriol)&lt;br&gt;Active form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="1870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_gut" value="Intestine:&lt;br&gt;↑ Ca²⁺ absorption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="1890" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_restore" value="↑ Serum Ca²⁺&lt;br&gt;(Homeostasis)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="1880" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_suppl_title" value="VITAMIN D SUPPLEMENTATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="60" y="2020" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_d3" value="Cholecalciferol&lt;br&gt;(Vitamin D3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="2100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_d2" value="Ergocalciferol&lt;br&gt;(Vitamin D2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="240" y="2100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_calcitriol_drug" value="Calcitriol&lt;br&gt;(Active form)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="2100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_notes" value="• D3 preferred (better bioavailability)&lt;br&gt;• Target 25(OH)D: 30-50 ng/mL&lt;br&gt;• Toxicity: Hypercalcemia, nephrolithiasis&lt;br&gt;• Calcitriol: For CKD/hypoparathyroidism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="80" y="2180" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_suppl_title" value="CALCIUM SUPPLEMENTATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="600" y="2020" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_carbonate" value="Calcium Carbonate&lt;br&gt;(40% elemental Ca)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_citrate" value="Calcium Citrate&lt;br&gt;(21% elemental Ca)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
+          <mxGeometry x="800" y="2100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_notes" value="• Carbonate: With meals (needs acid)&lt;br&gt;• Citrate: Anytime, better for achlorhydria&lt;br&gt;• Target: 1200-1500 mg/day elemental Ca&lt;br&gt;• SE: Constipation, ↑ kidney stone risk" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2180" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mech_title" value="SECTION 6 — MECHANISTIC HUBS &amp; SAR CROSSROADS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2360" width="1600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_hub_title" value="PHOSPHODIESTERASE (PDE) SELECTIVITY HUB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="60" y="2460" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_family" value="PDE Family&lt;br&gt;(11 isoforms)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="80" y="2540" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_pde5" value="PDE5&lt;br&gt;(cGMP-specific)&lt;br&gt;Penis, lungs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2530" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_pde6" value="PDE6&lt;br&gt;(cGMP)&lt;br&gt;Retina" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2630" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_pde4" value="PDE4&lt;br&gt;(cAMP)&lt;br&gt;Inflammatory cells" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="380" y="2530" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_pde3" value="PDE3&lt;br&gt;(cAMP/cGMP)&lt;br&gt;Heart, platelets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="380" y="2630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pde_selectivity" value="&lt;b&gt;Selectivity Ratios:&lt;/b&gt;&lt;br&gt;• Sildenafil: PDE5/PDE6 = 10:1 (visual SE)&lt;br&gt;• Tadalafil: PDE5/PDE11 = 14:1&lt;br&gt;• Vardenafil: Most PDE5-selective&lt;br&gt;• Avanafil: Fast onset, short t½" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="80" y="2730" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_hub_title" value="G PROTEIN-COUPLED RECEPTOR (GPCR) HUB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2460" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_alpha1" value="α1-Adrenergic&lt;br&gt;(Gq-coupled)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2540" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_alpha1_agonist" value="Agonist:&lt;br&gt;Epinephrine/NE&lt;br&gt;(Vasoconstriction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2620" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_alpha1_antag" value="Antagonist:&lt;br&gt;Tamsulosin&lt;br&gt;(BPH relief)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2720" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_m3" value="M3 Muscarinic&lt;br&gt;(Gq-coupled)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="800" y="2540" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_m3_agonist" value="Agonist:&lt;br&gt;Acetylcholine&lt;br&gt;(Bladder contraction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="800" y="2620" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_m3_antag" value="Antagonist:&lt;br&gt;Oxybutynin&lt;br&gt;(OAB relief)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="800" y="2720" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_beta3" value="β3-Adrenergic&lt;br&gt;(Gs-coupled)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="960" y="2540" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_beta3_agonist" value="Agonist:&lt;br&gt;Mirabegron&lt;br&gt;(Bladder relaxation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="2620" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gpcr_notes" value="&lt;b&gt;Key Concept:&lt;/b&gt;&lt;br&gt;• Gq → IP₃/DAG → ↑ Ca²⁺ → Contraction&lt;br&gt;• Gs → ↑ cAMP → PKA → Relaxation&lt;br&gt;• Receptor selectivity determines SE profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="640" y="2810" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_hub_title" value="RANKL / RANK / OPG SIGNALING HUB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="2460" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_osteoblast" value="Osteoblasts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="2540" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_ligand" value="RANKL&lt;br&gt;(Ligand)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="2540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_receptor" value="RANK&lt;br&gt;(Receptor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="2540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_osteo_precursor" value="Osteoclast&lt;br&gt;Precursor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="2540" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_mature" value="Mature&lt;br&gt;Osteoclast" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="2620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_resorption" value="Bone&lt;br&gt;Resorption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="2710" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_opg" value="OPG&lt;br&gt;(Osteoprotegerin)&lt;br&gt;Decoy receptor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="2620" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_denosumab_mech" value="DENOSUMAB:&lt;br&gt;Mimics OPG&lt;br&gt;Binds RANKL&lt;br&gt;Prevents RANK activation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="2730" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rankl_notes" value="&lt;b&gt;Therapeutic Concept:&lt;/b&gt;&lt;br&gt;• RANKL/OPG ratio determines bone remodeling&lt;br&gt;• Denosumab shifts balance toward bone formation&lt;br&gt;• Abrupt D/C → Rebound ↑ RANKL → vertebral fractures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="2850" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_title" value="SECTION 7 — SAR STRUCTURAL MODIFICATION PANELS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="3000" width="1600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_alpha_title" value="α1-BLOCKER SAR PANEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="3100" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_alpha_core" value="Core Features:&lt;br&gt;• Aromatic ring (receptor binding)&lt;br&gt;• Basic nitrogen (ionic interaction)&lt;br&gt;• Piperazine/piperidine spacer&lt;br&gt;• Sulfonamide (H-bond acceptor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="80" y="3160" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_alpha_mods" value="Modifications:&lt;br&gt;• Tamsulosin: Ethoxy group (α1A selectivity)&lt;br&gt;• Doxazosin: Quinazoline (non-selective)&lt;br&gt;• Alfuzosin: Tetrahydrofuran (uroselective)&lt;br&gt;• Lipophilicity ↑ → BBB penetration ↑" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="320" y="3160" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_pde5_title" value="PDE5 INHIBITOR SAR PANEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="580" y="3100" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_pde5_core" value="Core Features:&lt;br&gt;• cGMP mimetic scaffold&lt;br&gt;• H-bond donors/acceptors&lt;br&gt;• Planar hydrophobic region&lt;br&gt;• Compete for catalytic site" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="600" y="3160" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_pde5_mods" value="Modifications:&lt;br&gt;• Sildenafil: Pyrazolopyrimidinone&lt;br&gt;• Tadalafil: β-carboline (t½ 17.5h)&lt;br&gt;• Vardenafil: Imidazotriazinone (potency ↑)&lt;br&gt;• Avanafil: Pyrimidinone (rapid onset)&lt;br&gt;• Ring substitutions → selectivity/PK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="840" y="3160" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_antim_title" value="ANTIMUSCARINIC SAR PANEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="3100" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_antim_core" value="Core Features:&lt;br&gt;• Ester or ether linkage&lt;br&gt;• Basic nitrogen (cationic at pH 7.4)&lt;br&gt;• Bulky aromatic groups&lt;br&gt;• Compete with ACh at M receptors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="3160" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_antim_mods" value="Modifications:&lt;br&gt;• Tertiary amines (lipophilic, CNS SE)&lt;br&gt;• Quaternary (Trospium: ↓ CNS SE, poor oral)&lt;br&gt;• M3 selectivity: Darifenacin (pyrrolidine)&lt;br&gt;• Solifenacin: Tetrahydroisoquinoline&lt;br&gt;• Extended-release ↓ Cmax peaks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="3160" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_bp_title" value="BISPHOSPHONATE SAR PANEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="60" y="3340" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_bp_core" value="Core Features:&lt;br&gt;• P-C-P geminal backbone (stable)&lt;br&gt;• R1: Hydroxyl or H&lt;br&gt;• R2: Side chain determines potency&lt;br&gt;• Chelates Ca²⁺ → bone binding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="80" y="3400" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sar_bp_gen" value="Generations:&lt;br&gt;• 1st gen (no N): Etidronate (weak)&lt;br&gt;• 2nd gen: Alendronate (amino terminus)&lt;br&gt;• 3rd gen: Risedronate (pyridine ring)&lt;br&gt;• 4th gen: Zoledronic (imidazole, IV)&lt;br&gt;• N-BPs → FPP synthase inhibition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="320" y="3400" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="summary_title" value="KEY MEDICINAL CHEMISTRY PRINCIPLES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="600" y="3340" width="1040" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="summary_1" value="1. RECEPTOR SELECTIVITY:&lt;br&gt;• α1A (prostate) vs α1B (vasculature)&lt;br&gt;• M3 (bladder) vs M2 (heart)&lt;br&gt;• PDE5 vs PDE6 (retina)&lt;br&gt;→ Modify substituents to minimize off-target SE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="620" y="3410" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="summary_2" value="2. PHARMACOKINETICS:&lt;br&gt;• t½ determines dosing frequency&lt;br&gt;• Lipophilicity affects CNS penetration&lt;br&gt;• Extended-release ↓ peak/trough&lt;br&gt;• Bisphosphonates: Bone sequestration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="950" y="3410" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="summary_3" value="3. STRUCTURE-FUNCTION:&lt;br&gt;• Competitive inhibitors mimic substrate&lt;br&gt;• Receptor antagonists block agonist binding&lt;br&gt;• mAbs target extracellular ligands&lt;br&gt;• Pro-drugs require metabolic activation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="3410" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_aging" target="bph_5ar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_5ar" target="bph_dht" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_dht" target="bph_hyperplasia" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_smooth" target="bph_obstruct" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_obstruct" target="bph_luts" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bph6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_hyperplasia" target="bph_obstruct" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_alpha1" value="Blocks α1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="alpha_tamsulosin" target="bph_smooth" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_alpha2" value="Blocks α1" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="alpha_alfuzosin" target="bph_smooth" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_alpha3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="alpha_mech" target="alpha_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_5ari1" value="Inhibits 5αR" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="5ari_finasteride" target="bph_5ar" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_5ari2" value="Inhibits 5αR" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="5ari_dutasteride" target="bph_5ar" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_5ari3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="5ari_mech" target="5ari_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_stim" target="ed_no" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_no" target="ed_gc" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_gc" target="ed_cgmp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_cgmp" target="ed_relax" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_relax" target="ed_erection" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ed6" value="Degrades" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="ed_pde5" target="ed_cgmp" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_ed7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="ed_pde5" target="ed_gmp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pde5_1" value="Inhibits PDE5" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="pde5_sildenafil" target="ed_pde5" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pde5_2" value="Inhibits PDE5" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="pde5_tadalafil" target="ed_pde5" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pde5_3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pde5_mech" target="pde5_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oab1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_detrusor" target="oab_m3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oab2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_ach" target="oab_m3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oab3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_m3" target="oab_contract" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_oab4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_contract" target="oab_urgency" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_antim1" value="Blocks M3" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="antim_oxybutynin" target="oab_m3" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_antim2" value="Blocks M3" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="antim_solifenacin" target="oab_m3" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_antim3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="antim_mech" target="antim_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_beta3_1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="beta3_mech" target="beta3_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bone1" value="Secretes RANKL" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="bone_osteoblast" target="bone_rankl" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_bone2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bone_rankl" target="bone_rank" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bone3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bone_rank" target="bone_activate" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bone4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bone_activate" target="bone_resorb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bp1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="bp_mech" target="bp_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pth1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pth_mech" target="pth_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl1" value="Binds RANKL" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="rankl_denosumab" target="bone_rankl" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_rankl2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="rankl_mech" target="rankl_outcome" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_low" target="ca_parathyroid" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_parathyroid" target="ca_pth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="ca_pth" target="pth_bone_action" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="ca_pth" target="pth_kidney_action" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pth_kidney_action" target="ca_1alpha" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="ca_1alpha" target="vitd_25oh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_25oh" target="vitd_125oh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="vitd_125oh" target="vitd_gut" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="vitd_gut" target="ca_restore" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pth_bone_action" target="ca_restore" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ca_fb" value="Negative Feedback" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="ca_restore" target="ca_pth" edge="1">
+          <mxGeometry x="-0.2" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pde_hub1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pde_family" target="pde_pde5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pde_hub2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pde_family" target="pde_pde6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pde_hub3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pde_family" target="pde_pde4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pde_hub4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pde_family" target="pde_pde3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gpcr1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="gpcr_alpha1_agonist" target="gpcr_alpha1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gpcr2" value="Blocks" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="gpcr_alpha1_antag" target="gpcr_alpha1" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_gpcr3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="gpcr_m3_agonist" target="gpcr_m3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_gpcr4" value="Blocks" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="gpcr_m3_antag" target="gpcr_m3" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_gpcr5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="gpcr_beta3_agonist" target="gpcr_beta3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="rankl_osteoblast" target="rankl_ligand" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="rankl_ligand" target="rankl_receptor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="rankl_receptor" target="rankl_osteo_precursor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="rankl_receptor" target="rankl_mature" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="rankl_mature" target="rankl_resorption" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rankl_hub6" value="Blocks RANKL" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="rankl_opg" target="rankl_ligand" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_rankl_hub7" value="Mimics OPG" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="rankl_denosumab_mech" target="rankl_ligand" edge="1">
+          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
