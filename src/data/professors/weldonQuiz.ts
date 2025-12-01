@@ -14,7 +14,7 @@ export const weldonQuiz: QuizQuestion[] = [
       'Phenothiazines with the common "-azine" suffix',
       'Sulfonamides with the common "-amide" suffix'
     ],
-    correct_answer: 'Quinazolines with "-azosin" suffix',
+    correct_answer: 'Quinazolines with the common "-azosin" suffix',
     explanation: 'All alpha-1 antagonists for BPH belong to the QUINAZOLINE chemical class and share the "-azosin" suffix: Prazosin, Terazosin, Doxazosin, Tamsulosin, Alfuzosin, Silodosin. This structural class was originally developed as antihypertensives (vasculature smooth muscle relaxation via alpha-1B) but found utility in BPH (prostate smooth muscle relaxation via alpha-1A).',
     learningObjective: 'Recognize alpha-1 antagonist chemical class',
     difficulty: 'medium',
@@ -44,7 +44,7 @@ export const weldonQuiz: QuizQuestion[] = [
       'Based on cytosine; added carboxyl group for solubility',
       'Based on thymine; added amino group for solubility'
     ],
-    correct_answer: 'Based on guanine; added sulfonamide group',
+    correct_answer: 'Based on guanine; added sulfonamide group for solubility',
     explanation: 'PDE5 inhibitors are PYRAZOLOPYRIMIDINONES structurally based on GUANINE because they need to mimic GMP (guanosine monophosphate), the substrate for PDE5. A SULFONAMIDE group was added to REDUCE LIPOPHILICITY and INCREASE WATER SOLUBILITY, leading to sildenafil citrate as the first drug. This rational drug design approach created competitive inhibitors of the PDE5 enzyme.',
     learningObjective: 'Understand PDE5 inhibitor drug design',
     difficulty: 'hard',
@@ -115,12 +115,12 @@ export const weldonQuiz: QuizQuestion[] = [
     question: 'Why is desmopressin acetate (DDAVP) preferred over vasopressin for treating certain types of urinary incontinence from a medicinal chemistry perspective?',
     options: [
       'Desmopressin is more potent than vasopressin at V2 receptors',
-      'Desmopressin is an analogue with better oral bioavailability and longer half-life than the peptide vasopressin',
+      'Desmopressin is an analogue with intranasal/sublingual formulations and longer half-life than the peptide vasopressin',
       'Desmopressin has fewer side effects than natural vasopressin',
       'Desmopressin works through a different receptor than vasopressin'
     ],
-    correct_answer: 'Desmopressin is an analogue with better oral bioavailability and longer half-life than the peptide vasopressin',
-    explanation: 'Vasopressin (ADH) is a PEPTIDE hormone with a very SHORT half-life and must be given by INJECTION. Desmopressin acetate (DDAVP) is a SYNTHETIC ANALOGUE designed to overcome these limitations - it can be given ORALLY and has a much LONGER duration of action. This is a classic medicinal chemistry strategy: modify a peptide hormone to create a drug-like molecule with better pharmacokinetic properties.',
+    correct_answer: 'Desmopressin is an analogue with intranasal/sublingual formulations and longer half-life than the peptide vasopressin',
+    explanation: 'Vasopressin (ADH) is a PEPTIDE hormone with a very SHORT half-life and must be given by INJECTION. Desmopressin acetate (DDAVP) is a SYNTHETIC ANALOGUE designed to overcome these limitations - it can be given INTRANASALLY or SUBLINGUALLY (with some oral formulations available despite poor oral bioavailability ~0.16%) and has a much LONGER duration of action. This is a classic medicinal chemistry strategy: modify a peptide hormone to create a drug-like molecule with better pharmacokinetic properties and multiple administration routes.',
     learningObjective: 'Understand peptide hormone modification',
     difficulty: 'easy',
     slideReference: 'UI Med Chem - ADH Analogues'
@@ -162,12 +162,12 @@ export const weldonQuiz: QuizQuestion[] = [
     question: 'How do PTH analogues (teriparatide, abaloparatide) differ mechanistically from bisphosphonates in treating osteoporosis?',
     options: [
       'PTH analogues are antiresorptive like bisphosphonates but more potent at inhibition',
-      'PTH analogues are NOT antiresorptive; they increase osteoclastic activity with the theory of building more than you lose (anabolic)',
+      'PTH analogues are NOT antiresorptive; they are anabolic agents that stimulate osteoblast activity to build bone',
       'PTH analogues inhibit osteoclasts more effectively than bisphosphonates do',
       'PTH analogues work through the RANKL pathway to block osteoclasts'
     ],
-    correct_answer: 'PTH analogues are NOT antiresorptive; they increase osteoclastic activity with the theory of building more than you lose (anabolic)',
-    explanation: 'PTH analogues represent a fundamentally DIFFERENT approach than bisphosphonates. They are NOT ANTIRESORPTIVE - instead they INCREASE osteoclastic activity (bone resorption). The theory is that they stimulate bone FORMATION more than resorption, resulting in net bone gain. Teriparatide is the bioactive portion of PTH (direct mimic), while abaloparatide is an analogue. These are ANABOLIC agents vs the antiresorptive bisphosphonates.',
+    correct_answer: 'PTH analogues are NOT antiresorptive; they are anabolic agents that stimulate osteoblast activity to build bone',
+    explanation: 'PTH analogues represent a fundamentally DIFFERENT approach than bisphosphonates. They are NOT ANTIRESORPTIVE - instead they are ANABOLIC agents that primarily stimulate OSTEOBLAST activity when dosed intermittently. This increases bone FORMATION. While continuous PTH exposure would increase osteoclast-mediated resorption, the therapeutic regimen uses intermittent dosing to favor the anabolic (bone-building) effect. Teriparatide is the bioactive portion of PTH (1-34 fragment), while abaloparatide is a PTHrP analogue. These are ANABOLIC agents vs the antiresorptive bisphosphonates.',
     learningObjective: 'Compare osteoporosis drug mechanisms',
     difficulty: 'medium',
     slideReference: 'Osteoporosis Med Chem - PTH Analogues'

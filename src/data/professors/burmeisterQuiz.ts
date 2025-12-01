@@ -13,7 +13,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Idiopathic galactorrhea from breast sensitivity',
       'Medication-induced galactorrhea from dopamine antagonists'
     ],
-    correct_answer: 'Idiopathic galactorrhea',
+    correct_answer: 'Idiopathic galactorrhea from breast sensitivity',
     explanation: 'Idiopathic galactorrhea is a diagnosis of EXCLUSION made after ruling out medications, tumors, thyroid disorders, and renal failure. It results when breast tissue is particularly sensitive to prolactin in the blood. Since all other causes have been ruled out in this patient, idiopathic galactorrhea is the correct diagnosis.',
     learningObjective: 'Understand idiopathic galactorrhea diagnosis',
     difficulty: 'medium',
@@ -28,7 +28,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Proliferative BBD decreases breast cancer risk over time',
       'Cancer risk is the same as nonproliferative BBD'
     ],
-    correct_answer: 'Proliferative BBD increases breast cancer risk',
+    correct_answer: 'Proliferative BBD increases breast cancer risk significantly',
     explanation: 'Proliferative BBD involves an INCREASE in cell production and INCREASES the risk for breast cancer. This is different from nonproliferative BBD which does NOT increase cell production and does NOT increase cancer risk. This distinction is critical for risk stratification and follow-up planning.',
     learningObjective: 'Differentiate proliferative from nonproliferative BBD',
     difficulty: 'easy',
@@ -43,7 +43,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Endometriosis with ectopic endometrial tissue',
       'Pelvic inflammatory disease from bacterial infection'
     ],
-    correct_answer: 'Primary dysmenorrhea',
+    correct_answer: 'Primary dysmenorrhea from prostaglandin release',
     explanation: 'Primary dysmenorrhea typically begins about 6 months after menarche and lasts 48-72 hours. The pain is caused by prostaglandin release from endometrial cells causing uterine contractions, blood flow obstruction, and vasoconstriction. Secondary dysmenorrhea affects women in their 2nd-3rd decade of life and is often associated with pathology like endometriosis.',
     learningObjective: 'Distinguish primary from secondary dysmenorrhea',
     difficulty: 'medium',
@@ -58,7 +58,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Normal - menarche can occur up to age 18 in some girls',
       'Pregnancy causing cessation of menstrual cycles'
     ],
-    correct_answer: 'Primary amenorrhea',
+    correct_answer: 'Primary amenorrhea due to failure to menstruate by age 15',
     explanation: 'Primary amenorrhea is defined as the absence of menarche by the age of 15. This patient is 17 and has never menstruated, meeting criteria for primary amenorrhea. Further workup would be needed to determine the cause (hypothalamic amenorrhea, PCOS, eating disorders, chronic illness, ovarian failure, etc.).',
     learningObjective: 'Define and recognize primary amenorrhea',
     difficulty: 'easy',
@@ -73,7 +73,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Normal variation in menstrual cycle patterns',
       'Menopause with permanent cessation of menses'
     ],
-    correct_answer: 'Secondary amenorrhea',
+    correct_answer: 'Secondary amenorrhea from cessation of regular cycles',
     explanation: 'Secondary amenorrhea is defined as cessation of menstruation for at least 3 months in a woman who previously had regular cycles, in the absence of pregnancy, lactation, or menopause. This patient meets all criteria. Causes may include PCOS, stress, excessive exercise, medications, malnutrition, or obesity.',
     learningObjective: 'Define and recognize secondary amenorrhea',
     difficulty: 'easy',
@@ -88,7 +88,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'GnRH (Gonadotropin-Releasing Hormone) stimulates pituitary',
       'Estrogen feedback regulates gonadotropin release'
     ],
-    correct_answer: 'LH (Luteinizing Hormone)',
+    correct_answer: 'LH (Luteinizing Hormone) surge triggers ovulation',
     explanation: 'In the normal menstrual cycle: GnRH stimulates release of LH and FSH. FSH prepares the follicle for ovulation. LH CAUSES ovulation. After ovulation, the corpus luteum forms to allow for implantation. If no implantation occurs within 14 days, the corpus luteum is shed and menstruation begins.',
     learningObjective: 'Understand hormonal physiology of menstrual cycle',
     difficulty: 'medium',
@@ -103,8 +103,8 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Only postmenopausal women with estrogen deficiency',
       'Only adolescent women establishing menstrual patterns'
     ],
-    correct_answer: 'Women who just started their cycle OR are peri/postmenopausal',
-    explanation: 'DUB most affects women at the extremes of reproductive life: those who have JUST STARTED their menstrual cycle (like this patient) OR those who are peri or menopausal. DUB is abnormal bleeding from the uterus NOT associated with physical lesions. It stems from hormonal insufficiency caused by increased estrogen. If left untreated, the uterine lining can thicken → hyperplastic cells → possible malignancy.',
+    correct_answer: 'Women who just started their cycle OR are peri/postmenopausal with hormonal imbalance',
+    explanation: 'DUB most affects women at the extremes of reproductive life: those who have JUST STARTED their menstrual cycle (like this patient) OR those who are peri or menopausal. DUB is abnormal bleeding from the uterus NOT associated with physical lesions. It stems from ANOVULATION causing UNOPPOSED ESTROGEN (estrogen excess without progesterone balance), which leads to endometrial hyperplasia. If left untreated, the uterine lining can thicken → hyperplastic cells → possible malignancy.',
     learningObjective: 'Recognize DUB risk factors and pathophysiology',
     difficulty: 'medium',
     slideReference: 'Chapter 47 - DUB'
@@ -143,13 +143,13 @@ export const burmeisterQuiz: QuizQuestion[] = [
     id: '10',
     question: 'A 30-year-old woman complains of pelvic pain before and during her period, and pain during intercourse. Laparoscopy reveals endometrial tissue on her fallopian tubes. What are the most common sites for endometriosis?',
     options: [
-      'Uterus, ovaries, bladder within the pelvis',
-      'Fallopian tubes, vagina, cervix, uterosacral ligaments',
+      'Uterus, bladder, kidneys within the pelvis',
+      'Ovaries, pelvic peritoneum, uterosacral ligaments, posterior cul-de-sac',
       'Lungs, brain, liver in rare cases',
       'Kidneys, ureters, bladder in urinary tract'
     ],
-    correct_answer: 'Fallopian tubes, vagina, cervix, uterosacral ligaments',
-    explanation: 'Endometriosis is the presence and growth of functioning endometrial tissue in places OTHER than the uterus. The most common ectopic sites are: fallopian tubes, vagina, cervix, and uterosacral ligaments. Patients typically present with pelvic pain (before/during cycle or during intercourse), inability to conceive, bleeding between periods, and dysmenorrhea.',
+    correct_answer: 'Ovaries, pelvic peritoneum, uterosacral ligaments, posterior cul-de-sac',
+    explanation: 'Endometriosis is the presence and growth of functioning endometrial tissue in places OTHER than the uterus. The OVARIES are the MOST COMMON site (found in 50-70% of cases), followed by the pelvic peritoneum, uterosacral ligaments, and posterior cul-de-sac (pouch of Douglas). Patients typically present with pelvic pain (before/during cycle or during intercourse), inability to conceive, bleeding between periods, and dysmenorrhea.',
     learningObjective: 'Recognize endometriosis sites and presentation',
     difficulty: 'medium',
     slideReference: 'Chapter 47 - Endometriosis'
@@ -208,7 +208,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Galactorrhea; hormonal imbalance with prolactin elevation',
       'BBD; cyclic hormonal changes throughout menstrual cycle'
     ],
-    correct_answer: 'Mastitis; nipple irritation, tissue trauma, chafing',
+    correct_answer: 'Mastitis; nipple irritation, tissue trauma, chafing during breastfeeding',
     explanation: 'This is MASTITIS - localized erythematous and painful inflammation involving infection of breast tissue. It most often develops during breastfeeding and is triggered by nipple irritation, tissue trauma, or chafing. Contributing factors include nipple fissures, yeast infections, plugged milk ducts. Clinical manifestations: local tenderness, swelling, warmth, erythema, burning during breastfeeding, flu-like symptoms.',
     learningObjective: 'Recognize mastitis etiology and presentation',
     difficulty: 'easy',
@@ -223,7 +223,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Serotonin deficiency explaining mood symptoms',
       'Testosterone excess causing physical symptoms'
     ],
-    correct_answer: 'Serotonin deficiency',
+    correct_answer: 'Serotonin deficiency explaining mood symptoms',
     explanation: 'PMS patients often have SEROTONIN DEFICIENCY, which explains why they respond well to SSRIs (which increase circulating serotonin). Other contributing factors include: Mg and Ca deficiencies (ease headaches, sugar cravings, bloating), rapid shifts in estrogen/progesterone, lower endorphins, low GABA levels, and hypoprolactinemia.',
     learningObjective: 'Understand PMS pathophysiology',
     difficulty: 'medium',
@@ -240,7 +240,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Acute prostatitis; bacterial infection of prostate',
       'Bladder cancer; smoking and chemical exposure'
     ],
-    correct_answer: 'BPH; age and presence of testosterone',
+    correct_answer: 'BPH; age and presence of testosterone signaling',
     explanation: 'This is classic BPH presentation. BPH is nonmalignant enlargement of the prostate considered a normal part of aging (affects majority of men >60). Main risk factors: AGE and presence of TESTOSTERONE. Pathophysiology: testosterone signals prostate to produce DHT, which mediates prostatic growth. The aging prostate becomes MORE sensitive to available DHT despite decreasing androgen levels.',
     learningObjective: 'Recognize BPH and risk factors',
     difficulty: 'easy',
@@ -270,7 +270,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Neurogenic priapism from nerve dysfunction',
       'Psychogenic priapism from psychological factors'
     ],
-    correct_answer: 'Ischemic priapism',
+    correct_answer: 'Ischemic priapism from blood flow obstruction',
     explanation: 'ISCHEMIC priapism is PAINFUL, occurs when blood cannot leave the penis, and is MORE COMMON in men with sickle cell disease. NONISCHEMIC priapism is usually PAINLESS and occurs when penile blood flow is not regulated properly. Priapism is defined as prolonged erection continuing for hours.',
     learningObjective: 'Distinguish priapism types',
     difficulty: 'medium',
@@ -285,8 +285,8 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Parasympathetic inhibition, venous dilation, muscle relaxation',
       'Hormonal surge, arterial constriction, muscle contraction'
     ],
-    correct_answer: 'Arterial dilation, muscle contraction, venous constriction',
-    explanation: 'Normal erection is a neurovascular event requiring: 1) Chambers in erectile tissue fill with blood via DILATED ARTERIOLES (stimulated by nitric oxide/NO), 2) Pelvic MUSCLES CONTRACT to increase rigidity, 3) VEINS CONSTRICT to block blood outflow. Disruption of any step can cause ED. Occurs via parasympathetic nervous system action.',
+    correct_answer: 'Arterial dilation, muscle contraction, venous constriction for rigidity',
+    explanation: 'Normal erection is a neurovascular event requiring: 1) Chambers in erectile tissue fill with blood via DILATED ARTERIOLES (smooth muscle RELAXATION stimulated by nitric oxide/NO), 2) Veins are passively compressed against tunica albuginea, trapping blood, 3) Pelvic skeletal MUSCLES CONTRACT (ischiocavernosus, bulbospongiosus) to increase rigidity in the final phase. Disruption of any step can cause ED. Initiated via parasympathetic nervous system action.',
     learningObjective: 'Understand ED physiology',
     difficulty: 'hard',
     slideReference: 'Chapter 48 - ED'
@@ -300,7 +300,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Chronic pelvic pain syndrome without infection',
       'Asymptomatic inflammatory prostatitis without symptoms'
     ],
-    correct_answer: 'Acute bacterial prostatitis',
+    correct_answer: 'Acute bacterial prostatitis with systemic infection',
     explanation: 'This is ACUTE BACTERIAL PROSTATITIS - least common type but easiest to diagnose. Usually caused by Gram-negative bacteria (E. coli, Klebsiella, Proteus). Presents with: fever, chills, arthralgia, LOW BACK PAIN, pelvic pain, abd pain, perineal fullness, dysuria, urinary frequency/urgency, PAINFUL EJACULATION, foul-smelling urine. Causes severe prostatitis symptoms, systemic infection, and acute bacterial UTI.',
     learningObjective: 'Recognize acute bacterial prostatitis',
     difficulty: 'medium',
@@ -332,7 +332,7 @@ export const burmeisterQuiz: QuizQuestion[] = [
       'Pyelonephritis with kidney infection',
       'Urinary incontinence from bladder dysfunction'
     ],
-    correct_answer: 'Pyelonephritis',
+    correct_answer: 'Pyelonephritis with kidney infection',
     explanation: 'This is PYELONEPHRITIS (infection of renal pelvis and parenchyma). While typical manifestations include costovertebral angle pain, chills, and fever, OLDER ADULTS may present ATYPICALLY with: confusion, decreased appetite, and unsteady gait. The infection usually develops when pathogens ASCEND from the bladder through the ureter to the kidney. Can lead to sepsis and septic shock.',
     learningObjective: 'Recognize atypical pyelonephritis presentation in elderly',
     difficulty: 'medium',

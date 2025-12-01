@@ -29,7 +29,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Tadalafil (Cialis) - 24-36 hours duration of action',
       'Avanafil (Stendra) - 6 hours duration of action'
     ],
-    correct_answer: 'Tadalafil (Cialis) - 24-36 hours',
+    correct_answer: 'Tadalafil (Cialis) - 24-36 hours duration of action',
     explanation: 'Tadalafil (Cialis) has the LONGEST duration of action (24-36 hours), making it ideal for daily dosing or "weekend use." This allows for spontaneity without timing the dose right before intercourse. Sildenafil and vardenafil last 4-6 hours and require planning. Avanafil has the fastest onset (15-30min) but only lasts 6 hours.',
     learningObjective: 'Compare PDE5 inhibitor pharmacokinetics',
     difficulty: 'easy',
@@ -89,7 +89,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Two different alpha blockers for synergistic symptom relief',
       'Two different 5-alpha-reductase inhibitors for enhanced DHT blockade'
     ],
-    correct_answer: 'Alpha blocker + 5-alpha-reductase inhibitor',
+    correct_answer: 'Alpha blocker + 5-alpha-reductase inhibitor for complete coverage',
     explanation: 'For moderate-severe BPH with large prostates, COMBINATION therapy with alpha blocker + 5-alpha-reductase inhibitor is most effective. Alpha blocker (tamsulosin) provides IMMEDIATE symptom relief. 5-ARI (finasteride or dutasteride) provides LONG-TERM prostate shrinkage over 6+ months. This addresses both immediate symptoms and underlying pathology. Example: Tamsulosin + Dutasteride.',
     learningObjective: 'Design optimal BPH treatment strategy',
     difficulty: 'hard',
@@ -181,7 +181,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Atypical femur fracture during dental procedure or manipulation',
       'Drug interaction with local anesthetic causing cardiovascular complications'
     ],
-    correct_answer: 'Bisphosphonate-related osteonecrosis of the jaw (BRONJ)',
+    correct_answer: 'Bisphosphonate-related osteonecrosis of the jaw (BRONJ) with exposed bone',
     explanation: 'BRONJ (Bisphosphonate-Related Osteonecrosis of Jaw) is a serious complication of bisphosphonate therapy, especially with: 1) IV bisphosphonates, 2) nitrogen-containing bisphosphonates (alendronate, risedronate, zoledronic acid), 3) long-term use, 4) dental surgery/trauma. Presents as exposed, devitalized bone in maxillofacial region with pain. Patients should have dental exam before starting bisphosphonates and maintain good oral hygiene. Consider drug holiday before major dental procedures.',
     learningObjective: 'Recognize BRONJ risk factors',
     difficulty: 'medium',
@@ -211,7 +211,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Calcitonin nasal spray for bone preservation and pain relief',
       'Calcium and vitamin D supplementation alone for bone health'
     ],
-    correct_answer: 'Zoledronic acid (Reclast) IV annual infusion',
+    correct_answer: 'Zoledronic acid (Reclast) IV annual infusion bypassing GI tract',
     explanation: 'Zoledronic acid (Reclast) is the most potent bisphosphonate and is given IV annually (or biannually for prevention), completely avoiding GI side effects. It has excellent efficacy for fracture reduction. Still carries risks of BRONJ, atypical femur fractures, flu-like symptoms after infusion, and requires normal renal function. Raloxifene only reduces vertebral fractures and increases VTE risk. Calcitonin is less effective than bisphosphonates.',
     learningObjective: 'Select appropriate osteoporosis therapy for patients with GI contraindications',
     difficulty: 'medium',
@@ -318,7 +318,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Cellulitis requiring immediate antibiotic therapy',
       'Peripheral arterial disease causing claudication symptoms'
     ],
-    correct_answer: 'Deep vein thrombosis (DVT); OCPs increase VTE risk',
+    correct_answer: 'Deep vein thrombosis (DVT); OCPs increase VTE risk significantly',
     explanation: 'Combined OCPs INCREASE risk of venous thromboembolism (VTE) including DVT and PE. Risk is further increased by: smoking, age >35, obesity, thrombophilia, prolonged immobility. This is why smoking >35 is an ABSOLUTE CONTRAINDICATION for combined OCPs. Progestin-only contraceptives do NOT increase VTE risk and are preferred for high-risk patients. Third-generation progestins (desogestrel, norgestimate) may have higher VTE risk than second-generation.',
     learningObjective: 'Recognize OCP thromboembolic risks',
     difficulty: 'medium',
@@ -333,7 +333,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'She can use combined OCPs if she reduces smoking to half pack per day',
       'She should quit smoking but can start combined OCPs immediately after quitting'
     ],
-    correct_answer: 'Combined OCPs are contraindicated; recommend progestin-only contraceptive',
+    correct_answer: 'Combined OCPs are contraindicated; recommend progestin-only contraceptive instead',
     explanation: 'ABSOLUTE CONTRAINDICATION: Smokers over age 35 using combined OCPs have substantially increased risk of MI, stroke, and VTE. Under 35, smoking is a relative contraindication. This patient at 37 who smokes CANNOT use combined OCPs. BEST OPTION: Progestin-only contraceptive (pill, IUD, implant, injection) which does NOT increase VTE/CV risk. Alternatively, non-hormonal methods (copper IUD, barrier methods).',
     learningObjective: 'Apply OCP contraindications',
     difficulty: 'easy',
@@ -341,29 +341,29 @@ export const breezeQuiz: QuizQuestion[] = [
   },
   {
     id: '23',
-    question: 'A woman on combined OCPs is prescribed amoxicillin for sinusitis. What counseling should you provide?',
+    question: 'A woman on combined OCPs is prescribed rifampin for TB prophylaxis. What counseling should you provide?',
     options: [
-      'No interaction; continue OCPs as normal without backup contraception',
-      'Antibiotics can decrease OCP efficacy; use backup contraception (condoms) during antibiotic course and 7 days after',
-      'Stop OCPs while taking antibiotics to prevent interactions',
-      'Double the OCP dose while on antibiotics to maintain contraceptive efficacy'
+      'No interaction; rifampin does not affect OCP efficacy',
+      'Rifampin decreases OCP efficacy through enzyme induction; use backup contraception during treatment and 7 days after',
+      'Stop OCPs while taking rifampin to prevent liver toxicity',
+      'Double the OCP dose while on rifampin to maintain contraceptive efficacy'
     ],
-    correct_answer: 'Antibiotics can decrease OCP efficacy; use backup contraception (condoms) during antibiotic course and 7 days after',
-    explanation: 'Broad-spectrum antibiotics can decrease OCP efficacy by disrupting gut flora that helps metabolize/recycle estrogen. Most concerning with rifampin (strong enzyme inducer) and broad-spectrum antibiotics. COUNSEL: Use backup contraception (condoms) during antibiotic course and for 7 days after completion. Enzyme-inducing drugs (phenytoin, carbamazepine, barbiturates) also decrease OCP efficacy. St. John\'s Wort decreases OCP efficacy.',
+    correct_answer: 'Rifampin decreases OCP efficacy through enzyme induction; use backup contraception during treatment and 7 days after',
+    explanation: 'RIFAMPIN and RIFABUTIN are strong CYP450 enzyme inducers that significantly decrease OCP efficacy by increasing metabolism of estrogen and progestin. COUNSEL: Use backup contraception (condoms) during rifampin therapy and for 7 days after completion. Other enzyme inducers that decrease OCP efficacy include: phenytoin, carbamazepine, barbiturates, and St. John\'s Wort. IMPORTANT: Most other antibiotics (amoxicillin, doxycycline, etc.) do NOT decrease OCP efficacy despite common belief - the "gut flora disruption" theory has not been supported by clinical evidence.',
     learningObjective: 'Manage OCP drug interactions',
     difficulty: 'medium',
     slideReference: 'Gonadal Hormones - OCP Drug Interactions'
   },
   {
     id: '24',
-    question: 'What is the mechanism by which combined oral contraceptives prevent pregnancy? Select the THREE mechanisms.',
+    question: 'Combined oral contraceptives work through multiple mechanisms. Which option correctly identifies all THREE mechanisms?',
     options: [
-      'Prevent ovulation by suppressing LH/FSH surge',
-      'Thin endometrium to prevent implantation (progestin effect)',
-      'Thicken cervical mucus to block sperm (progestin effect)',
-      'Kill sperm directly through chemical spermicidal action'
+      'Prevent ovulation, thin endometrium, thicken cervical mucus',
+      'Prevent ovulation, thicken endometrium, thin cervical mucus',
+      'Promote ovulation, prevent implantation, kill sperm directly',
+      'Thicken endometrium, prevent ovulation, destroy sperm chemically'
     ],
-    correct_answer: 'Prevent ovulation by suppressing LH/FSH',
+    correct_answer: 'Prevent ovulation, thin endometrium, thicken cervical mucus',
     explanation: 'Combined OCPs work through THREE mechanisms: 1) PREVENT OVULATION: Suppress GnRH → decrease FSH/LH → no mid-cycle LH surge → no follicular development or ovulation (PRIMARY mechanism). 2) THIN ENDOMETRIUM: Progestins thin uterine lining → hostile to implantation. 3) THICKEN CERVICAL MUCUS: Progestins increase mucus viscosity → inhibit sperm penetration. Most important is prevention of ovulation - if ovulation is suppressed, pregnancy cannot occur.',
     learningObjective: 'Understand OCP mechanisms',
     difficulty: 'medium',
@@ -378,7 +378,7 @@ export const breezeQuiz: QuizQuestion[] = [
       'Progestin reduces the risk of breast cancer in hormone therapy users',
       'Progestin is not necessary; estrogen alone is sufficient for symptom management'
     ],
-    correct_answer: 'Progestin prevents endometrial hyperplasia and carcinoma from unopposed estrogen',
+    correct_answer: 'Progestin prevents endometrial hyperplasia and carcinoma from unopposed estrogen exposure',
     explanation: 'UNOPPOSED estrogen (estrogen without progestin) in women with intact uterus causes endometrial hyperplasia → increased risk of endometrial carcinoma. Progestin OPPOSES estrogen\'s proliferative effects on endometrium, preventing hyperplasia. Women who have had hysterectomy can use estrogen alone. Common regimens: Premarin (estrogen alone for post-hysterectomy), Prempro (estrogen + MPA for intact uterus), Premphase (cyclic estrogen + progestin).',
     learningObjective: 'Understand HRT formulations',
     difficulty: 'medium',
