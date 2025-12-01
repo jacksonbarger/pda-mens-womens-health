@@ -69,6 +69,31 @@ export const FinalExamChallenge: React.FC<FinalExamChallengeProps> = ({ onBack, 
     setPart2Questions(selectedPart2);
   }, []);
 
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Only handle keys if we're in a question screen (not intro or results)
+      if (examPart !== 'part1' && examPart !== 'part2') return;
+      if (!currentQuestion) return;
+
+      // 1-4 keys to select answers
+      if (['1', '2', '3', '4'].includes(e.key) && !showExplanation) {
+        const index = parseInt(e.key) - 1;
+        if (index < currentQuestion.options.length) {
+          handleAnswerSelect(currentQuestion.options[index]);
+        }
+      }
+
+      // Enter key to move to next question
+      if (e.key === 'Enter' && showExplanation) {
+        handleNextQuestion();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [examPart, currentQuestion, showExplanation, currentQuestionIndex]);
+
   const currentQuestions = examPart === 'part1' ? part1Questions : part2Questions;
   const currentQuestion = currentQuestions[currentQuestionIndex];
   const totalQuestions = currentQuestions.length;

@@ -1363,5 +1363,1062 @@ export const breezeDrugCards: DrugCard[] = [
     ],
 
     slideReference: 'Gonadal Hormones Pharmacology - Aromatase Inhibitors'
+  },
+
+  // ===== PCOS TREATMENTS =====
+  {
+    id: 'cocs_pcos',
+    drugName: 'Ethinyl estradiol / progestin (Combined Oral Contraceptives)',
+    brandNames: ['Ortho Tri-Cyclen', 'Yaz', 'Lo Loestrin Fe'],
+    drugClass: 'Combined oral contraceptive',
+
+    moa: 'Suppresses LH and FSH secretion, reducing ovarian androgen production and providing cycle control; progestin opposes estrogen in the endometrium.',
+
+    indications: [
+      'Menstrual regulation in PCOS',
+      'Treatment of hirsutism and acne',
+      'Contraception'
+    ],
+
+    sideEffects: [
+      'Nausea',
+      'Breast tenderness',
+      'Breakthrough bleeding',
+      'Increased VTE risk'
+    ],
+
+    contraindications: [
+      'Migraine with aura',
+      'History of thromboembolism',
+      'Uncontrolled hypertension',
+      'Smoking >35 years'
+    ],
+
+    clinicalConsiderations: [
+      'Not used in pregnancy; estrogen-containing methods may reduce breast milk supply',
+      'Reduces risk of endometrial hyperplasia by providing progestin exposure'
+    ],
+
+    highYield: [
+      'First-line therapy for menstrual irregularity and hyperandrogenic symptoms in many PCOS patients',
+      'Reduces risk of endometrial hyperplasia by providing progestin exposure'
+    ],
+
+    slideReference: 'PCOS Treatments'
+  },
+
+  {
+    id: 'metformin',
+    drugName: 'Metformin',
+    brandNames: ['Glucophage', 'Fortamet', 'Glucophage XR'],
+    drugClass: 'Biguanide insulin sensitizer',
+
+    moa: 'Improves insulin sensitivity and decreases hepatic glucose production, indirectly reducing ovarian androgen synthesis.',
+
+    indications: [
+      'Insulin resistance in PCOS',
+      'Metabolic syndrome',
+      'Type 2 diabetes'
+    ],
+
+    sideEffects: [
+      'GI upset (nausea, diarrhea)',
+      'Rare lactic acidosis'
+    ],
+
+    contraindications: [
+      'Severe renal impairment',
+      'Risk of lactic acidosis'
+    ],
+
+    clinicalConsiderations: [
+      'Sometimes continued in pregnancy for diabetes/PCOS management; follow guidelines and OB advice',
+      'Monitor renal function',
+      'Monitor B12 levels with long-term use'
+    ],
+
+    highYield: [
+      'May help restore ovulation in some patients',
+      'Key drug to remember for the metabolic side of PCOS'
+    ],
+
+    slideReference: 'PCOS Treatments'
+  },
+
+  {
+    id: 'spironolactone',
+    drugName: 'Spironolactone',
+    brandNames: ['Aldactone'],
+    drugClass: 'Aldosterone antagonist; antiandrogen',
+
+    moa: 'Blocks androgen receptors and inhibits 5-alpha-reductase; also potassium-sparing diuretic.',
+
+    indications: [
+      'Hirsutism and acne in PCOS (adjunct therapy)'
+    ],
+
+    sideEffects: [
+      'Hyperkalemia',
+      'Menstrual irregularity',
+      'Breast tenderness',
+      'Fatigue'
+    ],
+
+    contraindications: [
+      'Hyperkalemia',
+      'Severe renal impairment'
+    ],
+
+    clinicalConsiderations: [
+      'Contraindicated in pregnancy due to risk of feminization of male fetus; ensure reliable contraception'
+    ],
+
+    highYield: [
+      'Always combine with effective contraception in women of reproductive age',
+      'Mechanism is antiandrogenic, not primarily contraceptive'
+    ],
+
+    slideReference: 'PCOS Treatments'
+  },
+
+  // ===== ENDOMETRIOSIS & DYSMENORRHEA =====
+  {
+    id: 'nsaids_dysmenorrhea',
+    drugName: 'NSAIDs (e.g., ibuprofen, naproxen)',
+    brandNames: ['Advil', 'Motrin', 'Aleve'],
+    drugClass: 'Nonsteroidal anti-inflammatory drugs',
+
+    moa: 'Inhibit cyclooxygenase (COX) and prostaglandin synthesis, reducing uterine contractions and ischemic pain.',
+
+    indications: [
+      'Primary dysmenorrhea',
+      'Pain from endometriosis (symptomatic)'
+    ],
+
+    sideEffects: [
+      'GI irritation/ulcer risk',
+      'Renal impairment',
+      'Cardiovascular risk with chronic use'
+    ],
+
+    contraindications: [
+      'Peptic ulcer disease',
+      'Renal insufficiency',
+      'NSAID allergy'
+    ],
+
+    clinicalConsiderations: [
+      'Use with caution, especially in later pregnancy (risk of ductus arteriosus closure)'
+    ],
+
+    highYield: [
+      'First-line for primary dysmenorrhea due to prostaglandin-mediated pain',
+      'Best if started at onset of menses or slightly before'
+    ],
+
+    slideReference: 'Endometriosis & Dysmenorrhea Management'
+  },
+
+  {
+    id: 'cocs_endometriosis',
+    drugName: 'Combined oral contraceptives (continuous or cyclic)',
+    brandNames: ['Various'],
+    drugClass: 'Combined hormonal contraception',
+
+    moa: 'Suppress ovulation and stabilize endometrial tissue; continuous use reduces cyclic stimulation of implants.',
+
+    indications: [
+      'Endometriosis-related pain',
+      'Dysmenorrhea',
+      'Contraception'
+    ],
+
+    sideEffects: [
+      'Breakthrough bleeding',
+      'Breast tenderness',
+      'Headache',
+      'VTE risk'
+    ],
+
+    contraindications: [
+      'Same as COCs for PCOS (VTE risk, migraine with aura, etc.)'
+    ],
+
+    clinicalConsiderations: [
+      'Not used in pregnancy; estrogen methods can reduce milk supply if used too early postpartum'
+    ],
+
+    highYield: [
+      'Continuous COC regimens can reduce menstrual frequency and endometriosis pain',
+      'Important non-surgical option for symptom control'
+    ],
+
+    slideReference: 'Endometriosis & Dysmenorrhea Management'
+  },
+
+  {
+    id: 'gnrh_agonist_leuprolide',
+    drugName: 'Leuprolide (GnRH agonist)',
+    brandNames: ['Lupron'],
+    drugClass: 'GnRH agonist (downregulating)',
+
+    moa: 'Chronic administration downregulates GnRH receptors → decreased LH/FSH → hypoestrogenic state.',
+
+    indications: [
+      'Endometriosis pain',
+      'Uterine fibroids'
+    ],
+
+    sideEffects: [
+      'Hot flashes',
+      'Decreased bone density',
+      'Mood changes',
+      'Vaginal dryness'
+    ],
+
+    contraindications: [
+      'Pregnancy',
+      'Breastfeeding'
+    ],
+
+    clinicalConsiderations: [
+      'Contraindicated in pregnancy; typically not used in breastfeeding',
+      'Monitor bone density with prolonged use'
+    ],
+
+    highYield: [
+      'Produces a reversible "medical menopause" - remember bone loss and vasomotor symptoms',
+      'Often used short-term due to adverse effects'
+    ],
+
+    slideReference: 'Endometriosis & Dysmenorrhea Management'
+  },
+
+  // ===== CONTRACEPTIVES =====
+  {
+    id: 'cocs',
+    drugName: 'Ethinyl estradiol / progestin (COCs)',
+    brandNames: ['Various'],
+    drugClass: 'Combined oral contraceptive',
+
+    moa: 'Suppresses LH/FSH preventing ovulation; progestin thickens cervical mucus and thins endometrium.',
+
+    indications: [
+      'Contraception',
+      'Cycle regulation',
+      'Dysmenorrhea',
+      'Acne'
+    ],
+
+    sideEffects: [
+      'Breakthrough bleeding',
+      'Breast tenderness',
+      'Nausea',
+      'VTE risk'
+    ],
+
+    contraindications: [
+      'Migraine with aura',
+      'History of thromboembolism',
+      'Uncontrolled hypertension',
+      'Smoking >35 years'
+    ],
+
+    clinicalConsiderations: [
+      'Avoid in pregnancy; delay combined methods early postpartum if breastfeeding'
+    ],
+
+    highYield: [
+      'Main contraceptive effect: inhibition of ovulation (blocked LH surge)',
+      'Know absolute vs relative contraindications for exams'
+    ],
+
+    slideReference: 'Contraceptives'
+  },
+
+  {
+    id: 'pop_minipill',
+    drugName: 'Progestin-only pill (POP)',
+    brandNames: ['Micronor', 'Nor-QD', 'Camila'],
+    drugClass: 'Progestin-only contraceptive',
+
+    moa: 'Thickens cervical mucus and may suppress ovulation; effect is time-sensitive due to short half-life.',
+
+    indications: [
+      'Contraception when estrogen is contraindicated',
+      'Breastfeeding women'
+    ],
+
+    sideEffects: [
+      'Irregular bleeding',
+      'Spotting'
+    ],
+
+    contraindications: [
+      'Current breast cancer'
+    ],
+
+    clinicalConsiderations: [
+      'Preferred in breastfeeding patients because it lacks estrogen'
+    ],
+
+    highYield: [
+      'Must be taken at the same time every day for best efficacy',
+      'Good for patients with estrogen contraindications (e.g., migraine with aura)'
+    ],
+
+    slideReference: 'Contraceptives'
+  },
+
+  {
+    id: 'levonorgestrel_iud',
+    drugName: 'Levonorgestrel intrauterine system (LNG-IUS)',
+    brandNames: ['Mirena', 'Skyla', 'Kyleena', 'Liletta'],
+    drugClass: 'Hormonal IUD',
+
+    moa: 'Locally releases progestin → thickens cervical mucus, thins endometrium, may inhibit ovulation in some users.',
+
+    indications: [
+      'Long-acting contraception',
+      'Heavy menstrual bleeding',
+      'Dysmenorrhea'
+    ],
+
+    sideEffects: [
+      'Irregular bleeding initially',
+      'Lighter or absent menses over time'
+    ],
+
+    contraindications: [
+      'Active pelvic infection',
+      'Unexplained uterine bleeding',
+      'Distorted uterine cavity'
+    ],
+
+    clinicalConsiderations: [
+      'Safe in breastfeeding; not used in existing pregnancy'
+    ],
+
+    highYield: [
+      'Often reduces menstrual bleeding and cramps',
+      'Mechanism is mostly local; systemic hormone levels are relatively low'
+    ],
+
+    slideReference: 'Contraceptives'
+  },
+
+  {
+    id: 'copper_iud',
+    drugName: 'Copper intrauterine device',
+    brandNames: ['Paragard'],
+    drugClass: 'Non-hormonal IUD',
+
+    moa: 'Copper ions create a spermicidal inflammatory environment in the uterus, impairing sperm motility and viability.',
+
+    indications: [
+      'Long-acting reversible contraception',
+      'Highly effective emergency contraception'
+    ],
+
+    sideEffects: [
+      'Heavier menses',
+      'Increased cramps and dysmenorrhea'
+    ],
+
+    contraindications: [
+      'Active pelvic infection',
+      'Wilson disease (relative)',
+      'Distorted uterine cavity'
+    ],
+
+    clinicalConsiderations: [
+      'Safe in breastfeeding; avoid in confirmed pregnancy'
+    ],
+
+    highYield: [
+      'Does NOT suppress ovulation',
+      'Heavier periods are a classic adverse effect vs hormonal IUD'
+    ],
+
+    slideReference: 'Contraceptives'
+  },
+
+  {
+    id: 'levonorgestrel_ec',
+    drugName: 'Levonorgestrel (emergency contraception pill)',
+    brandNames: ['Plan B One-Step', 'Next Choice', 'Take Action'],
+    drugClass: 'Progestin emergency contraceptive',
+
+    moa: 'Primarily delays or inhibits ovulation if taken before the LH surge; may also thicken cervical mucus.',
+
+    indications: [
+      'Emergency contraception after unprotected intercourse'
+    ],
+
+    sideEffects: [
+      'Nausea',
+      'Irregular bleeding',
+      'Fatigue'
+    ],
+
+    contraindications: [
+      'Known pregnancy (not effective for established pregnancy)'
+    ],
+
+    clinicalConsiderations: [
+      'Not an abortifacient; generally considered safe for breastfeeding with minimal transfer'
+    ],
+
+    highYield: [
+      'Most effective when taken as soon as possible after intercourse',
+      'Does not disrupt an implanted embryo'
+    ],
+
+    slideReference: 'Contraceptives'
+  },
+
+  // ===== MENOPAUSE & HORMONE THERAPY =====
+  {
+    id: 'systemic_estrogen_progestin',
+    drugName: 'Systemic estrogen ± progestin therapy',
+    brandNames: ['Premarin', 'Estrace', 'Prempro', 'Activella'],
+    drugClass: 'Hormone therapy (HT)',
+
+    moa: 'Replaces estrogen (and progestin if uterus present) to relieve vasomotor symptoms and prevent bone loss.',
+
+    indications: [
+      'Moderate-to-severe vasomotor symptoms',
+      'High fracture risk with low bone density'
+    ],
+
+    sideEffects: [
+      'Breast tenderness',
+      'Irregular bleeding',
+      'Increased VTE and stroke risk (depending on route)'
+    ],
+
+    contraindications: [
+      'History of breast cancer',
+      'History of VTE or stroke',
+      'Unexplained vaginal bleeding',
+      'Active liver disease'
+    ],
+
+    clinicalConsiderations: [
+      'Not used in pregnancy or breastfeeding'
+    ],
+
+    highYield: [
+      'Use the lowest effective dose for the shortest duration compatible with treatment goals',
+      'Women with a uterus must receive progestin with estrogen to protect the endometrium'
+    ],
+
+    slideReference: 'Menopause & Hormone Therapy'
+  },
+
+  // ===== BPH ALPHA-BLOCKERS (Additional ones) =====
+  {
+    id: 'silodosin',
+    drugName: 'Silodosin',
+    brandNames: ['Rapaflo'],
+    drugClass: 'Highly selective alpha-1A adrenergic antagonist (Quinazoline)',
+
+    moa: 'Blocks α1A receptors with highest selectivity of all alpha-blockers, primarily targeting prostatic smooth muscle while sparing vascular receptors.',
+
+    indications: [
+      'Benign prostatic hyperplasia (BPH)'
+    ],
+
+    sideEffects: [
+      'Retrograde ejaculation (28% - highest among alpha-blockers)',
+      'Dizziness',
+      'Diarrhea',
+      'Orthostatic hypotension (minimal)'
+    ],
+
+    contraindications: [
+      'Severe renal impairment (CrCl <30 mL/min)',
+      'Severe hepatic impairment',
+      'Concurrent use with strong CYP3A4 inhibitors'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor renal function',
+      'Monitor blood pressure'
+    ],
+
+    highYield: [
+      'Highest α1A selectivity results in maximal efficacy but highest retrograde ejaculation rate',
+      'Minimal cardiovascular effects due to high selectivity',
+      'May be switched to alfuzosin if ejaculatory dysfunction is problematic'
+    ],
+
+    slideReference: 'BPH - Alpha-Blockers'
+  },
+
+  {
+    id: 'alfuzosin',
+    drugName: 'Alfuzosin',
+    brandNames: ['Uroxatral'],
+    drugClass: 'Uroselective alpha-1 adrenergic antagonist (Quinazoline)',
+
+    moa: 'Blocks α1 receptors with moderate selectivity for prostatic tissue. Intermediate selectivity between non-selective and highly selective agents.',
+
+    indications: [
+      'Benign prostatic hyperplasia (BPH)'
+    ],
+
+    sideEffects: [
+      'Dizziness',
+      'Upper respiratory tract infection',
+      'Headache',
+      'Fatigue',
+      'Retrograde ejaculation (lower risk than tamsulosin/silodosin)'
+    ],
+
+    contraindications: [
+      'Moderate to severe hepatic impairment',
+      'Concurrent use with potent CYP3A4 inhibitors',
+      'Congenital or acquired QT prolongation'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor blood pressure',
+      'Monitor QT interval in at-risk patients'
+    ],
+
+    highYield: [
+      'Once-daily extended-release formulation improves compliance',
+      'Intermediate α1A selectivity balances efficacy with lower ejaculatory dysfunction',
+      'Good alternative when retrograde ejaculation is problematic with more selective agents'
+    ],
+
+    slideReference: 'BPH - Alpha-Blockers'
+  },
+
+  {
+    id: 'terazosin',
+    drugName: 'Terazosin',
+    brandNames: ['Hytrin'],
+    drugClass: 'Non-selective alpha-1 adrenergic antagonist (Quinazoline)',
+
+    moa: 'Blocks both α1A (prostate) and α1B (vasculature) receptors non-selectively, causing both prostatic relaxation and vasodilation.',
+
+    indications: [
+      'Benign prostatic hyperplasia (BPH)',
+      'Hypertension'
+    ],
+
+    sideEffects: [
+      'Orthostatic hypotension (significant)',
+      'Dizziness',
+      'Asthenia (weakness)',
+      'Syncope (first-dose phenomenon)',
+      'Peripheral edema'
+    ],
+
+    contraindications: [
+      'Hypersensitivity to quinazolines'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor blood pressure (especially first dose)',
+      'Monitor urinary symptoms'
+    ],
+
+    highYield: [
+      'Originally developed as antihypertensive, later used for BPH',
+      'Requires dose titration to minimize first-dose hypotension',
+      'Non-selectivity causes more cardiovascular side effects than selective agents'
+    ],
+
+    slideReference: 'BPH - Alpha-Blockers'
+  },
+
+  {
+    id: 'doxazosin',
+    drugName: 'Doxazosin',
+    brandNames: ['Cardura'],
+    drugClass: 'Non-selective alpha-1 adrenergic antagonist (Quinazoline)',
+
+    moa: 'Non-selectively blocks α1A (prostatic) and α1B (vascular) adrenergic receptors, causing smooth muscle relaxation in prostate and blood vessels.',
+
+    indications: [
+      'Benign prostatic hyperplasia (BPH)',
+      'Hypertension'
+    ],
+
+    sideEffects: [
+      'Orthostatic hypotension',
+      'Dizziness',
+      'Fatigue',
+      'Edema',
+      'Rhinitis'
+    ],
+
+    contraindications: [
+      'Hypersensitivity to quinazolines or doxazosin'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor blood pressure',
+      'Monitor urinary flow symptoms'
+    ],
+
+    highYield: [
+      'Dual indication for BPH and hypertension',
+      'Non-selective blockade increases risk of orthostatic hypotension',
+      'Requires gradual dose titration starting at 1 mg daily'
+    ],
+
+    slideReference: 'BPH - Alpha-Blockers'
+  },
+
+  {
+    id: 'prazosin',
+    drugName: 'Prazosin',
+    brandNames: ['Minipress'],
+    drugClass: 'Non-selective alpha-1 adrenergic antagonist (Quinazoline)',
+
+    moa: 'Blocks α1A and α1B adrenergic receptors non-selectively throughout the body, causing vasodilation and prostatic smooth muscle relaxation.',
+
+    indications: [
+      'Hypertension',
+      'BPH (less commonly used)',
+      'PTSD-related nightmares (off-label)'
+    ],
+
+    sideEffects: [
+      'Severe first-dose orthostatic hypotension and syncope',
+      'Dizziness',
+      'Headache',
+      'Drowsiness',
+      'Palpitations'
+    ],
+
+    contraindications: [
+      'Hypersensitivity to prazosin'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor blood pressure (especially first dose)',
+      'Monitor syncope risk'
+    ],
+
+    highYield: [
+      'Prototype non-selective α1-blocker',
+      'Significant first-dose hypotension requires bedtime dosing',
+      'Largely replaced by selective agents for BPH due to side effect profile'
+    ],
+
+    slideReference: 'BPH - Alpha-Blockers'
+  },
+
+  // ===== ERECTILE DYSFUNCTION (Additional) =====
+  {
+    id: 'avanafil',
+    drugName: 'Avanafil',
+    brandNames: ['Stendra'],
+    drugClass: 'Phosphodiesterase-5 (PDE-5) inhibitor (Pyrazolopyrimidinone)',
+
+    moa: 'Highly selective PDE-5 inhibitor that prevents cGMP degradation, enhancing NO-mediated vasodilation in penile tissue. Greater selectivity reduces off-target effects.',
+
+    indications: [
+      'Erectile dysfunction (ED)'
+    ],
+
+    sideEffects: [
+      'Headache (lower incidence than older PDE-5 inhibitors)',
+      'Flushing',
+      'Nasal congestion',
+      'Back pain'
+    ],
+
+    contraindications: [
+      'Nitrate use (absolute)',
+      'Severe cardiovascular disease',
+      'Severe hepatic/renal impairment'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor blood pressure',
+      'Monitor cardiovascular status'
+    ],
+
+    highYield: [
+      'Fastest onset of action (15-30 minutes) - best for spontaneity',
+      'Highest PDE-5 selectivity results in fewer side effects (less blue vision than sildenafil)',
+      'Newest PDE-5 inhibitor with improved side effect profile'
+    ],
+
+    slideReference: 'GU/ED Pharmacology - PDE5 Inhibitors'
+  },
+
+  // ===== URINARY INCONTINENCE (Additional Antimuscarinics) =====
+  {
+    id: 'tolterodine',
+    drugName: 'Tolterodine',
+    brandNames: ['Detrol', 'Detrol LA'],
+    drugClass: 'M2/M3-selective antimuscarinic',
+
+    moa: 'Preferentially blocks M2 and M3 muscarinic receptors in bladder, with some selectivity for bladder tissue over salivary glands, reducing dry mouth compared to oxybutynin.',
+
+    indications: [
+      'Overactive bladder',
+      'Urge incontinence',
+      'Urgency and frequency'
+    ],
+
+    sideEffects: [
+      'Dry mouth (less than oxybutynin)',
+      'Constipation',
+      'Headache',
+      'Dizziness',
+      'Blurred vision'
+    ],
+
+    contraindications: [
+      'Urinary retention',
+      'Gastric retention',
+      'Uncontrolled narrow-angle glaucoma'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor urinary retention',
+      'Monitor hepatic function'
+    ],
+
+    highYield: [
+      'Better tolerated than oxybutynin with less dry mouth',
+      'Extended-release formulation (Detrol LA) once daily improves compliance',
+      'Good first-line alternative to oxybutynin'
+    ],
+
+    slideReference: 'UI Pharmacology - Antimuscarinics'
+  },
+
+  {
+    id: 'solifenacin',
+    drugName: 'Solifenacin',
+    brandNames: ['Vesicare', 'Vesicare LS'],
+    drugClass: 'Long-acting non-selective antimuscarinic',
+
+    moa: 'Competitively blocks muscarinic receptors (M1-M5) in detrusor muscle, preventing acetylcholine-mediated bladder contractions. Long duration allows once-daily dosing.',
+
+    indications: [
+      'Overactive bladder',
+      'Urge urinary incontinence',
+      'Urgency and frequency'
+    ],
+
+    sideEffects: [
+      'Dry mouth',
+      'Constipation',
+      'Blurred vision',
+      'UTI',
+      'Dyspepsia'
+    ],
+
+    contraindications: [
+      'Urinary retention',
+      'Gastric retention',
+      'Uncontrolled narrow-angle glaucoma',
+      'Severe hepatic impairment'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor QT interval (in at-risk patients)',
+      'Monitor urinary retention'
+    ],
+
+    highYield: [
+      'Once-daily dosing improves compliance',
+      'Better tolerability profile than older antimuscarinics',
+      'May prolong QT interval - caution with other QT-prolonging drugs'
+    ],
+
+    slideReference: 'UI Pharmacology - Antimuscarinics'
+  },
+
+  {
+    id: 'darifenacin',
+    drugName: 'Darifenacin',
+    brandNames: ['Enablex'],
+    drugClass: 'M3-selective antimuscarinic',
+
+    moa: 'Selectively blocks M3 muscarinic receptors in bladder detrusor muscle while sparing M1 receptors in the CNS, reducing cognitive side effects especially in elderly patients.',
+
+    indications: [
+      'Overactive bladder',
+      'Urge incontinence',
+      'Urgency and frequency'
+    ],
+
+    sideEffects: [
+      'Dry mouth',
+      'Constipation (most common)',
+      'Dyspepsia',
+      'Headache',
+      'Minimal cognitive effects'
+    ],
+
+    contraindications: [
+      'Urinary retention',
+      'Gastric retention',
+      'Uncontrolled narrow-angle glaucoma',
+      'Severe hepatic impairment'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor urinary retention',
+      'Monitor constipation',
+      'Monitor cognitive function'
+    ],
+
+    highYield: [
+      'M3 selectivity spares M1 receptors in brain → reduced cognitive impairment',
+      'Best choice for elderly patients with dementia or cognitive concerns',
+      'Higher incidence of constipation than other antimuscarinics'
+    ],
+
+    slideReference: 'UI Pharmacology - Antimuscarinics'
+  },
+
+  // ===== PMS TREATMENTS =====
+  {
+    id: 'ssri_pms',
+    drugName: 'SSRIs (Sertraline, Fluoxetine, Paroxetine, Citalopram, Escitalopram)',
+    brandNames: ['Sertraline (Zoloft)', 'Fluoxetine (Prozac, Sarafem)', 'Paroxetine (Paxil)', 'Citalopram (Celexa)', 'Escitalopram (Lexapro)'],
+    drugClass: 'Selective serotonin reuptake inhibitors (SSRIs)',
+
+    moa: 'Inhibit presynaptic serotonin reuptake, increasing serotonin availability in the synaptic cleft. Addresses serotonin deficiency implicated in PMS/PMDD mood and behavioral symptoms.',
+
+    indications: [
+      'Premenstrual dysphoric disorder (PMDD)',
+      'Severe premenstrual syndrome (PMS) with mood symptoms',
+      'Depression',
+      'Anxiety disorders'
+    ],
+
+    sideEffects: [
+      'Nausea',
+      'Sexual dysfunction (decreased libido, anorgasmia)',
+      'Insomnia or somnolence',
+      'Headache',
+      'Weight gain',
+      'Serotonin syndrome (rare, with multiple serotonergic agents)'
+    ],
+
+    contraindications: [
+      'Concurrent MAOI use (within 14 days)',
+      'Hypersensitivity to SSRIs'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor mood and suicidal ideation (especially early treatment)',
+      'Monitor response to therapy',
+      'Monitor sexual function'
+    ],
+
+    highYield: [
+      'Most effective pharmacologic treatment for PMDD and severe PMS mood symptoms',
+      'Can be dosed continuously or luteal phase only (14 days before menses)',
+      'Works faster for PMDD than depression (may see benefit within days vs weeks)'
+    ],
+
+    slideReference: 'PMS & PMDD Treatments'
+  },
+
+  {
+    id: 'calcium_magnesium_pms',
+    drugName: 'Calcium and Magnesium Supplements',
+    brandNames: ['Various OTC calcium/magnesium supplements'],
+    drugClass: 'Mineral supplementation',
+
+    moa: 'Calcium and magnesium deficiencies contribute to PMS symptoms. Supplementation helps regulate neurotransmitter function, reduces water retention, stabilizes mood, and decreases headaches and sugar cravings.',
+
+    indications: [
+      'PMS symptom management (headaches, bloating, cravings)',
+      'Prevention of osteoporosis',
+      'General mineral supplementation'
+    ],
+
+    sideEffects: [
+      'Constipation (calcium)',
+      'Diarrhea (magnesium in high doses)',
+      'Nausea',
+      'Drug interactions (decreased absorption of certain antibiotics, thyroid medications)'
+    ],
+
+    contraindications: [
+      'Hypercalcemia',
+      'Hypermagnesemia',
+      'Severe renal impairment'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor serum calcium and magnesium in at-risk patients',
+      'Monitor renal function'
+    ],
+
+    highYield: [
+      'Calcium 1200 mg/day shown to reduce PMS mood and physical symptoms',
+      'Magnesium 200-400 mg/day helps with bloating, headaches, and cravings',
+      'First-line complementary therapy before pharmacologic options'
+    ],
+
+    slideReference: 'PMS & PMDD Treatments'
+  },
+
+  // ===== HYPERPROLACTINEMIA TREATMENTS =====
+  {
+    id: 'cabergoline',
+    drugName: 'Cabergoline',
+    brandNames: ['Dostinex'],
+    drugClass: 'Dopamine D2 receptor agonist (ergot derivative)',
+
+    moa: 'Activates dopamine D2 receptors in the pituitary lactotrophs, inhibiting prolactin secretion. Also shrinks prolactin-secreting pituitary adenomas (prolactinomas).',
+
+    indications: [
+      'Hyperprolactinemia',
+      'Prolactinoma (micro- and macro-adenomas)',
+      'Galactorrhea',
+      'Prolactin-related amenorrhea or infertility',
+      'Suppression of lactation (off-label)'
+    ],
+
+    sideEffects: [
+      'Nausea',
+      'Headache',
+      'Dizziness',
+      'Orthostatic hypotension',
+      'Cardiac valvular disease (with long-term high-dose use)',
+      'Impulse control disorders (rare)'
+    ],
+
+    contraindications: [
+      'Uncontrolled hypertension',
+      'Pregnancy-induced hypertension',
+      'Cardiac valvulopathy',
+      'Hypersensitivity to ergot alkaloids'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor prolactin levels',
+      'Monitor pituitary imaging (tumor size)',
+      'Monitor cardiac valves (echocardiogram with long-term use)',
+      'Monitor blood pressure',
+      'Monitor pregnancy status'
+    ],
+
+    highYield: [
+      'First-line medical therapy for prolactinomas (more effective than bromocriptine)',
+      'Long half-life allows twice-weekly dosing (better compliance than bromocriptine)',
+      'Can shrink macroprolactinomas and restore fertility'
+    ],
+
+    slideReference: 'Hyperprolactinemia & Galactorrhea Treatments'
+  },
+
+  {
+    id: 'bromocriptine',
+    drugName: 'Bromocriptine',
+    brandNames: ['Parlodel', 'Cycloset'],
+    drugClass: 'Dopamine D2 receptor agonist (ergot derivative)',
+
+    moa: 'Stimulates dopamine D2 receptors in the pituitary, inhibiting prolactin release. Also used for Parkinson\'s disease and type 2 diabetes (Cycloset formulation).',
+
+    indications: [
+      'Hyperprolactinemia',
+      'Prolactinoma',
+      'Galactorrhea',
+      'Parkinson\'s disease',
+      'Type 2 diabetes (Cycloset)'
+    ],
+
+    sideEffects: [
+      'Nausea and vomiting (very common)',
+      'Orthostatic hypotension',
+      'Headache',
+      'Dizziness',
+      'Fatigue',
+      'Hallucinations (in Parkinson\'s patients)'
+    ],
+
+    contraindications: [
+      'Uncontrolled hypertension',
+      'Pregnancy-induced hypertension/preeclampsia',
+      'Hypersensitivity to ergot derivatives',
+      'Syncopal migraine'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor prolactin levels',
+      'Monitor blood pressure',
+      'Monitor pituitary tumor size',
+      'Monitor pregnancy status'
+    ],
+
+    highYield: [
+      'Older agent; largely replaced by cabergoline due to better tolerability and less frequent dosing',
+      'Requires daily to TID dosing (vs cabergoline twice weekly)',
+      'High incidence of nausea limits compliance'
+    ],
+
+    slideReference: 'Hyperprolactinemia & Galactorrhea Treatments'
+  },
+
+  // ===== TESTOSTERONE REPLACEMENT THERAPY =====
+  {
+    id: 'testosterone',
+    drugName: 'Testosterone',
+    brandNames: ['AndroGel (topical gel)', 'Testim (topical gel)', 'Axiron (topical solution)', 'Androderm (transdermal patch)', 'Depo-Testosterone (IM injection)', 'Aveed (IM injection - long-acting)', 'Testopel (subcutaneous pellet)'],
+    drugClass: 'Androgen hormone replacement',
+
+    moa: 'Exogenous testosterone replaces endogenous testosterone in hypogonadal men, binding to androgen receptors to restore physiologic effects including libido, muscle mass, bone density, and spermatogenesis.',
+
+    indications: [
+      'Male hypogonadism (primary or secondary)',
+      'Delayed puberty in males',
+      'Gender-affirming hormone therapy (transgender men)'
+    ],
+
+    sideEffects: [
+      'Polycythemia (elevated hematocrit/hemoglobin)',
+      'Acne and oily skin',
+      'Gynecomastia (aromatization to estrogen)',
+      'Testicular atrophy',
+      'Decreased fertility (suppression of spermatogenesis)',
+      'Sleep apnea worsening',
+      'Prostate enlargement (monitor PSA)',
+      'Fluid retention',
+      'Behavioral changes (aggression, mood swings)'
+    ],
+
+    contraindications: [
+      'Prostate cancer',
+      'Breast cancer in men',
+      'Uncontrolled heart failure',
+      'Severe sleep apnea',
+      'Hematocrit >50%',
+      'Pregnancy (Category X if used by women)'
+    ],
+
+    clinicalConsiderations: [
+      'Monitor testosterone levels (target mid-normal range)',
+      'Monitor hematocrit/hemoglobin (baseline, 3-6 months, then annually)',
+      'Monitor PSA and digital rectal exam (baseline, 3-6 months, then annually in men >40)',
+      'Monitor lipid panel',
+      'Monitor bone density (if osteoporosis risk)',
+      'Monitor liver function tests'
+    ],
+
+    highYield: [
+      'Multiple formulations; topical gels popular but risk of transfer to others (especially children/women)',
+      'Suppresses endogenous testosterone production via negative feedback on LH/FSH',
+      'Monitor hematocrit - polycythemia is dose-limiting toxicity requiring dose reduction or phlebotomy'
+    ],
+
+    slideReference: 'Testosterone Replacement Therapy'
   }
 ];

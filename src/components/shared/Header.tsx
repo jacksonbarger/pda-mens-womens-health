@@ -33,7 +33,8 @@ export const Header: React.FC<HeaderProps> = ({ isGuestMode = false }) => {
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
           <div className="text-center lg:text-left">
-            <h1 className="text-3xl font-bold tracking-tight">
+            <h1 className="text-3xl font-bold tracking-tight flex items-center justify-center lg:justify-start gap-3">
+              <span className="text-5xl">🎅</span>
               PDA: Men's & Women's Health
             </h1>
             <p className="text-white/90 text-base mt-1">
