@@ -69,6 +69,10 @@ export const FinalExamChallenge: React.FC<FinalExamChallengeProps> = ({ onBack, 
     setPart2Questions(selectedPart2);
   }, []);
 
+  const currentQuestions = examPart === 'part1' ? part1Questions : part2Questions;
+  const currentQuestion = currentQuestions[currentQuestionIndex];
+  const totalQuestions = currentQuestions.length;
+
   // Keyboard navigation
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -93,10 +97,6 @@ export const FinalExamChallenge: React.FC<FinalExamChallengeProps> = ({ onBack, 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
   }, [examPart, currentQuestion, showExplanation, currentQuestionIndex]);
-
-  const currentQuestions = examPart === 'part1' ? part1Questions : part2Questions;
-  const currentQuestion = currentQuestions[currentQuestionIndex];
-  const totalQuestions = currentQuestions.length;
 
   const handleStartPart1 = () => {
     setExamPart('part1');
