@@ -348,7 +348,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               {/* Topics Covered */}
               <div className="mb-6 flex-grow">
                 <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                  <h4 className="font-bold text-primary text-sm mb-2">Topics Covered:</h3>
+                  <h3 className="font-bold text-primary text-sm mb-2">Topics Covered:</h3>
                   <ul className="text-sm text-secondary space-y-1">
                     {professor.overview.topics.slice(0, 4).map((topic: string, idx: number) => (
                       <li key={idx} className="flex items-start gap-2">
@@ -412,7 +412,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Description */}
             <div className="mb-6 flex-grow">
               <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                <h4 className="font-bold text-primary text-sm mb-2">What's Included:</h3>
+                <h3 className="font-bold text-primary text-sm mb-2">What's Included:</h3>
                 <ul className="text-sm text-secondary space-y-1">
                   <li className="flex items-start gap-2">
                     <span className="text-pda-gold-500 mt-0.5">•</span>
@@ -480,7 +480,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Description */}
             <div className="mb-6 flex-grow">
               <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                <h4 className="font-bold text-primary text-sm mb-2">2-Part Randomized Exam:</h3>
+                <h3 className="font-bold text-primary text-sm mb-2">2-Part Randomized Exam:</h3>
                 <ul className="text-sm text-secondary space-y-1">
                   <li className="flex items-start gap-2">
                     <span className="text-pda-gold-500 mt-0.5">•</span>
