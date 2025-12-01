@@ -1,480 +1,210 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
-  <diagram name="DrVirga_Gonadohormones_Detailed" id="0">
-    <mxGraphModel dx="1569" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4200" pageHeight="3800" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-12-01T00:00:00.000Z" agent="5.0" version="24.0.0" etag="xyz" type="device">
+  <diagram name="Virga-Gonadal-Hormones" id="virga-main">
+    <mxGraphModel dx="2200" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1800" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="title" value="DR. VIRGA — GONADAL HORMONES MEDICINAL CHEMISTRY MASTER MAP&lt;br&gt;Estrogens • SERMs • Aromatase Inhibitors • Progestins • Androgens • SAR Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;fontSize=22;align=center;" parent="1" vertex="1">
-          <mxGeometry x="800" y="20" width="1600" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="legend" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;LEGEND&lt;/font&gt;&lt;/b&gt;&lt;br&gt;🔵 Blue = Receptors/enzymes&lt;br&gt;🟩 Green = Normal physiology/biosynthesis&lt;br&gt;🟦 Light Blue = Drug molecules&lt;br&gt;🔴 Red = Pathology/disease&lt;br&gt;🟪 Purple = Clinical outcomes&lt;br&gt;🟧 Orange = SAR features&lt;br&gt;&lt;br&gt;→ Green solid = Stimulation/synthesis&lt;br&gt;⤏ Red dashed = Inhibition/antagonism&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;How to Use:&lt;/b&gt;&lt;br&gt;1. Follow biosynthesis pathways&lt;br&gt;2. Trace SAR modifications&lt;br&gt;3. Compare drug selectivity&lt;br&gt;4. Study receptor mechanisms&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=13;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="480" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="estrogen_title" value="CLUSTER 1 — ESTROGENS: Biosynthesis, Structure, SAR, and Therapeutic Agents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="40" y="420" width="2000" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cholesterol" value="Cholesterol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="60" y="520" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="cyp11a1" value="CYP11A1&lt;br&gt;(Side-chain cleavage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="520" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pregnenolone" value="Pregnenolone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="360" y="520" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="progesterone" value="Progesterone&lt;br&gt;(C21)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="360" y="600" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="androstenedione" value="Androstenedione&lt;br&gt;(C19)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="510" y="600" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="testosterone" value="Testosterone&lt;br&gt;(C19)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="510" y="520" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aromatase" value="AROMATASE&lt;br&gt;(CYP19)&lt;br&gt;Requires 3 O₂ + NADPH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="540" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="estrone" value="ESTRONE&lt;br&gt;(E1, C18)&lt;br&gt;Less potent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="600" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol" value="17β-ESTRADIOL&lt;br&gt;(E2, C18)&lt;br&gt;Most potent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="510" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_dehydrogenase" value="Estradiol&lt;br&gt;Dehydrogenase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="540" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="estrogen_sar_title" value="ESTROGEN SAR — Structural Requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="720" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="estrogen_sar" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Critical SAR Features:&lt;/b&gt;&lt;br&gt;• C18 steroid (3 fewer carbons than androgens)&lt;br&gt;• Aromatic A-ring (C1–C2 unsaturated) — REQUIRED&lt;br&gt;• Phenolic OH at C3 — REQUIRED&lt;br&gt;• 17β-OH — REQUIRED for maximal potency&lt;br&gt;• 17α-OH → ↓↓ activity&lt;br&gt;• Large D-ring substitution → loss of activity&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Metabolism:&lt;/b&gt;&lt;br&gt;• Rapid hepatic conjugation → glucuronides/sulfates&lt;br&gt;• Catechol estrogens (2-OH, 4-OH) via CYP1A2&lt;br&gt;• COMT → methoxy estrogens (weak estrogenic)&lt;br&gt;• Very high SHBG binding&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="80" y="780" width="460" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_pharm_title" value="17β-ESTRADIOL — Pharmacology" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="600" y="720" width="420" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_pharm" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Limitations:&lt;/b&gt;&lt;br&gt;• Poor oral bioavailability&lt;br&gt;• Extensive first-pass metabolism&lt;br&gt;• Rapid hepatic conjugation&lt;br&gt;• High SHBG binding&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Solutions:&lt;/b&gt;&lt;br&gt;• Transdermal patches (bypass first-pass)&lt;br&gt;• IM esters (depot formulations)&lt;br&gt;• Synthetic modifications (17α-ethinyl group)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="620" y="780" width="380" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="synthetic_estrogen_title" value="SYNTHETIC ORAL ESTROGENS — 17α-Ethinyl Modification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1100" width="960" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ethinyl_estradiol" value="ETHINYL ESTRADIOL&lt;br&gt;(EE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1170" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mestranol" value="MESTRANOL&lt;br&gt;(3-O-methyl EE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1170" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ee_sar" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;SAR Innovation:&lt;/b&gt;&lt;br&gt;• 17α-ethinyl group blocks oxidation of 17β-OH&lt;br&gt;• Prevents conversion to estrone&lt;br&gt;• 15–20× more potent than estradiol orally&lt;br&gt;• High ER binding affinity&lt;br&gt;• Mestranol = prodrug (requires O-demethylation)&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Oral contraceptives (COCs)&lt;br&gt;• Most widely used synthetic estrogen&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="430" y="1170" width="570" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_ester_title" value="ESTRADIOL ESTERS — Depot Formulations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="720" width="480" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_valerate" value="Estradiol&lt;br&gt;Valerate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="790" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_cypionate" value="Estradiol&lt;br&gt;Cypionate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="790" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="estradiol_ester_notes" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Properties:&lt;/b&gt;&lt;br&gt;• 17β-esters&lt;br&gt;• IM injection&lt;br&gt;• Slow release (2–4 weeks)&lt;br&gt;• Used for long-term estrogenic therapy&lt;br&gt;• Overcome first-pass metabolism&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="790" width="160" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="conjugated_estrogen_title" value="CONJUGATED ESTROGENS (Estrogens USP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="980" width="480" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="conjugated_estrogen" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Source: Pregnant mare urine&lt;br&gt;&lt;br&gt;Contains:&lt;br&gt;• Estrone sulfate&lt;br&gt;• Equilin (unique to horses)&lt;br&gt;• Equilenin (unique to horses)&lt;br&gt;&lt;br&gt;Clinical Use:&lt;br&gt;• Menopausal hormone therapy&lt;br&gt;• Brand: Premarin&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="1040" width="440" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="nonsteroidal_estrogen_title" value="NON-STEROIDAL ESTROGENS — Stilbene Derivatives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1380" width="960" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="des" value="Diethylstilbestrol&lt;br&gt;(DES)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1450" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hexestrol" value="Hexestrol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dienestrol" value="Dienestrol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="stilbene_sar" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• Trans-stilbenes more potent than cis&lt;br&gt;• Two phenolic OH groups mimic estradiol&lt;br&gt;• Non-steroidal scaffold&lt;br&gt;• DES: High oral activity&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Clinical Issues:&lt;/b&gt;&lt;br&gt;• DES → vaginal clear cell adenocarcinoma in offspring&lt;br&gt;• Uterine cancer risk&lt;br&gt;• No longer used for pregnancy support&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1450" width="440" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="serm_title" value="CLUSTER 2 — ESTROGEN ANTAGONISTS, SERMs, &amp; AROMATASE INHIBITORS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1700" width="2000" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="er_receptor" value="Estrogen Receptor&lt;br&gt;(ER-α, ER-β)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1800" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="er_chromatin" value="ER-Chromatin&lt;br&gt;Binding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="220" y="1800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="er_transcription" value="Gene&lt;br&gt;Transcription" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1800" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="impeded_estrogen_title" value="IMPEDED ESTROGENS — Weak Antagonists" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1920" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="impeded_estrogen" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Mechanism:&lt;br&gt;• Bind ER but dissociate too rapidly&lt;br&gt;• Weak antagonists&lt;br&gt;• Require high doses to compete with estradiol&lt;br&gt;&lt;br&gt;Examples:&lt;br&gt;• Modified estradiols with bulky substituents&lt;br&gt;• Not clinically useful&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1980" width="460" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="triphenyl_title" value="TRIPHENYLETHYLENE ANTIESTROGENS — SERM Precursor Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="60" y="2200" width="700" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mer25" value="MER-25&lt;br&gt;(Parent compound)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="80" y="2270" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="triphenyl_mech" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Mechanism:&lt;/b&gt;&lt;br&gt;• Form strong antiestrogen-receptor complexes&lt;br&gt;• Prevent ER–chromatin binding&lt;br&gt;• Inhibit transcription&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Evolution:&lt;/b&gt;&lt;br&gt;• Led to development of SERMs&lt;br&gt;• Tissue-selective ER modulation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="250" y="2270" width="490" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="clomiphene_title" value="CLOMIPHENE (Clomid) — Mixed Agonist/Antagonist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="820" y="1800" width="720" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="clomiphene" value="Clomiphene&lt;br&gt;(E/Z isomer mixture)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1870" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="clomiphene_z" value="Z-isomer:&lt;br&gt;Estrogenic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1960" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="clomiphene_e" value="E-isomer:&lt;br&gt;Antiestrogenic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="980" y="1960" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="clomiphene_mech" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Mechanism for Infertility:&lt;/b&gt;&lt;br&gt;• Blocks ER in hypothalamus&lt;br&gt;• Prevents negative feedback&lt;br&gt;• ↑ GnRH secretion&lt;br&gt;• ↑ FSH/LH release&lt;br&gt;• Induces ovulation&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Pharmacokinetics:&lt;/b&gt;&lt;br&gt;• Long t½ (~5 days)&lt;br&gt;• Hepatic metabolism&lt;br&gt;• Used for anovulatory infertility&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="1870" width="390" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="tamoxifen_title" value="TAMOXIFEN — SERM for ER+ Breast Cancer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="820" y="2120" width="720" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tamoxifen" value="Tamoxifen&lt;br&gt;(Z-isomer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="840" y="2190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tamox_cyp3a4" value="CYP3A4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="840" y="2280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tamox_ndesmethyl" value="N-desmethyl-&lt;br&gt;tamoxifen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="840" y="2350" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tamox_cyp2d6" value="CYP2D6" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="990" y="2280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tamox_4oh" value="4-Hydroxy-&lt;br&gt;tamoxifen&lt;br&gt;(Active metabolite)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="2350" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="tamoxifen_effects" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Tissue-Selective Effects:&lt;/b&gt;&lt;br&gt;• Breast: ANTAGONIST (blocks ER)&lt;br&gt;• Endometrium: AGONIST (↑ cancer risk)&lt;br&gt;• Bone: AGONIST (prevents loss)&lt;br&gt;• Lipids: AGONIST (↓ LDL)&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• ER+ breast cancer treatment&lt;br&gt;• Adjuvant therapy (5 years)&lt;br&gt;• Breast cancer prevention (high risk)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="2190" width="380" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="toremifene_title" value="TOREMIFENE — Chlorinated Tamoxifen Analog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="820" y="2470" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="toremifene" value="Toremifene" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="840" y="2540" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="toremifene_notes" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Properties:&lt;/b&gt;&lt;br&gt;• Chlorinated analog of tamoxifen&lt;br&gt;• Slightly weaker antiestrogenic potency&lt;br&gt;• Metabolized by CYP3A4&lt;br&gt;• Similar SERM profile to tamoxifen&lt;br&gt;• Used for ER+ breast cancer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="2540" width="300" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="raloxifene_title" value="RALOXIFENE — Benzothiophene SERM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="1800" width="440" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="raloxifene" value="Raloxifene&lt;br&gt;(Evista)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="1870" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="raloxifene_effects" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Tissue-Selective Effects:&lt;/b&gt;&lt;br&gt;• Breast: ANTAGONIST&lt;br&gt;• Uterus: ANTAGONIST (↓ cancer risk vs tamoxifen)&lt;br&gt;• Bone: AGONIST (prevents osteoporosis)&lt;br&gt;• Lipids: Modest ↓ LDL&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Pharmacokinetics:&lt;/b&gt;&lt;br&gt;• Very low oral bioavailability (~5%)&lt;br&gt;• Extensive first-pass glucuronidation&lt;br&gt;• Enterohepatic recirculation&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Postmenopausal osteoporosis&lt;br&gt;• Breast cancer prevention&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1770" y="1870" width="250" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="ai_title" value="AROMATASE INHIBITORS — Block Estrogen Synthesis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1600" y="2250" width="440" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="anastrozole" value="Anastrozole&lt;br&gt;(Arimidex)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="2320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="letrozole" value="Letrozole&lt;br&gt;(Femara)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="1770" y="2320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ai_mech" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Mechanism:&lt;/b&gt;&lt;br&gt;• Nonsteroidal triazole inhibitors&lt;br&gt;• Bind CYP19 (aromatase) heme via N-4 nitrogen&lt;br&gt;• Inhibit testosterone → estrogen conversion&lt;br&gt;• Reduce estradiol levels by 70–80%&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Postmenopausal ER+ breast cancer&lt;br&gt;• First-line or after tamoxifen&lt;br&gt;• More effective than tamoxifen in some trials&lt;br&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;Side Effects:&lt;/b&gt;&lt;br&gt;• Bone loss (↓ estrogen)&lt;br&gt;• Hot flashes&lt;br&gt;• Joint pain&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=center;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="2410" width="400" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="progestin_title" value="CLUSTER 3 — PROGESTINS: Natural, Synthetic, Generations, and Antagonists" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2140" y="420" width="2000" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="progesterone_natural_title" value="NATURAL PROGESTERONE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="520" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="progesterone_nat" value="Progesterone&lt;br&gt;(C21 steroid)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="progesterone_pharm" value="&lt;b&gt;Pharmacology:&lt;/b&gt;&lt;br&gt;• Produced in corpus luteum&lt;br&gt;• Rapid hepatic metabolism&lt;br&gt;• Poor oral bioavailability&lt;br&gt;&lt;br&gt;&lt;b&gt;Metabolites:&lt;/b&gt;&lt;br&gt;• 5β-Pregnanediol glucuronide (major)&lt;br&gt;• 6α-Hydroxy metabolites&lt;br&gt;&lt;br&gt;&lt;b&gt;Limitations:&lt;/b&gt;&lt;br&gt;• Requires synthetic modifications for oral use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2330" y="590" width="310" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="pregnane_title" value="PREGNANE DERIVATIVES — Progesterone-Based Synthetic Progestins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="860" width="900" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="medroxyprogesterone" value="Medroxyprogesterone&lt;br&gt;Acetate (MPA)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="930" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="megestrol" value="Megestrol&lt;br&gt;Acetate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="930" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dydrogesterone" value="Dydrogesterone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2510" y="930" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="chlormadinone" value="Chlormadinone&lt;br&gt;Acetate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2660" y="930" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cyproterone" value="Cyproterone&lt;br&gt;Acetate&lt;br&gt;(Strong anti-androgen)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="2810" y="930" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pregnane_sar" value="&lt;b&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• 6-Substitution increases oral activity&lt;br&gt;• 6-Chloro → antiandrogenic activity (chlormadinone, cyproterone)&lt;br&gt;• 6-Methyl → glucocorticoid activity (MPA)&lt;br&gt;• C17 acetate ester → improved stability&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• MPA: Contraception (Depo-Provera), HRT&lt;br&gt;• Cyproterone: Hirsutism, acne, prostate cancer&lt;br&gt;• Megestrol: Appetite stimulant, breast/endometrial cancer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1020" width="760" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="norpregnane_title" value="19-NORPREGNANES — Highly Selective PR Agonists" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="1240" width="600" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nomegestrol" value="Nomegestrol&lt;br&gt;Acetate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trimegestone" value="Trimegestone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2330" y="1310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="norpregnane_notes" value="&lt;b&gt;Properties:&lt;/b&gt;&lt;br&gt;• Very selective PR agonists&lt;br&gt;• Minimal androgenic activity&lt;br&gt;• No estrogenic activity&lt;br&gt;• Used in COCs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2480" y="1310" width="260" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="estrane_title" value="ESTRANE DERIVATIVES — 19-Nortestosterone Progestins (1st Generation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="1490" width="900" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="norethindrone" value="Norethindrone&lt;br&gt;(NET)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="norethindrone_acetate" value="Norethindrone&lt;br&gt;Acetate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2330" y="1560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ethynodiol" value="Ethynodiol&lt;br&gt;Diacetate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2480" y="1560" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lynestrenol" value="Lynestrenol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2630" y="1560" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="estrane_sar" value="&lt;b&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• 17α-Ethinyl group → prevents metabolism → oral activity&lt;br&gt;• Removal of C19 methyl → progestational activity&lt;br&gt;• Some androgenic activity (less than testosterone)&lt;br&gt;• Metabolized to estrogenic compounds&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Oral contraceptives&lt;br&gt;• Hormone replacement therapy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="1560" width="270" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="gonane_title" value="GONANE DERIVATIVES — 2nd Generation Progestins (13-Ethyl)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="1800" width="900" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="levonorgestrel" value="Levonorgestrel&lt;br&gt;(LNG)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1870" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="desogestrel" value="Desogestrel&lt;br&gt;→ Etonogestrel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2340" y="1870" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gestodene" value="Gestodene" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2500" y="1870" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="norgestimate" value="Norgestimate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2640" y="1870" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gonane_sar" value="&lt;b&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• 13-Ethyl group (instead of 13-methyl)&lt;br&gt;• Dramatically increases progestational potency&lt;br&gt;• LNG: Highest androgenic activity in class&lt;br&gt;• Desogestrel/Gestodene: Lower androgenicity&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Most widely used in COCs&lt;br&gt;• LNG: Emergency contraception (Plan B)&lt;br&gt;• Etonogestrel: Subdermal implant (Nexplanon)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2790" y="1870" width="250" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="drospirenone_title" value="DROSPIRENONE — 3rd Generation (Spironolactone-Derived)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="2130" width="600" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="drospirenone" value="Drospirenone&lt;br&gt;(Yasmin, Yaz)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="2200" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="drospirenone_effects" value="&lt;b&gt;Unique Properties:&lt;/b&gt;&lt;br&gt;• Anti-mineralocorticoid (diuretic effect)&lt;br&gt;• Anti-androgenic (↓ acne, hirsutism)&lt;br&gt;• No estrogenic activity&lt;br&gt;• No androgenic activity&lt;br&gt;• No glucocorticoid activity&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• COCs for women with PMDD, acne&lt;br&gt;• ↓ Water retention vs other progestins&lt;br&gt;&lt;br&gt;&lt;b&gt;Caution:&lt;/b&gt;&lt;br&gt;• Monitor K⁺ (anti-mineralocorticoid)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="2200" width="390" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="fourthgen_title" value="4TH GENERATION PROGESTINS — Highly Selective PR Agonists" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="2500" width="700" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="dienogest" value="Dienogest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="2570" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nestorone" value="Nestorone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2320" y="2570" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fourthgen_notes" value="&lt;b&gt;Properties:&lt;/b&gt;&lt;br&gt;• Extremely clean PR selectivity&lt;br&gt;• No androgenic activity&lt;br&gt;• No estrogenic activity&lt;br&gt;• No glucocorticoid/mineralocorticoid activity&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Dienogest: Endometriosis treatment&lt;br&gt;• Nestorone: Investigational (vaginal ring)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2460" y="2570" width="380" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="progestin_antagonist_title" value="PROGESTIN ANTAGONISTS &amp; SPRMs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="2810" width="700" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mifepristone" value="Mifepristone&lt;br&gt;(RU-486)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="2880" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mifepristone_mech" value="&lt;b&gt;Mechanism:&lt;/b&gt;&lt;br&gt;• PR antagonist in uterus&lt;br&gt;• Also binds GR (glucocorticoid receptor)&lt;br&gt;• Long half-life&lt;br&gt;• Blocks progesterone → prevents implantation&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Medical abortion (with misoprostol)&lt;br&gt;• Emergency contraception&lt;br&gt;• Cushing syndrome (GR antagonism)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2340" y="2880" width="280" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ulipristal" value="Ulipristal Acetate&lt;br&gt;(Ella)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="2980" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ulipristal_mech" value="&lt;b&gt;Mechanism:&lt;/b&gt;&lt;br&gt;• SPRM (Selective Progesterone Receptor Modulator)&lt;br&gt;• Partial agonist/antagonist&lt;br&gt;• Weak anti-androgen&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Emergency contraception (up to 120 hours)&lt;br&gt;• More effective than LNG at 72-120h" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2340" y="3100" width="280" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="androgen_title" value="CLUSTER 4 — ANDROGENS: Testosterone, Anabolic Steroids, and SARMs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="2900" y="420" width="1200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="testosterone_title" value="TESTOSTERONE — Natural Androgen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="520" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="testosterone_nat" value="Testosterone&lt;br&gt;(C19 steroid)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dht" value="Dihydrotestosterone&lt;br&gt;(DHT)&lt;br&gt;More potent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="680" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="5alpha_reductase" value="5α-Reductase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="3110" y="620" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="testosterone_pharm" value="&lt;b&gt;Pharmacology:&lt;/b&gt;&lt;br&gt;• C19 steroid with OH/ketone at C3 &amp; C17&lt;br&gt;• Not orally active (rapid metabolism)&lt;br&gt;• First extracted from testicular tissue&lt;br&gt;• Converted to DHT in peripheral tissues&lt;br&gt;&lt;br&gt;&lt;b&gt;Limitations:&lt;/b&gt;&lt;br&gt;• Rapid first-pass metabolism&lt;br&gt;• Requires esterification or alkylation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3100" y="690" width="300" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="androgen_ester_title" value="ANDROGEN ESTERS — IM Depot Formulations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="920" width="500" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="test_propionate" value="Testosterone&lt;br&gt;Propionate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="test_enanthate" value="Testosterone&lt;br&gt;Enanthate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3090" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="test_cypionate" value="Testosterone&lt;br&gt;Cypionate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3240" y="990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="androgen_ester_notes" value="&lt;b&gt;Properties:&lt;/b&gt;&lt;br&gt;• 17β-Esters&lt;br&gt;• IM injection&lt;br&gt;• Slow release (2–4 weeks)&lt;br&gt;• Overcome first-pass metabolism&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Testosterone replacement therapy (TRT)&lt;br&gt;• Male hypogonadism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="1080" width="420" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="alkylated_androgen_title" value="17α-ALKYLATED ANDROGENS — Oral Activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="1300" width="700" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="methyltestosterone" value="17α-Methyl-&lt;br&gt;testosterone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="1370" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fluoxymesterone" value="Fluoxymesterone&lt;br&gt;(9α-Fluoro)&lt;br&gt;20× potency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="3100" y="1370" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="alkylated_issues" value="&lt;b&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• 17α-Alkyl group prevents metabolism → oral activity&lt;br&gt;• 9α-Fluoro increases potency 20-fold&lt;br&gt;&lt;br&gt;&lt;b&gt;Issues:&lt;/b&gt;&lt;br&gt;• Hepatotoxic (liver damage)&lt;br&gt;• Sodium/water retention&lt;br&gt;• GR/MR cross-reactivity&lt;br&gt;• Cholestatic jaundice&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Limited due to toxicity&lt;br&gt;• Rarely used for TRT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3270" y="1370" width="330" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="anabolic_title" value="ANABOLIC STEROIDS — 19-Norandrogens (Separate Anabolic from Androgenic)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="1630" width="900" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oxandrolone" value="Oxandrolone&lt;br&gt;(Anavar)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="1700" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oxymetholone" value="Oxymetholone&lt;br&gt;(Anadrol)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3090" y="1700" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="stanozolol" value="Stanozolol&lt;br&gt;(Winstrol)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="1790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nandrolone" value="Nandrolone&lt;br&gt;Esters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3090" y="1790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="anabolic_sar" value="&lt;b&gt;SAR Features:&lt;/b&gt;&lt;br&gt;• Removing C19 methyl → ↓ androgenic effects&lt;br&gt;• Retains anabolic action (muscle growth)&lt;br&gt;• 17α-Ethylation increases anabolic potency&lt;br&gt;• Various ring modifications&lt;br&gt;&lt;br&gt;&lt;b&gt;Clinical Use:&lt;/b&gt;&lt;br&gt;• Muscle wasting (HIV, cancer cachexia)&lt;br&gt;• Osteoporosis&lt;br&gt;• Severe burns&lt;br&gt;&lt;br&gt;&lt;b&gt;Abuse:&lt;/b&gt;&lt;br&gt;• Athletic performance enhancement&lt;br&gt;• Bodybuilding&lt;br&gt;• Side effects: Liver damage, cardiovascular issues, infertility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3250" y="1700" width="550" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="sarm_title" value="SARMs — Selective Androgen Receptor Modulators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2920" y="2010" width="900" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="enobosarm" value="Enobosarm&lt;br&gt;(Ostarine)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="2940" y="2080" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ligandrol" value="Ligandrol&lt;br&gt;(LGD-4033)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3090" y="2080" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="s23" value="S-23" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3230" y="2080" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rad140" value="RAD-140" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;" parent="1" vertex="1">
-          <mxGeometry x="3350" y="2080" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sarm_notes" value="&lt;b&gt;Concept:&lt;/b&gt;&lt;br&gt;• Non-steroidal compounds&lt;br&gt;• Selective AR modulation&lt;br&gt;• Attempt to separate anabolic from androgenic effects&lt;br&gt;• Tissue-selective AR agonism&lt;br&gt;&lt;br&gt;&lt;b&gt;Goals:&lt;/b&gt;&lt;br&gt;• ↑ Muscle mass without prostate enlargement&lt;br&gt;• ↓ Androgenic side effects&lt;br&gt;&lt;br&gt;&lt;b&gt;Status:&lt;/b&gt;&lt;br&gt;• Mostly investigational&lt;br&gt;• Not FDA-approved&lt;br&gt;• Banned in sports&lt;br&gt;• Long-term safety unknown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="3480" y="2080" width="320" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_title" value="KEY MEDICINAL CHEMISTRY PRINCIPLES — GONADAL HORMONES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="55" y="2810" width="1960" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_biosynthesis" value="&lt;b&gt;1. BIOSYNTHESIS PATHWAY:&lt;/b&gt;&lt;br&gt;• Cholesterol → Pregnenolone → Progesterone&lt;br&gt;• Progesterone → Testosterone (C19)&lt;br&gt;• Aromatase (CYP19) → Estrogens (C18)&lt;br&gt;• 5α-Reductase → DHT (more potent)&lt;br&gt;• Each step can be drug target" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="70" y="2930" width="350" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_sar" value="&lt;b&gt;2. CRITICAL SAR MODIFICATIONS:&lt;/b&gt;&lt;br&gt;• 17α-Ethinyl → oral activity (EE, NET)&lt;br&gt;• 17β-Esters → depot formulations&lt;br&gt;• C19 removal → anabolic selectivity&lt;br&gt;• Aromatic A-ring → estrogenic activity&lt;br&gt;• 6-Substitution → altered PR/AR selectivity&lt;br&gt;• 13-Ethyl → ↑ progestational potency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="450" y="2930" width="370" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_selectivity" value="&lt;b&gt;3. RECEPTOR SELECTIVITY:&lt;/b&gt;&lt;br&gt;• SERMs: Tissue-selective ER modulation&lt;br&gt;• SPRMs: Tissue-selective PR modulation&lt;br&gt;• SARMs: Tissue-selective AR modulation&lt;br&gt;• Aromatase inhibitors: Block estrogen synthesis&lt;br&gt;• Anti-androgens: Block AR or 5α-reductase&lt;br&gt;• Goal: Maximize therapeutic benefit, minimize SE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="850" y="2930" width="420" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_generations" value="&lt;b&gt;4. PROGESTIN GENERATIONS:&lt;/b&gt;&lt;br&gt;• 1st: Estranes (NET) — androgenic&lt;br&gt;• 2nd: Gonanes (LNG) — high potency&lt;br&gt;• 3rd: Drospirenone — anti-mineralocorticoid&lt;br&gt;• 4th: Dienogest — ultra-selective PR&lt;br&gt;• Evolution: ↑ selectivity, ↓ side effects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="2930" width="350" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="summary_clinical" value="&lt;b&gt;5. CLINICAL APPLICATIONS:&lt;/b&gt;&lt;br&gt;• Contraception: COCs (estrogen + progestin)&lt;br&gt;• HRT: Menopausal symptoms&lt;br&gt;• Breast cancer: Tamoxifen, AIs&lt;br&gt;• Osteoporosis: Raloxifene&lt;br&gt;• Infertility: Clomiphene (ovulation induction)&lt;br&gt;• TRT: Testosterone esters&lt;br&gt;• Endometriosis: Dienogest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="2930" width="310" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="cholesterol" target="cyp11a1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="cyp11a1" target="pregnenolone" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pregnenolone" target="progesterone" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="pregnenolone" target="testosterone" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="progesterone" target="androstenedione" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="testosterone" target="aromatase" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="androstenedione" target="aromatase" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="aromatase" target="estradiol" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="aromatase" target="estrone" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_estro10" value="Interconversion" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;startArrow=classic;startFill=1;" parent="1" source="estradiol" target="estrone" edge="1">
-          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e_ai1" value="Inhibits CYP19" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="anastrozole" target="aromatase" edge="1">
-          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e_ai2" value="Inhibits CYP19" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="letrozole" target="aromatase" edge="1">
-          <mxGeometry x="-0.2" y="15" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e_er1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="er_receptor" target="er_chromatin" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_er2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="er_chromatin" target="er_transcription" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_tamox1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="tamoxifen" target="tamox_cyp3a4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_tamox2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="tamox_cyp3a4" target="tamox_ndesmethyl" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_tamox3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="tamoxifen" target="tamox_cyp2d6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_tamox4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="tamox_cyp2d6" target="tamox_4oh" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_andro1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="testosterone_nat" target="5alpha_reductase" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e_andro2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=2;" parent="1" source="5alpha_reductase" target="dht" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- TITLE -->
+        <mxCell id="title" value="MEDICINAL CHEMISTRY - Dr. Virga&lt;br&gt;Gonadal Hormones | Estrogens | Progestins | Androgens | SERMs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1520" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- SECTION 1: BIOSYNTHESIS PATHWAY -->
+        <mxCell id="bio-section" value="SECTION 1: STEROID HORMONE BIOSYNTHESIS PATHWAY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="1500" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="cholesterol" value="Cholesterol" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5d5;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="210" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pregnenolone" value="Pregnenolone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5d5;strokeColor=#82b366;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="210" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="progesterone" value="Progesterone&lt;br&gt;(C21)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="210" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="testosterone" value="Testosterone&lt;br&gt;(C19)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="210" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="estradiol" value="Estradiol (E2)&lt;br&gt;(C18)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="210" width="110" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pathway-notes" value="Key Enzymes:&lt;br&gt;• CYP11A1 (side-chain cleavage)&lt;br&gt;• 3β-HSD (pregnenolone → progesterone)&lt;br&gt;• 17,20-Lyase (C21 → C19)&lt;br&gt;• Aromatase (CYP19): C19 → C18&lt;br&gt;• 5α-Reductase: Testosterone → DHT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="760" y="210" width="190" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- SECTION 2: ESTROGENS -->
+        <mxCell id="estrogen-section" value="SECTION 2: ESTROGENS - Natural &amp; Synthetic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="370" width="750" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="estradiol-sar" value="17β-Estradiol (E2) - SAR:&lt;br&gt;• C18 steroid&lt;br&gt;• AROMATIC A-RING (required)&lt;br&gt;• 3-OH phenolic (required)&lt;br&gt;• 17β-OH (required for max potency)&lt;br&gt;&lt;br&gt;Limitations:&lt;br&gt;• Poor oral bioavailability&lt;br&gt;• Rapid first-pass metabolism&lt;br&gt;• High SHBG binding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="180" height="175" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ee" value="Ethinyl Estradiol (EE):&lt;br&gt;• 17α-ethinyl group&lt;br&gt;• Blocks 17β-OH oxidation&lt;br&gt;• 15-20× more potent orally&lt;br&gt;• Most common in COCs&lt;br&gt;&lt;br&gt;Mestranol:&lt;br&gt;• 3-O-methyl EE (prodrug)&lt;br&gt;• Requires O-demethylation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="260" y="450" width="160" height="155" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="estradiol-esters" value="Estradiol Esters (IM):&lt;br&gt;• Valerate (17β-ester)&lt;br&gt;• Cypionate (17β-ester)&lt;br&gt;• Slow release (2-4 weeks)&lt;br&gt;• Depot formulations&lt;br&gt;• Overcome first-pass metabolism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="440" y="450" width="150" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="conjugated-estrogens" value="Conjugated Estrogens (Premarin):&lt;br&gt;• Pregnant mare urine source&lt;br&gt;• Estrone sulfate&lt;br&gt;• Equilin (horse-specific)&lt;br&gt;• Equilenin (horse-specific)&lt;br&gt;&lt;br&gt;Use: Menopausal HRT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="610" y="450" width="160" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- SECTION 3: SERMs -->
+        <mxCell id="serm-section" value="SECTION 3: SERMs - Selective Estrogen Receptor Modulators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="820" y="370" width="720" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="tamoxifen-detail" value="Tamoxifen:&lt;br&gt;• Triphenylethylene core&lt;br&gt;• Z-isomer active&lt;br&gt;&lt;br&gt;Metabolism:&lt;br&gt;• CYP2D6 → 4-OH-tamoxifen&lt;br&gt;  (100× more potent)&lt;br&gt;• CYP3A4 → N-desmethyl&lt;br&gt;&lt;br&gt;Tissue Effects:&lt;br&gt;• Breast: ANTAGONIST&lt;br&gt;• Endometrium: AGONIST (↑ cancer risk)&lt;br&gt;• Bone: AGONIST&lt;br&gt;&lt;br&gt;Use: ER+ breast cancer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="450" width="170" height="250" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="raloxifene-detail" value="Raloxifene (Evista):&lt;br&gt;• Benzothiophene core&lt;br&gt;• Poor oral bioavailability (~5%)&lt;br&gt;• Extensive glucuronidation&lt;br&gt;&lt;br&gt;Tissue Effects:&lt;br&gt;• Breast: ANTAGONIST&lt;br&gt;• Uterus: ANTAGONIST (safer than tamoxifen)&lt;br&gt;• Bone: AGONIST&lt;br&gt;&lt;br&gt;Use:&lt;br&gt;• Postmenopausal osteoporosis&lt;br&gt;• Breast cancer prevention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="450" width="170" height="235" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="clomiphene-detail" value="Clomiphene (Clomid):&lt;br&gt;• E/Z isomer mixture&lt;br&gt;• Z-isomer: Estrogenic&lt;br&gt;• E-isomer: Antiestrogenic&lt;br&gt;&lt;br&gt;MOA for Infertility:&lt;br&gt;• Blocks ER in hypothalamus&lt;br&gt;• ↑ GnRH secretion&lt;br&gt;• ↑ FSH/LH release&lt;br&gt;• Induces ovulation&lt;br&gt;&lt;br&gt;Long t½ (~5 days)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="450" width="150" height="210" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ai-detail" value="Aromatase Inhibitors:&lt;br&gt;• Anastrozole (Arimidex)&lt;br&gt;• Letrozole (Femara)&lt;br&gt;&lt;br&gt;• Nonsteroidal triazoles&lt;br&gt;• N-4 nitrogen binds CYP19 heme&lt;br&gt;• Inhibit aromatase&lt;br&gt;• Block testosterone → estrogen&lt;br&gt;• ↓ estradiol by 70-80%&lt;br&gt;&lt;br&gt;Use: Postmenopausal ER+ breast cancer&lt;br&gt;Side effects: Bone loss, joint pain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d79b00;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="450" width="150" height="225" as="geometry"/>
+        </mxCell>
+
+        <!-- SECTION 4: PROGESTINS -->
+        <mxCell id="progestin-section" value="SECTION 4: PROGESTINS - Natural &amp; Synthetic Generations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="740" width="1500" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="progesterone-detail" value="Progesterone (Natural):&lt;br&gt;• C21 steroid&lt;br&gt;• 3-Keto, 4-ene (Δ4)&lt;br&gt;• 20-Keto&lt;br&gt;&lt;br&gt;Limitations:&lt;br&gt;• Rapid hepatic metabolism&lt;br&gt;• Poor oral bioavailability&lt;br&gt;&lt;br&gt;Synthetic modifications needed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="820" width="170" height="165" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="first-gen" value="1st Generation (Estranes):&lt;br&gt;• Norethindrone (NET)&lt;br&gt;• Norethindrone Acetate&lt;br&gt;• Ethynodiol Diacetate&lt;br&gt;&lt;br&gt;SAR:&lt;br&gt;• Remove C19 methyl&lt;br&gt;• Add 17α-ethinyl → oral activity&lt;br&gt;• Some androgenic activity&lt;br&gt;• Metabolized to estrogenic compounds&lt;br&gt;&lt;br&gt;Use: Oral contraceptives, HRT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="820" width="180" height="195" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="second-gen" value="2nd Generation (Gonanes):&lt;br&gt;• Levonorgestrel (LNG)&lt;br&gt;• Desogestrel → Etonogestrel&lt;br&gt;• Gestodene&lt;br&gt;• Norgestimate&lt;br&gt;&lt;br&gt;SAR:&lt;br&gt;• 13-Ethyl group (instead of 13-methyl)&lt;br&gt;• ↑↑ Progestational potency&lt;br&gt;• LNG: Most androgenic in class&lt;br&gt;• Desogestrel/Gestodene: Lower androgenicity&lt;br&gt;&lt;br&gt;Use: Most common in COCs&lt;br&gt;LNG: Emergency contraception (Plan B)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="820" width="210" height="240" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="third-gen" value="3rd Generation:&lt;br&gt;• Drospirenone (Yasmin, Yaz)&lt;br&gt;&lt;br&gt;SAR:&lt;br&gt;• Spironolactone-derived&lt;br&gt;• Anti-mineralocorticoid (diuretic)&lt;br&gt;• Anti-androgenic (↓ acne, hirsutism)&lt;br&gt;&lt;br&gt;Unique Properties:&lt;br&gt;• NO estrogenic activity&lt;br&gt;• NO androgenic activity&lt;br&gt;• NO glucocorticoid activity&lt;br&gt;&lt;br&gt;Use: COCs for PMDD, acne&lt;br&gt;Caution: Monitor K⁺" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="820" width="180" height="240" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="fourth-gen" value="4th Generation:&lt;br&gt;• Dienogest&lt;br&gt;• Nestorone&lt;br&gt;&lt;br&gt;Properties:&lt;br&gt;• Ultra-selective PR agonists&lt;br&gt;• NO androgenic activity&lt;br&gt;• NO estrogenic activity&lt;br&gt;• NO glucocorticoid activity&lt;br&gt;• NO mineralocorticoid activity&lt;br&gt;&lt;br&gt;Use:&lt;br&gt;• Dienogest: Endometriosis&lt;br&gt;• Nestorone: Investigational (vaginal ring)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b85450;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="820" width="170" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="progestin-antagonist" value="Progestin Antagonists/SPRMs:&lt;br&gt;&lt;br&gt;Mifepristone (RU-486):&lt;br&gt;• PR antagonist in uterus&lt;br&gt;• Also binds GR&lt;br&gt;• Long half-life&lt;br&gt;• Use: Medical abortion (+ misoprostol)&lt;br&gt;  Emergency contraception&lt;br&gt;&lt;br&gt;Ulipristal Acetate (Ella):&lt;br&gt;• SPRM (partial agonist/antagonist)&lt;br&gt;• Weak anti-androgen&lt;br&gt;• Use: Emergency contraception (up to 120 hr)&lt;br&gt;• More effective than LNG at 72-120h" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="820" width="210" height="250" as="geometry"/>
+        </mxCell>
+
+        <!-- SECTION 5: ANDROGENS -->
+        <mxCell id="androgen-section" value="SECTION 5: ANDROGENS - Testosterone &amp; Anabolic Steroids" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1110" width="1500" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="testosterone-detail" value="Testosterone (Natural):&lt;br&gt;• C19 steroid&lt;br&gt;• 3-Keto, 4-ene&lt;br&gt;• 17β-OH&lt;br&gt;&lt;br&gt;Limitations:&lt;br&gt;• Not orally active&lt;br&gt;• Rapid first-pass metabolism&lt;br&gt;&lt;br&gt;Conversion:&lt;br&gt;• 5α-Reductase → DHT (more potent)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1190" width="170" height="175" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="test-esters" value="Testosterone Esters (TRT):&lt;br&gt;• Propionate (short-acting)&lt;br&gt;• Enanthate (long-acting)&lt;br&gt;• Cypionate (long-acting)&lt;br&gt;&lt;br&gt;Properties:&lt;br&gt;• 17β-Esters&lt;br&gt;• IM injection&lt;br&gt;• Slow release (2-4 weeks)&lt;br&gt;• Overcome first-pass metabolism&lt;br&gt;&lt;br&gt;Use: Testosterone replacement therapy&lt;br&gt;Male hypogonadism" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1190" width="180" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="alkylated" value="17α-Alkylated Androgens:&lt;br&gt;• 17α-Methyltestosterone&lt;br&gt;• Fluoxymesterone (9α-fluoro, 20× potency)&lt;br&gt;&lt;br&gt;SAR:&lt;br&gt;• 17α-Alkyl group prevents metabolism&lt;br&gt;• Oral activity&lt;br&gt;• 9α-Fluoro increases potency 20-fold&lt;br&gt;&lt;br&gt;Issues:&lt;br&gt;• HEPATOTOXIC (liver damage)&lt;br&gt;• Cholestatic jaundice&lt;br&gt;• Sodium/water retention&lt;br&gt;• Limited clinical use due to toxicity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1190" width="200" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="anabolic" value="Anabolic Steroids (19-Norandrogens):&lt;br&gt;• Oxandrolone (Anavar)&lt;br&gt;• Oxymetholone (Anadrol)&lt;br&gt;• Stanozolol (Winstrol)&lt;br&gt;• Nandrolone Esters&lt;br&gt;&lt;br&gt;SAR:&lt;br&gt;• Remove C19 methyl → ↓ androgenic effects&lt;br&gt;• Retain anabolic action (muscle growth)&lt;br&gt;• Various ring modifications&lt;br&gt;&lt;br&gt;Clinical Use:&lt;br&gt;• Muscle wasting (HIV, cancer cachexia)&lt;br&gt;• Osteoporosis&lt;br&gt;• Severe burns&lt;br&gt;&lt;br&gt;Abuse: Athletic performance, bodybuilding&lt;br&gt;Side effects: Liver damage, CV issues" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=11;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="1190" width="230" height="265" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="sarms" value="SARMs (Investigational):&lt;br&gt;• Enobosarm (Ostarine)&lt;br&gt;• Ligandrol (LGD-4033)&lt;br&gt;• S-23&lt;br&gt;• RAD-140&lt;br&gt;&lt;br&gt;Concept:&lt;br&gt;• Non-steroidal compounds&lt;br&gt;• Selective AR modulation&lt;br&gt;• Tissue-selective AR agonism&lt;br&gt;• Attempt to separate anabolic from&lt;br&gt;  androgenic effects&lt;br&gt;&lt;br&gt;Goals:&lt;br&gt;• ↑ Muscle mass without prostate enlargement&lt;br&gt;• ↓ Androgenic side effects&lt;br&gt;&lt;br&gt;Status:&lt;br&gt;• NOT FDA-approved&lt;br&gt;• Banned in sports&lt;br&gt;• Long-term safety unknown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;fontSize=11;align=left;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1190" width="190" height="310" as="geometry"/>
+        </mxCell>
+
+        <!-- HIGH-YIELD PEARLS -->
+        <mxCell id="pearls-section" value="HIGH-YIELD GONADAL HORMONE MED CHEM PEARLS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1540" width="1500" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl1" value="🔬 Aromatic A-ring:&lt;br&gt;ABSOLUTELY REQUIRED for estrogenic&lt;br&gt;activity (phenolic OH at C3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl2" value="🔬 17α-Ethinyl group:&lt;br&gt;Blocks 17β-OH oxidation&lt;br&gt;→ Enables oral activity (EE, NET)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl3" value="🔬 13-Ethyl vs 13-Methyl:&lt;br&gt;Gonanes (13-ethyl) have dramatically&lt;br&gt;↑ progestational potency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl4" value="🔬 Remove C19:&lt;br&gt;Removing C19 methyl → anabolic selectivity&lt;br&gt;(↓ androgenic, retain muscle building)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl5" value="🔬 SERMs tissue selectivity:&lt;br&gt;Alter ER conformation → differential&lt;br&gt;coactivator recruitment in different tissues" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl6" value="🔬 Aromatase (CYP19):&lt;br&gt;Converts C19 androgens → C18 estrogens&lt;br&gt;(Target for AIs in breast cancer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl7" value="🔬 Drospirenone uniqueness:&lt;br&gt;ONLY progestin with anti-mineralocorticoid&lt;br&gt;activity (diuretic effect, monitor K⁺)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="1610" width="180" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl8" value="🔬 17α-Alkylation hepatotoxicity:&lt;br&gt;Oral androgens (17α-methyl) cause liver&lt;br&gt;damage → Limited clinical use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="1700" width="180" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl9" value="🔬 Tamoxifen metabolism:&lt;br&gt;CYP2D6 polymorphism affects 4-OH-tamoxifen&lt;br&gt;formation (100× more potent metabolite)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1700" width="180" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pearl10" value="🔬 Progestin generations trend:&lt;br&gt;1st → 4th gen: ↑ selectivity, ↓ side effects&lt;br&gt;(less androgenic, better PR selectivity)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1700" width="180" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- LEGEND -->
+        <mxCell id="legend-title" value="LEGEND" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1190" width="410" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend1" value="Green = Biosynthesis pathway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1235" width="190" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend2" value="Orange = Estrogens &amp; SERMs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1235" width="190" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend3" value="Pink = Progestins" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1280" width="190" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend4" value="Blue = Androgens" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1280" width="190" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="legend5" value="Yellow = SAR/mechanism pearls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1325" width="410" height="30" as="geometry"/>
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
