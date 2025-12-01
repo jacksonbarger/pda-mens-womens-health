@@ -50,6 +50,11 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         ]}
       />
 
+      {/* Page Title */}
+      <h1 className="text-3xl font-bold text-primary mb-6 text-center">
+        PDA/Med Chem Exam Prep
+      </h1>
+
       {/* Quick Stats Dashboard */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         <div className="bg-pda-cranberry-50 rounded-lg p-4 border-2 border-pda-cranberry-200 text-center hover:shadow-md transition-shadow">
@@ -83,9 +88,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
           <div className="flex items-center gap-3">
             <span className="text-3xl">📚</span>
             <div>
-              <h3 className="text-xl font-bold text-pda-cranberry-700">
+              <h2 className="text-xl font-bold text-pda-cranberry-700">
                 Strategic Study Guide for Exam Success
-              </h3>
+              </h2>
               <p className="text-sm text-pda-cranberry-600">
                 Click to see your complete study plan →
               </p>
@@ -101,9 +106,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             <div className="space-y-4 text-base">
               {/* Study Strategy */}
               <div className="bg-pda-cranberry-50 rounded-lg p-4 border-l-4 border-pda-cranberry-600">
-                <h4 className="font-bold text-lg text-pda-cranberry-700 mb-3 flex items-center gap-2">
+                <h3 className="font-bold text-lg text-pda-cranberry-700 mb-3 flex items-center gap-2">
                   <span>🎯</span> Strategic Study Plan (6-7 Hour Plan)
-                </h4>
+                </h3>
                 <ol className="space-y-2 text-gray-700">
                   <li className="flex gap-3">
                     <span className="font-bold text-pda-cranberry-600">1.</span>
@@ -130,9 +135,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
               {/* Last-Minute Cramming */}
               <div className="bg-red-50 rounded-lg p-4 border-l-4 border-red-600">
-                <h4 className="font-bold text-lg text-red-700 mb-3 flex items-center gap-2">
+                <h3 className="font-bold text-lg text-red-700 mb-3 flex items-center gap-2">
                   <span>🚨</span> Last-Minute Cramming (&lt; 4 Hours Left)
-                </h4>
+                </h3>
                 <ol className="space-y-2 text-gray-700">
                   <li className="flex gap-3">
                     <span className="font-bold text-red-600">1.</span>
@@ -158,9 +163,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
               {/* Time Allocation */}
               <div className="bg-pda-forest-50 rounded-lg p-4 border-l-4 border-pda-forest-600">
-                <h4 className="font-bold text-lg text-pda-forest-700 mb-3 flex items-center gap-2">
+                <h3 className="font-bold text-lg text-pda-forest-700 mb-3 flex items-center gap-2">
                   <span>⏰</span> Recommended Time Allocation
-                </h4>
+                </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700">
                   <div className="flex items-start gap-2">
                     <span className="font-bold text-pda-forest-600">2-3 hours:</span>
@@ -183,9 +188,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
               {/* Pro Tips */}
               <div className="bg-pda-gold-50 rounded-lg p-4 border-l-4 border-pda-gold-600">
-                <h4 className="font-bold text-lg text-pda-gold-700 mb-3 flex items-center gap-2">
+                <h3 className="font-bold text-lg text-pda-gold-700 mb-3 flex items-center gap-2">
                   <span>💡</span> Pro Tips for Maximum Retention
-                </h4>
+                </h3>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-pda-gold-800">•</span>
@@ -208,9 +213,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
               {/* What's Included */}
               <div className="bg-pda-winter-50 rounded-lg p-4 border-l-4 border-pda-winter-600">
-                <h4 className="font-bold text-lg text-pda-winter-700 mb-3 flex items-center gap-2">
+                <h3 className="font-bold text-lg text-pda-winter-700 mb-3 flex items-center gap-2">
                   <span>📦</span> What's Included Per Professor
-                </h4>
+                </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-700">
                   <div className="flex items-start gap-2">
                     <span className="text-2xl">🎯</span>
@@ -270,9 +275,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
       {/* Suggested Study Order */}
       <div className="mb-6 bg-pda-winter-50 border-2 border-pda-winter-400 rounded-lg p-5 shadow-md">
-        <h3 className="font-bold text-xl text-pda-winter-700 mb-4 flex items-center gap-2">
+        <h2 className="font-bold text-xl text-pda-winter-700 mb-4 flex items-center gap-2">
           <span>🎯</span> Suggested Study Order (By Course Grade Weight)
-        </h3>
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
           <div className="bg-gradient-to-br from-pda-cranberry-50 to-white p-4 rounded-lg border-2 border-pda-cranberry-300 hover:shadow-md transition-shadow">
             <div className="flex items-center justify-between mb-3">
@@ -312,17 +317,6 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         </p>
       </div>
 
-      {/* Page Header */}
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-primary mb-3">
-          PDA/Med Chem Exam Prep
-        </h1>
-        <p className="text-lg text-secondary max-w-3xl mx-auto">
-          Study organized by professor. Each section includes learning objectives,
-          high-yield concepts, flashcards, and in-depth quizzes for comprehensive exam preparation.
-        </p>
-      </div>
-
       {/* Professor Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
         {professors.map((professor: ProfessorContent) => (
@@ -334,9 +328,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               {/* Professor Icon and Name */}
               <div className="mb-4">
                 <div className="text-5xl mb-3">{professor.icon}</div>
-                <h3 className="text-2xl font-bold text-primary mb-1">
+                <h2 className="text-2xl font-bold text-primary mb-1">
                   {professor.fullName}
-                </h3>
+                </h2>
                 <p className="text-sm font-semibold text-pda-gold-800">
                   {professor.specialty}
                 </p>
@@ -354,7 +348,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               {/* Topics Covered */}
               <div className="mb-6 flex-grow">
                 <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                  <h4 className="font-bold text-primary text-sm mb-2">Topics Covered:</h4>
+                  <h4 className="font-bold text-primary text-sm mb-2">Topics Covered:</h3>
                   <ul className="text-sm text-secondary space-y-1">
                     {professor.overview.topics.slice(0, 4).map((topic: string, idx: number) => (
                       <li key={idx} className="flex items-start gap-2">
@@ -407,9 +401,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Icon and Title */}
             <div className="mb-4">
               <div className="text-5xl mb-3">💊</div>
-              <h3 className="text-2xl font-bold text-primary mb-1">
+              <h2 className="text-2xl font-bold text-primary mb-1">
                 All Drug Cards
-              </h3>
+              </h2>
               <p className="text-sm font-semibold text-pda-gold-800">
                 Complete Drug Database
               </p>
@@ -418,7 +412,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Description */}
             <div className="mb-6 flex-grow">
               <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                <h4 className="font-bold text-primary text-sm mb-2">What's Included:</h4>
+                <h4 className="font-bold text-primary text-sm mb-2">What's Included:</h3>
                 <ul className="text-sm text-secondary space-y-1">
                   <li className="flex items-start gap-2">
                     <span className="text-pda-gold-500 mt-0.5">•</span>
@@ -475,9 +469,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Icon and Title */}
             <div className="mb-4">
               <div className="text-5xl mb-3">🎓</div>
-              <h3 className="text-2xl font-bold text-primary mb-1">
+              <h2 className="text-2xl font-bold text-primary mb-1">
                 Final Exam Challenge
-              </h3>
+              </h2>
               <p className="text-sm font-semibold text-pda-gold-800">
                 Comprehensive 50-Question Test
               </p>
@@ -486,7 +480,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             {/* Description */}
             <div className="mb-6 flex-grow">
               <div className="text-left bg-pda-parchment-50 rounded-lg p-4 border border-pda-gold-200">
-                <h4 className="font-bold text-primary text-sm mb-2">2-Part Randomized Exam:</h4>
+                <h4 className="font-bold text-primary text-sm mb-2">2-Part Randomized Exam:</h3>
                 <ul className="text-sm text-secondary space-y-1">
                   <li className="flex items-start gap-2">
                     <span className="text-pda-gold-500 mt-0.5">•</span>
@@ -539,9 +533,9 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
       {/* Quick Start Action Box */}
       <div className="bg-gradient-to-r from-pda-cranberry-50 to-pda-gold-50 border-2 border-pda-cranberry-300 rounded-lg p-6 shadow-lg">
         <div className="text-center mb-5">
-          <h3 className="font-bold text-pda-cranberry-700 text-2xl mb-2">
+          <h2 className="font-bold text-pda-cranberry-700 text-2xl mb-2">
             🎯 Ready to Start?
-          </h3>
+          </h2>
           <p className="text-secondary text-sm max-w-2xl mx-auto">
             All content is exam-focused from lecture slides. Study smart, not hard!
           </p>

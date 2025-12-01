@@ -45,7 +45,6 @@ export const Home: React.FC<HomeProps> = ({ sections, onSelectSection }) => {
             <GiftCard
               key={index}
               onClick={() => onSelectSection(section)}
-              ariaLabel={`${section.section} - ${percentage}% complete, ${earned} out of ${total} candy canes earned`}
             >
               <div className="text-center">
                 <div className="text-5xl mb-4" aria-hidden="true">
