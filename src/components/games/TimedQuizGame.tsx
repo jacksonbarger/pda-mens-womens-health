@@ -38,6 +38,13 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
 
   const currentQuestion = shuffledIndices.length > 0 ? questions[shuffledIndices[currentIndex]] : null;
 
+  // Format time as minutes:seconds
+  const formatTime = (seconds: number): string => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
+
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array: number[]): number[] => {
     const shuffled = [...array];
@@ -70,6 +77,7 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
     );
   }
 
+  // Timer effect
   useEffect(() => {
     if (isAnswered || timeLeft === 0) return;
 
@@ -86,11 +94,35 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
     return () => clearInterval(timer);
   }, [timeLeft, isAnswered]);
 
+  // Keyboard navigation effect
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Don't handle keys if quiz is complete
+      if (isComplete) return;
+
+      // Handle number keys (1-4) for selecting answers
+      if (!isAnswered && ['1', '2', '3', '4'].includes(e.key)) {
+        const optionIndex = parseInt(e.key) - 1;
+        if (currentQuestion && optionIndex < currentQuestion.options.length) {
+          handleAnswer(currentQuestion.options[optionIndex]);
+        }
+      }
+
+      // Handle Enter key for next question (only after answering)
+      if (isAnswered && e.key === 'Enter') {
+        handleNext();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [isAnswered, isComplete, currentQuestion]);
+
   const handleTimeUp = () => {
     if (!isAnswered) {
       setIsAnswered(true);
       setQuestionTimes(prev => [...prev, timeLimit]);
-      setTimeout(handleNext, 2000);
+      // Removed automatic next - user controls with button/Enter key
     }
   };
 
@@ -105,7 +137,7 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
       setCorrectCount(prev => prev + 1);
     }
 
-    setTimeout(handleNext, 2000);
+    // Removed automatic next - user controls with button/Enter key
   };
 
   const handleNext = () => {
@@ -145,7 +177,7 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
               </div>
               <div className="text-lg">
                 <span className="font-semibold">Avg Time per Question:</span>{' '}
-                {avgTime.toFixed(1)}s
+                {formatTime(Math.round(avgTime))}
               </div>
               <div className="text-2xl font-bold text-pda-gold-600">{verdict}</div>
             </div>
@@ -215,10 +247,10 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
           </h2>
           <div
             className={`text-2xl font-bold px-4 py-2 rounded-lg ${
-              timeLeft <= 3 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100'
+              timeLeft <= 10 ? 'bg-red-100 text-red-600 animate-pulse' : 'bg-gray-100'
             }`}
           >
-            ⏰ {timeLeft}s
+            ⏰ {formatTime(timeLeft)}
           </div>
         </div>
         <ProgressBar
@@ -230,8 +262,15 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
 
       <GiftCard hover={false} className="mb-6">
         <div>
-          <div className="text-sm text-gray-500 mb-4 uppercase tracking-wide">
-            Question {currentIndex + 1} of {questions.length}
+          <div className="flex justify-between items-center mb-4">
+            <div className="text-sm text-gray-500 uppercase tracking-wide">
+              Question {currentIndex + 1} of {questions.length}
+            </div>
+            {!isAnswered && (
+              <div className="text-xs text-gray-400 italic">
+                Tip: Press 1-4 to select answers
+              </div>
+            )}
           </div>
           <p className="text-xl font-semibold text-gray-800 mb-6">
             {currentQuestion.question}
@@ -247,10 +286,17 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
                   option
                 )}`}
               >
-                <span className="font-semibold mr-2">
-                  {String.fromCharCode(65 + index)}.
+                <span className="inline-flex items-center gap-2">
+                  <span className="font-semibold">
+                    {String.fromCharCode(65 + index)}.
+                  </span>
+                  {!isAnswered && (
+                    <span className="text-xs bg-gray-200 px-1.5 py-0.5 rounded">
+                      {index + 1}
+                    </span>
+                  )}
                 </span>
-                {option}
+                <span className="ml-2">{option}</span>
                 {isAnswered && option === currentQuestion.correct_answer && (
                   <span className="ml-2">✅</span>
                 )}
@@ -285,6 +331,20 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
           {isAnswered && timeLeft === 0 && !selectedAnswer && (
             <div className="mt-4 p-3 bg-red-100 text-red-800 rounded-lg text-center">
               ⏰ Time's up! The correct answer was: {currentQuestion.correct_answer}
+            </div>
+          )}
+
+          {/* Next Question Button - shown after answering */}
+          {isAnswered && (
+            <div className="mt-6 flex justify-center">
+              <WorkshopButton
+                onClick={handleNext}
+                variant="primary"
+                className="text-lg px-8 py-3"
+              >
+                {currentIndex < questions.length - 1 ? 'Next Question →' : 'Finish Quiz'}
+                <span className="ml-2 text-sm opacity-75">(or press Enter)</span>
+              </WorkshopButton>
             </div>
           )}
         </div>

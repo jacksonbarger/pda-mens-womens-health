@@ -56,6 +56,10 @@ import { SectionDetailWithTabs } from './pages/SectionDetailWithTabs';
 import { DrugsWorkshop } from './pages/DrugsWorkshop';
 import { ExamChallenge } from './pages/ExamChallenge';
 import { HighYieldTopics } from './pages/HighYieldTopics';
+import { ExamPrepByProfessor } from './pages/ExamPrepByProfessor';
+import { ProfessorDetail } from './pages/ProfessorDetail';
+import { AllDrugCards } from './pages/AllDrugCards';
+import { FinalExamChallenge } from './pages/FinalExamChallenge';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ProgressProvider, useProgress } from './context/ProgressContext';
 import { AuthForm } from './components/auth/AuthForm';
@@ -63,7 +67,7 @@ import { EmailVerificationBanner } from './components/auth/EmailVerificationBann
 import type { Section, GameModeType } from './types';
 
 // Navigation screen types
-type Screen = 'home' | 'concepts' | 'section' | 'drugs' | 'challenge' | 'highYield';
+type Screen = 'home' | 'concepts' | 'section' | 'drugs' | 'challenge' | 'highYield' | 'examPrep' | 'professorDetail' | 'allDrugCards' | 'finalExam';
 
 function AppContent() {
   const { currentUser } = useAuth();
@@ -73,6 +77,7 @@ function AppContent() {
   const [isGuestMode, setIsGuestMode] = useState(false);
   const [currentScreen, setCurrentScreen] = useState<Screen>('home');
   const [currentSection, setCurrentSection] = useState<Section | null>(null);
+  const [currentProfessorId, setCurrentProfessorId] = useState<string | null>(null);
 
   // Show authentication form if user is not logged in and not in guest mode
   if (!currentUser && !isGuestMode) {
@@ -101,6 +106,23 @@ function AppContent() {
     setCurrentScreen('highYield');
   };
 
+  const handleNavigateToExamPrep = () => {
+    setCurrentScreen('examPrep');
+  };
+
+  const handleSelectProfessor = (professorId: string) => {
+    setCurrentProfessorId(professorId);
+    setCurrentScreen('professorDetail');
+  };
+
+  const handleNavigateToAllDrugCards = () => {
+    setCurrentScreen('allDrugCards');
+  };
+
+  const handleNavigateToFinalExam = () => {
+    setCurrentScreen('finalExam');
+  };
+
   const handleSelectSection = (section: Section) => {
     setCurrentSection(section);
     setCurrentScreen('section');
@@ -127,6 +149,7 @@ function AppContent() {
             onNavigateToDrugs={handleNavigateToDrugs}
             onNavigateToChallenge={handleNavigateToChallenge}
             onNavigateToHighYield={handleNavigateToHighYield}
+            onNavigateToExamPrep={handleNavigateToExamPrep}
           />
         );
 
@@ -173,6 +196,45 @@ function AppContent() {
           />
         );
 
+      case 'examPrep':
+        return (
+          <ExamPrepByProfessor
+            onSelectProfessor={handleSelectProfessor}
+            onViewAllDrugCards={handleNavigateToAllDrugCards}
+            onViewFinalExam={handleNavigateToFinalExam}
+            onBack={handleNavigateToHome}
+          />
+        );
+
+      case 'professorDetail':
+        if (!currentProfessorId) {
+          setCurrentScreen('examPrep');
+          return null;
+        }
+        return (
+          <ProfessorDetail
+            professorId={currentProfessorId}
+            onBackToExamPrep={handleNavigateToExamPrep}
+            onBackToHome={handleNavigateToHome}
+          />
+        );
+
+      case 'allDrugCards':
+        return (
+          <AllDrugCards
+            onBack={handleNavigateToExamPrep}
+            onBackToHome={handleNavigateToHome}
+          />
+        );
+
+      case 'finalExam':
+        return (
+          <FinalExamChallenge
+            onBack={handleNavigateToExamPrep}
+            onBackToHome={handleNavigateToHome}
+          />
+        );
+
       default:
         return (
           <NewHome
@@ -180,6 +242,7 @@ function AppContent() {
             onNavigateToDrugs={handleNavigateToDrugs}
             onNavigateToChallenge={handleNavigateToChallenge}
             onNavigateToHighYield={handleNavigateToHighYield}
+            onNavigateToExamPrep={handleNavigateToExamPrep}
           />
         );
     }

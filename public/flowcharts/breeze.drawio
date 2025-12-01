@@ -1,0 +1,633 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="DrBreeseDetailed" id="0">
+    <mxGraphModel dx="1765" dy="1503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3200" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="DR. BREESE DETAILED PATHOPHYSIOLOGY MAP&lt;br&gt;Green Solid = Stimulation/Causation | Red Dashed = Inhibition/Negative Feedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontStyle=1;fontSize=20;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="20" width="1200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_section" value="SECTION 1: ERECTILE DYSFUNCTION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="100" y="130" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_stim" value="Sexual&lt;br&gt;Stimulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_para" value="Parasympathetic&lt;br&gt;Activation&lt;br&gt;(Pelvic nerve)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_no" value="NO&lt;br&gt;Release" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_cgmp" value="↑ cGMP" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="480" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_relax" value="Smooth Muscle&lt;br&gt;Relaxation&lt;br&gt;(Corpus cavernosum)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="570" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_dilation" value="Arterial Dilation&lt;br&gt;+&lt;br&gt;Venous Compression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="670" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_erection" value="Engorgement&lt;br&gt;&amp;&lt;br&gt;Rigidity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="780" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_vasc_risk" value="Atherosclerosis&lt;br&gt;Diabetes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_vasc_path" value="↓ Blood Flow" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="660" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_vasc_sx" value="Failure to Fill&lt;br&gt;→ ED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_neuro_risk" value="Spinal Injury&lt;br&gt;DM Neuropathy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_neuro_path" value="↓ NO Release" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="490" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_endo_risk" value="Low&lt;br&gt;Testosterone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_endo_path" value="↓ Libido +&lt;br&gt;Smooth muscle&lt;br&gt;dysfunction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="660" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_psych_risk" value="Anxiety&lt;br&gt;Depression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_psych_path" value="↑ Sympathetic&lt;br&gt;Tone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="840" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ed_psych_sx" value="Vasoconstriction&lt;br&gt;→ ED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tx_pde5" value="PDE5 Inhibitors&lt;br&gt;(Sildenafil,&lt;br&gt;Tadalafil)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="480" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tx_pde5_mech" value="Block cGMP&lt;br&gt;Breakdown" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ede1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_stim" target="ed_para" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ede2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_para" target="ed_no" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ede3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_no" target="ed_cgmp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ede4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_cgmp" target="ed_relax" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ede5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_relax" target="ed_dilation" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ede6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_dilation" target="ed_erection" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_vasc_risk" target="ed_vasc_path" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_vasc_path" target="ed_vasc_sx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_neuro_risk" target="ed_neuro_path" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_endo_risk" target="ed_endo_path" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_psych_risk" target="ed_psych_path" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edp6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ed_psych_path" target="ed_psych_sx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edt1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="tx_pde5_mech" target="ed_cgmp" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edt2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="tx_pde5" target="tx_pde5_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edf1" value="Blocks" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="ed_neuro_path" target="ed_no" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edf2" value="Impairs" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="ed_vasc_path" target="ed_dilation" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bph_section" value="SECTION 2: BENIGN PROSTATIC HYPERPLASIA (BPH)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="550" y="130" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_aging" value="Aging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_androgen" value="Androgens" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_5ar" value="5α-Reductase" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="290" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_dht" value="↑ DHT" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="380" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_hyper" value="Prostatic&lt;br&gt;Stromal &amp; Epithelial&lt;br&gt;Hyperplasia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="470" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_enlarge" value="Gland&lt;br&gt;Enlargement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_compress" value="Urethral&lt;br&gt;Compression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_luts_storage" value="Storage LUTS:&lt;br&gt;Frequency&lt;br&gt;Urgency&lt;br&gt;Nocturia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="760" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_luts_void" value="Voiding LUTS:&lt;br&gt;Hesitancy&lt;br&gt;Weak stream&lt;br&gt;Incomplete empty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="760" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_tx_alpha" value="α1-Blockers&lt;br&gt;(Tamsulosin)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_tx_alpha_mech" value="Block α1&lt;br&gt;Receptors" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="660" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_tx_alpha_effect" value="Smooth Muscle&lt;br&gt;Relaxation&lt;br&gt;(Prostate/Bladder)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="750" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bph_tx_5ari" value="5α-Reductase&lt;br&gt;Inhibitors&lt;br&gt;(Finasteride)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="380" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_aging" target="bph_5ar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_androgen" target="bph_5ar" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_5ar" target="bph_dht" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_dht" target="bph_hyper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_hyper" target="bph_enlarge" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_enlarge" target="bph_compress" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_compress" target="bph_luts_storage" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphe8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_compress" target="bph_luts_void" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpht1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_tx_alpha" target="bph_tx_alpha_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpht2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_tx_alpha_mech" target="bph_tx_alpha_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bphf1" value="Blocks DHT&lt;br&gt;Formation" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="bph_tx_5ari" target="bph_5ar" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bphf2" value="Relieves" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="bph_tx_alpha_effect" target="bph_luts_void" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oab_section" value="SECTION 3: OVERACTIVE BLADDER &amp; INCONTINENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="130" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_detrusor" value="Detrusor&lt;br&gt;Overactivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_contract" value="Involuntary&lt;br&gt;Bladder&lt;br&gt;Contractions" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1055" y="290" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_sx" value="Urgency&lt;br&gt;Frequency&lt;br&gt;Urge incontinence&lt;br&gt;Nocturia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="390" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_stress_risk" value="Pelvic Floor&lt;br&gt;Weakness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_stress_mech" value="↑ Intra-abdominal&lt;br&gt;Pressure&lt;br&gt;(Cough, Sneeze)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_stress_sx" value="Stress&lt;br&gt;Incontinence&lt;br&gt;(Leakage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1185" y="400" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_overflow_risk" value="Bladder Outlet&lt;br&gt;Obstruction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_overflow_mech" value="Bladder&lt;br&gt;Overfill" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_overflow_sx" value="Overflow&lt;br&gt;Incontinence&lt;br&gt;(Leakage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1315" y="380" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_anti" value="Antimuscarinics&lt;br&gt;(Oxybutynin,&lt;br&gt;Tolterodine)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="520" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_anti_mech" value="Block M3&lt;br&gt;Muscarinic&lt;br&gt;Receptors" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1055" y="630" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_anti_effect" value="↓ Detrusor&lt;br&gt;Contraction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1055" y="730" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_beta" value="β3-Agonists&lt;br&gt;(Mirabegron)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_beta_mech" value="β3 Receptor&lt;br&gt;Activation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="610" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oab_tx_beta_effect" value="Detrusor&lt;br&gt;Relaxation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="700" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oabe1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_detrusor" target="oab_contract" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabe2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_contract" target="oab_sx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ince1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="inc_stress_risk" target="inc_stress_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ince2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="inc_stress_mech" target="inc_stress_sx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ince3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="inc_overflow_risk" target="inc_overflow_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ince4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="inc_overflow_mech" target="inc_overflow_sx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabt1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_tx_anti" target="oab_tx_anti_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabt2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_tx_anti_mech" target="oab_tx_anti_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabt3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_tx_beta" target="oab_tx_beta_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabt4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="oab_tx_beta_mech" target="oab_tx_beta_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oabf1" value="Inhibits" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="oab_tx_anti_effect" target="oab_contract" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oabf2" value="Reduces" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="oab_tx_beta_effect" target="oab_contract" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ca_section" value="SECTION 4: CALCIUM/PTH/VITAMIN D AXIS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1050" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_low" value="Low Serum&lt;br&gt;Ca²⁺" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_parathyroid" value="Parathyroid&lt;br&gt;Glands&lt;br&gt;(CaSR)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1210" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_pth" value="↑ PTH&lt;br&gt;Secretion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="1310" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_pth_bone" value="PTH Action 1:&lt;br&gt;Bone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1410" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_osteoclast" value="↑ Osteoclast&lt;br&gt;Activity" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1500" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_release_bone" value="Ca²⁺ &amp; PO₄³⁻&lt;br&gt;Release" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1590" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_pth_kidney" value="PTH Action 2:&lt;br&gt;Kidney" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1410" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_reabs" value="↑ Ca²⁺&lt;br&gt;Reabsorption&lt;br&gt;(DCT)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1500" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_po4_excrete" value="↑ PO₄³⁻&lt;br&gt;Excretion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1500" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_1alpha" value="↑ 1α-hydroxylase" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1590" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_calcitriol" value="↑ Calcitriol&lt;br&gt;(Active Vit D)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1680" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_pth_gut" value="PTH Action 3:&lt;br&gt;Gut&lt;br&gt;(via Calcitriol)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1680" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_gut_absorb" value="↑ Ca²⁺ &amp;&lt;br&gt;PO₄³⁻&lt;br&gt;Absorption" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="1780" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_rise" value="↑ Serum Ca²⁺" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1880" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_skin" value="Skin (Sunlight)&lt;br&gt;or Diet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="1120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_d3" value="Vitamin D₃" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_liver" value="Liver&lt;br&gt;(25-hydroxylase)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1300" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_25" value="25-OH-D&lt;br&gt;(Calcidiol)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1390" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_kidney" value="Kidney&lt;br&gt;(1α-hydroxylase)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vitd_active" value="1,25-(OH)₂-D&lt;br&gt;(Calcitriol)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="1570" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cae1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_low" target="ca_parathyroid" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_parathyroid" target="ca_pth" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth" target="ca_pth_bone" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth" target="ca_pth_kidney" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth_bone" target="ca_osteoclast" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_osteoclast" target="ca_release_bone" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth_kidney" target="ca_reabs" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth_kidney" target="ca_po4_excrete" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth_kidney" target="ca_1alpha" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_1alpha" target="ca_calcitriol" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae11" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_calcitriol" target="ca_pth_gut" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_pth_gut" target="ca_gut_absorb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_release_bone" target="ca_rise" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cae14" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="ca_gut_absorb" target="ca_rise" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_skin" target="vitd_d3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_d3" target="vitd_liver" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_liver" target="vitd_25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_25" target="vitd_kidney" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_kidney" target="vitd_active" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vde6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="vitd_active" target="ca_calcitriol" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caf1" value="Negative&lt;br&gt;Feedback" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="ca_rise" target="ca_parathyroid" edge="1">
+          <mxGeometry x="-0.3" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="osteo_section" value="SECTION 5: OSTEOPOROSIS PATHOPHYSIOLOGY &amp; TREATMENTS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1050" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_risk" value="Risk Factors:&lt;br&gt;Postmenopause&lt;br&gt;Aging, Steroids&lt;br&gt;Low Ca²⁺/Vit D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1120" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_imbalance" value="Osteoclast &gt;&lt;br&gt;Osteoblast" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="1240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_loss" value="Net Bone Loss&lt;br&gt;↓ BMD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="705" y="1330" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_fx" value="↑ Fracture Risk&lt;br&gt;(Hip, Spine, Wrist)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1420" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_bisphos" value="Bisphosphonates&lt;br&gt;(Alendronate)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_bisphos_mech" value="Inhibit&lt;br&gt;Osteoclasts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="1210" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_bisphos_effect" value="↓ Bone&lt;br&gt;Resorption&lt;br&gt;Preserve BMD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="855" y="1300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_denosumab" value="Denosumab&lt;br&gt;(RANKL inhibitor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="1120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_deno_mech" value="Block&lt;br&gt;Osteoclast&lt;br&gt;Activation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1210" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_deno_effect" value="↓ Resorption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_teri" value="Teriparatide&lt;br&gt;(PTH analog)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="1120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_teri_mech" value="Intermittent&lt;br&gt;PTH" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1145" y="1210" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="osteo_tx_teri_effect" value="↑ Osteoblast&lt;br&gt;Activity&lt;br&gt;Net Formation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="1300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oe1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_risk" target="osteo_imbalance" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oe2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_imbalance" target="osteo_loss" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oe3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_loss" target="osteo_fx" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_bisphos" target="osteo_tx_bisphos_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_bisphos_mech" target="osteo_tx_bisphos_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_denosumab" target="osteo_tx_deno_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_deno_mech" target="osteo_tx_deno_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_teri" target="osteo_tx_teri_mech" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ot6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="osteo_tx_teri_mech" target="osteo_tx_teri_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="of1" value="Inhibit" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="osteo_tx_bisphos_effect" target="osteo_imbalance" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="of2" value="Inhibit" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="osteo_tx_deno_effect" target="osteo_imbalance" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpg_section" value="SECTION 6: HPG AXIS - SEE BURMFLOW_DETAILED FOR FULL PATHWAY" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="100" y="2000" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hpg_note" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Burmeister&#39;s Flowchart (it&#39;s in her section under exam prep) for complete Male &amp;amp; Female HPG pathways with:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;• Hypothalamus → GnRH → Pituitary → LH/FSH&lt;br&gt;• Male: Leydig/Sertoli cells → Testosterone/Spermatogenesis&lt;br&gt;• Female: Follicle → Estrogen/Progesterone → Ovulation&lt;br&gt;• Negative feedback loops&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=12;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="2060" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_section" value="SECTION 7: CONTRACEPTION MECHANISMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="850" y="2000" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_coc" value="Combined OCs&lt;br&gt;(Estrogen +&lt;br&gt;Progestin)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="2070" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_gnrh" value="↓ GnRH" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="2170" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_lhfsh" value="↓ LH/FSH" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="2260" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_anov" value="Anovulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="2350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_mech2" value="Thickened&lt;br&gt;Cervical Mucus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="2170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_mech3" value="Endometrial&lt;br&gt;Thinning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="2260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="contra_effect" value="Contraception&lt;br&gt;(Prevent pregnancy)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="2240" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ce1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_coc" target="contra_gnrh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_gnrh" target="contra_lhfsh" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_lhfsh" target="contra_anov" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_coc" target="contra_mech2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_coc" target="contra_mech3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_anov" target="contra_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_mech2" target="contra_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ce8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="contra_mech3" target="contra_effect" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="test_section" value="SECTION 8: TESTOSTERONE &amp; HYPOGONADISM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1050" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="test_leydig" value="Leydig Cells" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="test_test" value="Testosterone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="1200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test_5ar_conv" value="5α-Reductase" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="1290" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test_dht_conv" value="DHT&lt;br&gt;(Prostate, Skin)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="1380" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test_arom_conv" value="Aromatase" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="1290" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test_e2_conv" value="Estradiol&lt;br&gt;(Bone, Brain)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b1ddf0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="1380" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hypo_primary" value="Primary&lt;br&gt;Hypogonadism&lt;br&gt;(Testicular Failure)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1120" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hypo_pri_result" value="↓ Testosterone&lt;br&gt;↑ LH/FSH" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="1230" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hypo_secondary" value="Secondary&lt;br&gt;Hypogonadism&lt;br&gt;(Hypothalamic/&lt;br&gt;Pituitary)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="1120" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hypo_sec_result" value="↓ LH/FSH&lt;br&gt;↓ Testosterone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="1240" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="trt" value="Testosterone&lt;br&gt;Replacement&lt;br&gt;Therapy (TRT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e8f2;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1350" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="trt_benefit" value="↑ Libido&lt;br&gt;↑ Muscle mass&lt;br&gt;↑ Bone density" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1450" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="trt_se" value="Side Effects:&lt;br&gt;↑ Hematocrit&lt;br&gt;↓ Spermatogenesis&lt;br&gt;Acne, Gynecomastia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="1350" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="te1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="test_leydig" target="test_test" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="test_test" target="test_5ar_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te3" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="test_5ar_conv" target="test_dht_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te4" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="test_test" target="test_arom_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te5" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="test_arom_conv" target="test_e2_conv" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="he1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="hypo_primary" target="hypo_pri_result" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="he2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="hypo_secondary" target="hypo_sec_result" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="trt" target="trt_benefit" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="te7" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#00FF00;strokeWidth=3;" parent="1" source="trt" target="trt_se" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tf1" value="Impairs" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;dashed=1;dashPattern=5 5;" parent="1" source="hypo_primary" target="test_leydig" edge="1">
+          <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;LEGEND&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🔵 Blue boxes = Anatomical structures/organs&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🔵 Blue ellipses = Hormones/molecules&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🟢 Green boxes = Normal physiology&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🟠 Orange boxes = Risk factors/Etiology&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🔴 Red boxes = Pathology/Disease&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;🟣 Purple boxes = Clinical manifestations&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;💊 Light blue boxes = Medications/Treatments&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ARROWS:&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;span style=&quot;color:#00FF00;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;━━ Green solid = Stimulation/Causation&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color:#FF0000;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;┉┉ Red dashed = Inhibition/Negative Feedback&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;HOW TO USE:&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Follow green arrows for normal pathways&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Orange boxes show risk factors&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Red boxes show disease processes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. Purple boxes show clinical symptoms&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. Light blue boxes show treatments&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6. Red dashed arrows show inhibition&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;align=center;verticalAlign=top;fontSize=12;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1600" width="500" height="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

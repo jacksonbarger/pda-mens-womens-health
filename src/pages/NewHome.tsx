@@ -10,6 +10,7 @@ interface NewHomeProps {
   onNavigateToDrugs: () => void;
   onNavigateToChallenge: () => void;
   onNavigateToHighYield: () => void;
+  onNavigateToExamPrep: () => void;
 }
 
 /**
@@ -24,7 +25,8 @@ export const NewHome: React.FC<NewHomeProps> = ({
   onNavigateToConcepts,
   onNavigateToDrugs,
   onNavigateToChallenge,
-  onNavigateToHighYield
+  onNavigateToHighYield,
+  onNavigateToExamPrep
 }) => {
   const { getTotalCandyCanes, getElfRank } = useProgress();
   const totalCandyCanes = getTotalCandyCanes();
@@ -46,6 +48,29 @@ export const NewHome: React.FC<NewHomeProps> = ({
             </div>
           </div>
         </div>
+      </div>
+
+      {/* PROMINENT EXAM PREP BANNER */}
+      <div className="mb-8">
+        <button
+          onClick={onNavigateToExamPrep}
+          className="w-full bg-gradient-to-r from-pda-cranberry-600 to-pda-cranberry-700 hover:from-pda-cranberry-700 hover:to-pda-cranberry-800 text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] p-6 border-2 border-pda-cranberry-800"
+        >
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <div className="text-5xl">📚</div>
+              <div className="text-left">
+                <div className="text-2xl font-bold mb-1">
+                  PDA/Med Chem Exam Prep
+                </div>
+                <div className="text-pda-parchment-100 text-base">
+                  Study by Professor: Burmeister • Breeze • Weldon • Virga
+                </div>
+              </div>
+            </div>
+            <div className="text-4xl animate-pulse">→</div>
+          </div>
+        </button>
       </div>
 
       {/* App Introduction - How to Use This App */}
@@ -130,7 +155,25 @@ export const NewHome: React.FC<NewHomeProps> = ({
         <h2 className="text-lg font-bold text-primary text-center mb-4">
           Quick Access
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Exam Prep Shortcut */}
+          <button
+            onClick={onNavigateToExamPrep}
+            className="card-workshop p-4 hover:shadow-md transition-all text-left group bg-pda-cranberry-50 border-2 border-pda-cranberry-300"
+          >
+            <div className="flex items-start gap-3">
+              <div className="text-2xl flex-shrink-0">📚</div>
+              <div>
+                <h4 className="font-bold text-pda-cranberry-700 mb-1 group-hover:text-pda-cranberry-800 transition-colors">
+                  Exam Prep by Professor
+                </h4>
+                <p className="text-sm text-secondary">
+                  PDA/Med Chem organized by instructor
+                </p>
+              </div>
+            </div>
+          </button>
+
           {/* Continue Where You Left Off */}
           <button
             onClick={onNavigateToConcepts}
