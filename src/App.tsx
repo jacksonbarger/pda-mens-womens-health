@@ -60,6 +60,7 @@ import { ExamPrepByProfessor } from './pages/ExamPrepByProfessor';
 import { ProfessorDetail } from './pages/ProfessorDetail';
 import { AllDrugCards } from './pages/AllDrugCards';
 import { FinalExamChallenge } from './pages/FinalExamChallenge';
+import { QuickDrugDrill } from './pages/QuickDrugDrill';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ProgressProvider, useProgress } from './context/ProgressContext';
 import { AuthForm } from './components/auth/AuthForm';
@@ -67,7 +68,7 @@ import { EmailVerificationBanner } from './components/auth/EmailVerificationBann
 import type { Section, GameModeType } from './types';
 
 // Navigation screen types
-type Screen = 'home' | 'concepts' | 'section' | 'drugs' | 'challenge' | 'highYield' | 'examPrep' | 'professorDetail' | 'allDrugCards' | 'finalExam';
+type Screen = 'home' | 'concepts' | 'section' | 'drugs' | 'challenge' | 'highYield' | 'examPrep' | 'professorDetail' | 'allDrugCards' | 'finalExam' | 'quickDrugDrill';
 
 function AppContent() {
   const { currentUser } = useAuth();
@@ -123,6 +124,10 @@ function AppContent() {
     setCurrentScreen('finalExam');
   };
 
+  const handleNavigateToQuickDrugDrill = () => {
+    setCurrentScreen('quickDrugDrill');
+  };
+
   const handleSelectSection = (section: Section) => {
     setCurrentSection(section);
     setCurrentScreen('section');
@@ -150,6 +155,7 @@ function AppContent() {
             onNavigateToChallenge={handleNavigateToChallenge}
             onNavigateToHighYield={handleNavigateToHighYield}
             onNavigateToExamPrep={handleNavigateToExamPrep}
+            onNavigateToQuickDrugDrill={handleNavigateToQuickDrugDrill}
           />
         );
 
@@ -235,6 +241,14 @@ function AppContent() {
           />
         );
 
+      case 'quickDrugDrill':
+        return (
+          <QuickDrugDrill
+            onBack={handleNavigateToHome}
+            onBackToHome={handleNavigateToHome}
+          />
+        );
+
       default:
         return (
           <NewHome
@@ -243,6 +257,7 @@ function AppContent() {
             onNavigateToChallenge={handleNavigateToChallenge}
             onNavigateToHighYield={handleNavigateToHighYield}
             onNavigateToExamPrep={handleNavigateToExamPrep}
+            onNavigateToQuickDrugDrill={handleNavigateToQuickDrugDrill}
           />
         );
     }

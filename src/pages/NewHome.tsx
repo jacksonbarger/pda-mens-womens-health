@@ -11,6 +11,7 @@ interface NewHomeProps {
   onNavigateToChallenge: () => void;
   onNavigateToHighYield: () => void;
   onNavigateToExamPrep: () => void;
+  onNavigateToQuickDrugDrill: () => void;
 }
 
 /**
@@ -26,7 +27,8 @@ export const NewHome: React.FC<NewHomeProps> = ({
   onNavigateToDrugs,
   onNavigateToChallenge,
   onNavigateToHighYield,
-  onNavigateToExamPrep
+  onNavigateToExamPrep,
+  onNavigateToQuickDrugDrill
 }) => {
   const { getTotalCandyCanes, getElfRank } = useProgress();
   const totalCandyCanes = getTotalCandyCanes();
@@ -212,7 +214,7 @@ export const NewHome: React.FC<NewHomeProps> = ({
 
           {/* Quick Drug Drill */}
           <button
-            onClick={onNavigateToDrugs}
+            onClick={onNavigateToQuickDrugDrill}
             className="card-workshop p-4 hover:shadow-md transition-all text-left group"
           >
             <div className="flex items-start gap-3">
