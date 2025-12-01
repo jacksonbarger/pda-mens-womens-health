@@ -55,22 +55,22 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         <div className="bg-pda-cranberry-50 rounded-lg p-4 border-2 border-pda-cranberry-200 text-center hover:shadow-md transition-shadow">
           <div className="text-3xl font-bold text-pda-cranberry-600 mb-1">{totalDrugCards}</div>
           <div className="text-sm text-gray-700 font-medium">Drug Cards</div>
-          <div className="text-xs text-gray-500 mt-1">Complete Database</div>
+          <div className="text-xs text-gray-600 mt-1">Complete Database</div>
         </div>
         <div className="bg-pda-forest-50 rounded-lg p-4 border-2 border-pda-forest-200 text-center hover:shadow-md transition-shadow">
           <div className="text-3xl font-bold text-pda-forest-600 mb-1">{totalQuizQuestions}</div>
           <div className="text-sm text-gray-700 font-medium">Practice Questions</div>
-          <div className="text-xs text-gray-500 mt-1">Exam-Style</div>
+          <div className="text-xs text-gray-600 mt-1">Exam-Style</div>
         </div>
         <div className="bg-pda-gold-50 rounded-lg p-4 border-2 border-pda-gold-200 text-center hover:shadow-md transition-shadow">
-          <div className="text-3xl font-bold text-pda-gold-600 mb-1">{totalFlashcards}</div>
+          <div className="text-3xl font-bold text-pda-gold-800 mb-1">{totalFlashcards}</div>
           <div className="text-sm text-gray-700 font-medium">Flashcards</div>
-          <div className="text-xs text-gray-500 mt-1">Quick Review</div>
+          <div className="text-xs text-gray-600 mt-1">Quick Review</div>
         </div>
         <div className="bg-pda-winter-50 rounded-lg p-4 border-2 border-pda-winter-200 text-center hover:shadow-md transition-shadow">
           <div className="text-3xl font-bold text-pda-winter-600 mb-1">4</div>
           <div className="text-sm text-gray-700 font-medium">Flowcharts</div>
-          <div className="text-xs text-gray-500 mt-1">Interactive Maps</div>
+          <div className="text-xs text-gray-600 mt-1">Interactive Maps</div>
         </div>
       </div>
 
@@ -188,19 +188,19 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 </h4>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-2">
-                    <span className="text-pda-gold-600">•</span>
+                    <span className="text-pda-gold-800">•</span>
                     <span><strong>Keyboard Shortcuts:</strong> Use 1-4 keys to select answers and Enter to advance. This speeds up quiz completion significantly.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-pda-gold-600">•</span>
+                    <span className="text-pda-gold-800">•</span>
                     <span><strong>Focus on "Why" Not Just "What":</strong> Read every explanation thoroughly - understanding mechanisms helps you tackle variations of questions.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-pda-gold-600">•</span>
+                    <span className="text-pda-gold-800">•</span>
                     <span><strong>Compare Professors:</strong> Some drugs/topics appear in multiple professors' sections. Note different teaching perspectives - this deepens understanding.</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-pda-gold-600">•</span>
+                    <span className="text-pda-gold-800">•</span>
                     <span><strong>Sleep Well:</strong> After studying, get at least 6-7 hours of sleep. Memory consolidation happens during sleep - don't pull an all-nighter!</span>
                   </li>
                 </ul>
@@ -329,7 +329,6 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
           <GiftCard
             key={professor.id}
             onClick={() => onSelectProfessor(professor.id)}
-            ariaLabel={`Study ${professor.fullName}'s content`}
           >
             <div className="text-center flex flex-col h-full">
               {/* Professor Icon and Name */}
@@ -338,7 +337,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 <h3 className="text-2xl font-bold text-primary mb-1">
                   {professor.fullName}
                 </h3>
-                <p className="text-sm font-semibold text-pda-gold-600">
+                <p className="text-sm font-semibold text-pda-gold-800">
                   {professor.specialty}
                 </p>
                 {/* Category and Grade Weight Badges */}
@@ -364,7 +363,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                       </li>
                     ))}
                     {professor.overview.topics.length > 4 && (
-                      <li className="text-pda-gold-600 font-semibold">
+                      <li className="text-pda-gold-800 font-semibold">
                         + {professor.overview.topics.length - 4} more topics
                       </li>
                     )}
@@ -403,7 +402,6 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         {/* Drug Cards Card */}
         <GiftCard
           onClick={onViewAllDrugCards}
-          ariaLabel="View all drug cards database"
         >
           <div className="text-center flex flex-col h-full">
             {/* Icon and Title */}
@@ -412,7 +410,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               <h3 className="text-2xl font-bold text-primary mb-1">
                 All Drug Cards
               </h3>
-              <p className="text-sm font-semibold text-pda-gold-600">
+              <p className="text-sm font-semibold text-pda-gold-800">
                 Complete Drug Database
               </p>
             </div>
@@ -451,7 +449,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 <div className="text-secondary text-xs">Total Drugs</div>
               </div>
               <div className="bg-pda-parchment-50 rounded-lg p-3 border border-pda-gold-200">
-                <div className="font-bold text-pda-gold-600">
+                <div className="font-bold text-pda-gold-800">
                   4
                 </div>
                 <div className="text-secondary text-xs">Professors</div>
@@ -472,7 +470,6 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         {/* Final Exam Card */}
         <GiftCard
           onClick={onViewFinalExam}
-          ariaLabel="Take the final exam challenge"
         >
           <div className="text-center flex flex-col h-full">
             {/* Icon and Title */}
@@ -481,7 +478,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               <h3 className="text-2xl font-bold text-primary mb-1">
                 Final Exam Challenge
               </h3>
-              <p className="text-sm font-semibold text-pda-gold-600">
+              <p className="text-sm font-semibold text-pda-gold-800">
                 Comprehensive 50-Question Test
               </p>
             </div>
@@ -520,7 +517,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 <div className="text-secondary text-xs">Total Questions</div>
               </div>
               <div className="bg-pda-parchment-50 rounded-lg p-3 border border-pda-gold-200">
-                <div className="font-bold text-pda-gold-600">
+                <div className="font-bold text-pda-gold-800">
                   {totalQuizQuestions}
                 </div>
                 <div className="text-secondary text-xs">Question Pool</div>

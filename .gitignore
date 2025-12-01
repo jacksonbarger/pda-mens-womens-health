@@ -27,3 +27,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Slide files (too large for GitHub)
+Slides For Context/

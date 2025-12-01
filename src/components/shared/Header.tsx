@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ isGuestMode = false }) => {
               <span className="text-5xl">🎅</span>
               PDA: Men's & Women's Health
             </h1>
-            <p className="text-white/90 text-base mt-1">
+            <p className="text-white text-base mt-1">
               Reproductive & Endocrine Systems | Winter Study Workshop
             </p>
           </div>
@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({ isGuestMode = false }) => {
               </div>
             ) : currentUser && (
               <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg border border-white/20">
-                <div className="text-sm text-white/80">
+                <div className="text-sm text-white">
                   {currentUser.email}
                 </div>
               </div>
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({ isGuestMode = false }) => {
             {/* Progress Rank */}
             <div className="bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/30">
               <div className="text-center">
-                <div className="text-sm text-white/80 font-semibold">
+                <div className="text-sm text-white font-semibold">
                   Your Rank
                 </div>
                 <div className="text-lg font-bold mt-1">{getElfRank()}</div>
