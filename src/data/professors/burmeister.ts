@@ -42,21 +42,28 @@ export const burmeisterContent: ProfessorContent = {
       'Differentiate between urge, stress, and mixed incontinence'
     ],
     highYieldConcepts: [
+      // BENIGN BREAST DISEASE & GALACTORRHEA
       'Galactorrhea: Idiopathic = diagnosis of exclusion when breast tissue is particularly sensitive to prolactin',
       'Galactorrhea: Results when breast tissue is particularly sensitive to prolactin in the blood',
       'Proliferative BBD increases cancer risk; nonproliferative BBD does NOT increase cancer risk',
+      'Cooper ligaments: connective tissue that gives breast shape; dimpling suggests growth beneath',
+      'Mastitis: triggered by nipple irritation, trauma, chafing; presents with localized erythema, warmth, burning during breastfeeding',
+
+      // MENSTRUAL DISORDERS
       'Primary dysmenorrhea: begins ~6 months after menarche, lasts 48-72 hours',
       'Secondary dysmenorrhea: affects 2nd-3rd decade, may have heavy flow/painful intercourse/poor OCP response',
       'Primary amenorrhea: absence of menarche by age 15',
       'Secondary amenorrhea: stops menstruating for ≥3 months (excluding pregnancy/lactation/menopause)',
       'Menstrual cycle: GnRH → FSH + LH; FSH prepares follicle; LH causes ovulation; corpus luteum shed if no implantation',
       'DUB most affects women who just started cycle OR are peri/postmenopausal',
+
+      // PCOS, ENDOMETRIOSIS & PMS
       'PMS diagnostic criteria: symptoms 5 days before period, persist 3 consecutive cycles, interfere with life, end within 4 days after cycle',
       'PCOS: abnormal HPO axis, hyperandrogenism (hirsutism, acne), metabolic syndrome, diabetes risk',
       'Endometriosis most common sites: fallopian tubes, vagina, cervix, uterosacral ligaments',
-      'Female infertility assessment: after 1 year if <35yo, after 6 months if ≥35yo',
-      'Cooper ligaments: connective tissue that gives breast shape; dimpling suggests growth beneath',
-      'Mastitis: triggered by nipple irritation, trauma, chafing; presents with localized erythema, warmth, burning during breastfeeding'
+
+      // FEMALE INFERTILITY
+      'Female infertility assessment: after 1 year if <35yo, after 6 months if ≥35yo'
     ],
     clinicalPearls: [
       'Galactorrhea is a diagnosis of exclusion - rule out medications, tumors, thyroid disorders, renal failure before diagnosing idiopathic',
