@@ -9,10 +9,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '1',
     question: 'A 62-year-old man with erectile dysfunction is prescribed sildenafil (Viagra). He also takes nitroglycerin PRN for angina. What is the most important counseling point?',
     options: [
-      'Take sildenafil with food to improve absorption',
+      'Take sildenafil with food to improve absorption and reduce gastric upset',
       'Never use sildenafil with nitrates due to severe hypotension risk',
-      'Sildenafil may cause permanent vision loss',
-      'Take sildenafil twice daily for best results'
+      'Sildenafil may cause permanent vision loss especially in elderly patients',
+      'Take sildenafil twice daily for best results and sustained effect'
     ],
     correct_answer: 'Never use sildenafil with nitrates due to severe hypotension risk',
     explanation: 'PDE5 inhibitors (sildenafil, tadalafil, etc.) are ABSOLUTELY CONTRAINDICATED with nitrates. Both cause vasodilation through different mechanisms (PDE5 inhibitors increase cGMP, nitrates increase NO). Combined use can cause life-threatening hypotension. This is the most critical drug interaction for PDE5 inhibitors.',
@@ -24,10 +24,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '2',
     question: 'A patient wants a PDE5 inhibitor that he can take daily to be "ready anytime" without planning ahead. Which drug has the longest duration of action?',
     options: [
-      'Sildenafil (Viagra) - 4-6 hours',
-      'Vardenafil (Levitra) - 4-5 hours',
-      'Tadalafil (Cialis) - 24-36 hours',
-      'Avanafil (Stendra) - 6 hours'
+      'Sildenafil (Viagra) - 4-6 hours duration of action',
+      'Vardenafil (Levitra) - 4-5 hours duration of action',
+      'Tadalafil (Cialis) - 24-36 hours duration of action',
+      'Avanafil (Stendra) - 6 hours duration of action'
     ],
     correct_answer: 'Tadalafil (Cialis) - 24-36 hours',
     explanation: 'Tadalafil (Cialis) has the LONGEST duration of action (24-36 hours), making it ideal for daily dosing or "weekend use." This allows for spontaneity without timing the dose right before intercourse. Sildenafil and vardenafil last 4-6 hours and require planning. Avanafil has the fastest onset (15-30min) but only lasts 6 hours.',
@@ -39,10 +39,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '3',
     question: 'A 68-year-old man with BPH is started on finasteride (Proscar). When should he expect to see symptom improvement, and what important monitoring parameter should be adjusted?',
     options: [
-      'Immediate relief; no monitoring changes needed',
-      'Within 1-2 weeks; monitor blood pressure closely',
+      'Immediate relief; no monitoring changes needed for treatment',
+      'Within 1-2 weeks; monitor blood pressure closely for hypotension',
       'After 6+ months; PSA levels should be doubled for accurate screening',
-      'After 1 month; decrease dose if no improvement'
+      'After 1 month; decrease dose if no improvement is seen'
     ],
     correct_answer: 'After 6+ months; PSA levels should be doubled for accurate screening',
     explanation: '5-alpha-reductase inhibitors (finasteride, dutasteride) work by blocking DHT production and shrinking the prostate. This takes TIME - patients need 6+ months for full effect. These drugs DECREASE PSA levels by ~50%, so PSA values should be DOUBLED when screening for prostate cancer to avoid missing malignancy. Alpha blockers provide immediate symptom relief while waiting for 5ARIs to work.',
@@ -54,9 +54,9 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '4',
     question: 'A patient with BPH is prescribed tamsulosin (Flomax). What makes tamsulosin preferable to prazosin or doxazosin for BPH?',
     options: [
-      'Tamsulosin is more effective at shrinking the prostate',
+      'Tamsulosin is more effective at shrinking the prostate over time',
       'Tamsulosin is selective for alpha-1A receptors in prostate, causing less orthostatic hypotension',
-      'Tamsulosin works faster than other alpha blockers',
+      'Tamsulosin works faster than other alpha blockers for symptom relief',
       'Tamsulosin can be used with PDE5 inhibitors without any risk'
     ],
     correct_answer: 'Tamsulosin is selective for alpha-1A receptors in prostate, causing less orthostatic hypotension',
@@ -84,10 +84,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '6',
     question: 'A patient with moderate-severe BPH and a large prostate (>40g) wants the most effective long-term treatment. What combination therapy is most appropriate?',
     options: [
-      'PDE5 inhibitor + alpha blocker',
-      'Alpha blocker + 5-alpha-reductase inhibitor',
-      'Two different alpha blockers',
-      'Two different 5-alpha-reductase inhibitors'
+      'PDE5 inhibitor + alpha blocker for dual symptom control',
+      'Alpha blocker + 5-alpha-reductase inhibitor for complete coverage',
+      'Two different alpha blockers for synergistic symptom relief',
+      'Two different 5-alpha-reductase inhibitors for enhanced DHT blockade'
     ],
     correct_answer: 'Alpha blocker + 5-alpha-reductase inhibitor',
     explanation: 'For moderate-severe BPH with large prostates, COMBINATION therapy with alpha blocker + 5-alpha-reductase inhibitor is most effective. Alpha blocker (tamsulosin) provides IMMEDIATE symptom relief. 5-ARI (finasteride or dutasteride) provides LONG-TERM prostate shrinkage over 6+ months. This addresses both immediate symptoms and underlying pathology. Example: Tamsulosin + Dutasteride.',
@@ -99,10 +99,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '7',
     question: 'Why does alprostadil (intracavernous or intraurethral) NOT require sexual stimulation to work, unlike PDE5 inhibitors?',
     options: [
-      'Alprostadil works on different receptors than PDE5 inhibitors',
+      'Alprostadil works on different receptors than PDE5 inhibitors do',
       'Alprostadil directly causes vasodilation via PGE1, independent of the NO/cGMP pathway',
-      'Alprostadil is more potent than PDE5 inhibitors',
-      'Alprostadil works by blocking PDE5 more effectively'
+      'Alprostadil is more potent than PDE5 inhibitors at inducing erection',
+      'Alprostadil works by blocking PDE5 more effectively than sildenafil does'
     ],
     correct_answer: 'Alprostadil directly causes vasodilation via PGE1, independent of the NO/cGMP pathway',
     explanation: 'Alprostadil is synthetic PGE1 (prostaglandin E1) that DIRECTLY causes vasodilation in the corpus cavernosum, independent of the NO/cGMP pathway. PDE5 inhibitors REQUIRE sexual stimulation to work because they only prevent cGMP degradation - they need NO release (from sexual stimulation) to generate cGMP first. This is why alprostadil works without stimulation but is more invasive (injection or urethral insertion).',
@@ -114,10 +114,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '8',
     question: 'A patient taking dutasteride (Avodart) for BPH tells you his wife is trying to get pregnant. What important counseling should you provide?',
     options: [
-      'Dutasteride has no effect on pregnancy',
+      'Dutasteride has no effect on pregnancy or fetal development',
       'Dutasteride can cause birth defects; pregnant women should not handle crushed/broken tablets',
-      'Only finasteride causes birth defects, not dutasteride',
-      'The patient should stop dutasteride immediately to improve sperm quality'
+      'Only finasteride causes birth defects, not dutasteride or other 5ARIs',
+      'The patient should stop dutasteride immediately to improve sperm quality and fertility'
     ],
     correct_answer: 'Dutasteride can cause birth defects; pregnant women should not handle crushed/broken tablets',
     explanation: 'Both finasteride and dutasteride are 5-alpha-reductase inhibitors that can cause BIRTH DEFECTS, particularly affecting male fetal genital development. Pregnant women or women who may become pregnant should NOT HANDLE CRUSHED OR BROKEN TABLETS because the drug can be absorbed through skin. The drug is found in semen, but the amount is not thought to pose risk. This is a critical safety counseling point.',
@@ -129,10 +129,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '9',
     question: 'An elderly patient with BPH starts taking tamsulosin and reports dizziness when standing up quickly. He also takes amlodipine for hypertension. What is the likely cause and management?',
     options: [
-      'Amlodipine dose is too high; reduce it',
+      'Amlodipine dose is too high; reduce it to prevent dizziness',
       'Tamsulosin is causing orthostatic hypotension; consider switching to silodosin or taking at bedtime',
-      'This is normal and will resolve without intervention',
-      'Add a PDE5 inhibitor to counteract the hypotension'
+      'This is normal and will resolve without intervention over time',
+      'Add a PDE5 inhibitor to counteract the hypotension symptoms'
     ],
     correct_answer: 'Tamsulosin is causing orthostatic hypotension; consider switching to silodosin or taking at bedtime',
     explanation: 'Even though tamsulosin is selective for alpha-1A receptors, it can still cause orthostatic hypotension, especially in elderly patients or those on antihypertensives. This effect is ADDITIVE with other vasodilators (CCBs, PDE5 inhibitors). Management: dose at bedtime to avoid daytime dizziness, ensure adequate hydration, consider more selective agent (silodosin), or add non-pharmacologic measures (rise slowly, compression stockings).',
@@ -163,8 +163,8 @@ export const breezeQuiz: QuizQuestion[] = [
     options: [
       'She is allergic to alendronate; switch to a different drug class',
       'She is not taking it correctly; reinforce taking with full glass of water, remaining upright 30-60min, on empty stomach',
-      'Heartburn is unrelated to alendronate; add a PPI',
-      'Reduce the dose of alendronate'
+      'Heartburn is unrelated to alendronate; add a PPI for symptom control',
+      'Reduce the dose of alendronate to minimize esophageal irritation'
     ],
     correct_answer: 'She is not taking it correctly; reinforce taking with full glass of water, remaining upright 30-60min, on empty stomach',
     explanation: 'Esophageal irritation, erosions, and esophagitis are MAJOR side effects of oral bisphosphonates. Proper administration is CRITICAL: Take FIRST THING in morning with 6-8oz plain water, 30-60 minutes before any food/drink/meds, remain UPRIGHT (sitting or standing) for at least 30 minutes (60 min for ibandronate). If patient cannot follow these instructions or has esophageal disorders, bisphosphonates are contraindicated. Consider IV zoledronic acid or alternative drug class.',
@@ -176,10 +176,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '12',
     question: 'A patient on long-term alendronate therapy for 5 years is scheduled for dental surgery to extract a tooth. What is the major concern?',
     options: [
-      'Increased risk of infection at surgical site',
-      'Bisphosphonate-related osteonecrosis of the jaw (BRONJ)',
-      'Atypical femur fracture during dental procedure',
-      'Drug interaction with local anesthetic'
+      'Increased risk of infection at the surgical site post-extraction',
+      'Bisphosphonate-related osteonecrosis of the jaw (BRONJ) with exposed bone',
+      'Atypical femur fracture during dental procedure or manipulation',
+      'Drug interaction with local anesthetic causing cardiovascular complications'
     ],
     correct_answer: 'Bisphosphonate-related osteonecrosis of the jaw (BRONJ)',
     explanation: 'BRONJ (Bisphosphonate-Related Osteonecrosis of Jaw) is a serious complication of bisphosphonate therapy, especially with: 1) IV bisphosphonates, 2) nitrogen-containing bisphosphonates (alendronate, risedronate, zoledronic acid), 3) long-term use, 4) dental surgery/trauma. Presents as exposed, devitalized bone in maxillofacial region with pain. Patients should have dental exam before starting bisphosphonates and maintain good oral hygiene. Consider drug holiday before major dental procedures.',
@@ -191,10 +191,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '13',
     question: 'A 70-year-old woman has been taking alendronate for 4 years with good BMD response. She has no history of fractures. What is the recommended next step according to FDA guidelines?',
     options: [
-      'Continue alendronate indefinitely',
-      'Switch to a different bisphosphonate',
+      'Continue alendronate indefinitely without reassessment',
+      'Switch to a different bisphosphonate for enhanced efficacy',
       'Perform risk assessment and consider drug holiday for low-risk patients',
-      'Stop all osteoporosis medications immediately'
+      'Stop all osteoporosis medications immediately to prevent atypical fractures'
     ],
     correct_answer: 'Perform risk assessment and consider drug holiday for low-risk patients',
     explanation: 'FDA recommends that after 3-5 years of bisphosphonate therapy, providers should perform a RISK ASSESSMENT. Low-risk patients (no prior fractures, stable/improved BMD) may benefit from a DRUG HOLIDAY due to concerns about atypical femur fractures with long-term use. High-risk patients (previous fractures, very low BMD, high FRAX scores) should continue therapy. This balances benefits against rare but serious long-term complications.',
@@ -206,10 +206,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '14',
     question: 'A patient with osteoporosis cannot tolerate oral bisphosphonates due to severe GERD. Which alternative provides the best efficacy without GI side effects?',
     options: [
-      'Raloxifene (Evista) oral SERM',
-      'Zoledronic acid (Reclast) IV annual infusion',
-      'Calcitonin nasal spray',
-      'Calcium and vitamin D supplementation alone'
+      'Raloxifene (Evista) oral SERM for vertebral fracture prevention',
+      'Zoledronic acid (Reclast) IV annual infusion bypassing GI tract',
+      'Calcitonin nasal spray for bone preservation and pain relief',
+      'Calcium and vitamin D supplementation alone for bone health'
     ],
     correct_answer: 'Zoledronic acid (Reclast) IV annual infusion',
     explanation: 'Zoledronic acid (Reclast) is the most potent bisphosphonate and is given IV annually (or biannually for prevention), completely avoiding GI side effects. It has excellent efficacy for fracture reduction. Still carries risks of BRONJ, atypical femur fractures, flu-like symptoms after infusion, and requires normal renal function. Raloxifene only reduces vertebral fractures and increases VTE risk. Calcitonin is less effective than bisphosphonates.',
@@ -221,10 +221,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '15',
     question: 'A 68-year-old woman with history of DVT 3 years ago asks about raloxifene (Evista) for osteoporosis prevention. What is your response?',
     options: [
-      'Raloxifene is perfect for you since it reduces breast cancer risk',
+      'Raloxifene is perfect for you since it reduces breast cancer risk significantly',
       'Raloxifene is contraindicated due to your history of DVT - it increases thromboembolic risk',
       'Raloxifene is safe as long as the DVT was more than 1 year ago',
-      'Raloxifene works better than bisphosphonates for hip fractures'
+      'Raloxifene works better than bisphosphonates for preventing hip fractures'
     ],
     correct_answer: 'Raloxifene is contraindicated due to your history of DVT - it increases thromboembolic risk',
     explanation: 'Raloxifene (SERM) INCREASES risk of thromboembolic events (DVT, PE, stroke) similar to estrogen. It is CONTRAINDICATED in patients with history of VTE or active VTE. Other contraindications: pregnancy, women planning pregnancy. Benefits: reduces vertebral fractures, reduces breast cancer risk in high-risk women, no endometrial stimulation. Does NOT reduce hip fractures like bisphosphonates do.',
@@ -236,10 +236,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '16',
     question: 'What makes denosumab (Prolia) unique compared to bisphosphonates, and what is a critical safety concern when stopping it?',
     options: [
-      'Denosumab is an oral medication that works faster than bisphosphonates',
+      'Denosumab is an oral medication that works faster than bisphosphonates for bone preservation',
       'Denosumab is a monoclonal antibody against RANKL given SC q6 months; stopping causes rapid bone loss requiring transition to another agent',
-      'Denosumab has no risk of BRONJ unlike bisphosphonates',
-      'Denosumab can be stopped without any concerns'
+      'Denosumab has no risk of BRONJ unlike nitrogen-containing bisphosphonates',
+      'Denosumab can be stopped without any concerns about rebound bone loss'
     ],
     correct_answer: 'Denosumab is a monoclonal antibody against RANKL given SC q6 months; stopping causes rapid bone loss requiring transition to another agent',
     explanation: 'Denosumab is a MONOCLONAL ANTIBODY against RANKL (blocks osteoclast formation). Given SC every 6 months. CRITICAL WARNING: If therapy is stopped, there is RAPID BONE LOSS and increased fracture risk - patients MUST transition to another osteoporosis agent (bisphosphonate). Unlike bisphosphonates which accumulate in bone, denosumab has no residual effect. Must correct hypocalcemia before starting. Still carries BRONJ risk.',
@@ -251,10 +251,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '17',
     question: 'A 72-year-old woman with severe osteoporosis (T-score -3.5), previous vertebral fracture, and history of MI 2 months ago asks about romosozumab (Evenity). What is your recommendation?',
     options: [
-      'Start romosozumab immediately as she is high-risk for fracture',
+      'Start romosozumab immediately as she is high-risk for fracture complications',
       'Romosozumab is contraindicated due to recent MI - it has a Black Box Warning for CV events',
-      'Romosozumab is safe since the MI was 2 months ago',
-      'Romosozumab only works in young patients'
+      'Romosozumab is safe since the MI was 2 months ago with good recovery',
+      'Romosozumab only works in young patients under 65 years old'
     ],
     correct_answer: 'Romosozumab is contraindicated due to recent MI - it has a Black Box Warning for CV events',
     explanation: 'Romosozumab has a BLACK BOX WARNING for increased risk of MI, stroke, and CV death. DO NOT INITIATE in patients who had MI or stroke within the PRECEDING YEAR. This patient had MI 2 months ago - absolutely contraindicated. Even after 1 year, carefully consider benefits vs risks in patients with CV risk factors. Romosozumab is unique: dual action (increases bone formation + decreases resorption), given as 2 SC injections monthly x 12 months.',
@@ -266,10 +266,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '18',
     question: 'A patient taking calcium carbonate supplements complains of constipation and asks about alternatives. She also takes omeprazole for GERD. What is the best recommendation?',
     options: [
-      'Continue calcium carbonate but increase fluid intake',
+      'Continue calcium carbonate but increase fluid intake to reduce constipation',
       'Switch to calcium citrate - better absorption without acid, less constipation, can take without food',
-      'Stop all calcium supplements',
-      'Take calcium carbonate with omeprazole to improve absorption'
+      'Stop all calcium supplements and focus on dietary calcium sources',
+      'Take calcium carbonate with omeprazole to improve absorption and reduce side effects'
     ],
     correct_answer: 'Switch to calcium citrate - better absorption without acid, less constipation, can take without food',
     explanation: 'CALCIUM CARBONATE requires acidic environment for absorption (take WITH food), MORE constipation, LESS expensive. Omeprazole (PPI) DECREASES calcium carbonate absorption. CALCIUM CITRATE does NOT require acid (better for elderly and PPI users), can take WITHOUT food, BETTER absorption, LESS constipation, but more expensive. For this patient on PPI with constipation, calcium citrate is ideal. Both should be taken with vitamin D for optimal absorption.',
@@ -281,10 +281,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '19',
     question: 'Why is teriparatide (Forteo) reserved for high-risk osteoporosis patients, and what is the maximum duration of use?',
     options: [
-      'It is very expensive and has mild efficacy',
+      'It is very expensive and has mild efficacy compared to bisphosphonates',
       'It has a Black Box Warning for osteosarcoma risk and requires daily SC injections; maximum 2 years lifetime use',
-      'It can only be used in young patients',
-      'It causes severe hypercalcemia in all patients'
+      'It can only be used in young patients under 50 years old',
+      'It causes severe hypercalcemia in all patients requiring hospitalization'
     ],
     correct_answer: 'It has a Black Box Warning for osteosarcoma risk and requires daily SC injections; maximum 2 years lifetime use',
     explanation: 'Teriparatide is recombinant PTH (1-34) - the ONLY true bone FORMATION therapy (anabolic). BLACK BOX WARNING: Osteosarcoma risk (based on rat studies with high doses). Reserved for HIGH-RISK patients: very low BMD, history of fractures, failed other therapies. Given as DAILY SC INJECTION. Maximum 2 YEARS lifetime use. Can cause orthostatic hypotension when injecting. Also contraindicated in Paget\'s disease, previous skeletal radiation, kidney stones.',
@@ -296,10 +296,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '20',
     question: 'A patient is prescribed vitamin D supplementation. She also takes phenytoin for seizures. What is the concern and management?',
     options: [
-      'Phenytoin has no interaction with vitamin D',
-      'Phenytoin increases vitamin D metabolism, requiring higher vitamin D doses',
-      'Vitamin D increases phenytoin levels causing toxicity',
-      'They should never be taken together'
+      'Phenytoin has no interaction with vitamin D supplementation or metabolism',
+      'Phenytoin increases vitamin D metabolism, requiring higher vitamin D doses for adequacy',
+      'Vitamin D increases phenytoin levels causing toxicity and neurological symptoms',
+      'They should never be taken together due to severe interactions'
     ],
     correct_answer: 'Phenytoin increases vitamin D metabolism, requiring higher vitamin D doses',
     explanation: 'Phenytoin, barbiturates, carbamazepine, rifampin, and valproic acid are enzyme inducers that INCREASE vitamin D metabolism → lower vitamin D levels → may need HIGHER vitamin D doses. Other interactions: Cholestyramine, colestipol, orlistat, mineral oil DECREASE vitamin D absorption. Avoid taking vitamin D with ALUMINUM-containing products (antacids) to prevent aluminum toxicity. Monitor 25-OH vitamin D levels to ensure adequacy.',
@@ -313,10 +313,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '21',
     question: 'A 28-year-old woman on combined oral contraceptives (OCPs) presents to the ED with sudden unilateral leg pain, swelling, and warmth. What is the most likely diagnosis and what is the risk factor?',
     options: [
-      'Muscle strain from exercise; no risk from OCPs',
-      'Deep vein thrombosis (DVT); OCPs increase VTE risk',
-      'Cellulitis requiring antibiotics',
-      'Peripheral arterial disease'
+      'Muscle strain from exercise; no risk from OCP use',
+      'Deep vein thrombosis (DVT); OCPs increase VTE risk significantly',
+      'Cellulitis requiring immediate antibiotic therapy',
+      'Peripheral arterial disease causing claudication symptoms'
     ],
     correct_answer: 'Deep vein thrombosis (DVT); OCPs increase VTE risk',
     explanation: 'Combined OCPs INCREASE risk of venous thromboembolism (VTE) including DVT and PE. Risk is further increased by: smoking, age >35, obesity, thrombophilia, prolonged immobility. This is why smoking >35 is an ABSOLUTE CONTRAINDICATION for combined OCPs. Progestin-only contraceptives do NOT increase VTE risk and are preferred for high-risk patients. Third-generation progestins (desogestrel, norgestimate) may have higher VTE risk than second-generation.',
@@ -328,10 +328,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '22',
     question: 'A 37-year-old woman who smokes 1 pack per day wants to start oral contraceptives. What is the most appropriate recommendation?',
     options: [
-      'Combined OCPs are safe for her',
-      'Combined OCPs are contraindicated; recommend progestin-only contraceptive',
+      'Combined OCPs are safe for her despite smoking history',
+      'Combined OCPs are contraindicated; recommend progestin-only contraceptive instead',
       'She can use combined OCPs if she reduces smoking to half pack per day',
-      'She should quit smoking but can start combined OCPs immediately'
+      'She should quit smoking but can start combined OCPs immediately after quitting'
     ],
     correct_answer: 'Combined OCPs are contraindicated; recommend progestin-only contraceptive',
     explanation: 'ABSOLUTE CONTRAINDICATION: Smokers over age 35 using combined OCPs have substantially increased risk of MI, stroke, and VTE. Under 35, smoking is a relative contraindication. This patient at 37 who smokes CANNOT use combined OCPs. BEST OPTION: Progestin-only contraceptive (pill, IUD, implant, injection) which does NOT increase VTE/CV risk. Alternatively, non-hormonal methods (copper IUD, barrier methods).',
@@ -343,10 +343,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '23',
     question: 'A woman on combined OCPs is prescribed amoxicillin for sinusitis. What counseling should you provide?',
     options: [
-      'No interaction; continue OCPs as normal',
+      'No interaction; continue OCPs as normal without backup contraception',
       'Antibiotics can decrease OCP efficacy; use backup contraception (condoms) during antibiotic course and 7 days after',
-      'Stop OCPs while taking antibiotics',
-      'Double the OCP dose while on antibiotics'
+      'Stop OCPs while taking antibiotics to prevent interactions',
+      'Double the OCP dose while on antibiotics to maintain contraceptive efficacy'
     ],
     correct_answer: 'Antibiotics can decrease OCP efficacy; use backup contraception (condoms) during antibiotic course and 7 days after',
     explanation: 'Broad-spectrum antibiotics can decrease OCP efficacy by disrupting gut flora that helps metabolize/recycle estrogen. Most concerning with rifampin (strong enzyme inducer) and broad-spectrum antibiotics. COUNSEL: Use backup contraception (condoms) during antibiotic course and for 7 days after completion. Enzyme-inducing drugs (phenytoin, carbamazepine, barbiturates) also decrease OCP efficacy. St. John\'s Wort decreases OCP efficacy.',
@@ -358,10 +358,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '24',
     question: 'What is the mechanism by which combined oral contraceptives prevent pregnancy? Select the THREE mechanisms.',
     options: [
-      'Prevent ovulation by suppressing LH/FSH',
-      'Thin endometrium (progestin effect)',
-      'Thicken cervical mucus (progestin effect)',
-      'Kill sperm directly'
+      'Prevent ovulation by suppressing LH/FSH surge',
+      'Thin endometrium to prevent implantation (progestin effect)',
+      'Thicken cervical mucus to block sperm (progestin effect)',
+      'Kill sperm directly through chemical spermicidal action'
     ],
     correct_answer: 'Prevent ovulation by suppressing LH/FSH',
     explanation: 'Combined OCPs work through THREE mechanisms: 1) PREVENT OVULATION: Suppress GnRH → decrease FSH/LH → no mid-cycle LH surge → no follicular development or ovulation (PRIMARY mechanism). 2) THIN ENDOMETRIUM: Progestins thin uterine lining → hostile to implantation. 3) THICKEN CERVICAL MUCUS: Progestins increase mucus viscosity → inhibit sperm penetration. Most important is prevention of ovulation - if ovulation is suppressed, pregnancy cannot occur.',
@@ -373,10 +373,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '25',
     question: 'A 42-year-old woman with intact uterus is starting hormone replacement therapy (HRT) for menopausal symptoms. Why must a progestin be included with estrogen?',
     options: [
-      'Progestin enhances the effects of estrogen on hot flashes',
-      'Progestin prevents endometrial hyperplasia and carcinoma from unopposed estrogen',
-      'Progestin reduces the risk of breast cancer',
-      'Progestin is not necessary; estrogen alone is sufficient'
+      'Progestin enhances the effects of estrogen on hot flashes and vasomotor symptoms',
+      'Progestin prevents endometrial hyperplasia and carcinoma from unopposed estrogen exposure',
+      'Progestin reduces the risk of breast cancer in hormone therapy users',
+      'Progestin is not necessary; estrogen alone is sufficient for symptom management'
     ],
     correct_answer: 'Progestin prevents endometrial hyperplasia and carcinoma from unopposed estrogen',
     explanation: 'UNOPPOSED estrogen (estrogen without progestin) in women with intact uterus causes endometrial hyperplasia → increased risk of endometrial carcinoma. Progestin OPPOSES estrogen\'s proliferative effects on endometrium, preventing hyperplasia. Women who have had hysterectomy can use estrogen alone. Common regimens: Premarin (estrogen alone for post-hysterectomy), Prempro (estrogen + MPA for intact uterus), Premphase (cyclic estrogen + progestin).',
@@ -388,10 +388,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '26',
     question: 'A patient with ER+ breast cancer is prescribed tamoxifen. What is the MOA and what major adverse effect should you monitor?',
     options: [
-      'Tamoxifen blocks estrogen receptors everywhere; no adverse effects',
+      'Tamoxifen blocks estrogen receptors everywhere; no adverse effects occur',
       'Tamoxifen is an estrogen antagonist in breast but agonist in uterus; monitor for endometrial hyperplasia/cancer',
       'Tamoxifen increases estrogen production; monitor for hot flashes only',
-      'Tamoxifen has no effect on the uterus'
+      'Tamoxifen has no effect on the uterus or endometrial tissue'
     ],
     correct_answer: 'Tamoxifen is an estrogen antagonist in breast but agonist in uterus; monitor for endometrial hyperplasia/cancer',
     explanation: 'Tamoxifen is a SERM with tissue-specific activity: ANTAGONIST in breast tissue (treats ER+ breast cancer) but AGONIST in uterus (increases risk of endometrial hyperplasia and cancer). Also increases VTE risk (DVT, PE). Most effective for ER+/PR+ tumors. Used as adjuvant therapy with chemo/radiation and for breast cancer prevention in high-risk women. Resistance typically develops after 5 years. Monitor for abnormal vaginal bleeding (sign of endometrial cancer).',
@@ -403,10 +403,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '27',
     question: 'A woman who had unprotected intercourse 48 hours ago wants emergency contraception. She weighs 180 lbs. What is the best option?',
     options: [
-      'Plan B (levonorgestrel) - works up to 72 hours',
+      'Plan B (levonorgestrel) - works up to 72 hours post-intercourse',
       'Ella (ulipristal) - works up to 5 days and more effective than Plan B',
-      'Combined OCPs in high doses',
-      'Wait to see if pregnancy occurs'
+      'Combined OCPs in high doses as emergency contraception',
+      'Wait to see if pregnancy occurs before taking action'
     ],
     correct_answer: 'Ella (ulipristal) - works up to 5 days and more effective than Plan B',
     explanation: 'PLAN B (levonorgestrel 1.5mg): Works up to 72 hours, less effective after 72H, less effective in obese women (BMI >25). ELLA (ulipristal acetate): Selective progesterone receptor modulator, ONLY emergency contraceptive that delays ovulation, works up to 5 DAYS (120 hours), MORE EFFECTIVE than Plan B (85% vs 75% reduction), maintains efficacy in obese women. For this patient at 48 hours, both work, but Ella is more effective, especially given her weight.',
@@ -418,10 +418,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '28',
     question: 'A postmenopausal woman with ER+ metastatic breast cancer has failed tamoxifen therapy. What is the next-line therapy?',
     options: [
-      'Increase tamoxifen dose',
-      'Switch to raloxifene (another SERM)',
+      'Increase tamoxifen dose to overcome resistance mechanisms',
+      'Switch to raloxifene (another SERM) for continued therapy',
       'Start an aromatase inhibitor (anastrozole, letrozole, or exemestane)',
-      'Start hormone replacement therapy'
+      'Start hormone replacement therapy to manage menopausal symptoms'
     ],
     correct_answer: 'Start an aromatase inhibitor (anastrozole, letrozole, or exemestane)',
     explanation: 'Aromatase inhibitors are SECOND-LINE therapy for ER+ breast cancer after tamoxifen failure or first-line in postmenopausal women. Block aromatase enzyme → prevent conversion of androgens to estrogen → decrease local estrogen production. NON-STEROIDAL: Anastrozole (Arimidex), Letrozole (Femara). STEROIDAL: Exemestane (Aromasin). Only work in POSTMENOPAUSAL women (premenopausal women have ovarian estrogen production). NO bone-protective effects (unlike SERMs).',
@@ -433,10 +433,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '29',
     question: 'Compare monophasic vs extended regimen (Seasonique) oral contraceptives. What is the main advantage of extended regimen?',
     options: [
-      'Extended regimen is more effective at preventing pregnancy',
+      'Extended regimen is more effective at preventing pregnancy than traditional cycles',
       'Extended regimen provides period once every 3 months with decreased bleeding; reduces menstruation frequency',
-      'Extended regimen has fewer side effects',
-      'Extended regimen is less expensive'
+      'Extended regimen has fewer side effects than traditional 28-day cycles',
+      'Extended regimen is less expensive than traditional monthly formulations'
     ],
     correct_answer: 'Extended regimen provides period once every 3 months with decreased bleeding; reduces menstruation frequency',
     explanation: 'EXTENDED REGIMEN: 84 days of active hormones + 7 days placebo or low-dose estrogen → period once every 3 MONTHS, shorter duration (3 days), less bleeding. Seasonique uses low-dose estrogen instead of placebo to limit bloating, hormonal fluctuations, and breakthrough bleeding. Main disadvantage: breakthrough bleeding/spotting especially in first few cycles. Efficacy is the same as traditional 21/7 regimens. Many women prefer fewer periods.',
@@ -448,10 +448,10 @@ export const breezeQuiz: QuizQuestion[] = [
     id: '30',
     question: 'A woman with diabetes, hypertension (well-controlled), and migraine headaches wants contraception. What is the safest hormonal option?',
     options: [
-      'Combined oral contraceptive',
-      'Contraceptive patch (higher estrogen exposure)',
+      'Combined oral contraceptive with low-dose estrogen formulation',
+      'Contraceptive patch (higher estrogen exposure than pills)',
       'Progestin-only contraceptive (pill, IUD, implant, or injection)',
-      'Vaginal ring'
+      'Vaginal ring for continuous low-dose hormone delivery'
     ],
     correct_answer: 'Progestin-only contraceptive (pill, IUD, implant, or injection)',
     explanation: 'This patient has RELATIVE contraindications for combined OCPs: diabetes (small risk of worsening vascular disease), migraine (increased stroke risk with aura). BEST OPTION: PROGESTIN-ONLY contraceptive which avoids estrogen-related CV and VTE risks. Options: 1) PO norethindrone (mini-pill), 2) Etonogestrel implant (Nexplanon) - 5 years, 3) Medroxyprogesterone injection (Depo-Provera) - q3 months, 4) Levonorgestrel IUD (Mirena, Kyleena) - 3-5 years. IUD is most effective long-acting option.',
