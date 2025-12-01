@@ -33,12 +33,12 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
   // Calculate total flashcards
   const totalFlashcards = professors.reduce((total, prof) => total + (prof.flashcards?.length || 0), 0);
 
-  // Professor metadata for difficulty, time estimates, and exam categories
-  const professorMeta: Record<string, { difficulty: string; timeEstimate: string; category: string; gradeWeight: string }> = {
-    'burmeister': { difficulty: 'Challenging', timeEstimate: '2 hours', category: 'Pathophysiology', gradeWeight: '10% of grade' },
-    'breeze': { difficulty: 'Moderate', timeEstimate: '90 min', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
-    'weldon': { difficulty: 'Moderate', timeEstimate: '90 min', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
-    'virga': { difficulty: 'Challenging', timeEstimate: '2 hours', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' }
+  // Professor metadata for exam categories and grade weights
+  const professorMeta: Record<string, { category: string; gradeWeight: string }> = {
+    'burmeister': { category: 'Pathophysiology', gradeWeight: '10% of grade' },
+    'breeze': { category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
+    'weldon': { category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
+    'virga': { category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' }
   };
   return (
     <div className="container mx-auto px-4 py-8 max-w-6xl">
@@ -341,21 +341,13 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 <p className="text-sm font-semibold text-pda-gold-600">
                   {professor.specialty}
                 </p>
-                {/* Difficulty and Time Badges */}
+                {/* Category and Grade Weight Badges */}
                 <div className="flex gap-2 justify-center mt-3 flex-wrap">
-                  <span className="text-xs px-3 py-1 bg-pda-gold-100 text-pda-gold-700 rounded-full font-semibold border border-pda-gold-300">
-                    {professorMeta[professor.id]?.difficulty || 'Moderate'}
-                  </span>
-                  <span className="text-xs px-3 py-1 bg-pda-winter-100 text-pda-winter-700 rounded-full font-semibold border border-pda-winter-300">
-                    ⏱️ {professorMeta[professor.id]?.timeEstimate || '90 min'}
-                  </span>
-                  <span className="text-xs px-2 py-1 bg-pda-cranberry-100 text-pda-cranberry-700 rounded-full font-semibold border border-pda-cranberry-300">
-                    📊 {professorMeta[professor.id]?.gradeWeight || '19% of grade'}
-                  </span>
-                </div>
-                <div className="text-center mt-2">
-                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-700 rounded-full font-medium border border-purple-300">
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-700 rounded-full font-semibold border border-purple-300">
                     {professorMeta[professor.id]?.category || 'Med Chem'}
+                  </span>
+                  <span className="text-xs px-3 py-1 bg-pda-cranberry-100 text-pda-cranberry-700 rounded-full font-semibold border border-pda-cranberry-300">
+                    📊 {professorMeta[professor.id]?.gradeWeight || '19% of grade'}
                   </span>
                 </div>
               </div>
