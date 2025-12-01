@@ -68,14 +68,27 @@ export const ProfessorDetail: React.FC<ProfessorDetailProps> = ({
                   <span>⭐</span>
                   High-Yield Concepts
                 </h3>
-                <ul className="space-y-2">
-                  {professor.overview.highYieldConcepts.map((concept: string, idx: number) => (
-                    <li key={idx} className="flex items-start gap-3">
-                      <span className="text-pda-gold-600 font-bold mt-0.5">•</span>
-                      <span className="text-secondary font-medium">{concept}</span>
-                    </li>
-                  ))}
-                </ul>
+                <div className="space-y-3">
+                  {professor.overview.highYieldConcepts.map((concept: string, idx: number) => {
+                    // Check if this is a category header (starts with ###)
+                    if (concept.startsWith('###')) {
+                      const categoryTitle = concept.replace('###', '').trim();
+                      return (
+                        <h4 key={idx} className="text-lg font-bold text-pda-gold-800 mt-6 mb-2 first:mt-0 flex items-center gap-2">
+                          <span className="text-pda-gold-600">📌</span>
+                          {categoryTitle}
+                        </h4>
+                      );
+                    }
+                    // Regular concept item
+                    return (
+                      <div key={idx} className="flex items-start gap-3 ml-6">
+                        <span className="text-pda-gold-600 font-bold mt-0.5 flex-shrink-0">•</span>
+                        <span className="text-secondary font-medium">{concept}</span>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             )}
 

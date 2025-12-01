@@ -74,7 +74,7 @@ export const weldonContent: ProfessorContent = {
       'Understand mifepristone (RU-486) as progesterone antagonist/abortifacient'
     ],
     highYieldConcepts: [
-      // BPH/ED/UI Med Chem
+      '### BPH/ED/URINARY INCONTINENCE MEDICINAL CHEMISTRY',
       'Alpha-1 antagonists: QUINAZOLINES with "-azosin" suffix (prazosin, terazosin, doxazosin, tamsulosin, alfuzosin, silodosin)',
       'Tamsulosin: Selective for alpha-1A (prostate) vs alpha-1B (vasculature) → less CV side effects',
       '5-Alpha-reductase isoforms: Type 1 (skin/liver), Type 2 (reproductive tissue - BPH target)',
@@ -88,7 +88,7 @@ export const weldonContent: ProfessorContent = {
       'Beta-3 agonists (mirabegron): Structurally resemble EPINEPHRINE',
       'Desmopressin (DDAVP): Vasopressin analogue with oral bioavailability and longer duration',
 
-      // Osteoporosis Med Chem
+      '### OSTEOPOROSIS MEDICINAL CHEMISTRY',
       'Bone cells: Osteogenic (stem), Osteoblasts (produce), Osteocytes (maintain), Osteoclasts (resorb)',
       'Bisphosphonates mimic INORGANIC PYROPHOSPHATE (IPP): P-C-P bond (vs P-O-P) → resistant to hydrolysis, long half-life',
       'Nitrogen-containing R2 side chain increases BPP POTENCY and TOXICITY (linked to BRONJ)',
@@ -98,7 +98,7 @@ export const weldonContent: ProfessorContent = {
       'Denosumab: Monoclonal antibody binds RANKL → prevents osteoclast differentiation (antiresorptive)',
       'Romosozumab: Anti-sclerostin antibody, DUAL MOA (increases formation + decreases resorption) - UNIQUE',
 
-      // Gonadal Hormones Med Chem
+      '### GONADAL HORMONES MEDICINAL CHEMISTRY',
       'Sex hormone classification: Estrogens (C18, aromatic A ring, 3-phenolic OH), Progestins (C21, 3-keto-4,5-ene), Androgens (C19, oxygens at 3 and 17)',
       '3 classic estrogens: Estrone, 17β-ESTRADIOL (most potent), Estriol',
       'Aromatase (CYP19): Critical enzyme converting androgens → estrogens (requires 3 O2 + NADPH)',

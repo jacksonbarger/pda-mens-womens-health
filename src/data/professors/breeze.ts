@@ -65,7 +65,7 @@ export const breezeContent: ProfessorContent = {
       'Recognize HRT formulations and why progestins are required with intact uterus'
     ],
     highYieldConcepts: [
-      // GU/ED High-Yield
+      '### GU/ED & BPH PHARMACOLOGY',
       'Erection: Parasympathetic → NO → guanylate cyclase → cGMP → smooth muscle relaxation → vasodilation',
       'Detumescence: Sympathetic → norepinephrine → PDE5 activates → degrades cGMP → contraction',
       'PDE5 inhibitors MOA: Block PDE5 → prevent cGMP degradation → prolong erection (REQUIRES sexual stimulation)',
@@ -82,7 +82,7 @@ export const breezeContent: ProfessorContent = {
       'BPH combination therapy: Alpha blocker (immediate relief) + 5-ARI (long-term shrinkage)',
       'OAB: Antimuscarinics (block M3) vs Beta-3 agonists (Mirabegron, Vibegron - NO anticholinergic SE)',
 
-      // Bone/Osteoporosis High-Yield
+      '### BONE & OSTEOPOROSIS PHARMACOLOGY',
       'PTH (low Ca): Increases bone resorption, increases renal Ca reabsorption, activates Vitamin D',
       'Vitamin D synthesis: Skin (UV) → D3 → Liver (25-OH) → Kidney (PTH stimulus) → 1,25-(OH)2 D (ACTIVE)',
       'Calcitonin (high Ca): Inhibits osteoclast activity, decreases bone resorption',
@@ -102,7 +102,7 @@ export const breezeContent: ProfessorContent = {
       'Calcium carbonate: Requires acid (take WITH food), more constipation, PPI decreases absorption',
       'Calcium citrate: NO acid required (take anytime), better for elderly/PPI users, less constipation',
 
-      // Gonadal Hormones High-Yield
+      '### GONADAL HORMONES & CONTRACEPTION PHARMACOLOGY',
       'HPG Axis: Hypothalamus (GnRH) → Pituitary (FSH, LH) → Gonads (estrogen, progesterone, testosterone)',
       'Menstrual cycle: FOLLICULAR (FSH/LH increase) → OVULATION (LH surge, follicle release) → LUTEAL (progesterone prepares endometrium)',
       'Combined OCP MOA: 1) Prevent ovulation (suppress LH/FSH), 2) Thin endometrium, 3) Thicken cervical mucus',

@@ -42,14 +42,15 @@ export const burmeisterContent: ProfessorContent = {
       'Differentiate between urge, stress, and mixed incontinence'
     ],
     highYieldConcepts: [
-      // BENIGN BREAST DISEASE & GALACTORRHEA
+      // Category markers start with "###" to be rendered as headers
+      '### BENIGN BREAST DISEASE & GALACTORRHEA',
       'Galactorrhea: Idiopathic = diagnosis of exclusion when breast tissue is particularly sensitive to prolactin',
       'Galactorrhea: Results when breast tissue is particularly sensitive to prolactin in the blood',
       'Proliferative BBD increases cancer risk; nonproliferative BBD does NOT increase cancer risk',
       'Cooper ligaments: connective tissue that gives breast shape; dimpling suggests growth beneath',
       'Mastitis: triggered by nipple irritation, trauma, chafing; presents with localized erythema, warmth, burning during breastfeeding',
 
-      // MENSTRUAL DISORDERS
+      '### MENSTRUAL DISORDERS',
       'Primary dysmenorrhea: begins ~6 months after menarche, lasts 48-72 hours',
       'Secondary dysmenorrhea: affects 2nd-3rd decade, may have heavy flow/painful intercourse/poor OCP response',
       'Primary amenorrhea: absence of menarche by age 15',
@@ -57,12 +58,25 @@ export const burmeisterContent: ProfessorContent = {
       'Menstrual cycle: GnRH → FSH + LH; FSH prepares follicle; LH causes ovulation; corpus luteum shed if no implantation',
       'DUB most affects women who just started cycle OR are peri/postmenopausal',
 
-      // PCOS, ENDOMETRIOSIS & PMS
+      '### PCOS, ENDOMETRIOSIS & PMS',
       'PMS diagnostic criteria: symptoms 5 days before period, persist 3 consecutive cycles, interfere with life, end within 4 days after cycle',
       'PCOS: abnormal HPO axis, hyperandrogenism (hirsutism, acne), metabolic syndrome, diabetes risk',
       'Endometriosis most common sites: fallopian tubes, vagina, cervix, uterosacral ligaments',
 
-      // FEMALE INFERTILITY
+      '### MALE REPRODUCTIVE DISORDERS',
+      'BPH: enlargement of prostate gland causing urinary symptoms (frequency, urgency, weak stream, nocturia)',
+      'BPH most common in men >50yo; caused by DHT (dihydrotestosterone) stimulation of prostate growth',
+      'Erectile dysfunction (ED): inability to achieve/maintain erection; causes include vascular, neurologic, hormonal, psychogenic',
+      'ED evaluation: rule out cardiovascular disease, diabetes, medications (especially antihypertensives, antidepressants)',
+      'Prostatitis: inflammation of prostate; acute (bacterial, sudden onset with fever/pain) vs chronic (persistent pelvic pain)',
+
+      '### URINARY DISORDERS & INCONTINENCE',
+      'Stress incontinence: urine leakage with increased abdominal pressure (cough, sneeze, exercise); due to weak pelvic floor/sphincter',
+      'Urge incontinence: sudden strong urge to urinate with involuntary leakage; due to detrusor overactivity',
+      'Mixed incontinence: combination of stress and urge incontinence symptoms',
+      'Overflow incontinence: bladder does not empty completely; causes include BPH, diabetic neuropathy, medications',
+
+      '### FEMALE INFERTILITY',
       'Female infertility assessment: after 1 year if <35yo, after 6 months if ≥35yo'
     ],
     clinicalPearls: [

@@ -62,7 +62,7 @@ export const virgaContent: ProfessorContent = {
       'Know ulipristal (Ella) as SPRM for emergency contraception within 120 hours'
     ],
     highYieldConcepts: [
-      // ESTROGEN FUNDAMENTALS
+      '### ESTROGEN FUNDAMENTALS',
       'Sex hormone classification by structure: ESTROGENS = C18 with AROMATIC A ring + 3-PHENOLIC OH, PROGESTINS = C21 with 3-KETO-4,5-ENE, ANDROGENS = C19 with oxygens at 3 AND 17',
       '3 classic estrogens: Estrone (E1), 17β-ESTRADIOL (E2 - MOST POTENT), Estriol (E3)',
       'Aromatase (CYP19): Critical enzyme converting ANDROGENS → ESTROGENS (requires 3 O2 + NADPH for demethylation, hydroxylation, dehydrogenation)',
@@ -71,7 +71,7 @@ export const virgaContent: ProfessorContent = {
       'Estradiol ↔ Estrone (interconvertible via ESTRADIOL DEHYDROGENASE)',
       'Estradiol poor oral BA: RAPID 17β-HYDROXYL OXIDATION (converts to estrone) + CONJUGATION',
 
-      // SYNTHETIC ESTROGENS & SAR
+      '### SYNTHETIC ESTROGENS & SAR',
       'Ethinyl estradiol: 17α-ETHINYL blocks oxidation → prevents estrone conversion → 15-20x more potent ORALLY, 40% BA',
       'KEY SAR: 17α-ALKYL substituent is NECESSARY for oral activity in all oral estrogens',
       'Mestranol: 3-O-METHYL PRODRUG of ethinyl estradiol (demethylated in liver)',
@@ -82,7 +82,7 @@ export const virgaContent: ProfessorContent = {
       'Aromatic A ring with 3-phenolic OH is ESSENTIAL for estrogenic activity',
       'Stilbene derivatives (DES): Nonsteroidal estrogens, TRANS isomer MORE POTENT than cis, linked to neoplasia in offspring',
 
-      // ESTROGEN ANTAGONISTS (SERMs & AROMATASE INHIBITORS)
+      '### ESTROGEN ANTAGONISTS (SERMs & AROMATASE INHIBITORS)',
       'Estrogen antagonist classes: 1) IMPEDED estrogens (weak, rapid dissociation), 2) TRIPHENYLETHYLENES (strong persistent binding), 3) AROMATASE INHIBITORS (prevent synthesis)',
       'Triphenylethylene mechanism: STRONG PERSISTENT ER BINDING → cannot TRANSLOCATE to nucleus or bind chromatin → antagonism',
       'Clomiphene: E-isomer (ANTIESTROGENIC) + Z-isomer (ESTROGENIC), dosed as RACEMIC MIXTURE = PARTIAL AGONIST for ovulation induction',
@@ -91,7 +91,7 @@ export const virgaContent: ProfessorContent = {
       'Aromatase inhibitor MOA: N-4 AZOLE NITROGEN binds HEME IRON of CYP19 → prevents O2 binding → blocks catalysis',
       'Aromatase inhibitors: STEROIDAL (exemestane - irreversible), NONSTEROIDAL triazoles (anastrozole, letrozole - reversible)',
 
-      // PROGESTIN CHEMISTRY & SAR
+      '### PROGESTIN CHEMISTRY & SAR',
       'Progesterone: RAPID metabolism (t1/2 5-10 minutes), excreted as 5β-pregnanediol conjugate → necessitates synthetic progestins',
       'Synthetic progestins: PREGNANES (C6 methyl → oral availability) vs 19-NORANDROSTANES (from testosterone modification)',
       '19-Nor modification: Loss of C19 METHYL → DECREASES ANDROGENIC activity (converts androgen-like to progestin)',
@@ -103,7 +103,7 @@ export const virgaContent: ProfessorContent = {
       'Desogestrel → ETONOGESTREL (active metabolite, used in NuvaRing and Nexplanon)',
       'Levonorgestrel: Most androgenic progestin, used in emergency contraception (Plan B)',
 
-      // PROGESTERONE ANTAGONISTS & KEY CONCEPTS
+      '### PROGESTERONE ANTAGONISTS & KEY CONCEPTS',
       'Mifepristone (RU-486): PROGESTERONE ANTAGONIST + weak glucocorticoid antagonist, abortifacient (600mg + misoprostol)',
       'Ulipristal (Ella): SPRM (Selective Progesterone Receptor Modulator), emergency contraception within 120 HOURS (5 days), more effective than levonorgestrel',
       'KEY CONCEPT: Structural modifications can dramatically change hormone class (e.g., ethinyl on androgen → progestin)',
