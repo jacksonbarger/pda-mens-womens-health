@@ -62,31 +62,27 @@ export const virgaContent: ProfessorContent = {
       'Know ulipristal (Ella) as SPRM for emergency contraception within 120 hours'
     ],
     highYieldConcepts: [
-      // Sex Hormone Classification
+      // ESTROGEN FUNDAMENTALS
       'Sex hormone classification by structure: ESTROGENS = C18 with AROMATIC A ring + 3-PHENOLIC OH, PROGESTINS = C21 with 3-KETO-4,5-ENE, ANDROGENS = C19 with oxygens at 3 AND 17',
       '3 classic estrogens: Estrone (E1), 17β-ESTRADIOL (E2 - MOST POTENT), Estriol (E3)',
       'Aromatase (CYP19): Critical enzyme converting ANDROGENS → ESTROGENS (requires 3 O2 + NADPH for demethylation, hydroxylation, dehydrogenation)',
       'Aromatase deficiency → failure of female sexual maturation',
-
-      // Estrogen Metabolism
       'Estradiol metabolism pathway: HYDROXYLATION (2/4-positions) → CATECHOL estrogens → COMT → O-METHOXY → CONJUGATION (sulfate/glucuronide) → EXCRETION',
       'Estradiol ↔ Estrone (interconvertible via ESTRADIOL DEHYDROGENASE)',
       'Estradiol poor oral BA: RAPID 17β-HYDROXYL OXIDATION (converts to estrone) + CONJUGATION',
 
-      // Synthetic Estrogen Development
+      // SYNTHETIC ESTROGENS & SAR
       'Ethinyl estradiol: 17α-ETHINYL blocks oxidation → prevents estrone conversion → 15-20x more potent ORALLY, 40% BA',
       'KEY SAR: 17α-ALKYL substituent is NECESSARY for oral activity in all oral estrogens',
       'Mestranol: 3-O-METHYL PRODRUG of ethinyl estradiol (demethylated in liver)',
       '17β-Esters (valerate, cypionate): Long-acting IM PRODRUGS (14-28 days), esterases release estradiol',
       'Conjugated estrogens (PREMARIN): From pregnant MARE urine, contains EQUILIN/EQUILENIN (B-ring unsaturated - NOT in humans)',
-
-      // Estrogen SAR
       'Estrogen SAR: Removal of EITHER C3 oxygen OR C17 oxygen DIMINISHES activity (both are critical for receptor binding)',
       '17α-epimerization (hydroxyl flip from β to α) DIMINISHES activity',
       'Aromatic A ring with 3-phenolic OH is ESSENTIAL for estrogenic activity',
       'Stilbene derivatives (DES): Nonsteroidal estrogens, TRANS isomer MORE POTENT than cis, linked to neoplasia in offspring',
 
-      // Estrogen Antagonists
+      // ESTROGEN ANTAGONISTS (SERMs & AROMATASE INHIBITORS)
       'Estrogen antagonist classes: 1) IMPEDED estrogens (weak, rapid dissociation), 2) TRIPHENYLETHYLENES (strong persistent binding), 3) AROMATASE INHIBITORS (prevent synthesis)',
       'Triphenylethylene mechanism: STRONG PERSISTENT ER BINDING → cannot TRANSLOCATE to nucleus or bind chromatin → antagonism',
       'Clomiphene: E-isomer (ANTIESTROGENIC) + Z-isomer (ESTROGENIC), dosed as RACEMIC MIXTURE = PARTIAL AGONIST for ovulation induction',
@@ -95,25 +91,21 @@ export const virgaContent: ProfessorContent = {
       'Aromatase inhibitor MOA: N-4 AZOLE NITROGEN binds HEME IRON of CYP19 → prevents O2 binding → blocks catalysis',
       'Aromatase inhibitors: STEROIDAL (exemestane - irreversible), NONSTEROIDAL triazoles (anastrozole, letrozole - reversible)',
 
-      // Progestin Chemistry
+      // PROGESTIN CHEMISTRY & SAR
       'Progesterone: RAPID metabolism (t1/2 5-10 minutes), excreted as 5β-pregnanediol conjugate → necessitates synthetic progestins',
       'Synthetic progestins: PREGNANES (C6 methyl → oral availability) vs 19-NORANDROSTANES (from testosterone modification)',
       '19-Nor modification: Loss of C19 METHYL → DECREASES ANDROGENIC activity (converts androgen-like to progestin)',
       'ETHINYL on ANDROGEN → converts to PROGESTIN (counterintuitive but important SAR principle)',
       'Medroxyprogesterone: 6α-METHYL blocks metabolism, NO androgenic activity',
       'Megestrol: 6-7 DOUBLE BOND reduces metabolism, used for breast/endometrial cancer',
-
-      // Progestin Androgenic Activity
       'Progestin androgenic activity ranking: HIGH (norgestrel, levonorgestrel - 2nd gen), LOW (norgestimate, desogestrel - 3rd gen), LEAST (norethindrone)',
       '3rd generation progestins: Lower androgenic effects BUT possibly higher VTE risk',
       'Desogestrel → ETONOGESTREL (active metabolite, used in NuvaRing and Nexplanon)',
       'Levonorgestrel: Most androgenic progestin, used in emergency contraception (Plan B)',
 
-      // Progesterone Antagonists
+      // PROGESTERONE ANTAGONISTS & KEY CONCEPTS
       'Mifepristone (RU-486): PROGESTERONE ANTAGONIST + weak glucocorticoid antagonist, abortifacient (600mg + misoprostol)',
       'Ulipristal (Ella): SPRM (Selective Progesterone Receptor Modulator), emergency contraception within 120 HOURS (5 days), more effective than levonorgestrel',
-
-      // Key Medicinal Chemistry Principles
       'KEY CONCEPT: Structural modifications can dramatically change hormone class (e.g., ethinyl on androgen → progestin)',
       'KEY CONCEPT: Small changes profoundly affect activity (e.g., 17α vs 17β hydroxyl orientation)',
       'KEY CONCEPT: Metabolic blocking strategies (17α-ethinyl, C6 methyl) enable oral bioavailability',
