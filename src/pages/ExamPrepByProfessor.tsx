@@ -33,12 +33,12 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
   // Calculate total flashcards
   const totalFlashcards = professors.reduce((total, prof) => total + (prof.flashcards?.length || 0), 0);
 
-  // Professor metadata for difficulty and time estimates
-  const professorMeta: Record<string, { difficulty: string; timeEstimate: string; examWeight: string }> = {
-    'burmeister': { difficulty: 'Challenging', timeEstimate: '2 hours', examWeight: '40%' },
-    'breeze': { difficulty: 'Moderate', timeEstimate: '90 min', examWeight: '25%' },
-    'weldon': { difficulty: 'Moderate', timeEstimate: '90 min', examWeight: '20%' },
-    'virga': { difficulty: 'Challenging', timeEstimate: '2 hours', examWeight: '15%' }
+  // Professor metadata for difficulty, time estimates, and exam categories
+  const professorMeta: Record<string, { difficulty: string; timeEstimate: string; category: string; gradeWeight: string }> = {
+    'burmeister': { difficulty: 'Challenging', timeEstimate: '2 hours', category: 'Pathophysiology', gradeWeight: '10% of grade' },
+    'breeze': { difficulty: 'Moderate', timeEstimate: '90 min', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
+    'weldon': { difficulty: 'Moderate', timeEstimate: '90 min', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' },
+    'virga': { difficulty: 'Challenging', timeEstimate: '2 hours', category: 'Med Chem/Pharmacology', gradeWeight: '19% of grade' }
   };
   return (
     <div className="container mx-auto px-4 py-8 max-w-6xl">
@@ -271,55 +271,44 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
       {/* Suggested Study Order */}
       <div className="mb-6 bg-pda-winter-50 border-2 border-pda-winter-400 rounded-lg p-5 shadow-md">
         <h3 className="font-bold text-xl text-pda-winter-700 mb-4 flex items-center gap-2">
-          <span>🎯</span> Suggested Study Order (By Exam Weight)
+          <span>🎯</span> Suggested Study Order (By Course Grade Weight)
         </h3>
-        <div className="flex flex-col md:flex-row items-center gap-3 mb-4">
-          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="font-bold text-pda-winter-600 text-lg">1.</span>
-                <span className="font-bold text-gray-800 ml-2">Dr. Burmeister</span>
-                <span className="text-sm text-gray-600 block ml-6">Pathophysiology</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <div className="bg-gradient-to-br from-pda-cranberry-50 to-white p-4 rounded-lg border-2 border-pda-cranberry-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between mb-3">
+              <span className="font-bold text-gray-800 text-lg">Med Chem/Pharmacology</span>
+              <span className="text-2xl font-bold text-pda-cranberry-600">19%</span>
+            </div>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center gap-2 text-gray-700">
+                <span className="font-semibold">1.</span>
+                <span>Dr. Breeze (Gonadal Hormones)</span>
               </div>
-              <span className="text-2xl font-bold text-pda-cranberry-600">40%</span>
+              <div className="flex items-center gap-2 text-gray-700">
+                <span className="font-semibold">2.</span>
+                <span>Dr. Weldon (Medicinal Chemistry)</span>
+              </div>
+              <div className="flex items-center gap-2 text-gray-700">
+                <span className="font-semibold">3.</span>
+                <span>Dr. Virga (Med Chem Focus)</span>
+              </div>
             </div>
           </div>
-          <span className="text-2xl text-gray-400 hidden md:block">→</span>
-          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="font-bold text-pda-winter-600 text-lg">2.</span>
-                <span className="font-bold text-gray-800 ml-2">Dr. Breeze</span>
-                <span className="text-sm text-gray-600 block ml-6">Pharmacology</span>
-              </div>
-              <span className="text-2xl font-bold text-pda-forest-600">25%</span>
+          <div className="bg-gradient-to-br from-pda-winter-50 to-white p-4 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between mb-3">
+              <span className="font-bold text-gray-800 text-lg">Pathophysiology</span>
+              <span className="text-2xl font-bold text-pda-winter-600">10%</span>
             </div>
-          </div>
-          <span className="text-2xl text-gray-400 hidden md:block">→</span>
-          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="font-bold text-pda-winter-600 text-lg">3.</span>
-                <span className="font-bold text-gray-800 ml-2">Dr. Weldon</span>
-                <span className="text-sm text-gray-600 block ml-6">Med Chem</span>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center gap-2 text-gray-700">
+                <span className="font-semibold">4.</span>
+                <span>Dr. Burmeister (GU Pathophysiology)</span>
               </div>
-              <span className="text-2xl font-bold text-pda-gold-600">20%</span>
-            </div>
-          </div>
-          <span className="text-2xl text-gray-400 hidden md:block">→</span>
-          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="font-bold text-pda-winter-600 text-lg">4.</span>
-                <span className="font-bold text-gray-800 ml-2">Dr. Virga</span>
-                <span className="text-sm text-gray-600 block ml-6">Med Chem</span>
-              </div>
-              <span className="text-2xl font-bold text-pda-winter-600">15%</span>
             </div>
           </div>
         </div>
         <p className="text-sm text-gray-600 text-center">
-          <strong>Tip:</strong> Start with the highest-weighted content, but adjust based on your personal strengths/weaknesses
+          <strong>Tip:</strong> Start with Med Chem (higher grade weight), but adjust based on your personal strengths/weaknesses
         </p>
       </div>
 
@@ -353,15 +342,20 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                   {professor.specialty}
                 </p>
                 {/* Difficulty and Time Badges */}
-                <div className="flex gap-2 justify-center mt-3">
+                <div className="flex gap-2 justify-center mt-3 flex-wrap">
                   <span className="text-xs px-3 py-1 bg-pda-gold-100 text-pda-gold-700 rounded-full font-semibold border border-pda-gold-300">
                     {professorMeta[professor.id]?.difficulty || 'Moderate'}
                   </span>
                   <span className="text-xs px-3 py-1 bg-pda-winter-100 text-pda-winter-700 rounded-full font-semibold border border-pda-winter-300">
                     ⏱️ {professorMeta[professor.id]?.timeEstimate || '90 min'}
                   </span>
-                  <span className="text-xs px-3 py-1 bg-pda-cranberry-100 text-pda-cranberry-700 rounded-full font-semibold border border-pda-cranberry-300">
-                    📊 {professorMeta[professor.id]?.examWeight || '25%'}
+                  <span className="text-xs px-2 py-1 bg-pda-cranberry-100 text-pda-cranberry-700 rounded-full font-semibold border border-pda-cranberry-300">
+                    📊 {professorMeta[professor.id]?.gradeWeight || '19% of grade'}
+                  </span>
+                </div>
+                <div className="text-center mt-2">
+                  <span className="text-xs px-3 py-1 bg-purple-100 text-purple-700 rounded-full font-medium border border-purple-300">
+                    {professorMeta[professor.id]?.category || 'Med Chem'}
                   </span>
                 </div>
               </div>
@@ -566,12 +560,12 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <button
-            onClick={() => onSelectProfessor('burmeister')}
+            onClick={() => onSelectProfessor('breeze')}
             className="bg-white hover:bg-pda-cranberry-50 border-2 border-pda-cranberry-300 rounded-lg p-5 transition-all hover:shadow-lg hover:scale-105 cursor-pointer"
           >
             <div className="text-3xl mb-2">🚀</div>
-            <div className="font-bold text-pda-cranberry-700 text-lg mb-1">Start with Burmeister</div>
-            <div className="text-xs text-gray-600">Highest exam weight (40%)</div>
+            <div className="font-bold text-pda-cranberry-700 text-lg mb-1">Start with Med Chem</div>
+            <div className="text-xs text-gray-600">Highest grade weight (19%)</div>
           </button>
 
           <button
