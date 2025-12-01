@@ -29,6 +29,17 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
 
   // Calculate total quiz questions across all professors
   const totalQuizQuestions = professors.reduce((total, prof) => total + (prof.quiz?.length || 0), 0);
+
+  // Calculate total flashcards
+  const totalFlashcards = professors.reduce((total, prof) => total + (prof.flashcards?.length || 0), 0);
+
+  // Professor metadata for difficulty and time estimates
+  const professorMeta: Record<string, { difficulty: string; timeEstimate: string; examWeight: string }> = {
+    'burmeister': { difficulty: 'Challenging', timeEstimate: '2 hours', examWeight: '40%' },
+    'breeze': { difficulty: 'Moderate', timeEstimate: '90 min', examWeight: '25%' },
+    'weldon': { difficulty: 'Moderate', timeEstimate: '90 min', examWeight: '20%' },
+    'virga': { difficulty: 'Challenging', timeEstimate: '2 hours', examWeight: '15%' }
+  };
   return (
     <div className="container mx-auto px-4 py-8 max-w-6xl">
       {/* Breadcrumb Navigation */}
@@ -38,6 +49,30 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
           { label: 'PDA/Med Chem Exam Prep' }
         ]}
       />
+
+      {/* Quick Stats Dashboard */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div className="bg-pda-cranberry-50 rounded-lg p-4 border-2 border-pda-cranberry-200 text-center hover:shadow-md transition-shadow">
+          <div className="text-3xl font-bold text-pda-cranberry-600 mb-1">{totalDrugCards}</div>
+          <div className="text-sm text-gray-700 font-medium">Drug Cards</div>
+          <div className="text-xs text-gray-500 mt-1">Complete Database</div>
+        </div>
+        <div className="bg-pda-forest-50 rounded-lg p-4 border-2 border-pda-forest-200 text-center hover:shadow-md transition-shadow">
+          <div className="text-3xl font-bold text-pda-forest-600 mb-1">{totalQuizQuestions}</div>
+          <div className="text-sm text-gray-700 font-medium">Practice Questions</div>
+          <div className="text-xs text-gray-500 mt-1">Exam-Style</div>
+        </div>
+        <div className="bg-pda-gold-50 rounded-lg p-4 border-2 border-pda-gold-200 text-center hover:shadow-md transition-shadow">
+          <div className="text-3xl font-bold text-pda-gold-600 mb-1">{totalFlashcards}</div>
+          <div className="text-sm text-gray-700 font-medium">Flashcards</div>
+          <div className="text-xs text-gray-500 mt-1">Quick Review</div>
+        </div>
+        <div className="bg-pda-winter-50 rounded-lg p-4 border-2 border-pda-winter-200 text-center hover:shadow-md transition-shadow">
+          <div className="text-3xl font-bold text-pda-winter-600 mb-1">4</div>
+          <div className="text-sm text-gray-700 font-medium">Flowcharts</div>
+          <div className="text-xs text-gray-500 mt-1">Interactive Maps</div>
+        </div>
+      </div>
 
       {/* How to Use This Guide - Collapsible */}
       <div className="mb-6 bg-pda-gold-50 border-2 border-pda-gold-400 rounded-lg overflow-hidden shadow-md">
@@ -49,10 +84,10 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
             <span className="text-3xl">📚</span>
             <div>
               <h3 className="text-xl font-bold text-pda-cranberry-700">
-                How to Ace Tomorrow's Exam Using This Tool
+                Strategic Study Guide for Exam Success
               </h3>
               <p className="text-sm text-pda-cranberry-600">
-                Click to see the strategic study plan →
+                Click to see your complete study plan →
               </p>
             </div>
           </div>
@@ -67,7 +102,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               {/* Study Strategy */}
               <div className="bg-pda-cranberry-50 rounded-lg p-4 border-l-4 border-pda-cranberry-600">
                 <h4 className="font-bold text-lg text-pda-cranberry-700 mb-3 flex items-center gap-2">
-                  <span>🎯</span> Strategic Study Plan (Next 24 Hours)
+                  <span>🎯</span> Strategic Study Plan (6-7 Hour Plan)
                 </h4>
                 <ol className="space-y-2 text-gray-700">
                   <li className="flex gap-3">
@@ -91,6 +126,34 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                     <span><strong>Flashcards for Final Review</strong> - Use flashcards for rapid-fire review 2-3 hours before the exam. Focus on cards you get wrong.</span>
                   </li>
                 </ol>
+              </div>
+
+              {/* Last-Minute Cramming */}
+              <div className="bg-red-50 rounded-lg p-4 border-l-4 border-red-600">
+                <h4 className="font-bold text-lg text-red-700 mb-3 flex items-center gap-2">
+                  <span>🚨</span> Last-Minute Cramming (&lt; 4 Hours Left)
+                </h4>
+                <ol className="space-y-2 text-gray-700">
+                  <li className="flex gap-3">
+                    <span className="font-bold text-red-600">1.</span>
+                    <span><strong>High-Yield Concepts ONLY</strong> - Read all 4 professors' high-yield sections (30-45 min)</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-bold text-red-600">2.</span>
+                    <span><strong>Drug Cards Speed Review</strong> - Focus on MOA and major side effects only (1 hour)</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-bold text-red-600">3.</span>
+                    <span><strong>Final Exam Challenge</strong> - Take it once to identify gaps (1 hour)</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="font-bold text-red-600">4.</span>
+                    <span><strong>Rapid Flashcards</strong> - Review wrong answers from Final Exam (30-45 min)</span>
+                  </li>
+                </ol>
+                <div className="mt-3 text-sm text-red-700 font-semibold bg-red-100 p-2 rounded">
+                  ⚠️ Skip quizzes and detailed explanations - focus on memorization only!
+                </div>
               </div>
 
               {/* Time Allocation */}
@@ -197,12 +260,67 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
               {/* Encouragement */}
               <div className="text-center pt-2">
                 <p className="text-lg font-semibold text-pda-cranberry-700">
-                  🎅 You've got this! This tool contains everything you need to ace tomorrow's exam. Good luck!
+                  🎉 You've got this! This tool contains everything you need to ace your exam. Good luck!
                 </p>
               </div>
             </div>
           </div>
         )}
+      </div>
+
+      {/* Suggested Study Order */}
+      <div className="mb-6 bg-pda-winter-50 border-2 border-pda-winter-400 rounded-lg p-5 shadow-md">
+        <h3 className="font-bold text-xl text-pda-winter-700 mb-4 flex items-center gap-2">
+          <span>🎯</span> Suggested Study Order (By Exam Weight)
+        </h3>
+        <div className="flex flex-col md:flex-row items-center gap-3 mb-4">
+          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="font-bold text-pda-winter-600 text-lg">1.</span>
+                <span className="font-bold text-gray-800 ml-2">Dr. Burmeister</span>
+                <span className="text-sm text-gray-600 block ml-6">Pathophysiology</span>
+              </div>
+              <span className="text-2xl font-bold text-pda-cranberry-600">40%</span>
+            </div>
+          </div>
+          <span className="text-2xl text-gray-400 hidden md:block">→</span>
+          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="font-bold text-pda-winter-600 text-lg">2.</span>
+                <span className="font-bold text-gray-800 ml-2">Dr. Breeze</span>
+                <span className="text-sm text-gray-600 block ml-6">Pharmacology</span>
+              </div>
+              <span className="text-2xl font-bold text-pda-forest-600">25%</span>
+            </div>
+          </div>
+          <span className="text-2xl text-gray-400 hidden md:block">→</span>
+          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="font-bold text-pda-winter-600 text-lg">3.</span>
+                <span className="font-bold text-gray-800 ml-2">Dr. Weldon</span>
+                <span className="text-sm text-gray-600 block ml-6">Med Chem</span>
+              </div>
+              <span className="text-2xl font-bold text-pda-gold-600">20%</span>
+            </div>
+          </div>
+          <span className="text-2xl text-gray-400 hidden md:block">→</span>
+          <div className="flex-1 bg-white px-4 py-3 rounded-lg border-2 border-pda-winter-300 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="font-bold text-pda-winter-600 text-lg">4.</span>
+                <span className="font-bold text-gray-800 ml-2">Dr. Virga</span>
+                <span className="text-sm text-gray-600 block ml-6">Med Chem</span>
+              </div>
+              <span className="text-2xl font-bold text-pda-winter-600">15%</span>
+            </div>
+          </div>
+        </div>
+        <p className="text-sm text-gray-600 text-center">
+          <strong>Tip:</strong> Start with the highest-weighted content, but adjust based on your personal strengths/weaknesses
+        </p>
       </div>
 
       {/* Page Header */}
@@ -212,7 +330,7 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         </h1>
         <p className="text-lg text-secondary max-w-3xl mx-auto">
           Study organized by professor. Each section includes learning objectives,
-          high-yield concepts, flashcards, and in-depth quizzes focused on tomorrow's exam.
+          high-yield concepts, flashcards, and in-depth quizzes for comprehensive exam preparation.
         </p>
       </div>
 
@@ -234,6 +352,18 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                 <p className="text-sm font-semibold text-pda-gold-600">
                   {professor.specialty}
                 </p>
+                {/* Difficulty and Time Badges */}
+                <div className="flex gap-2 justify-center mt-3">
+                  <span className="text-xs px-3 py-1 bg-pda-gold-100 text-pda-gold-700 rounded-full font-semibold border border-pda-gold-300">
+                    {professorMeta[professor.id]?.difficulty || 'Moderate'}
+                  </span>
+                  <span className="text-xs px-3 py-1 bg-pda-winter-100 text-pda-winter-700 rounded-full font-semibold border border-pda-winter-300">
+                    ⏱️ {professorMeta[professor.id]?.timeEstimate || '90 min'}
+                  </span>
+                  <span className="text-xs px-3 py-1 bg-pda-cranberry-100 text-pda-cranberry-700 rounded-full font-semibold border border-pda-cranberry-300">
+                    📊 {professorMeta[professor.id]?.examWeight || '25%'}
+                  </span>
+                </div>
               </div>
 
               {/* Topics Covered */}
@@ -423,16 +553,50 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
         </GiftCard>
       </div>
 
-      {/* Info Box */}
-      <div className="bg-pda-cranberry-50 border-2 border-pda-cranberry-300 rounded-lg p-6 text-center">
-        <h3 className="font-bold text-pda-cranberry-700 mb-2">
-          📋 Exam-Focused Content
-        </h3>
-        <p className="text-secondary text-sm">
-          All content is extracted from lecture slides with emphasis on highlighted concepts,
-          learning objectives, drug names (generic/brand), mechanisms, and pathophysiology.
-          Perfect for tomorrow's PDA/Med Chem exam!
-        </p>
+      {/* Quick Start Action Box */}
+      <div className="bg-gradient-to-r from-pda-cranberry-50 to-pda-gold-50 border-2 border-pda-cranberry-300 rounded-lg p-6 shadow-lg">
+        <div className="text-center mb-5">
+          <h3 className="font-bold text-pda-cranberry-700 text-2xl mb-2">
+            🎯 Ready to Start?
+          </h3>
+          <p className="text-secondary text-sm max-w-2xl mx-auto">
+            All content is exam-focused from lecture slides. Study smart, not hard!
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <button
+            onClick={() => onSelectProfessor('burmeister')}
+            className="bg-white hover:bg-pda-cranberry-50 border-2 border-pda-cranberry-300 rounded-lg p-5 transition-all hover:shadow-lg hover:scale-105 cursor-pointer"
+          >
+            <div className="text-3xl mb-2">🚀</div>
+            <div className="font-bold text-pda-cranberry-700 text-lg mb-1">Start with Burmeister</div>
+            <div className="text-xs text-gray-600">Highest exam weight (40%)</div>
+          </button>
+
+          <button
+            onClick={onViewFinalExam}
+            className="bg-white hover:bg-pda-gold-50 border-2 border-pda-gold-300 rounded-lg p-5 transition-all hover:shadow-lg hover:scale-105 cursor-pointer"
+          >
+            <div className="text-3xl mb-2">🎓</div>
+            <div className="font-bold text-pda-gold-700 text-lg mb-1">Take Diagnostic Test</div>
+            <div className="text-xs text-gray-600">Find your weak areas first</div>
+          </button>
+
+          <button
+            onClick={onViewAllDrugCards}
+            className="bg-white hover:bg-pda-forest-50 border-2 border-pda-forest-300 rounded-lg p-5 transition-all hover:shadow-lg hover:scale-105 cursor-pointer"
+          >
+            <div className="text-3xl mb-2">💊</div>
+            <div className="font-bold text-pda-forest-700 text-lg mb-1">Browse Drug Cards</div>
+            <div className="text-xs text-gray-600">Quick reference guide</div>
+          </button>
+        </div>
+      </div>
+
+      {/* Floating Keyboard Shortcuts Reminder */}
+      <div className="fixed bottom-6 right-6 bg-pda-gold-500 text-white px-5 py-3 rounded-full shadow-lg text-sm font-semibold hover:bg-pda-gold-600 transition-colors z-50 hidden md:block">
+        ⌨️ Tip: Use 1-4 keys for quick answers!
       </div>
     </div>
   );
