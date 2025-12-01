@@ -47,15 +47,15 @@
 
         <!-- 5-ARI SAR -->
         <mxCell id="5ari-sar-box" value="5-ALPHA-REDUCTASE INHIBITORS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="60" y="450" width="350" height="40" as="geometry"/>
+          <mxGeometry x="60" y="540" width="350" height="40" as="geometry"/>
         </mxCell>
 
         <mxCell id="finasteride-structure" value="Finasteride&lt;br&gt;• Azasteroid structure&lt;br&gt;• 4-Aza-3-oxo modification&lt;br&gt;• Selective for Type 2 5α-reductase&lt;br&gt;• Irreversible enzyme inhibitor&lt;br&gt;&lt;br&gt;SAR: Nitrogen at C4 mimics&lt;br&gt;testosterone transition state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="505" width="170" height="135" as="geometry"/>
+          <mxGeometry x="60" y="595" width="170" height="135" as="geometry"/>
         </mxCell>
 
         <mxCell id="dutasteride-structure" value="Dutasteride&lt;br&gt;• Dual 4,6-Aza modification&lt;br&gt;• Inhibits Type 1 + Type 2&lt;br&gt;• More complete DHT suppression&lt;br&gt;  (↓ serum DHT by 95%)&lt;br&gt;&lt;br&gt;Advantage: Broader inhibition&lt;br&gt;Disadvantage: Longer t½" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b3d9ff;strokeColor=#6c8ebf;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="530" width="170" height="145" as="geometry"/>
+          <mxGeometry x="240" y="595" width="170" height="145" as="geometry"/>
         </mxCell>
 
         <!-- SECTION 2: URINARY & UI DRUG CHEMISTRY -->
@@ -95,50 +95,50 @@
 
         <!-- SECTION 3: OSTEOPOROSIS DRUG CHEMISTRY -->
         <mxCell id="bone-section" value="SECTION 3: OSTEOPOROSIS DRUG CHEMISTRY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="40" y="710" width="750" height="50" as="geometry"/>
+          <mxGeometry x="40" y="770" width="750" height="50" as="geometry"/>
         </mxCell>
 
         <!-- Bisphosphonates -->
         <mxCell id="bisphos-box" value="BISPHOSPHONATES - P-C-P Core Structure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5e6ff;strokeColor=#9673a6;fontStyle=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="60" y="790" width="350" height="40" as="geometry"/>
+          <mxGeometry x="60" y="850" width="350" height="40" as="geometry"/>
         </mxCell>
 
         <mxCell id="bisphos-core" value="Core Structure: P-C-P&lt;br&gt;• Two phosphonate groups&lt;br&gt;• Geminal (same carbon)&lt;br&gt;• Central carbon with R1, R2&lt;br&gt;&lt;br&gt;Critical SAR:&lt;br&gt;• P-C-P binds hydroxyapatite&lt;br&gt;• R1 = OH → ↑ bone affinity&lt;br&gt;• R2 = nitrogen-containing side chain&lt;br&gt;  → ↑ potency (1000×)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="845" width="170" height="180" as="geometry"/>
+          <mxGeometry x="60" y="905" width="170" height="180" as="geometry"/>
         </mxCell>
 
         <mxCell id="alendronate-structure" value="Alendronate (Fosamax)&lt;br&gt;• R1 = OH&lt;br&gt;• R2 = 4-amino-butyl&lt;br&gt;• Nitrogen-containing bisphosphonate&lt;br&gt;&lt;br&gt;MOA: Inhibits farnesyl&lt;br&gt;pyrophosphate synthase&lt;br&gt;→ Disrupts osteoclast function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="845" width="170" height="130" as="geometry"/>
+          <mxGeometry x="240" y="905" width="170" height="130" as="geometry"/>
         </mxCell>
 
         <mxCell id="risedronate-structure" value="Risedronate&lt;br&gt;• R1 = OH&lt;br&gt;• R2 = 3-pyridinyl&lt;br&gt;• Heterocyclic nitrogen&lt;br&gt;• High potency&lt;br&gt;• Better GI tolerability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="240" y="990" width="170" height="105" as="geometry"/>
+          <mxGeometry x="240" y="1050" width="170" height="105" as="geometry"/>
         </mxCell>
 
         <mxCell id="zoledronate-structure" value="Zoledronate (IV)&lt;br&gt;• R2 = Imidazole ring&lt;br&gt;• Most potent bisphosphonate&lt;br&gt;• Annual IV infusion&lt;br&gt;• Used for Paget disease" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1040" width="170" height="90" as="geometry"/>
+          <mxGeometry x="60" y="1100" width="170" height="90" as="geometry"/>
         </mxCell>
 
         <!-- Denosumab -->
         <mxCell id="denosumab-box" value="DENOSUMAB - Monoclonal Antibody" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5e6ff;strokeColor=#9673a6;fontStyle=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="440" y="790" width="330" height="40" as="geometry"/>
+          <mxGeometry x="440" y="850" width="330" height="40" as="geometry"/>
         </mxCell>
 
         <mxCell id="denosumab-detail" value="Denosumab (Prolia)&lt;br&gt;• Fully human IgG2 monoclonal antibody&lt;br&gt;• Binds RANKL (receptor activator of&lt;br&gt;  nuclear factor kappa-B ligand)&lt;br&gt;• Prevents RANKL-RANK interaction&lt;br&gt;• Blocks osteoclast formation&lt;br&gt;&lt;br&gt;Advantage over bisphosphonates:&lt;br&gt;• No renal concerns&lt;br&gt;• SC injection every 6 months&lt;br&gt;• Rapid reversibility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="845" width="170" height="200" as="geometry"/>
+          <mxGeometry x="440" y="905" width="170" height="200" as="geometry"/>
         </mxCell>
 
         <!-- Anabolic Agents -->
         <mxCell id="anabolic-box" value="ANABOLIC BONE AGENTS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5e6ff;strokeColor=#9673a6;fontStyle=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1065" width="330" height="40" as="geometry"/>
+          <mxGeometry x="440" y="1125" width="330" height="40" as="geometry"/>
         </mxCell>
 
         <mxCell id="teriparatide-detail" value="Teriparatide (Forteo)&lt;br&gt;• Recombinant PTH(1-34)&lt;br&gt;• 34 amino acid N-terminal fragment&lt;br&gt;• ANABOLIC - builds bone&lt;br&gt;• Daily SC injection&lt;br&gt;• Max 2 years (↑ osteosarcoma risk&lt;br&gt;  in rat studies)&lt;br&gt;&lt;br&gt;MOA: Intermittent PTH exposure&lt;br&gt;→ ↑ osteoblast activity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1120" width="160" height="175" as="geometry"/>
+          <mxGeometry x="440" y="1180" width="160" height="175" as="geometry"/>
         </mxCell>
 
         <mxCell id="romosozumab-detail" value="Romosozumab (Evenity)&lt;br&gt;• Monoclonal antibody&lt;br&gt;• Inhibits sclerostin&lt;br&gt;• DUAL action:&lt;br&gt;  1) ↑ bone formation (anabolic)&lt;br&gt;  2) ↓ bone resorption&lt;br&gt;• Monthly SC injection × 12 months&lt;br&gt;&lt;br&gt;WARNING: CV risk (MI, stroke)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0e6ff;strokeColor=#9673a6;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="620" y="1120" width="140" height="160" as="geometry"/>
+          <mxGeometry x="620" y="1180" width="140" height="160" as="geometry"/>
         </mxCell>
 
         <!-- SECTION 4: GONADAL HORMONE SAR -->
