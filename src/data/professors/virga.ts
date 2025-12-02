@@ -9,7 +9,7 @@ import { virgaDrugCards } from './virgaDrugCards';
 export const virgaContent: ProfessorContent = {
   id: 'virga',
   name: 'Virga',
-  fullName: 'Professor Virga',
+  fullName: 'Dr. Virga',
   specialty: 'Gonadal Hormones Medicinal Chemistry',
   icon: '🧬',
   slideFiles: [

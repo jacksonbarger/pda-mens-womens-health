@@ -321,6 +321,74 @@ export const TimedQuizGame: React.FC<TimedQuizGameProps> = ({
           total={questions.length}
           label="Progress"
         />
+
+        {/* Live Score Analytics */}
+        <div className="mt-4 grid grid-cols-3 gap-3">
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-3 border border-blue-200">
+            <div className="text-xs font-semibold text-blue-600 uppercase tracking-wide mb-1">
+              Answered
+            </div>
+            <div className="text-2xl font-bold text-blue-900">
+              {currentIndex + (isAnswered ? 1 : 0)} / {questions.length}
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-3 border border-green-200">
+            <div className="text-xs font-semibold text-green-600 uppercase tracking-wide mb-1">
+              Correct
+            </div>
+            <div className="text-2xl font-bold text-green-900">
+              {correctCount}
+              {currentIndex > 0 && (
+                <span className="text-sm ml-1 text-green-600">
+                  ({Math.round((correctCount / (currentIndex + (isAnswered ? 1 : 0))) * 100)}%)
+                </span>
+              )}
+            </div>
+          </div>
+
+          <div className={`bg-gradient-to-br rounded-lg p-3 border ${
+            currentIndex === 0 && !isAnswered
+              ? 'from-gray-50 to-gray-100 border-gray-200'
+              : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.9
+              ? 'from-emerald-50 to-emerald-100 border-emerald-200'
+              : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.7
+              ? 'from-yellow-50 to-yellow-100 border-yellow-200'
+              : 'from-red-50 to-red-100 border-red-200'
+          }`}>
+            <div className={`text-xs font-semibold uppercase tracking-wide mb-1 ${
+              currentIndex === 0 && !isAnswered
+                ? 'text-gray-600'
+                : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.9
+                ? 'text-emerald-600'
+                : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.7
+                ? 'text-yellow-600'
+                : 'text-red-600'
+            }`}>
+              Accuracy
+            </div>
+            <div className={`text-2xl font-bold ${
+              currentIndex === 0 && !isAnswered
+                ? 'text-gray-900'
+                : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.9
+                ? 'text-emerald-900'
+                : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.7
+                ? 'text-yellow-900'
+                : 'text-red-900'
+            }`}>
+              {currentIndex === 0 && !isAnswered ? '--' : `${Math.round((correctCount / (currentIndex + (isAnswered ? 1 : 0))) * 100)}%`}
+              {currentIndex > 0 && (
+                <span className="text-lg ml-1">
+                  {correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.9
+                    ? '🎅'
+                    : correctCount / (currentIndex + (isAnswered ? 1 : 0)) >= 0.7
+                    ? '⭐'
+                    : '📚'}
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
 
       <GiftCard hover={false} className="mb-6">

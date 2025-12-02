@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { getProfessorById } from '../data/professors/professorData';
 import { Breadcrumb } from '../components/shared/Breadcrumb';
 import { FlashcardsGame } from '../components/games/FlashcardsGame';
 import { TimedQuizGame } from '../components/games/TimedQuizGame';
 import { FlowchartViewer } from '../components/professor/FlowchartViewer';
 import { PreparednessCard } from '../components/PreparednessCard';
-import { calculatePreparedness } from '../utils/progressTracking';
+import { calculatePreparedness, type PreparednessScore } from '../utils/progressTracking';
 
 interface ProfessorDetailProps {
   professorId: string;
@@ -24,7 +24,45 @@ export const ProfessorDetail: React.FC<ProfessorDetailProps> = ({
   onBackToHome
 }) => {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
+  const [preparedness, setPreparedness] = useState<PreparednessScore | null>(null);
+  const [refreshKey, setRefreshKey] = useState(0);
   const professor = getProfessorById(professorId);
+
+  // Calculate preparedness whenever tab changes to overview or data updates
+  useEffect(() => {
+    if (activeTab === 'overview' && professor) {
+      const score = calculatePreparedness(
+        professorId,
+        professor.quiz.length,
+        professor.flashcards.length,
+        professor.drugCards?.length || 0
+      );
+      setPreparedness(score);
+    }
+  }, [activeTab, professorId, professor, refreshKey]);
+
+  // Listen for localStorage changes (when quiz/flashcard sessions complete)
+  useEffect(() => {
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'pharmstudy_progress') {
+        // Trigger recalculation by updating refresh key
+        setRefreshKey(prev => prev + 1);
+      }
+    };
+
+    // Also listen for custom events from same window
+    const handleProgressUpdate = () => {
+      setRefreshKey(prev => prev + 1);
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('progressUpdated', handleProgressUpdate);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('progressUpdated', handleProgressUpdate);
+    };
+  }, []);
 
   if (!professor) {
     return (
@@ -40,13 +78,13 @@ export const ProfessorDetail: React.FC<ProfessorDetailProps> = ({
   const renderTabContent = () => {
     switch (activeTab) {
       case 'overview':
-        // Calculate preparedness score for this professor
-        const preparedness = calculatePreparedness(
-          professorId,
-          professor.quiz.length,
-          professor.flashcards.length,
-          professor.drugCards?.length || 0
-        );
+        if (!preparedness) {
+          return (
+            <div className="text-center py-12">
+              <p className="text-gray-500">Loading preparedness data...</p>
+            </div>
+          );
+        }
 
         return (
           <div className="space-y-6">

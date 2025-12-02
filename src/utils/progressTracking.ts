@@ -110,6 +110,9 @@ export function saveProfessorProgress(progress: ProfessorProgress): void {
   const allProgress = getAllProgress();
   allProgress[progress.professorId] = progress;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+
+  // Dispatch custom event to notify components of progress update
+  window.dispatchEvent(new Event('progressUpdated'));
 }
 
 // Record quiz session

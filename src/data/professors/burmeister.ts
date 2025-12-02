@@ -9,7 +9,7 @@ import { burmeisterDrugCards } from './burmeisterDrugCards';
 export const burmeisterContent: ProfessorContent = {
   id: 'burmeister',
   name: 'Burmeister',
-  fullName: 'Professor Burmeister',
+  fullName: 'Dr. Burmeister',
   specialty: 'Pathophysiology',
   icon: '🔬',
   slideFiles: [

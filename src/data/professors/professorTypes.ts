@@ -32,7 +32,7 @@ export interface ProfessorOverview {
 export interface ProfessorContent {
   id: string;
   name: string;
-  fullName: string; // e.g., "Professor Burmeister"
+  fullName: string; // e.g., "Dr. Burmeister"
   slideFiles: string[];
   overview: ProfessorOverview;
   flashcards: FlashCard[];

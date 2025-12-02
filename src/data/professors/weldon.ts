@@ -9,7 +9,7 @@ import { weldonDrugCards } from './weldonDrugCards';
 export const weldonContent: ProfessorContent = {
   id: 'weldon',
   name: 'Weldon',
-  fullName: 'Professor Weldon',
+  fullName: 'Dr. Weldon',
   specialty: 'Medicinal Chemistry',
   icon: '⚗️',
   slideFiles: [

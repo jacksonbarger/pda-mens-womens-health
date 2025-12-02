@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { professors } from '../data/professors/professorData';
 import { GiftCard } from '../components/shared/GiftCard';
 import { WorkshopButton } from '../components/shared/WorkshopButton';
 import { Breadcrumb } from '../components/shared/Breadcrumb';
 import type { ProfessorContent } from '../data/professors/professorTypes';
+import { calculatePreparedness, type PreparednessScore } from '../utils/progressTracking';
 
 interface ExamPrepByProfessorProps {
   onSelectProfessor: (professorId: string) => void;
@@ -23,6 +24,43 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
   onBack
 }) => {
   const [showGuide, setShowGuide] = useState(false);
+  const [preparednessScores, setPreparednessScores] = useState<Record<string, PreparednessScore>>({});
+  const [refreshKey, setRefreshKey] = useState(0);
+
+  // Calculate preparedness for all professors
+  useEffect(() => {
+    const scores: Record<string, PreparednessScore> = {};
+    professors.forEach(professor => {
+      scores[professor.id] = calculatePreparedness(
+        professor.id,
+        professor.quiz.length,
+        professor.flashcards.length,
+        professor.drugCards?.length || 0
+      );
+    });
+    setPreparednessScores(scores);
+  }, [refreshKey]);
+
+  // Listen for progress updates
+  useEffect(() => {
+    const handleProgressUpdate = () => {
+      setRefreshKey(prev => prev + 1);
+    };
+
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === 'pharmstudy_progress') {
+        setRefreshKey(prev => prev + 1);
+      }
+    };
+
+    window.addEventListener('progressUpdated', handleProgressUpdate);
+    window.addEventListener('storage', handleStorageChange);
+
+    return () => {
+      window.removeEventListener('progressUpdated', handleProgressUpdate);
+      window.removeEventListener('storage', handleStorageChange);
+    };
+  }, []);
 
   // Calculate total drug cards across all professors
   const totalDrugCards = professors.reduce((total, prof) => total + (prof.drugCards?.length || 0), 0);
@@ -364,6 +402,39 @@ export const ExamPrepByProfessor: React.FC<ExamPrepByProfessorProps> = ({
                   </ul>
                 </div>
               </div>
+
+              {/* Preparedness Score */}
+              {preparednessScores[professor.id] && (
+                <div className="mb-4">
+                  <div className="bg-white rounded-lg p-3 border-2 border-gray-200">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-semibold text-gray-700">Your Preparedness</span>
+                      <div className="flex items-center gap-2">
+                        <span className="text-2xl">{preparednessScores[professor.id].rankEmoji}</span>
+                        <span className={`text-xl font-bold ${preparednessScores[professor.id].rankColor}`}>
+                          {preparednessScores[professor.id].overall}%
+                        </span>
+                      </div>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div
+                        className={`h-2 rounded-full transition-all duration-500 ${
+                          preparednessScores[professor.id].overall >= 90 ? 'bg-blue-500' :
+                          preparednessScores[professor.id].overall >= 75 ? 'bg-green-500' :
+                          preparednessScores[professor.id].overall >= 50 ? 'bg-yellow-500' :
+                          preparednessScores[professor.id].overall >= 25 ? 'bg-orange-500' :
+                          'bg-red-500'
+                        }`}
+                        style={{ width: `${preparednessScores[professor.id].overall}%` }}
+                      />
+                    </div>
+                    <div className="flex justify-between text-xs text-gray-600 mt-2">
+                      <span>{preparednessScores[professor.id].rank}</span>
+                      <span>{preparednessScores[professor.id].breakdown.quizCoverage}% Coverage</span>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {/* Content Stats */}
               <div className="grid grid-cols-2 gap-3 mb-4 text-sm">

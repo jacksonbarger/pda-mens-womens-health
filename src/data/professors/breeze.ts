@@ -9,7 +9,7 @@ import { breezeDrugCards } from './breezeDrugCards';
 export const breezeContent: ProfessorContent = {
   id: 'breeze',
   name: 'Breeze',
-  fullName: 'Professor Breeze',
+  fullName: 'Dr. Breeze',
   specialty: 'Pharmacology',
   icon: '💊',
   slideFiles: [
